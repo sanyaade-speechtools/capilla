@@ -62,24 +62,27 @@ public class indexFiles {
 	/**
 	 * Contiene el indexador de los ficheros.
 	 */
-	private IndexWriter _writer;
+	private IndexWriter writer;
 	
 	/**
-	 * Contiene el analizador que utilizará _writer;
+	 * Contiene el analizador que utilizará writer;
 	 */
-	private IAnalyzer _analyzer;
+	private IAnalyzer analyzer;
 	
 	/**
 	 * Contiene la ruta del directorio donde están los ficheros a indexar.
 	 */
-	private String _pathFiles;
+	private String pathFiles;
 	
 	/**
 	 * Contiene la ruta del directorio en el que se almacenará el índice.
 	 */
-	private String _pathIndex;
+	private String pathIndex;
 	
-	private Vector<Field> _fields;
+	/**
+	 * Contiene los campos de los que estarán compuetos los documentos.
+	 */
+	private Vector<DocumentField> fields;
 	
 	//--------------------------------------------------------------------------
 	
@@ -90,11 +93,11 @@ public class indexFiles {
 	 * Constructor por defecto de la clase indexFiles
 	 */
 	public indexFiles() {
-		_writer = null;
-		_analyzer = null;
-		_pathFiles = PATH_FILES;
-		_pathIndex = PATH_INDEX;
-		_fields = null;
+		writer = null;
+		analyzer = null;
+		pathFiles = PATH_FILES;
+		pathIndex = PATH_INDEX;
+		fields = null;
 	}
 	
 	/**
@@ -108,24 +111,27 @@ public class indexFiles {
 	 * @throws NoDirectorioNoLeer 
 	 * @throws NoDirectorio 
 	 */
-	public indexFiles(IAnalyzer aAnalyzer, String aPathFiles, String aPathIndex)
-		throws CorruptIndexException, LockObtainFailedException, IOException,
-		NoDirectorioNoLeer, NoDirectorio {
+	public indexFiles(IAnalyzer aAnalyzer, String aPathFiles, String aPathIndex,
+			Vector<DocumentField> aFields)
+			throws CorruptIndexException, LockObtainFailedException, IOException,
+			NoDirectorioNoLeer, NoDirectorio {
 		
-		_analyzer = aAnalyzer;
-		_pathFiles = aPathFiles;
-		_pathIndex = aPathIndex;
+		analyzer = aAnalyzer;
+		pathFiles = aPathFiles;
+		pathIndex = aPathIndex;
 		isDirectoryPathAndRead(aPathFiles);
 		isDirectory(aPathIndex);
 		
 		File fIndex = new File(aPathIndex);
-		_writer = new IndexWriter(FSDirectory.open(fIndex),(Analyzer)_analyzer,CREATE,
+		writer = new IndexWriter(FSDirectory.open(fIndex),(Analyzer)analyzer,CREATE,
 				IndexWriter.MaxFieldLength.LIMITED);
 		
-		_fields = null;
+		fields = aFields;
 	}
 	
-	private void isDirectoryPathAndRead(String aPath) throws NoDirectorioNoLeer {
+	private void isDirectoryPathAndRead(String aPath)
+		throws NoDirectorioNoLeer {
+		
 		File f = new File(aPath);
 		
 		if(!f.isDirectory() && !f.canRead()) {
@@ -145,8 +151,8 @@ public class indexFiles {
 		}
 	}
 	
-	public void setFields (Vector<Field> fields) {
-		_fields = fields;
+	public void setFields (Vector<DocumentField> aFields) {
+		fields = aFields;
 	}
 	
 	private void runDirectory(File file) throws IOException {
@@ -164,69 +170,40 @@ public class indexFiles {
 
 				BufferedReader fileRead = new BufferedReader(new FileReader(file));
 				String line = null;
-				Matcher match = null;
-				Pattern patt = null;
-				//Campos a leer. Hay q inventar algo para desacoplar esto.
-				String categorie = null;
-				String question = null;
-				String answer = null;
-				String answerIndex = null;
-				String url = null;
+				int nFields= fields.size();
+				int i = 0;
+				DocumentField field = null;
+				boolean evaluatedField = false;
 				
 				while((line = fileRead.readLine()) != null) {
-					if(line.contains("<Categorie Text=")) {
-						patt = Pattern.compile("<Categorie Text=\"(.+)\">");
-						match = patt.matcher(line);
-						if(match.find()) {
-							categorie = match.group(1).trim();
-							categorie = categorie.replaceAll("\\s+", " ");
+					while(( i < nFields ) && (!evaluatedField)) {
+						field = fields.get(i);
+						if(field.isThisField(line)) {
+							field.parse(fileRead, line);
+							evaluatedField = true;
 						}
-					} else if (line.contains("<Question Text=")) {
-						patt = Pattern.compile("<Question Text=\"(.+)\"");
-						match = patt.matcher(line);
-						if(match.find()) {
-							question = match.group(1).trim();
-							question = question.replace("\\s+", " ");
-						}
-					} else if (line.contains("<AnswerIndex>")) {
-						answerIndex = line.replace("<AnswerIndex>", "");
-						while(!line.contains("</AnswerIndex>")) {
-							line = fileRead.readLine();
-							answerIndex += " " + line;
-						}
-						answerIndex += " " + line.replace("</AnswerIndex>", "");
-						answerIndex = answerIndex.replaceAll("\\n+", " ");
-						answerIndex = answerIndex.replaceAll("\\s+", " ");
-					} else if(line.contains("<Answer>")) {
-						answer = line.replace("<Anaswer>", "");
-						while(!line.contains("</Answer>")) {
-							line = fileRead.readLine();
-							answer += " " + line;
-						}
-						answer += " " + line.replace("</Answer>","");
-						answer = answer.replaceAll("\\n", " ");
-						answer = answer.replaceAll("\\s", " ");
-					} else if(line.contains("<Url>")) {
-						url = line.replace("<Url","");
-						while(!line.contains("</Url>")) {
-							line = fileRead.readLine();
-							url += " " + line;
-						}
-						url += " " + line.replace("</Url>","");
-						url.trim();
+						i++;
 					}
+					evaluatedField = false;
+					i = 0;
 				}
 				
 				Document doc = new Document();
+				i = 0;
+				while( i < nFields ) {
+					field = fields.get(i);
+					doc.add(new Field(field.getName(), field.getContent(),
+							field.getStore(), field.getIndex()));
+					i++;
+				}
 				
-				
-				doc.add(new Field("categorie", categorie,Field.Store.YES,));
+				writer.addDocument(doc);
 			}
 		}
 	}
 	
-	public void indexDocs() {
-		File file = new File(_pathFiles);
+	public void indexDocs() throws IOException {
+		File file = new File(pathFiles);
 		runDirectory(file);
 	}
 	

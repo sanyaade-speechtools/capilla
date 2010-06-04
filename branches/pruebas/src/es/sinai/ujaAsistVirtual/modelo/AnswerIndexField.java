@@ -1,5 +1,5 @@
 /**
- * Question.java
+ * AnswerIndex.java
  * @author Eugenio Martínez Cámara
  * @date 03/06/2010
  * @version
@@ -7,20 +7,18 @@
 package es.sinai.ujaAsistVirtual.modelo;
 
 import java.io.BufferedReader;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.io.IOException;
 
 
 /**
  * @author Eugenio Martínez Cámara
  *
  */
-public class Question extends DocumentField {
-
-	private final String FIELD = "<Question Text=";
+public class AnswerIndexField extends DocumentField {
 	
-	private final String REGEX_FIELD = "<Question Text=\"(.+)\"";
+	private final String FIELD = "<AnswerIndex>";
 	
+	private final String FIELD2 = "</AnswerIndex>";
 
 
 	/* (non-Javadoc)
@@ -28,7 +26,6 @@ public class Question extends DocumentField {
 	 */
 	@Override
 	public boolean isThisField(String buffer) {
-		
 		return (buffer.contains(FIELD));
 	}
 
@@ -36,14 +33,17 @@ public class Question extends DocumentField {
 	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#parse(java.io.Reader, java.lang.String)
 	 */
 	@Override
-	public void parse(BufferedReader file, String buffer) {
-		Pattern pat = Pattern.compile(REGEX_FIELD);
-		Matcher mat = pat.matcher(buffer);
-		content = null;
-		if(mat.find()) {
-			content = mat.group(1).trim();
-			content = content.replaceAll("\\s+"," ");
+	public void parse(BufferedReader file, String buffer) throws IOException {
+		content = buffer.replace(FIELD, "");
+		while (!buffer.contains(FIELD2)) {
+			buffer = file.readLine();
+			content += buffer;
 		}
+		content += buffer;
+		content = content.replace(FIELD2, "");
+		content = content.replaceAll("\\n+",  " ");
+		content = content.replaceAll("\\s+", " ");
 	}
+
 
 }

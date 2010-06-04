@@ -6,15 +6,10 @@
  */
 package es.sinai.ujaAsistVirtual.modelo;
 
-import java.io.Reader;
+import java.io.BufferedReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.lucene.document.Field.Index;
-import org.apache.lucene.document.Field.Store;
-import org.apache.lucene.document.Field.TermVector;
-
-import es.sinai.ujaAsistVirtual.exceptions.DocumentField;
 
 /**
  * @author Eugenio Martínez Cámara
@@ -30,77 +25,22 @@ public class CategorieField extends DocumentField {
 	
 	//--------------------------------------------------------------------------
 
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#getIndex()
-	 */
-	@Override
-	public Index getIndex() {
-		// TODO Auto-generated method stub
-		return (index);
-	}
-
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#getStore()
-	 */
-	@Override
-	public Store getStore() {
-		// TODO Auto-generated method stub
-		return (store);
-	}
-
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#getTermVector()
-	 */
-	@Override
-	public TermVector getTermVector() {
-		// TODO Auto-generated method stub
-		return (termVector);
-	}
-
 	/**
 	 * @return El contenido del campo o null si el buffer no corresponde con la
 	 * definición del campo.
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#parse(java.io.Reader)
+	 * @see es.sinai.ujaAsistVirtual.modelo.DocumentField#parse(java.io.Reader)
 	 */
 	@Override
-	public String parse(Reader file, String buffer) {
+	public void parse(BufferedReader file, String buffer) {
 		Pattern pat = Pattern.compile(REGEX_FIELD);
 		Matcher mat = pat.matcher(buffer);
-		String result = null;
+		content = null;
 		if(mat.find()) {
-			result = mat.group(1).trim();
-			result = result.replaceAll("\\s+"," ");
-			return (result);
-		} else
-			return null;
+			content = mat.group(1).trim();
+			content = content.replaceAll("\\s+"," ");
+		}
 	}
 
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#setIndex(org.apache.lucene.document.Field.Index)
-	 */
-	@Override
-	public void setIndex(Index aIndex) {
-		index = aIndex;
-
-	}
-
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#setStore(org.apache.lucene.document.Field.Store)
-	 */
-	@Override
-	public void setStore(Store aStore) {
-		store = aStore;
-
-	}
-
-	/* (non-Javadoc)
-	 * @see es.sinai.ujaAsistVirtual.exceptions.DocumentField#setTermVector(org.apache.lucene.document.Field.TermVector)
-	 */
-	@Override
-	public void setTermVector(TermVector aTermVector) {
-		termVector = aTermVector;
-
-	}
 
 	@Override
 	public boolean isThisField(String buffer) {
