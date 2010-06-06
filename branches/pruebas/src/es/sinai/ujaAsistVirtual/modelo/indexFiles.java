@@ -67,7 +67,7 @@ public class indexFiles {
 	/**
 	 * Contiene el analizador que utilizará writer;
 	 */
-	private IAnalyzer analyzer;
+	private Analyzer analyzer;
 	
 	/**
 	 * Contiene la ruta del directorio donde están los ficheros a indexar.
@@ -111,7 +111,7 @@ public class indexFiles {
 	 * @throws NoDirectorioNoLeer 
 	 * @throws NoDirectorio 
 	 */
-	public indexFiles(IAnalyzer aAnalyzer, String aPathFiles, String aPathIndex,
+	public indexFiles(Analyzer aAnalyzer, String aPathFiles, String aPathIndex,
 			Vector<DocumentField> aFields)
 			throws CorruptIndexException, LockObtainFailedException, IOException,
 			NoDirectorioNoLeer, NoDirectorio {
@@ -123,7 +123,7 @@ public class indexFiles {
 		isDirectory(aPathIndex);
 		
 		File fIndex = new File(aPathIndex);
-		writer = new IndexWriter(FSDirectory.open(fIndex),(Analyzer)analyzer,CREATE,
+		writer = new IndexWriter(FSDirectory.open(fIndex),analyzer,CREATE,
 				IndexWriter.MaxFieldLength.LIMITED);
 		
 		fields = aFields;
