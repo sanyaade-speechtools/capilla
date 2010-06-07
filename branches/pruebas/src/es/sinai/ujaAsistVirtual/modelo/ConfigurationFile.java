@@ -6,6 +6,10 @@
  */
 package es.sinai.ujaAsistVirtual.modelo;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Properties;
 
 /**
@@ -25,10 +29,15 @@ public class ConfigurationFile {
 	//Métodos
 	
 	private ConfigurationFile () {
-		properties = null;
+		singleton.properties = null;
 	}
 	
-	private void readProperties(String pathFile) {
-		properties = new Properties();
+	public static  void readProperties(String pathFile) throws FileNotFoundException, IOException {
+		singleton.properties = new Properties();
+		singleton.properties.load(new FileInputStream(new File(pathFile)));
+	}
+	
+	public static String getPropetiesValue(PropertiesName pn) {
+		return(singleton.properties.getProperty(pn.toString()));
 	}
 }

@@ -18,6 +18,18 @@ public enum PropertiesName {
 	ANALYZER,
 	
 	/**
+	 * Lenguaje en el que están escritos los documentos de la colección.
+	 * Se debe de poner en inglés. Por ejemplo si los documentos están escritos
+	 * en español, el valor del campo tiene que ser spanish. 
+	 */
+	LANGUAGE,
+	
+	/**
+	 * Ruta del fichero en el que se encuentra la stooper list.
+	 */
+	PATH_STOPPER_FILE,
+	
+	/**
 	 * Campo que índica si la categoría debe ser almacenada o no.
 	 */
 	CATEGORIE_STORE,
@@ -85,6 +97,10 @@ public enum PropertiesName {
 	public String toString() {
 		switch(this) {
 			case ANALYZER:return("analyzer");
+			
+			case LANGUAGE:return("language");
+			
+			case PATH_STOPPER_FILE:return("path_stopper");
 			
 			case CATEGORIE_STORE:return("categorie.store");
 			
