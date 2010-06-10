@@ -11,6 +11,10 @@ import java.io.IOException;
 import java.util.Vector;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.document.Field;
+
+import es.sinai.ujaAsistVirtual.exceptions.NoDirectorio;
+import es.sinai.ujaAsistVirtual.exceptions.NoDirectorioNoLeer;
 
 /**
  * @author Eugenio Martínez Cámara
@@ -40,17 +44,84 @@ public class ujaAsistVirtualModel {
 				find = true;
 			}
 		}
-		if(find) //TODAVÍA NO ESTÁ TERMINADO
+		if(find) 
 			return (anaFactory.createAnalyzer());
 		else
 			return(null);
 		
 	}
 	
+	//Esta función debería de ponerse en otro sitio. Hay q pensarlo
 	private Vector<DocumentField> getVectorFields() {
 		Vector<DocumentField> vFields = new Vector<DocumentField>();
 		
-		CategorieField cf = new CategorieField();
+		String name, index, store, termVector;
+		
+		//Campo categoria
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.CATEGORIE_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.CATEGORIE_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.CATEGORIE_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.CATEGORIE_TERM_VECTOR);
+		
+		DocumentField field = new CategorieField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
+		
+		//Campo pregunta
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_TERM_VECTOR);
+		
+		field = new QuestionField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
+		
+		
+		//Campo AnswerIndex
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWERINDEX_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWERINDEX_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWERINDEX_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWERINDEX_TERM_VECTOR);
+		
+		field = new AnswerIndexField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
+		
+		//Campo Answer
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_TERM_VECTOR);
+		
+		field = new AnswerField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
+		
+		//Campo Url
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.URL_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.URL_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.URL_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.URL_TERM_VECTOR);
+		
+		field = new UrlField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
 		
 		return(vFields);
 	}
@@ -58,15 +129,19 @@ public class ujaAsistVirtualModel {
 	public ujaAsistVirtualModel (String aPathConfigurationFile,
 			String aPathFiles, String aPathIndex) throws FileNotFoundException,
 			IOException, ClassNotFoundException, InstantiationException,
-			IllegalAccessException {
+			IllegalAccessException, NoDirectorioNoLeer, NoDirectorio {
 		
 		//CREAR EL ANALIZADOR
 		Analyzer analyzer = selectAnalyzer();
 		
 		//CREAR EL VECTOR DE  CAMPOS
 		
+		Vector<DocumentField> categories = getVectorFields();
 		
 		
-		index = new indexFiles(); //NO VALE EL POR DEFECTO
+		
+		index = new indexFiles(analyzer,aPathFiles,aPathIndex,categories);
+		
+		index.indexDocs();
 	}
 }

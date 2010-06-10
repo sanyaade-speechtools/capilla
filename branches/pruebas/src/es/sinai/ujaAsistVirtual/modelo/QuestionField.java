@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * @author Eugenio Martínez Cámara
  *
  */
-public class Question extends DocumentField {
+public class QuestionField extends DocumentField {
 
 	private final String FIELD = "<Question Text=";
 	

@@ -29,6 +29,8 @@ public enum PropertiesName {
 	 */
 	PATH_STOPPER_FILE,
 	
+	CATEGORIE_NAME,
+	
 	/**
 	 * Campo que índica si la categoría debe ser almacenada o no.
 	 */
@@ -43,6 +45,8 @@ public enum PropertiesName {
 	 * Campo que indica si la categoría debe de tener Term Vectors 
 	 */
 	CATEGORIE_TERM_VECTOR,
+	
+	QUESTION_NAME,
 	
 	/**
 	 * Campo que índica si la pregunta debe ser almacenada o no.
@@ -59,6 +63,8 @@ public enum PropertiesName {
 	 */
 	QUESTION_TERM_VECTOR,
 	
+	ANSWERINDEX_NAME,
+	
 	/**
 	 * Campo que índica si answerindex debe ser almacenada o no.
 	 */
@@ -73,6 +79,8 @@ public enum PropertiesName {
 	 * Campo que indica si la pregunta debe de tener Term Vectors 
 	 */
 	ANSWERINDEX_TERM_VECTOR,
+	
+	ANSWER_NAME,
 	
 	/**
 	 * Campo que índica si la respuesta debe ser almacenada o no.
@@ -92,7 +100,13 @@ public enum PropertiesName {
 	/**
 	 * Campo que indica la url de la web donde se ha cogido la información.
 	 */
-	URL;
+	URL_NAME,
+	
+	URL_STORE,
+	
+	URL_INDEX,
+	
+	URL_TERM_VECTOR;
 	
 	public String toString() {
 		switch(this) {
@@ -102,11 +116,23 @@ public enum PropertiesName {
 			
 			case PATH_STOPPER_FILE:return("path_stopper");
 			
+			case CATEGORIE_NAME:return("categorie");
+			
 			case CATEGORIE_STORE:return("categorie.store");
 			
 			case CATEGORIE_INDEX:return("categorie.index");
 			
 			case CATEGORIE_TERM_VECTOR:return("categorie.term_vector");
+			
+			case QUESTION_NAME:return("question");
+			
+			case QUESTION_STORE:return("question.store");
+			
+			case QUESTION_INDEX:return("question.index");
+			
+			case QUESTION_TERM_VECTOR:return("question.term_vector");
+			
+			case ANSWERINDEX_NAME:return("answerIndex");
 			
 			case ANSWERINDEX_STORE:return("answerindex.store");
 			
@@ -114,13 +140,20 @@ public enum PropertiesName {
 			
 			case ANSWERINDEX_TERM_VECTOR:return("answerindex.term_vector");
 			
+			case ANSWER_NAME:return("answer");
+			
 			case ANSWER_STORE:return("answer.store");
 			
 			case ANSWER_INDEX:return("answer.index");
 			
 			case ANSWER_TERM_VECTOR:return("answer.term_vector");
 			
-			case URL:return("url");
+			case URL_NAME:return("url");
+			
+			case URL_STORE:return("url.store");
+			
+			case URL_INDEX:return("url.index");
+			
 			
 			default:return(null);
 			
