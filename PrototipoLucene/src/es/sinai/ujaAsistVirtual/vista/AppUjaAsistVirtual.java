@@ -15,9 +15,33 @@ public class AppUjaAsistVirtual {
 	
 	
 	
-	 /*
-	  * 1.- Abrirr inidice
-	  * 2.-Query query = QueryParser.parse(q,"consulta",el analizador)
-	  * 3.-Hits hits = indexador.search(query);
-	  */
+//Atributos
+	
+	private String[] args;
+	
+	
+	public AppUjaAsistVirtual (String[] aArgs) {
+		args = aArgs;
+	}
+	
+	
+	
+	public void execApp() {
+		
+		if(args[0].equals(ValidInputArguments.INDEX1.toString())) {
+			
+		} else if(args[0].contains(ValidInputArguments.INDEX2.toString())) {
+			
+		} else {
+			
+		}
+		
+		if(args[1].equals(ValidInputArguments.SEARCH1.toString())) {
+			
+		} else if(args[1].contains(ValidInputArguments.SEARCH2.toString())) {
+			
+		} else {
+			
+		}
+	}
 }
