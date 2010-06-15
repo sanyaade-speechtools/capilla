@@ -18,6 +18,11 @@ public enum PropertiesName {
 	ANALYZER,
 	
 	/**
+	 * 
+	 */
+	SEARCH_ANALYZER,
+	
+	/**
 	 * Lenguaje en el que están escritos los documentos de la colección.
 	 * Se debe de poner en inglés. Por ejemplo si los documentos están escritos
 	 * en español, el valor del campo tiene que ser spanish. 
@@ -28,6 +33,16 @@ public enum PropertiesName {
 	 * Ruta del fichero en el que se encuentra la stooper list.
 	 */
 	PATH_STOPPER_FILE,
+	
+	/**
+	 * Ruta de los ficheros a indexar
+	 */
+	PATH_FILES_TO_INDEX,
+	
+	/**
+	 * Ruta de salida del �ndice.
+	 */
+	PATH_OUTPUT_INDEX,
 	
 	CATEGORIE_NAME,
 	
@@ -106,15 +121,27 @@ public enum PropertiesName {
 	
 	URL_INDEX,
 	
-	URL_TERM_VECTOR;
+	URL_TERM_VECTOR,
+	
+	SEARCH_FIELD,
+	
+	SEARCH_INDEX,
+	
+	SEARCH_N_RESULTS;
 	
 	public String toString() {
 		switch(this) {
 			case ANALYZER:return("analyzer");
 			
+			case SEARCH_ANALYZER:{return("search_analyzer");}
+			
 			case LANGUAGE:return("language");
 			
 			case PATH_STOPPER_FILE:return("path_stopper");
+			
+			case PATH_FILES_TO_INDEX:return("path_files_to_index");
+			
+			case PATH_OUTPUT_INDEX: return("path_output_index");
 			
 			case CATEGORIE_NAME:return("categorie");
 			
@@ -154,6 +181,11 @@ public enum PropertiesName {
 			
 			case URL_INDEX:return("url.index");
 			
+			case SEARCH_FIELD:return("search_field");
+			
+			case SEARCH_INDEX:return("search_index");
+			
+			case SEARCH_N_RESULTS:return("search_n_results");
 			
 			default:return(null);
 			
