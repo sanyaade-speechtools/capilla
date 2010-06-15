@@ -15,6 +15,7 @@ import org.apache.lucene.document.Field;
 
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorio;
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorioNoLeer;
+import es.sinai.ujaAsistVirtual.vista.AppUjaAsistVirtual;
 
 /**
  * @author Eugenio Martínez Cámara
@@ -26,11 +27,12 @@ public class ujaAsistVirtualModel {
 	
 	private indexFiles index;
 	
+	private SearcherDocs search;
 	
-	private Analyzer selectAnalyzer() throws ClassNotFoundException,
+	
+	private Analyzer selectAnalyzer(String propAna) throws ClassNotFoundException,
 		InstantiationException, IllegalAccessException, IOException{
 		
-		String propAna = ConfigurationFile.getPropetiesValue(PropertiesName.ANALYZER);
 		ValidAnalyzer[] nValidAnalyzer = ValidAnalyzer.class.getEnumConstants();
 		FactoryAnalyzer anaFactory = null;
 		Boolean find = false;
@@ -38,8 +40,8 @@ public class ujaAsistVirtualModel {
 		int tam = nValidAnalyzer.length;
 		while((i < tam) && (!find)) {
 			String[] names = nValidAnalyzer[i].toString().split("/");
-			if(names[1].contains(propAna)) {
-				Class<?> factory = Class.forName(names[2]);
+			if(names[0].contains(propAna)) {
+				Class<?> factory = Class.forName(names[1]);
 				anaFactory = (FactoryAnalyzer) factory.newInstance();
 				find = true;
 			}
@@ -126,22 +128,40 @@ public class ujaAsistVirtualModel {
 		return(vFields);
 	}
 	
-	public ujaAsistVirtualModel (String aPathConfigurationFile,
-			String aPathFiles, String aPathIndex) throws FileNotFoundException,
-			IOException, ClassNotFoundException, InstantiationException,
-			IllegalAccessException, NoDirectorioNoLeer, NoDirectorio {
-		
+	public void initIndexDocs() throws FileNotFoundException,
+	IOException, ClassNotFoundException, InstantiationException,
+	IllegalAccessException, NoDirectorioNoLeer, NoDirectorio  {
 		//CREAR EL ANALIZADOR
-		Analyzer analyzer = selectAnalyzer();
+		String propAna = ConfigurationFile.getPropetiesValue(PropertiesName.ANALYZER);
+		Analyzer analyzer = selectAnalyzer(propAna);
 		
 		//CREAR EL VECTOR DE  CAMPOS
 		
 		Vector<DocumentField> categories = getVectorFields();
 		
+		String pathFiles = ConfigurationFile.getPropetiesValue(PropertiesName.PATH_FILES_TO_INDEX);
+		String pathIndex = ConfigurationFile.getPropetiesValue(PropertiesName.PATH_OUTPUT_INDEX);
+		index = new indexFiles(analyzer,pathFiles,pathIndex,categories);
 		
-		
-		index = new indexFiles(analyzer,aPathFiles,aPathIndex,categories);
-		
-		index.indexDocs();
 	}
+	
+	public void indexDocs() throws IOException {index.indexDocs();}
+	
+	public void initSearchDocs() throws Exception {
+		String propAna = ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_ANALYZER);
+		Analyzer analyzer = selectAnalyzer(propAna);
+		String pathIndex = ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_INDEX);
+		search = new SearcherDocs(pathIndex,analyzer);
+	}
+	
+	public void searchDocs(String userQuery) throws Exception {search.search(userQuery);}
+
+	public SearcherDocs getSearch() {return (search);}
+	
+	public ujaAsistVirtualModel () {
+		index = null;
+		search = null;
+	}
+	
+	
 }
