@@ -9,6 +9,8 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.Explanation;
 import org.apache.lucene.search.IndexSearcher;
@@ -30,6 +32,8 @@ public class SearcherDocs {
 	private String pathIndex;
 	
 	private TopDocs result;
+	
+	private IndexSearcher searcher;
 	
 	private Analyzer analyzer;
 	
@@ -56,12 +60,16 @@ public class SearcherDocs {
 		Query query = parser.parse(userQuery);
 		
 		FSDirectory directory = FSDirectory.open(new File(pathIndex));
-		IndexSearcher searcher = new IndexSearcher(directory);
+		searcher = new IndexSearcher(directory);
 		int nResults = Integer.parseInt(ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_N_RESULTS));
 		result = searcher.search(query, nResults);
 		createExplanation(query,searcher);
-		searcher.close();
-		
+	}
+	
+	public void close() throws IOException{searcher.close();}
+	
+	public Document getDocument(int id) throws CorruptIndexException, IOException{
+		return(searcher.doc(id));
 	}
 	
 	public TopDocs getResult() {

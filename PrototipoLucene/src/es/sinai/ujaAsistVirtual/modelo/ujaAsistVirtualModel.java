@@ -15,7 +15,7 @@ import org.apache.lucene.document.Field;
 
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorio;
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorioNoLeer;
-import es.sinai.ujaAsistVirtual.vista.AppUjaAsistVirtual;
+
 
 /**
  * @author Eugenio Martínez Cámara

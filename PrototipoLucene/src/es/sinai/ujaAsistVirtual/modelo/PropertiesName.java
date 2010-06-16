@@ -127,7 +127,9 @@ public enum PropertiesName {
 	
 	SEARCH_INDEX,
 	
-	SEARCH_N_RESULTS;
+	SEARCH_N_RESULTS,
+	
+	SEARCH_EXPLANATION;
 	
 	public String toString() {
 		switch(this) {
@@ -186,6 +188,8 @@ public enum PropertiesName {
 			case SEARCH_INDEX:return("search_index");
 			
 			case SEARCH_N_RESULTS:return("search_n_results");
+			
+			case SEARCH_EXPLANATION:return("search_explanation");
 			
 			default:return(null);
 			
