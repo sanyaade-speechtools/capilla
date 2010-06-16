@@ -46,7 +46,7 @@ public class AppUjaAsistVirtual {
 	
 	private void index() throws Exception {
 		System.out.println("\nComienza la indexación...\n");
-		modelo.initSearchDocs();
+		modelo.initIndexDocs();
 		modelo.indexDocs();
 		System.out.println("\nFin de la indexación...\n");
 	}

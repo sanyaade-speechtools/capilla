@@ -135,8 +135,6 @@ public enum PropertiesName {
 		switch(this) {
 			case ANALYZER:return("analyzer");
 			
-			case SEARCH_ANALYZER:{return("search_analyzer");}
-			
 			case LANGUAGE:return("language");
 			
 			case PATH_STOPPER_FILE:return("path_stopper");
@@ -182,6 +180,10 @@ public enum PropertiesName {
 			case URL_STORE:return("url.store");
 			
 			case URL_INDEX:return("url.index");
+			
+			case URL_TERM_VECTOR:return("url.term_vector");
+			
+			case SEARCH_ANALYZER:{return("search_analyzer");}
 			
 			case SEARCH_FIELD:return("search_field");
 			
