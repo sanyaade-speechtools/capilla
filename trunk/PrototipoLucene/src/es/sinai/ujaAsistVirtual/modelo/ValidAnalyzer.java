@@ -26,7 +26,7 @@ public enum ValidAnalyzer {
 		switch(this) {
 			case STANDARD: {
 				
-				return("org.apache.lucene.analysis.standard.StandardAnalyzer/es.sinai.ujaAsistVirtual..modelo.FactoryStandardAnalyzer");
+				return("org.apache.lucene.analysis.standard.StandardAnalyzer/es.sinai.ujaAsistVirtual.modelo.FactoryStandardAnalyzer");
 			}
 			
 			case SNOWBALL:{
