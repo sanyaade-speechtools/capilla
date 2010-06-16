@@ -28,9 +28,12 @@ public class ConfigurationFile {
 	
 	//Métodos
 	
+
 	private ConfigurationFile () {
-		//singleton.properties = null;
+		singleton.properties = null;
 	}
+
+	
 	
 	public static  void readProperties(String pathFile) throws FileNotFoundException, IOException {
 		singleton.properties = new Properties();
