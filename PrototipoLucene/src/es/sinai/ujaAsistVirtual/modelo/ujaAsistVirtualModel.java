@@ -39,7 +39,7 @@ public class ujaAsistVirtualModel {
 		int i = 0;
 		int tam = nValidAnalyzer.length;
 		while((i < tam) && (!find)) {
-			String[] names = nValidAnalyzer[i].toString().split("/");
+			String[] names = nValidAnalyzer[i++].toString().split("/");
 			if(names[0].contains(propAna)) {
 				Class<?> factory = Class.forName(names[1]);
 				anaFactory = (FactoryAnalyzer) factory.newInstance();
