@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="campus virtual">
+          <Question Text="accedo bien a campus virtual pero no tengo la opcion de activar mi correo electronico">
+               <AnswerIndex>si se accede correctamente a campus virtual y no existe ningun enlace para activar el correo electronico puede que el problema sea debido a que se trata de una nueva cuenta de la universidad de jaen y la opcion se activara el dia de comienzo del curso academico este problema sucede con alumnos recien matriculados alumnos erasmus o alumnos de otras universidades </AnswerIndex>
+               <Answer>Si se accede correctamente a Campus Virtual y no existe ningún enlace para activar el correo electrónico, puede que el problema sea debido a que se trata de una nueva cuenta de la Universidad de Jaén, y la opción se activará el día de comienzo del Curso Académico. Este problema sucede con alumnos recién matriculados, alumnos Erasmus o alumnos de otras Universidades.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=3&id=431&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

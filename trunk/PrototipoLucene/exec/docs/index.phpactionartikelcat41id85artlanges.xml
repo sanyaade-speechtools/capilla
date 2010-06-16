@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="como puedo configurar mi perfil">
+                    <AnswerIndex>existen dos metodos para crear un perfil de usuario en mozilla m anualmente utilizando el administrador de perfiles de mozilla automaticamente utilizando el programa profiles del s ervicio de informatica recomendado </AnswerIndex>
+                    <Answer>Existen dos métodos para <a href="http://www.ujaen.es/sci/redes/email/perfiles.html" target="_blank">crear un perfil de usuario</a> en Mozilla :
+ M anualmente, utilizando el administrador de perfiles de Mozilla Automáticamente, utilizando el programa Profiles del S ervicio de Informática (recomendado)</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=85&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

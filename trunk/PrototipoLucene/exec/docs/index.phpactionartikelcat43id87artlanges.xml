@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="mozilla suite">
+               <Question Text="mozilla no muestra correctamente algunas paginas web">
+                    <AnswerIndex>mozilla esta diseñado para soportar los estandares de internet pero algunos sitios tienen paginas codificadas para las particularidades de determinados navegadores y no se ven correctamente en ocasiones encontrara en los pies de la pagina web notas sobre el navegador especifico para el que ha sido diseñada </AnswerIndex>
+                    <Answer>Mozilla está diseñado para soportar los estándares de Internet, pero algunos sitios tienen páginas codificadas para las particularidades de determinados navegadores y no se ven correctamente. 
+ En ocasiones, encontrará en los pies de la página Web, notas sobre el navegador específico para el que ha sido diseñada. </Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=43&id=87&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

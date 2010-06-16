@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="general">
+               <Question Text="puede infectarse mi ordenador con un virus en mensaje de correo">
+                    <AnswerIndex>si tome precauciones antes de ejecutar cualquier fichero que reciba por correo no ejecute los ficheros sospechosos o aquellos que nos esperaba recibir y actualice su antivirus diariamente temas relacionados antivirus para pcs de la universidad de jaen </AnswerIndex>
+                    <Answer>Si. Tome precauciones antes de ejecutar cualquier fichero que reciba por correo. No ejecute los ficheros sospechosos o aquellos que nos esperaba recibir y actualice su antivirus diariamente.
+ Temas relacionados: - <a href="http://www.ujaen.es/sci/invdoc/avpanda/index.html" target="_blank">Antivirus para PCs de la Universidad de Jaén</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=24&id=36&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

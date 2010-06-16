@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="general">
+               <Question Text="mensajes de correo electronico solicitando claves phising">
+                    <AnswerIndex>el phising es una forma de ataque en la que un delincuente suplanta la identidad de un tercero de confianza empresa institucion responsable del servicio para adquirir informacion confidencial como por ejemplo claves de correo electronico o claves bancarias los mensajes suelen hacer referencia a la necesidad de confirmar alguna clave debido a algun problema o por mantenimiento en el servicio en ocasiones facilitan algun enlace link a una pagina web con el mismo aspecto que la entidad que suplantan pero en la mayoria de los casos los mensajes estan mal traducidos y a pesar de ello muchos usuarios siguen respondiendo y enviando los datos solicitados al atacante una vez conseguida la informacion el atacante suele utilizarla para suplantar a la victima en otro ataque acceder con sus credenciales a opciones privilegiadas por ejemplo en campus virtual estan disponibles las actas de notas nominas etc el servicio de informatica nunca le solicitara que le envie por correo electronico ningun tipo de clave recuerde que usted ya puede cambiar su clave con la opcion disponible en campus virtual igualmente ninguna otra institucion externa le solicitara que confirme sus claves por correo cualquier mensaje en este sentido debe considerarse sospechoso mas informacion reconocer mensajes fraudulentos protegete en el correo electronico </AnswerIndex>
+                    <Answer>El phising es una forma de ataque en la que un delincuente suplanta la identidadde un tercero de confianza (empresa, institución, responsable del Servicio)para adquirir información confidencial, como por ejemplo claves de correoelectrónico o claves bancarias.
+Los mensajes suelen hacer referencia a la necesidad de confirmar alguna clave, debidoa algún problema o por mantenimiento en el servicio. En ocasiones facilitan algún enlace(link) a una página web con el mismo aspecto que la entidad que suplantan.Pero en la mayoría de los casos los mensajes están mal traducidos y a pesar de ellomuchos usuarios siguen respondiendo y enviando los datos solicitados al atacante.
+Una vez conseguida la información, el atacante suele utilizarla para:- suplantar a la víctima en otro ataque- acceder con sus credenciales a opciones privilegiadas.Por ejemplo: en Campus Virtual están disponibles las actas de notas, nóminas, etc...
+El Servicio de Informática nunca le solicitará que le envíe por correo electróniconingún tipo de clave. Recuerde que usted ya puede cambiar su clave con la opcióndisponible en Campus Virtual.
+Igualmente, ninguna otra institución externa le solicitará que confirme sus clavespor correo.Cualquier mensaje en este sentido debe considerarse sospechoso.
+Más información:- <a href="http://www.osi.es/econf/Protegete/Tramites_en_linea/Reconocer_mensajes_fraudulentos/">Reconocer Mensajes fraudulentos </a>- <a href="http://www.osi.es/econf/Protegete/Correo_electronico/">Protégete en el correo electrónico</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=24&id=433&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

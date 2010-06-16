@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia movil">
+          <Question Text="que significan las siglas gprs">
+               <AnswerIndex>es una tecnologia de acceso capaz de transmitir datos a mayor velocidad que el gsm la velocidad de transmision dependera del modelo del telefono y en la primera fase estara entre 10 y 50k no se facturara por tiempo sino por el volumen de datos que consuma la universidad de jaen dispone ya de este servicio por parte del operador de telefonia movil si bien se encuentra en fase de estudio </AnswerIndex>
+               <Answer>Es una tecnología de acceso, capaz de transmitir datos a mayor velocidad que el GSM. La velocidad de transmisión dependerá del modelo del teléfono, y en la primera fase estará entre 10 y 50K.
+ No se facturara por tiempo sino por el volumen de datos que consuma.
+ La Universidad de Jaén dispone ya de este servicio por parte del operador de telefonía móvil, si bien se encuentra en fase de estudio. 
+  </Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=19&id=276&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

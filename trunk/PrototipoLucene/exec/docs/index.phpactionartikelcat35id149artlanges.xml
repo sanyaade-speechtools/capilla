@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="impresoras">
+               <Categorie Text="en red">
+                    <Question Text="desinstalar o eliminar una impresora compartida o una impresora fotocopiadora en red">
+                         <AnswerIndex>vaya a inicio panel de control impresoras y faxes y alli haga clic con el boton derecho sobre la impresora que deseas eliminar o desinstalar y elige la opcion eliminar </AnswerIndex>
+                         <Answer>Vaya a InicioPanel de Control Impresoras y Faxes y allí haga clic con el botónderecho sobre la impresora que deseas eliminar o desinstalar y elige la opción Eliminar  </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=35&id=149&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

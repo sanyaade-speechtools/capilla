@@ -1,0 +1,14 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual   vpn">
+          <Question Text="al conectarme aparece un mensaje de error relacionado con rip listener">
+               <AnswerIndex>al ejecutar el cliente vpn uja aparece el siguiente mensaje este mensaje aparece cuando esta instalado en windows xp un componente llamado rip listener escucha rip que se encarga de comunicarse mediante el protocolo rip con el router del usuario que le permite la conexion a internet el componente rip listener es incompatible con la conexion vpn y aunque permite la conexion pasados unos minutos bloquea el trafico de red de manera intermitente la solucion pasa por desinstalar el componente rip listener de windows xp a menos que sea estrictamente necesario usar el protocolo rip en usuarios domesticos por lo general no es necesario para desinstalarlo debemos entrar en el boton inicio panel de control agregar y quitar programas y pulsar en agregar o quitar componentes de windows en la categoria de servicios de red pulsar en detalles y desmarcar la linea escucha de rip pulsar aceptar y siguiente windows xp desinstalara el componente conflictivo y no volvera a aparecer el mensaje de error </AnswerIndex>
+               <Answer>Al ejecutar el cliente VPN-UJA, aparece el siguiente mensaje:
+Este mensaje aparece cuandoestá instalado en Windows XP un componente llamado RIP Listener (escuchaRIP) que se encarga de comunicarse mediante el protocolo RIP con el router delusuario que le permite la conexión a Internet. El componente RIP Listener esincompatible con la conexión VPN y aunque permite la conexión, pasados unosminutos bloquea el tráfico de red de manera intermitente.La solución pasa por desinstalar el componente RIP Listener de Windows XP, amenos que sea estrictamente necesario usar el protocolo RIP (en usuariosdomésticos por lo general no es necesario). Para desinstalarlo, debemos entraren el botón Inicio Panel de Control Agregar y quitar programas ypulsar en "Agregar o quitar componentes de Windows".En la categoría de "Servicios de Red" pulsar en "Detalles" ydesmarcar la línea "Escucha de RIP". Pulsar "Aceptar" y"Siguiente".Windows XP desinstalará el componente "conflictivo" y no volverá a aparecer elmensaje de error. </Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=46&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

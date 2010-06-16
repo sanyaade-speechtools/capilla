@@ -1,0 +1,14 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual   vpn">
+          <Question Text="cuando tengo una sesion establecida y estoy un tiempo sin hacer nada esta se cierra automaticamente con una ventana informando que la conexion finalizo inesperadamente">
+               <AnswerIndex>por motivos de seguridad el servicio vpn esta configurado con un tiempo de inactividad maximo de 15 minutos pasado el cual si no se detecta ninguna actividad de red la conexion vpn se desconecta automaticamente por lo tanto este comportamiento es normal simplemente basta con abrir de nuevo con el cliente vpn uja y establecer una nueva conexion </AnswerIndex>
+               <Answer>Por motivos de seguridad, el servicio VPN estáconfigurado con un tiempo de inactividad máximo de 15 minutos, pasado el cual,si no se detecta ninguna actividad de red, la conexión VPN se desconectaautomáticamente. 
+ Por lo tanto, este comportamiento es normal. Simplemente basta con abrir de nuevo con el cliente VPN-UJA y establecer una nueva conexión.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=45&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

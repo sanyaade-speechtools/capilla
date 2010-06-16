@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="quien esta autorizado para solicitar un espacio web">
+                    <AnswerIndex>tal como se indica en la normativa podran solicitar un hospedaje web o un servidor web autorizado las personas o unidades organizativas que se indican en el anexo de solicitantes en la direccion http o o www ujaen es o sci o redes o solicitantes sst html </AnswerIndex>
+                    <Answer>Tal como se indica en la normativa, podrán solicitar un hospedaje web o un servidor web autorizado las personas o unidades organizativas que se indican en el anexo de solicitantes en la dirección <a href="http://www.ujaen.es/sci/redes/solicitantes-sst.html">http://www.ujaen.es/sci/redes/solicitantes-sst.html</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=162&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

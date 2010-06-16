@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="general">
+               <Question Text="que es un servidor de correo entrante pop">
+                    <AnswerIndex>un servidor de correo entrante pop le permitira obtener los mensajes almacenados en su buzon el servidor transferira los mensajes a su lector y los borrara del buzon en ese momento los mensajes estaran disponibles solo en el pc donde descargo los mensajes temas relacionados caracteristicas del servicio de correo </AnswerIndex>
+                    <Answer>Un servidor de correo entrante POP le permitirá obtener los mensajes almacenados en su buzón. El servidor transferirá los mensajes a su lector y los borrará del buzón. En ese momento los mensajes estarán disponibles sólo en el PC donde descargó los mensajes.
+ Temas relacionados: - <a href="http://www.ujaen.es/sci/redes/email/caracteristicas.html" target="_blank">Características del Servicio de Correo</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=24&id=34&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

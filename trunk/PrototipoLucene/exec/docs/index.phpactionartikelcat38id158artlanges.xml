@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="instalar el antivirus panda en casa">
+                         <AnswerIndex>la siguiente guia le explica como hacer la instalacion de panda antivirus en su domicilio http o o www ujaen es o sci o invdoc o avpanda o domicilio html </AnswerIndex>
+                         <Answer>La siguiente guía le explica como hacer la instalación de Panda Antivirus ensu domicilio:
+ <a href="http://www.ujaen.es/sci/invdoc/avpanda/domicilio.html">http://www.ujaen.es/sci/invdoc/avpanda/domicilio.html</a>
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=158&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

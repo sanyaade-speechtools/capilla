@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="puedo obtener estadisticas de mi espacio web">
+                    <AnswerIndex>si los espacios web la universidad de jaen institucionales www ujaen es y personales www4 ujaen es tienen estadisticas completas de las conexiones realizadas solo puede consultar las estadisticas el responsable web que publica los contenidos ya que se requiere usuario o clave para acceder para consultar las estadisticas de un espacio web añada a la url del espacio la palabra estadisticas introduzca el usuario y la clave del espacio web y obtendra las estadisticas ejemplo paginas institucionales http o o www ujaen es o serv o espacioweb o estadisticas ejemplo paginas personales http o o www4 ujaen es o usuario o estadisticas </AnswerIndex>
+                    <Answer>Si. Los espacios web la Universidad de Jaén institucionales (<a href="http://www.ujaen.es">www.ujaen.es</a>) y personales (www4.ujaen.es) tienen estadísticas completas de las conexiones realizadas.
+ Sólo puede consultar las estadisticas el responsable web que publica los contenidos ya que se requiere usuario/clave para acceder.
+ Para consultar las estadísticas de un espacio web, añada a la URL del espacio la palabra estadisticas. Introduzca el usuario y la clave del espacio web y obtendrá las estadísticas.
+ Ejemplo páginas institucionales: <a href="http://www.ujaen.es/serv/espacioweb/estadisticas">http://www.ujaen.es/serv/espacioweb/estadisticas</a> 
+ Ejemplo páginas personales: <a href="http://www4.ujaen.es/~usuario/estadisticas">http://www4.ujaen.es/~usuario/estadisticas</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=319&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

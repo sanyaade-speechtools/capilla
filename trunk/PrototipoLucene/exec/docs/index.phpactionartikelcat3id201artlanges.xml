@@ -1,0 +1,54 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="campus virtual">
+          <Question Text="no puedo acceder a ningun servicio de red correo electronico navegacion web etc">
+               <AnswerIndex>inicialmente compruebe que realmente no funcione ningun servicio de red para descartar que se trate de un problema puntual de un determinado servicio correo electronico web etc compruebe que no puede navegar por internet compruebe que no puede recibir ni enviar correo electronico compruebe cualquier otro servicio de red que utilice habitualmente comprobaciones a nivel fisico la tarjeta de red hace enlace observe la conexion de red de su pc en la parte trasera de la torre y compruebe que el indicador verde de enlace link este encendido en su tarjeta de red y probablemente parpadeando si continue con el siguiente paso no compruebe el cable de red sustituyendolo si es necesario por el de un compañero compruebe que el cable de red esta firmemente conectado tanto a la toma de pared como a la conexion de la tarjeta de red del pc observe si la conexion esta algo floja o la clavijas del cable de red no hacen click al conectarlas en alguno de los extremos si tras comprobar el cable aun no se enciende el indicador de la tarjeta envie la siguiente solicitud al servicio de informatica desde el equipo de algun compañero indicando claramente el numero de la toma de red de pared en la que se encuentra conectado el pc http o o www ujaen es o murphy o averiaequipo html comprobaciones a nivel logico compruebe que la configuracion tcp o ip sea correcta para ello consulte la guia practica de configuracion de la pila de protocolos tcp o ip correspondiente a su sistema operativo en la siguiente direccion http o o www ujaen es o sci o sau o guias o guias htm riuja como resumen de los campos que se deben de revisar en windows xp se puede consultar la siguiente tabla campo valor descripcion del equipo pc xxxx donde xxxx es el numero de inventario nombre dns del pc paaa bbb aaa es la subred dentro del rango de subredes pertenecientes a la ujaen y bbb es el equipo grupo de trabajo el que corresponda en cada caso direccion ip la que se asigne desde la unidad de redes segun toma y subred mascara de subred 255 255 255 0 puerta de enlace 150 214 aaa 1 donde aaa sera el mismo de la ip del equipo dns primario 150 24 170 15 dns secundario 150 214 170 21 dns terciario 150 214 170 22 anexar sufijos dns activar sufijo dns ujaen es registro en dns desactivar servidor wins 150 214 170 106 netbios sobre tcp o ip activar recientemente ha realizado un traslado del equipo sin comunicarlo al servicio de informatica en tal caso debe enviarnos la siguiente solicitud http o o www ujaen es o sci o redes o solic o sol r200 pdf para que procedamos a activarle la nueva toma para la conexion del equipo siga las siguientes instrucciones y no olvide indicarnos la direccion fisica de la tarjeta de red mac </AnswerIndex>
+               <Answer>Inicialmente, compruebe que realmente no funcione ningún servicio de red para descartar que se trate de un problema puntual de un determinado servicio (correo electrónico, web, etc): 
+ Compruebe que no puede navegar por Internet Compruebe que no puede recibir ni enviar correo electrónico Compruebe cualquier otro servicio de red que utilice habitualmente COMPROBACIONES A NIVEL FÍSICO 
+ ¿La tarjeta de red hace enlace? Observe la conexión de red de su PC (en la parte trasera de la torre) y compruebe que el indicador verde de enlace (link) esté encendido en su tarjeta de red y probablemente parpadeando: 
+ SI: continúe con el siguiente paso. NO: compruebe el cable de red, sustituyéndolo si es necesario por el de un compañero. Compruebe que el cable de red está firmemente conectado tanto a la toma de pared como a la conexión de la tarjeta de red del PC. Observe si la conexión está algo floja o la clavijas del cable de red no hacen click al conectarlas en alguno de los extremos. Si tras comprobar el cable aún no se enciende el indicador de la tarjeta envíe la siguiente solicitud al Servicio de Informática, desde el equipo de algún compañero, indicando claramente el número de la toma de red de pared en la que se encuentra conectado el PC. <a href="http://www.ujaen.es/murphy/averiaequipo.html">http://www.ujaen.es/murphy/averiaequipo.html</a>
+ COMPROBACIONES A NIVEL LÓGICO 
+ Compruebe que la configuración TCP/IP sea correcta. Para ello, consulte la Guía práctica de configuración de la Pila de Protocolos TCP/IP correspondiente a su sistema Operativo en la siguiente dirección: <a href="http://www.ujaen.es/sci/sau/guias/guias.htm
+riuja"> http://www.ujaen.es/sci/sau/guias/guias.htm
+riuja </a> 
+ Como resumen de los campos que se deben de revisar (en Windows XP), se puede consultar la siguiente tabla. 
+ Campo Valor Descripción del Equipo 
+ PC_xxxx (donde xxxx es el número de inventario). 
+ Nombre DNS del PC 
+ paaa-bbb ( aaa es la subred dentro del rango de subredes pertenecientes a la Ujaen. y bbb es el equipo). 
+ Grupo de trabajo 
+ El que corresponda en cada caso. 
+ Dirección IP 
+ La que se asigne desde la Unidad de redes según toma y subred. 
+ Máscara de Subred 
+ 255.255.255.0. 
+ Puerta de enlace 
+ 150.214. aaa .1 donde aaa será el mismo de la IP del Equipo. 
+ DNS Primario 
+ 150.24.170.15 
+ DNS Secundario 
+ 150.214.170.21 
+ DNS Terciario 
+ 150.214.170.22 
+ Anexar sufijos DNS 
+ Activar. 
+ Sufijo DNS 
+ ujaen.es 
+ Registro en DNS 
+ Desactivar. 
+ Servidor WINS 
+ 150.214.170.106 
+ NetBIOS sobre TCP/IP 
+ Activar. 
+ 
+ ¿Recientemente ha realizado un traslado del equipo sin comunicarlo al Servicio de Informática? En tal caso, debe enviarnos la siguiente solicitud: 
+ <a href="http://www.ujaen.es/sci/redes/solic/sol-r200.pdf">http://www.ujaen.es/sci/redes/solic/sol-r200.pdf</a>
+ para que procedamos a activarle la nueva toma para la conexión del equipo. Siga las siguientes  <a href="
+Cambiosinaviso"> instrucciones </a> y NO OLVIDE indicarnos la <a href="http://www.ujaen.es/sci/redes/conex/faq/mac.htm"> dirección física de la tarjeta de red (MAC). </a> </Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=3&id=201&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

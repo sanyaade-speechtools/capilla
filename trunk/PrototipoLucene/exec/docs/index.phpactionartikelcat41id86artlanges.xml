@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="puedo hacer copias de seguridad de mi perfil">
+                    <AnswerIndex>si y ademas es muy recomendable realizar copias de seguridad periodicas para evitar cualquier perdida de datos ocasionadas por virus fallos del disco etc los datos de correo forman tambien parte de la informacion personal y deben tener el mismo tratamiento en cuanto a la seguridad que los ficheros word excel etc </AnswerIndex>
+                    <Answer>Si , y además es muy recomendable realizar <a href="http://www.ujaen.es/sci/redes/email/datos.html" target="_blank">copias de seguridad</a> periódicas para evitar cualquier pérdida de datos ocasionadas por virus, fallos del disco, etc... Los datos de correo forman también parte de la información personal y deben tener el mismo tratamiento, en cuanto a la seguridad, que los ficheros word, excel, etc...</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=86&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

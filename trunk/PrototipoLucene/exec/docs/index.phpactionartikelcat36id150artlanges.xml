@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="impresoras">
+               <Categorie Text="axxis">
+                    <Question Text="mi impresora axxis no imprime">
+                         <AnswerIndex>compruebe que el puerto de impresion sea el correcto siga los siguientes pasos boton inicio panel de control impresoras pulse con el boton derecho del raton sobre el icono de la impresora correspondiente y seleccione propiedades en la pestaña detalles en el campo imprimir en el siguiente puerto compruebe su configuracion y la que tenga cualquier compañero que imprima correctamente y compruebe que tiene el mismo puerto que su compañero si no despliegue la lista y seleccione el puerto correcto de entre los disponibles si no puede imprimir ningun usuario de su red posiblemente el problema este en el servidor de impresion axis especialmente si antes se ha estado imprimiendo sin problemas en tal caso desconecte el servidor axis desconecte el cable negro de alimentacion electrica espere unos 10 segundos y vuelvalo a conectar haga las pruebas de impresion correspondientes si sigue teniendo problemas pongase en contacto con el servicio de informatica para que procedamos a reiniciar el servidor de impresion axis remotamente y hacer las pruebas de impresion correspondientes </AnswerIndex>
+                         <Answer>Compruebeque el puerto de impresión sea el correcto. Sigalos siguientes pasos: BotónInicio Panel de Control Impresoras. Pulsecon el botón derecho del ratón sobre el icono de la impresoracorrespondiente y seleccione Propiedades.En la pestaña Detalles ,en el campo Imprimir en el siguiente puertocompruebe su configuración y la que tenga cualquier compañeroque imprima correctamente y compruebe que tiene el mismo puerto quesu compañero. Si no, despliegue la lista y seleccione el puertocorrecto de entre los disponibles.Sino puede imprimir ningún usuario de su red , posiblementeel problema esté en el servidor de impresión AXIS, especialmente, siantes se ha estado imprimiendo sin problemas. En tal caso, desconecteel servidor AXIS (desconecte el cable negro de alimentación eléctrica),espere unos 10 segundos y vuélvalo a conectar. Haga las pruebasde impresión correspondientes. Sisigue teniendo problemas, póngase en contacto con el Serviciode Informática para que procedamos a reiniciar el servidor deimpresión AXIS remotamente y hacer las pruebas de impresióncorrespondientes</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=36&id=150&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

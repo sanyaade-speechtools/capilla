@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="campus virtual">
+          <Question Text="el expediente academico no se visualiza bien se mezclan letras y numeros">
+               <AnswerIndex>para evitar este problema puede usar el enlace obtener copia situado al principio y al final de la misma pagina se generara un fichero pdf que muestra los datos correctamente </AnswerIndex>
+               <Answer>Para evitar este problema, puede usar el enlace ("obtener copia") situado al principio y al final  de la misma página. Se  generará un fichero PDF que muestra los datos correctamente.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=3&id=361&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

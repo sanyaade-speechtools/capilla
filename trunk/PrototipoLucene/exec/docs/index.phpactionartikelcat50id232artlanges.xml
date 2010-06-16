@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del servicio">
+               <Question Text="como puedo realizar una retrollamada automatica">
+                    <AnswerIndex>si al llamar a un numero interior recibe tono de ocupado marque un 6 espere tono de verificacion cuelgue el telefono cuando el numero llamado quede libre usted sera llamado automaticamente con señal de retrollamada la retrollamada se cancela automaticamente despues de 8 segundos sin respuesta mientras espera ser llamado puede hacer y recibir llamadas normalmente </AnswerIndex>
+                    <Answer>Si al llamar a un número interior, recibe tono de ocupado. 
+ Marque un 6. Espere tono de verificación. Cuelgue el teléfono. Cuando el número llamado quede libre, usted será llamado automáticamente con señal de retrollamada.
+ La retrollamada se cancela automáticamente después de 8 segundos sin respuesta.
+ Mientras espera ser llamado, puede hacer y recibir llamadas normalmente.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=50&id=232&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="ms internet explorer">
+               <Categorie Text="version 6">
+                    <Question Text="como se usa internet explorer 6">
+                         <AnswerIndex>lea un pequeño manual de este navegador en http o o www ujaen es o sci o redes o web o iexplorer o curso o </AnswerIndex>
+                         <Answer>Lea un pequeño manual de este navegador en <a href="http://www.ujaen.es/sci/redes/web/iexplorer/curso/">http://www.ujaen.es/sci/redes/web/iexplorer/curso/</a></Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=22&id=167&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

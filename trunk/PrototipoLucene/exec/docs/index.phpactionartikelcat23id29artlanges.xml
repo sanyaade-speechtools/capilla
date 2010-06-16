@@ -1,0 +1,30 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="ms internet explorer">
+               <Categorie Text="version 7">
+                    <Question Text="importar certificado de la ujaen en internet explorer 7">
+                         <AnswerIndex>al actualizarse automaticamente internet explorer a la version 7 cuando intentamos acceder a campus virtual webmail o docencia virtual se abre la siguiente ventana la flecha indica los pasos a seguir error de certificado pulsamos sobre 1 error de certificado 2 ver certificados importar certificado seleccionamos 1 instalar certificado 2 siguiente completar la importacion seleccionamos 1 siguiente 2 finalizar 3 si finalizar finalmente aceptamos para terminar con el proceso de importacion </AnswerIndex>
+                         <Answer>Al actualizarse automáticamente Internet Explorer a la versión 7, cuando intentamos acceder a Campus Virtual, Webmail o Docencia Virtual se abre la siguiente ventana. La flecha indica los pasos a seguir. 
+ 
+ 
+ 
+ Error de certificado 
+ Pulsamos sobre 
+ 1. Error de certificado 2. Ver certificados 
+ Importar Certificado Seleccionamos: 
+ 1. Instalar Certificado 2. Siguiente 
+ Completar la importación Seleccionamos: 
+ 1. Siguiente 2. Finalizar 3. Si 
+ Finalizar Finalmente Aceptamos para terminar con el proceso de importación. 
+ 
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=23&id=29&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

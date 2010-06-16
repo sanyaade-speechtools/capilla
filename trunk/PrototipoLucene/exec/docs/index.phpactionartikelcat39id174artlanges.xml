@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="que es un virus informatico">
+                         <AnswerIndex>un virus informatico es un programa de ordenador generalmente anonimo que lleva a cabo acciones que casi siempre resultan nocivas para el sistema informatico y cuyo funcionamiento se define por ser capaz de generar copias de si mismo de forma homogenea en un archivo distinto al que ocupa un virus informatico modifica los programas ejecutables a los que contamina consiguiendo asi una ejecucion parasitaria es decir se activa de forma involuntaria por el usuario cuando ejecuta el programa contaminado en resumen se trata de una lista de instrucciones que le indican al ordenador del que son huespedes que acciones debe llevar a cabo y exactamente como debe ejecutarlas esta actuacion del virus sobre el ordenador se realiza sin contar con el permiso del usuario y sin su conocimiento </AnswerIndex>
+                         <Answer>Unvirus informático es un programa de ordenador, generalmente anónimo,que lleva a cabo acciones que casi siempre resultan nocivas para elsistema informático y cuyo funcionamiento se define por ser capazde generar copias de sí mismo de forma homogénea en unarchivo distinto al que ocupa. Un virus informático modificalos programas ejecutables a los que contamina consiguiendo asíuna ejecución parasitaria, es decir, se activa de forma involuntariapor el usuario cuando ejecuta el programa contaminado.En resumen, se trata de una lista de instrucciones que le indican alordenador del que son "huéspedes" qué accionesdebe llevar a cabo y exactamente cómo debe ejecutarlas. Estaactuación del virus sobre el ordenador se realiza sin contarcon el permiso del usuario y sin su conocimiento. 
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=174&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

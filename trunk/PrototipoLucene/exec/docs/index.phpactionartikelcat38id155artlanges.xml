@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformï  tico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus ">
+                    <Question Text="desinstalar antivirus panda">
+                         <AnswerIndex>vaya a inicio panel de control agregar o quitar programas busque y seleccione la aplicaciï n ï panda softwareï instalada y haga clic sobre el botï n ï quitar ï </AnswerIndex>
+                         <Answer>Vaya a Inicio Panel de Control Agregar oQuitar Programas. Busque y seleccione la aplicaciï¿½n ï¿½Panda Softwareï¿½ instaladay haga clic sobre el botï¿½n ï¿½ Quitar ï¿½. </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=155&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

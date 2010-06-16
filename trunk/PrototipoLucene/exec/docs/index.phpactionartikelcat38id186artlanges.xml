@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="que es la proteccion permanente o automatica">
+                         <AnswerIndex>es un programa que desde el arranque de la maquina intercepta todas aquellas operaciones que suponen riesgo de contagio para verificar que ningun virus entre en el sistema funciona de manera automatica y sin requerir la intervencion del usuario para activar la proteccion automatica de panda antivirus visite este enlace </AnswerIndex>
+                         <Answer>Esun programa que, desde el arranque de la máquina, interceptatodas aquellas operaciones que suponen riesgo de contagio para verificarque ningún virus entre en el sistema. Funciona de manera automáticay sin requerir la intervención del usuario. Para activar la protección automática de Panda Antivirus visite este <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=38 id=171 artlang=es" title="Activar la protección automática de Panda Antivirus">enlace</a>.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=186&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

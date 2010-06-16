@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="como puedo crear un formulario que me envie la informacion por correo electronico">
+                    <AnswerIndex>aprenda todo lo necesario para crear paginas web que contengan formularios de peticion de datos que seran enviados a su direccion de correo electronico cuando los usuarios pulsan el boton enviar para mas informacion consulte la direccion http o o www ujaen es o sci o redes o web o fwuja html </AnswerIndex>
+                    <Answer>Aprenda todo lo necesario para crear páginas web que contengan formularios de petición de datos, que serán enviados a su dirección de correo electrónico cuando los usuarios pulsan el botón enviar. Para más información consulte la dirección <a href="http://www.ujaen.es/sci/redes/web/fwuja.html">http://www.ujaen.es/sci/redes/web/fwuja.html</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=164&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>
