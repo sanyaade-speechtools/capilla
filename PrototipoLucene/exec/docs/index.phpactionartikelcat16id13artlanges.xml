@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual   vpn">
+          <Question Text="requisitos necesarios para conectarse mediante vpn">
+               <AnswerIndex>para poder usar este servicio son necesarios los siguientes requisitos disponer de algun tipo de conexion a internet preferiblemente de alta velocidad adsl cable disponer de una cuenta tic el nombre de usuario y contraseña de la cuenta tic seran los que permitan la conexion vpn sistema operativo windows xp windows vista macos x o linux preferiblemente una distribucion basada en redhat o suse tener el software de acceso vpn instalado en su equipo cliente vpn uja especifico en windows xp o vista tener configurado el protector de pantalla con un tiempo menor de 30 minutos y protegido por contraseña importante el servicio vpn no permitira la conexion si el ordenador no cumple estos requisitos </AnswerIndex>
+               <Answer>Para poder usar este servicio son necesarios los siguientesrequisitos:
+ Disponer de algún tipo de conexión a Internet,preferiblemente de alta velocidad (ADSL, cable...).
+ Disponer de una cuenta TIC. El nombre deusuario y contraseña de la cuenta TIC serán los que permitan laconexión VPN.
+ Sistema operativo Windows XP,Windows VISTA, MacOS X ó Linux (preferiblemente una distribución basada en RedHat o Suse).
+ Tener el software de acceso VPN instalado en su equipo(<a href="https://www.ujaen.es/sci/redes/vpn/seguro/soft.html" target="_blank">cliente VPN-UJA</a>específico).
+En Windows XP/VISTA, tener configurado el protector de pantalla conun tiempo menor de 30 minutos y protegido por contraseña.    
+IMPORTANTE: El servicio VPN no permitirá la conexiónsi el ordenador no cumple estos requisitos.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=13&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

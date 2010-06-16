@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="instalar antivirus panda desde la pagina web de la universidad">
+                         <AnswerIndex>desde un equipo conectado a la universidad de jaen hacer clic en el siguiente enlace hacer clic sobre el boton instalacion personalizada y seleccionar ejecutar este proceso es totalmente automatico no hay que hacer clic en ningun boton ni escribir nada </AnswerIndex>
+                         <Answer>Desde un equipo conectado a la Universidad de Jaén, hacerclic en el siguiente <a href="http://www.ujaen.es/sci/invdoc/avpanda/instalacion.html" target="_blank" title="Instalación antivirus Panda">enlace</a>
+
+ 
+ Hacer clic sobre el botón " Instalación Personalizada " y seleccionar " Ejecutar ". Este proceso es totalmente automático (no hay que hacer clic en ningún botón ni escribir nada).  
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=153&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

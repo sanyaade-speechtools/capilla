@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del servicio">
+               <Question Text="como puedo utilizar un codigo de autorizacion para restringir llamadas">
+                    <AnswerIndex>existe la posibilidad de asignar a una extension una serie de codigos personales de autorizacion segun categoria del trafico con objeto de bloquear las llamadas salientes de la referida categoria de trafico existe tambien la posibilidad de asignar a una extension un candado electronico que bloquea las llamadas salientes sin identificar al usuario ambas facilidades deben ser solicitadas al administrador del sistema </AnswerIndex>
+                    <Answer>Existe la posibilidad de asignar a una extensión una serie de códigos personales de autorización, según categoría del tráfico, con objeto de bloquear las llamadas salientes de la referida categoría de tráfico. Existe también la posibilidad de asignar a una extensión un candado electrónico que bloquea las llamadas salientes, sin identificar al usuario.
+ Ambas facilidades deben ser solicitadas al administrador del sistema.
+  </Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=50&id=238&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

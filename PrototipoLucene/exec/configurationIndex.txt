@@ -1,0 +1,21 @@
+#Fichero de configuración para la indexación
+analyzer=SnowballAnalyzer
+language=Spanish
+path_stopper=exec/stopper/spanishSmart.txt
+path_files_to_index=exec\docs
+path_output_index=exec\index
+categorie.store=YES
+categorie.index=NOT_ANALYZED
+categorie.term_vector=NO
+question.store=NO
+question.index=ANALYZED
+question.term_vector=NO
+answerindex.store=YES
+answerindex.index=NOT_ANALYZED
+answerindex.term_vector=NO
+answer.store=YES
+answer.index=NOT_ANALYZED
+answer.term_vector=NO
+url.store=YES
+url.index=NOT_ANALYZED
+url.term_vector=NO

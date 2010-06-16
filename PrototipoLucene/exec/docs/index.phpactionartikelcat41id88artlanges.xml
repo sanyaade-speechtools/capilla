@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="mozilla parece que no responde">
+                    <AnswerIndex>si mozilla parece que no responde pero no parece que se haya colgado asegurese de que no hay cuadros de dialogo abiertos </AnswerIndex>
+                    <Answer>Si Mozilla parece que no responde, pero no parece que se haya colgado, asegúrese de que no hay cuadros de diálogo abiertos.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=88&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

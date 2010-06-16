@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="instalacion del certificado digital para firma electronica">
+                    <AnswerIndex>para firmar electronicamente los mensajes de correo que usted envia a los distintos destinatarios debera poseer previamente un certificado digital la instalacion del certificado digital en mozilla para posteriormente ser usado para firmar correos electronicos se realiza segun estos pasos seleccionar el menu editar preferencias en la pantalla que aparece seleccionar la rama del panel izquierdo denominada privacidad y seguridad certificados en el apartado administrar certificados pulse sobre el boton administrar certificados en la pantalla resultante y en la primera ficha sus certificados debera importar su certificado que debera estar en un fichero con formato pkcs 12 </AnswerIndex>
+                    <Answer>Para firmar electrónicamente los mensajes de correo que usted envía a los distintos destinatarios deberá poseer previamente un certificado digital.
+ La instalación del certificado digital en Mozilla para posteriormente ser usado para firmar correos electrónicos se realiza según estos pasos:
+ Seleccionar el menú Editar - Preferencias. En la pantalla que aparece seleccionar la rama del panel izquierdo denominada "Privacidad y seguridad -  Certificados". En el apartado Administrar Certificados pulse sobre el botón Administrar Certificados. En la pantalla resultante y en la primera ficha "Sus Certificados" deberá importar su certificado que deberá estar en un fichero con formato PKCS 12</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=195&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

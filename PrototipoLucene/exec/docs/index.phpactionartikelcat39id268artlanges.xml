@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="mi equipo no reconoce el pendrive o el autoarranque del mismo esta deshabilitado">
+                         <AnswerIndex>el problema puede estar relacionado con un virus que copia dos ficheros en el pendrive adober exe y autorrun inf estos archivos se nos copian en nuestro pendrive al insertarlo en una maquina infectada por lo que al cambiar el pendrive de pc el autorun arranca llamando a adober exe copiandolo a c windows y ejecutandolo la solucion previa pasa por tener el antivirus actualizado si nuestro pc ya ha sido infectado veremos en el administrador de tareas en la pestaña procesos que se esta ejecutando adober exe deberemos terminar su proceso una vez hecho esto entramos en c windows y buscamos dicho archivo y lo eliminamos despues de esto puede ocurrir que el virus siga en el pendrive por lo que tendremos que pasarle el antivirus y asegurarnos que no contiene el adober exe ni el autorrun inf si al entrar en nuestro pendrive desde mi pc sigue sin reconocernoslo para solucionarlo tendremos que volcar los datos al pc y formatear el pendrive ahora si nos lo reconoce y solo nos queda volcarle al pen los datos de nuevo </AnswerIndex>
+                         <Answer>El problema puede estar relacionado con un virus que copia dos ficheros en el pendrive: "AdobeR.exe" y "autorrun.inf". Estos archivos se nos copian en nuestro pendrive al insertarlo en una máquina infectada, por lo que al cambiar el pendrive de PC, el autorun arranca llamando a AdobeR.exe copiándolo a C:\WINDOWS y ejecutándolo.
+ La solución previa pasa por tener el antivirus actualizado. Si nuestro pc ya ha sido infectado veremos en el Administrador de Tareas , enla pestaña " Procesos ", que se está ejecutando AdobeR.exe. Deberemos terminar su proceso. Una vez hecho esto, entramos en C:\WINDOWS y buscamos dicho archivo y lo eliminamos. Después de esto, puede ocurrir que el virus siga en elpendrive, por lo que tendremos que pasarle el antivirus y asegurarnos que nocontiene el AdobeR.exe ni el Autorrun.inf.
+ Si al entrar en nuestro pendrive desde Mi PC sigue sin reconocernoslo, parasolucionarlo tendremos que volcar los datos al PC yformatear el pendrive. Ahora sí nos lo reconoce y solo nos quedavolcarle al pen los datos de nuevo.
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=268&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="arranque">
+                    <Question Text="al arrancar el equipo me sale un mensaje en pantalla que dice insert system disk press any key to continue">
+                         <AnswerIndex>compruebe que no esta intentando arrancar el ordenador con un disquete dentro de la disquetera si no tiene disquetes en la disquetera el problema puede deberse a varias causas su disco duro no contiene ningun sistema operativo instalado para ello solicite la instalacion al servicio de informatica rellenando la siguiente solicitud la bios de su equipo no reconoce el disco duro lo que puede indicar un fallo hardware del disco o de la placa si se considera un usuario avanzado puede entrar en la configuracion de la bios y comprobar que tiene la autodeteccion de discos duros activada autodetect hard disk si aun asi no se resuelve el problema cumplimente esta solicitud murphy </AnswerIndex>
+                         <Answer>Compruebe que no está intentando arrancar el ordenador con un disquete dentro de la disquetera. 
+ Si no tiene disquetes en la disquetera el problema puede deberse a varias causas: 
+ Su disco duro no contiene ningún sistema operativo instalado. Para ello , solicite la instalación al Servicio de Informática rellenando la siguiente <a title="Solicitud Restauración Equipo" target="_blank" href="http://www.ujaen.es/sci/sau/Solicitudes/SOL-IR100.pdf">solicitud</a>. La BIOS de su equipo no reconoce el disco duro, lo que puede indicar un fallo hardware del disco o de la placa. Si se considera un usuario avanzado, puede entrar en la configuración de la BIOS y comprobar que tiene la autodetección de discos duros activada ( Autodetect Hard Disk ). Si aún así no se resuelve el problema, cumplimente esta <a href="http://www.ujaen.es/murphy/averiaequipo.html" target="_blank" title="Solicitud Murphy">solicitud murphy</a>.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=31&id=104&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

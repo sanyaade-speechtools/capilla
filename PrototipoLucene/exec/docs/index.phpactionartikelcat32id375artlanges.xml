@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="funcionamiento">
+                    <Question Text="mi escaner ha dejado de funcionar despues de instalar internet explorer 7">
+                         <AnswerIndex>existe una actualizacion que restaura los iconos y el contenido que faltan en las pantallas de director hp que podran no funcionar correctamente despues de realizar la actualizacion a microsoft internet explorer 7 </AnswerIndex>
+                         <Answer>Existe una <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=es cc=es prodTypeId=15179 prodSeriesId=391317 prodNameId=391319 swEnvOID=228 swLang=35 mode=2 taskId=135 swItem=oj-46104-1">actualización</a> que restaura los iconos y el contenido que faltan en las pantallas de Director HP, que podrán no funcionar correctamente después de realizar la actualización a Microsoft Internet Explorer 7.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=32&id=375&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

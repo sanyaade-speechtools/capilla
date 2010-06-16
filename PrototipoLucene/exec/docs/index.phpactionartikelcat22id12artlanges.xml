@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="ms internet explorer">
+               <Categorie Text="version 6">
+                    <Question Text="no veo los favoritos que tenia en mi equipo anterior equipos nuevos renove">
+                         <AnswerIndex>si tiene un equipo nuevo puede ser que no visualice en internet explorer los enlaces de favoritos para solucionar este problema siga las instrucciones existentes en el siguiente enlace </AnswerIndex>
+                         <Answer>Si tiene un equipo nuevo puede ser que no visualice en Internet Explorer los enlaces de Favoritos. Para solucionar este problema siga las instrucciones existentes en el siguiente <a href="http://www.ujaen.es/sci/redes/web/iexplorer/migracionFavoritos.html">enlace.</a></Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=22&id=12&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

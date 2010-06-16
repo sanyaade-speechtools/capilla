@@ -1,0 +1,22 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual   vpn">
+          <Question Text="routers adsl marca sagem solucion de problemas">
+               <AnswerIndex>desde hace un tiempo se ha detectado una incompatibilidad en la conexion mediante el cliente vpn uja cuando se usa una conexion adsl mediante routers adsl del fabricante sagem en nuestro caso estos problemas siempre se han detectado con los routers sagem de orange pero no se descarta que el problema tambien pertenezca con los routers sagem suministrados por cualquier otro operador el origen del problema se debe a que estos routers cortan el puerto udp 500 necesario para el intercambio de claves del protocolo ipsec en el que se basa nuestro servicio de vpn de la uja la solucion documentada en internet consiste en añadir una nueva clave en el registro de windows que permite a la conexion vpn usar un puerto aleatorio diferente para el intercambio de claves esta entrada es hkey local machine software nortel networks extranet access client disableikeport500use 1 esta entrada puede añadirse automaticamente al registro descargando y ejecutando el siguiente fichero reg descargar fichero sagem reg ficheros adjuntos sagem reg </AnswerIndex>
+               <Answer>Desde hace un tiempo se ha detectado una incompatibilidad en la conexión mediante el cliente VPN-UJA cuando se usa una conexión ADSL mediante routers ADSL del fabricante SAGEM.
+En nuestro caso, estos problemas siempre se han detectado con los routers SAGEM de Orange, pero no se descarta que el problema también pertenezca con los routers SAGEM suministrados por cualquier otro operador.
+El origen del problema se debe a que estos routers cortan el puerto UDP 500 necesario para el intercambio de claves del protocolo IPSec en el que se basa nuestro servicio de VPN de la UJA.
+ 
+La solución documentada en Internet consiste en añadir una nueva clave en el registro de Windows, que permite a la conexión VPN usar un puerto aleatorio diferente para el intercambio de claves. Esta entrada es:
+HKEY_LOCAL_MACHINE\SOFTWARE\Nortel Networks\Extranet Access Client\DisableIkePort500Use=1
+Esta entrada puede añadirse automáticamente al registro, descargando y ejecutando el siguiente fichero .REG: 
+<a href="images/File/SAGEM.zip">Descargar fichero SAGEM.REG</a>
+ 
+ficheros adjuntos: <a href="attachments/415/SAGEM.reg" target="_blank">SAGEM.reg</a></Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=415&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

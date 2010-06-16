@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion a la red riuja">
+          <Question Text="no puedo descargar ningun software de la pagina web a traves de internet explorer">
+               <AnswerIndex>hay que desactivar el firewall de la proteccion permanente del panda antivirus y detener el de windows panel de control herramientas administrativas servicios firewall de windows </AnswerIndex>
+               <Answer>Hay que desactivar el firewall de la protección permanente del Panda Antivirus y detener el de Windows (Panel de Control - Herramientas Administrativas - Servicios - Firewall de Windows).</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=4&id=286&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

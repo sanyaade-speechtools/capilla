@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="ms internet explorer">
+               <Categorie Text="version 7">
+                    <Question Text="no puede mostrar la pagina en internet explorer 7">
+                         <AnswerIndex>compruebe en primer lugar si tiene correo electronico en caso de que funcione no tiene problemas de red por lo que deberemos probar con otra causa desactive el antivirus panda en caso de que ahora si pueda navegar debera desinstalar el antivirus y volverlo a instalar de la pagina web de la universidad </AnswerIndex>
+                         <Answer>Compruebe en primer lugar si tiene correo electrónico. En caso de que funcione, no tiene problemas de red, por lo que deberemos probar con otra causa.
+Desactive el Antivirus Panda. En caso de que ahora sí pueda navegar, deberá desinstalar el antivirus y volverlo a instalar de la página web de la universidad.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=23&id=54&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="sistema operativo">
+                    <Question Text="cambiar el estilo de las ventanas de windows al estilo clasico">
+                         <AnswerIndex>hacer clic con el boton derecho sobre el escritorio propiedades apariencia ventanas y botones y seleccionamos windows estilo clasico o estilo windows xp </AnswerIndex>
+                         <Answer>Hacer clic con el botón derecho sobre el EscritorioPropiedades Apariencia Ventanas y botones y seleccionamos Windowsestilo clásico o estilo Windows XP</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=33&id=67&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="recomendaciones para crear una pagina web">
+                    <AnswerIndex>lea los consejos que les damos para la creacion de paginas web personales o institucionales en la web http o o www ujaen es o sci o redes o web o guiaestilo o recomendaciones html </AnswerIndex>
+                    <Answer>Lea los consejos que les damos para la creación de páginas web personales o institucionales en la web <a href="http://www.ujaen.es/sci/redes/web/guiaestilo/recomendaciones.html">http://www.ujaen.es/sci/redes/web/guiaestilo/recomendaciones.html</a>.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=163&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

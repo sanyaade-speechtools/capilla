@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="navegacion">
+               <Question Text="la informacion mostrada en determinadas paginas web no se actualiza">
+                    <AnswerIndex>si cuando accede a una pagina le aparece informacion que sabe que no es actual no se corresponde con los contenidos reales de la pagina debe recargar la pagina para recargar la pagina debe hacer clic en el boton recargar reload de la barra de botones superior del navegador con esto forzamos a traer la pagina desde el servidor web en lugar de cargarla desde la memoria cache del navegador </AnswerIndex>
+                    <Answer>Si cuando accede a una página le aparece información que sabe que no es actual (no se corresponde con los contenidos reales de la página), debe recargar la página. Para recargar la página debe hacer clic en el botón Recargar (Reload) de la barra de botones superior del navegador. Con esto forzamos a traer la página desde el servidor web en lugar de cargarla desde la memoria cache del navegador.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=21&id=11&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

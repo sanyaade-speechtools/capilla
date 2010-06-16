@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="actualizar o configurar la actualizacion automatica del antivirus panda">
+                         <AnswerIndex>la siguiente guia le explica como hacer la actualizacion http o o www ujaen es o sci o invdoc o avpanda o actualizacion html </AnswerIndex>
+                         <Answer>La siguiente guía le explica como hacer laactualización: 
+ <a href="http://www.ujaen.es/sci/invdoc/avpanda/actualizacion.html">http://www.ujaen.es/sci/invdoc/avpanda/actualizacion.html</a>
+ </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=156&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

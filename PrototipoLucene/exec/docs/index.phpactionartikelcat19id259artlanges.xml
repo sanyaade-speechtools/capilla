@@ -1,0 +1,34 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia movil">
+          <Question Text="como puedo activar y desactivar el desvio de llamadas">
+               <AnswerIndex>activar desvios para activar y desactivar un desvio en su telefono movil tan solo hay que seguir la secuencia para cada uno de las situaciones posibles terminando con la tecla enviar es posible activar el desvio para una dos o todas las situaciones posibles situacion de desvio secuencia desactivacion individual desvio si apagado o fuera de cobertura 62 0numero destino 62 desvio si comunica 67 0numero destino 67 desvio si no contesta 61 0numero destino 61 desvio para todas las llamadas no recomendable 21 0numero destino 21 desactivar desvios si queremos desactivar individualmente la situacion de desvio se marcaria la situacion indicada en la tabla anterior segun cada caso no obstante para desactivar todos los desvios tenemos la opcion 002 </AnswerIndex>
+               <Answer>ACTIVAR DESVÍOS Para activar y desactivar un desvío en su teléfono móvil, tan solo hay que seguir la secuencia para cada uno de las situaciones posibles, terminando con la tecla Enviar. 
+ Es posible activar el desvío para una, dos, o todas las situaciones posibles. 
+ Situación de Desvío Secuencia Desactivación individual Desvío si apagado o fuera de cobertura **62*0número destino
+ 
+
+62
+ Desvío si comunica **67*0número destino
+ 
+
+67
+ Desvío si no contesta **61*0número destino
+ 
+
+61
+ Desvío para todas las llamadas (no recomendable) **21*0número destino
+ 
+
+21
+ DESACTIVAR DESVÍOS Si queremos desactivar individualmente  la situación de desvío, se marcaría la situación indicada en la tabla anterior, según cada caso. No obstante para desactivar todos los desvíos tenemos la opción 
+
+002
+. </Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=19&id=259&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="estudiantes">
+               <Question Text="que es el servicio webmail">
+                    <AnswerIndex>el servicio webmail es un cliente de correo electronico a traves de paginas web asi y utilizando un navegador de internet podras leer y envirar mensajes </AnswerIndex>
+                    <Answer>El servicio Webmail es un cliente de correo electrónico a través de páginas web. Así, y utilizando un navegador de Internet podrás leer y envirar mensajes.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=45&id=120&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

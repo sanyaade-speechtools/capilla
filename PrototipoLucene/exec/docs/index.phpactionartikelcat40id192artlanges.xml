@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="netscape communicator 4">
+               <Question Text="cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno se queda esperando o atascado">
+                    <AnswerIndex>este problema sucede normalmente cuando se tiene una bandeja de entrada con un tamaño superior a 100 mb cuando el tamaño de esta bandeja supera un determinado limite netscape tarda mas de la cuenta en procesarla y buscar o posicionarse en los mensajes de la misma si a esto le añadimos la accion de inspeccion que esta realizando el antivirus demora el proceso aun mas pudiendo ocurrir errores como en este caso se recomienda desactivar panda antivirus para llevar a cabo el segundo paso reducir el tamaño de la bandeja de entrada al minimo pasando los mensajes a otras carpetas actualizar panda antivirus a una version superior </AnswerIndex>
+                    <Answer>Este problema sucede normalmente cuando se tiene una bandeja de entrada con un tamaño superior a 100 MB. 
+ Cuando el tamaño de esta bandeja supera un determinado límite Netscape tarda más de la cuenta en procesarla y buscar o posicionarse en los mensajes de la misma. 
+ Si a esto le añadimos la acción de inspección que está realizando el antivirus demora el proceso aún más pudiendo ocurrir errores como en este caso. Se recomienda:
+ Desactivar Panda Antivirus para llevar a cabo el segundo paso. Reducir el tamaño de la bandeja de entrada al mínimo, pasando los mensajes a otras carpetas. Actualizar Panda Antivirus a una versión superior.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=40&id=192&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

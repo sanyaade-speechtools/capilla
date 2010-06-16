@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="como puedo publicar una pagina web institucional en el servidor de la universidad de jaen">
+                    <AnswerIndex>el hospedaje de paginas web institucionales en el servidor de la universidad de jaen se debe solicitar mediante el siguiente modelo de solicitud servicio web una vez solicitado el servicio de informatica le asignara un espacio web para ello recibira una carta donde se le indicara su nombre de usuario y su contraseña para poder subir los archivos de su web mediante ftp asi como unas breves instrucciones sobre el uso de este servicio la subida de los archivos de su web la puede llevar a cabo conectandose mediante un cliente ftp ws ftp a www ujaen es a su cuenta particular de usuario creada para el alojamiento web para ello siga los pasos que se indican mas adelante en esta seccion la web debe tener necesariamente un archivo denominado index html que sera el archivo que contendra la pagina principal si despues de subir sus archivos al servidor su pagina no se visualiza compruebe la existencia del citado archivo index html los nombres de todos los archivos deben estar preferiblemente en minusculas para que todos los hipervinculos que puedan contener las paginas funcionen correctamente el servidor web distingue entre mayusculas y minusculas por lo que cualquier error en los hipervinculos que haga referencia a paginas no encontradas puede ser debido a esto con total probabilidad </AnswerIndex>
+                    <Answer>El hospedaje de páginas web INSTITUCIONALES en el servidor de la Universidad de Jaén se debe solicitar mediante el siguiente modelo de solicitud:
+ <a href="http://www.ujaen.es/sci/redes/solic/sol-r120.pdf">Servicio web</a>
+ Una vez solicitado, el Servicio de Informática le asignará un espacio web. Para ello, recibirá una carta donde se le indicará su nombre de usuario y su contraseña para poder subir los archivos de su web mediante FTP, así como unas breves instrucciones sobre el uso de este servicio.   La subida de los archivos de su web la puede llevar a cabo conectándose mediante un cliente FTP (WS-FTP) a <a href="http://www.ujaen.es/">www.ujaen.es</a>, a su cuenta particular de usuario creada para el alojamiento web. Para ello, siga los pasos que se indican más adelante en esta sección.   La web debe tener necesariamente un archivo denominado index.html que será el archivo que contendrá la página principal. Si después de subir sus archivos al servidor, su página no se visualiza, compruebe la existencia del citado archivo index.html.   Los nombres de todos los archivos deben estar preferiblemente en minúsculas para que todos los hipervínculos que puedan contener las páginas funcionen correctamente. El servidor web distingue entre mayúsculas y minúsculas, por lo que cualquier error en los hipervínculos que haga referencia a páginas no encontradas, puede ser debido a esto con total probabilidad. </Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=6&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

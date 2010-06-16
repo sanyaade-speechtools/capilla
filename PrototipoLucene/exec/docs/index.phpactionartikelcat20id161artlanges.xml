@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="que me ofrece el servicio web">
+                    <AnswerIndex>consulte la direccion del servicio web http o o www ujaen es o sci o redes o web o tambien puede consultar las caracteristicas detalladas del servicio en la direccion http o o www ujaen es o sci o redes o web o caracteristicas html </AnswerIndex>
+                    <Answer>Consulte la dirección del servicio web <a href="http://www.ujaen.es/sci/redes/web/">http://www.ujaen.es/sci/redes/web/</a>
+ También puede consultar las características detalladas del servicio en la dirección <a href="http://www.ujaen.es/sci/redes/web/caracteristicas.html">http://www.ujaen.es/sci/redes/web/caracteristicas.html</a></Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=161&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

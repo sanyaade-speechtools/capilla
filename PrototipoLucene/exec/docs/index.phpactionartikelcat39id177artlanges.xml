@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="es cierto que algunos virus pueden infectar el ordenador desde un mensaje de correo">
+                         <AnswerIndex>si utiliza el cliente de correo que recomienda el s i mozilla un mensaje no puede infectar su ordenador porque unicamente se trata de texto en otros clientes de correo e por ejemplo outlook si podria darse el caso si este producto no esta debidamente actualizado con los correspondientes parches de seguridad el unico punto de infeccion en un mensaje lo forman los ficheros vinculados a el estos si pueden contener un virus que se active cuando acceda o ejecute dicho fichero la solucion es muy sencilla puesto que bastara con tener el antivirus actualizado no obstante se debe de ser muy precavido al ejecutar o abrir ficheros adjuntos de origen desconocido o sospechoso ademas la estafeta de correo e de la uja dispone de un sistema antivirus que bloquea aquellos ficheros adjuntos infectados </AnswerIndex>
+                         <Answer>Siutiliza el cliente de correo que recomienda el S.I. (Mozilla), unmensaje no puede infectar su ordenador porque únicamente se trata detexto. En otros clientes de correo-e, por ejemplo Outlook, si podríadarse el caso si este producto no está debidamente actualizado con loscorrespondientes parches de seguridad.Elúnico punto de infección en un mensaje, lo forman losficheros vinculados a él. Estos sí pueden contener unvirus que se active cuando acceda o ejecute dicho fichero. 
+Lasolución es muy sencilla, puesto que bastará con tenerel antivirus actualizado. No obstante, se debe de ser muy precavido alejecutar o abrir ficheros adjuntos de origen desconocido o sospechoso.Además, la estafeta de correo-e de la UJA dispone de un sistemaantivirus que bloquea aquellos ficheros adjuntos infectados. </Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=177&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>
