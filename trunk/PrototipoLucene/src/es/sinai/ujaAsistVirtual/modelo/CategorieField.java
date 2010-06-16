@@ -34,11 +34,15 @@ public class CategorieField extends DocumentField {
 	public void parse(BufferedReader file, String buffer) {
 		Pattern pat = Pattern.compile(REGEX_FIELD);
 		Matcher mat = pat.matcher(buffer);
-		content = null;
+		String aux = null;
 		if(mat.find()) {
-			content = mat.group(1).trim();
-			content = content.replaceAll("\\s+"," ");
+			aux = mat.group(1).trim();
+			aux = aux.replaceAll("\\s+"," ");
 		}
+		if(content == null)
+			content = aux;
+		else
+			content += " " + aux;
 	}
 
 

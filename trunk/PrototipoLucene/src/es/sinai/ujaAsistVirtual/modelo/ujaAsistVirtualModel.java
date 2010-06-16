@@ -12,7 +12,6 @@ import java.util.Vector;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Field;
-
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorio;
 import es.sinai.ujaAsistVirtual.exceptions.NoDirectorioNoLeer;
 

@@ -26,7 +26,7 @@ public class AppUjaAsistVirtual {
 
 	
 	
-	
+
 //Atributos
 	
 	private String[] args;
@@ -45,19 +45,19 @@ public class AppUjaAsistVirtual {
 	}
 	
 	private void index() throws Exception {
-		System.out.println("\nComienza la indexaci髇...\n");
+		System.out.println("\nComienza la indexaci贸n...\n");
 		modelo.initIndexDocs();
 		modelo.indexDocs();
-		System.out.println("\nFin de la indexaci髇...\n");
+		System.out.println("\nFin de la indexaci贸n...\n");
 	}
 	
 	private void printHeaderSearch() {
-		System.out.println("\nBienvenido al prototipo de motor de b鷖queda de un asistente virtual");
+		System.out.println("\nBienvenido al prototipo de motor de b煤squeda de un asistente virtual");
 		System.out.println("----------------------------------------------------------------------\n");
 	}
 	
 	private void printSearchResultsHeader() {
-		System.out.println("\nLos resultados de la b鷖queda son:");
+		System.out.println("\nLos resultados de la b煤squeda son:");
 		System.out.println("----------------------------------------------------------------------\n");
 	}
 	
@@ -67,42 +67,45 @@ public class AppUjaAsistVirtual {
 		
 		ScoreDoc match = modelo.getSearch().getResult().scoreDocs[id];
 		Document doc = modelo.getSearch().getDocument(match.doc);
-		System.out.println("----------------------------------------------------------------------\n");
 		System.out.println("Resultado: " + id + ":");
-		System.out.println(doc.get("\tPregunta: " + doc.get(PropertiesName.QUESTION_NAME.toString())));
-		System.out.println(doc.get("\tRespuesta: " + doc.get(PropertiesName.ANSWER_NAME.toString())));
+		String fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_NAME);
+		System.out.println("\tPregunta: " + doc.get(fieldName));
+		fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_NAME);
+		System.out.println("\tRespuesta: " + doc.get(fieldName));
 		
 	}
 	
-	private void printExplanation() {
-		Explanation[] expResults = modelo.getSearch().getExplicationResults();
-		System.out.println("Detalle resultado: ");
-		System.out.println(expResults.toString());
+	private void printExplanation(int id) {
+		Explanation expResult = modelo.getSearch().getExplicationResults()[id];
+		System.out.print("Detalle resultado: ");
+		System.out.println(expResult.toString());
 	}
 	
 	private void search() throws Exception {
 		modelo.initSearchDocs();
 		printHeaderSearch();
-		String userQuery = "";
+		System.out.println("Buscar (NO para salir): ");
+		Scanner sc = new Scanner(System.in);
+		String userQuery = sc.nextLine();
 		while (!userQuery.equals("NO")) {
-			System.out.println("Buscar (NO para salir): ");
-			Scanner sc = new Scanner(System.in);
-			userQuery = sc.nextLine();
 			modelo.searchDocs(userQuery);
-			for(int i = 0; i < modelo.getSearch().getResult().totalHits; i++) {
-				printSearchResultsHeader();
-				printSearchResult(i+1);
+			printSearchResultsHeader();
+			for(int i = 0; i < modelo.getSearch().getResult().scoreDocs.length; i++) {
+				printSearchResult(i);
 				if(ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_EXPLANATION).equals("YES")) {
-					printExplanation();
+					printExplanation(i);
 				}
 			}
+			System.out.print("Buscar (NO para salir): ");
+			userQuery = sc.nextLine();
 		}
+		modelo.getSearch().close();
 	}
 	
 	private void ErrUse() {
 		System.out.println("La forma de utilizar este prototipo es: ");
-		System.out.println("Para indexar: PrototipoLucene -i <Ruta fichero configuraci髇.>");
-		System.out.println("Para buscar: PrototipoLucene -s <Ruta fichero configuraci髇.>");
+		System.out.println("Para indexar: PrototipoLucene -i <Ruta fichero configuraci贸n.>");
+		System.out.println("Para buscar: PrototipoLucene -s <Ruta fichero configuraci贸n.>");
 	}
 	
 	public void execApp() {

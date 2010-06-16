@@ -17,10 +17,7 @@ public enum PropertiesName {
 	 */
 	ANALYZER,
 	
-	/**
-	 * 
-	 */
-	SEARCH_ANALYZER,
+	
 	
 	/**
 	 * Lenguaje en el que están escritos los documentos de la colección.
@@ -40,7 +37,7 @@ public enum PropertiesName {
 	PATH_FILES_TO_INDEX,
 	
 	/**
-	 * Ruta de salida del �ndice.
+	 * Ruta de salida del �ndice.
 	 */
 	PATH_OUTPUT_INDEX,
 	
@@ -123,6 +120,11 @@ public enum PropertiesName {
 	
 	URL_TERM_VECTOR,
 	
+	/**
+	 * 
+	 */
+	SEARCH_ANALYZER,
+	
 	SEARCH_FIELD,
 	
 	SEARCH_INDEX,
@@ -143,7 +145,7 @@ public enum PropertiesName {
 			
 			case PATH_OUTPUT_INDEX: return("path_output_index");
 			
-			case CATEGORIE_NAME:return("categorie");
+			case CATEGORIE_NAME:return("categorie.name");
 			
 			case CATEGORIE_STORE:return("categorie.store");
 			
@@ -151,7 +153,7 @@ public enum PropertiesName {
 			
 			case CATEGORIE_TERM_VECTOR:return("categorie.term_vector");
 			
-			case QUESTION_NAME:return("question");
+			case QUESTION_NAME:return("question.name");
 			
 			case QUESTION_STORE:return("question.store");
 			
@@ -159,7 +161,7 @@ public enum PropertiesName {
 			
 			case QUESTION_TERM_VECTOR:return("question.term_vector");
 			
-			case ANSWERINDEX_NAME:return("answerIndex");
+			case ANSWERINDEX_NAME:return("answerIndex.name");
 			
 			case ANSWERINDEX_STORE:return("answerindex.store");
 			
@@ -167,7 +169,7 @@ public enum PropertiesName {
 			
 			case ANSWERINDEX_TERM_VECTOR:return("answerindex.term_vector");
 			
-			case ANSWER_NAME:return("answer");
+			case ANSWER_NAME:return("answer.name");
 			
 			case ANSWER_STORE:return("answer.store");
 			
@@ -175,7 +177,7 @@ public enum PropertiesName {
 			
 			case ANSWER_TERM_VECTOR:return("answer.term_vector");
 			
-			case URL_NAME:return("url");
+			case URL_NAME:return("url.name");
 			
 			case URL_STORE:return("url.store");
 			

@@ -1,7 +1,10 @@
-#Fichero de configuración para la búsqueda
+#Fichero de configuraciÃ³n para la bÃºsqueda
 language=Spanish
 search_analyzer=SnowballAnalyzer
+path_stopper=exec/stopper/spanishSmart.txt
 search_field=question
-search_index=exec\index
+search_index=exec/index
 search_n_results=10
 search_explanation=YES
+question.name=question
+answer.name=answer

@@ -26,9 +26,9 @@ public class FactorySnowballAnalyzer implements FactoryAnalyzer {
 	
 	private String getName(String language) {
 		if(language.equals("english") || language.equals("English"))
-			return("EnglishStemmer");
+			return("English");
 		else if(language.equals("spanish") || (language.equals("Spanish")))
-			return("SpanishStemmer");
+			return("Spanish");
 		else
 			return (null);
 	}

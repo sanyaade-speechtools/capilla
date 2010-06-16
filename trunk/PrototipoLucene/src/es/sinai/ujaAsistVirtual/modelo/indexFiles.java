@@ -117,6 +117,9 @@ public class indexFiles {
 		isDirectory(aPathIndex);
 		
 		File fIndex = new File(aPathIndex);
+		//writer = new IndexWriter(FSDirectory.open(fIndex),analyzer,CREATE,
+			//	IndexWriter.MaxFieldLength.LIMITED);
+		
 		writer = new IndexWriter(FSDirectory.open(fIndex),analyzer,CREATE,
 				IndexWriter.MaxFieldLength.LIMITED);
 		
@@ -129,7 +132,7 @@ public class indexFiles {
 		File f = new File(aPath);
 		
 		if(!f.isDirectory() && !f.canRead()) {
-			String mss = "El directorio no existe o no se puede leer, comprue" +
+			String mss = "La ruta " + aPath + " no corresponde a un directorio o no se puede leer, comprue" +
 			"belo por favor.";
 			throw new NoDirectorioNoLeer(mss);
 		}
@@ -139,7 +142,7 @@ public class indexFiles {
 		File f = new File(aPath);
 		
 		if(!f.isDirectory()) {
-			String mss = "La ruta no corresponde a la de un directorio, " +
+			String mss = "La ruta " + aPath + " no corresponde a la de un directorio, " +
 					"compruebelo por favor";
 			throw new NoDirectorio(mss);
 		}
@@ -150,12 +153,12 @@ public class indexFiles {
 	}
 	
 	private void runDirectory(File file) throws IOException {
-		if(file.canRead()) {
+		if(file.canRead() && !file.getName().startsWith(".")) {
 			if(file.isDirectory()) {
 				String[] listNames = file.list();
 				if(listNames != null) {//SI HAY UN I/O ERROR POR AHORA NO SE CONTROLA
 					for(int i = 0; i < listNames.length; i++) {
-						File fich = new File(listNames[i]);
+						File fich = new File(file, listNames[i]);
 						runDirectory(fich);
 					}
 				}
@@ -181,13 +184,12 @@ public class indexFiles {
 					evaluatedField = false;
 					i = 0;
 				}
-				
 				Document doc = new Document();
 				i = 0;
 				while( i < nFields ) {
 					field = fields.get(i);
 					doc.add(new Field(field.getName(), field.getContent(),
-							field.getStore(), field.getIndex()));
+							field.getStore(), field.getIndex(), field.getTermVector()));
 					i++;
 				}
 				
@@ -199,6 +201,7 @@ public class indexFiles {
 	public void indexDocs() throws IOException {
 		File file = new File(pathFiles);
 		runDirectory(file);
+		writer.close();
 	}
 	
 	
