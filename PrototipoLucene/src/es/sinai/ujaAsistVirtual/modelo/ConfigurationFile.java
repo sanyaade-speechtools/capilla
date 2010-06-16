@@ -22,16 +22,13 @@ public class ConfigurationFile {
 	
 	private static ConfigurationFile singleton = new ConfigurationFile();
 	
-	private Properties properties;
+	private Properties properties = null;
 	
 	//--------------------------------------------------------------------------
 	
 	//Métodos
 	
 
-	private ConfigurationFile () {
-		singleton.properties = null;
-	}
 
 	
 	

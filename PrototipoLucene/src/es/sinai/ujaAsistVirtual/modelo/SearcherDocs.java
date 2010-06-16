@@ -17,6 +17,7 @@ import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
@@ -47,7 +48,7 @@ public class SearcherDocs {
 	
 	private void createExplanation(Query query, IndexSearcher searcher) throws IOException {
 		explicationResults = new Explanation[result.totalHits];
-		for(int i = 0; i < result.totalHits; i++) {
+		for(int i = 0; i < result.scoreDocs.length; i++) {
 			ScoreDoc match = result.scoreDocs[i];
 			explicationResults[i] = searcher.explain(query, match.doc);
 		}

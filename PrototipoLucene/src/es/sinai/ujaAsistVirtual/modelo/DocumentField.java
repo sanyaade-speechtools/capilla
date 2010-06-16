@@ -20,15 +20,15 @@ public abstract class DocumentField {
 	
 	//atributos
 	
-	protected Field.Store store;
+	protected Field.Store store = null;
 	
-	protected Field.Index index;
+	protected Field.Index index = null;
 	
-	protected Field.TermVector termVector;
+	protected Field.TermVector termVector = null;
 	
-	protected String name;
+	protected String name = null;
 	
-	protected String content;
+	protected String content = null;
 		
 	//--------------------------------------------------------------------------
 	
