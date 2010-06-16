@@ -13,6 +13,11 @@ package es.sinai.ujaAsistVirtual.exceptions;
 public class NoDirectorio extends Exception {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
 	 * @param arg0
 	 */
 	public NoDirectorio(String arg0) {

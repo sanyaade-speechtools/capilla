@@ -10,9 +10,12 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-import es.sinai.ujaAsistVirtual.exceptions.NoDirectorio;
-import es.sinai.ujaAsistVirtual.exceptions.NoDirectorioNoLeer;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.index.CorruptIndexException;
+import org.apache.lucene.search.Explanation;
+import org.apache.lucene.search.ScoreDoc;
 import es.sinai.ujaAsistVirtual.modelo.ConfigurationFile;
+import es.sinai.ujaAsistVirtual.modelo.PropertiesName;
 import es.sinai.ujaAsistVirtual.modelo.ujaAsistVirtualModel;
 
 /**
@@ -31,7 +34,7 @@ public class AppUjaAsistVirtual {
 	private ujaAsistVirtualModel modelo;
 	
 	
-	public AppUjaAsistVirtual (String[] aArgs) throws Exception  {
+	public AppUjaAsistVirtual (String[] aArgs) {
 		args = aArgs;
 		
 		modelo = new ujaAsistVirtualModel();
@@ -53,6 +56,30 @@ public class AppUjaAsistVirtual {
 		System.out.println("----------------------------------------------------------------------\n");
 	}
 	
+	private void printSearchResultsHeader() {
+		System.out.println("\nLos resultados de la búsqueda son:");
+		System.out.println("----------------------------------------------------------------------\n");
+	}
+	
+	
+	
+	private void printSearchResult(int id) throws CorruptIndexException, IOException {
+		
+		ScoreDoc match = modelo.getSearch().getResult().scoreDocs[id];
+		Document doc = modelo.getSearch().getDocument(match.doc);
+		System.out.println("----------------------------------------------------------------------\n");
+		System.out.println("Resultado: " + id + ":");
+		System.out.println(doc.get("\tPregunta: " + doc.get(PropertiesName.QUESTION_NAME.toString())));
+		System.out.println(doc.get("\tRespuesta: " + doc.get(PropertiesName.ANSWER_NAME.toString())));
+		
+	}
+	
+	private void printExplanation() {
+		Explanation[] expResults = modelo.getSearch().getExplicationResults();
+		System.out.println("Detalle resultado: ");
+		System.out.println(expResults.toString());
+	}
+	
 	private void search() throws Exception {
 		modelo.initSearchDocs();
 		printHeaderSearch();
@@ -62,7 +89,20 @@ public class AppUjaAsistVirtual {
 			Scanner sc = new Scanner(System.in);
 			userQuery = sc.nextLine();
 			modelo.searchDocs(userQuery);
+			for(int i = 0; i < modelo.getSearch().getResult().totalHits; i++) {
+				printSearchResultsHeader();
+				printSearchResult(i+1);
+				if(ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_EXPLANATION).equals("YES")) {
+					printExplanation();
+				}
+			}
 		}
+	}
+	
+	private void ErrUse() {
+		System.out.println("La forma de utilizar este prototipo es: ");
+		System.out.println("Para indexar: PrototipoLucene -i <Ruta fichero configuración.>");
+		System.out.println("Para buscar: PrototipoLucene -s <Ruta fichero configuración.>");
 	}
 	
 	public void execApp() {
@@ -75,11 +115,13 @@ public class AppUjaAsistVirtual {
 				index();
 			} else if(args[0].equals(ValidInputArguments.SEARCH1.toString())) {
 				loadProperties(args[1]);
+				search();
 				
 			} else if(args[0].contains(ValidInputArguments.SEARCH2.toString())) {
 				loadProperties(args[1].split("=")[1]);
+				search();
 			} else {
-			
+				ErrUse();
 			}
 		} catch(Exception e) {
 			e.printStackTrace();

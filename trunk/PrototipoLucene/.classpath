@@ -5,9 +5,5 @@
 	<classpathentry kind="lib" path="libs/lucene-core-3.0.1.jar"/>
 	<classpathentry kind="lib" path="libs/lucene-snowball-3.0.1-javadoc.jar"/>
 	<classpathentry kind="lib" path="libs/lucene-snowball-3.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/lucene-queryparser-3.0.1-javadoc.jar"/>
-	<classpathentry kind="lib" path="libs/lucene-queryparser-3.0.1.jar"/>
-	<classpathentry kind="lib" path="libs/lucene-surround-3.0.1-javadoc.jar"/>
-	<classpathentry kind="lib" path="libs/lucene-surround-3.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
