@@ -2,8 +2,8 @@
 language=Spanish
 search_analyzer=SnowballAnalyzer
 path_stopper=exec/stopper/spanishSmart.txt
-search_field=question, categorie
-search_field_appear=SHOULD, SHOULD
+search_field=categorie,question
+search_field_appear=SHOULD,SHOULD
 search_index=exec/index
 search_n_results=10
 search_explanation=YES
