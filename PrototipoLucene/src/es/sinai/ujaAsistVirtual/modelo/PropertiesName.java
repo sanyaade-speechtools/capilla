@@ -127,6 +127,8 @@ public enum PropertiesName {
 	
 	SEARCH_FIELD,
 	
+	SEARCH_FIELD_APPEAR,
+	
 	SEARCH_INDEX,
 	
 	SEARCH_N_RESULTS,
@@ -188,6 +190,8 @@ public enum PropertiesName {
 			case SEARCH_ANALYZER:{return("search_analyzer");}
 			
 			case SEARCH_FIELD:return("search_field");
+			
+			case SEARCH_FIELD_APPEAR:return("search_field_appear");
 			
 			case SEARCH_INDEX:return("search_index");
 			

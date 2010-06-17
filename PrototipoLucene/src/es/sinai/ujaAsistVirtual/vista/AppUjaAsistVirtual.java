@@ -72,6 +72,8 @@ public class AppUjaAsistVirtual {
 		System.out.println("\tPregunta: " + doc.get(fieldName));
 		fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_NAME);
 		System.out.println("\tRespuesta: " + doc.get(fieldName));
+		fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.URL_NAME);
+		System.out.println("\tUrl: " + doc.get(fieldName));
 		
 	}
 	
@@ -99,6 +101,7 @@ public class AppUjaAsistVirtual {
 			System.out.print("Buscar (NO para salir): ");
 			userQuery = sc.nextLine();
 		}
+		sc.close();
 		modelo.getSearch().close();
 	}
 	
