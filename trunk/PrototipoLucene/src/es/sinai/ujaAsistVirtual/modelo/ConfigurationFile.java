@@ -40,4 +40,8 @@ public class ConfigurationFile {
 	public static String getPropetiesValue(PropertiesName pn) {
 		return(singleton.properties.getProperty(pn.toString()));
 	}
+	
+	public static String[] getPropertiesWithMultipleValues(PropertiesName pn) {
+		return(singleton.properties.getProperty(pn.toString()).split(","));
+	}
 }

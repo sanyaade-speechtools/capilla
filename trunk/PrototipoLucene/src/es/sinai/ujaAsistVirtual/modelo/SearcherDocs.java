@@ -11,7 +11,9 @@ import java.io.IOException;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.CorruptIndexException;
+import org.apache.lucene.queryParser.MultiFieldQueryParser;
 import org.apache.lucene.queryParser.QueryParser;
+import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.Explanation;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -54,11 +56,23 @@ public class SearcherDocs {
 		}
 	}
 	
+	private BooleanClause.Occur[] getFieldsOccur() {
+		String[] namesOccurs = ConfigurationFile.getPropertiesWithMultipleValues(PropertiesName.SEARCH_FIELD_APPEAR);
+		BooleanClause.Occur[] occurs = new BooleanClause.Occur[namesOccurs.length];
+		for(int i = 0; i < occurs.length; i++) {
+			if(namesOccurs[i].equals("MUST"))
+				occurs[i] = BooleanClause.Occur.MUST;
+			else if (namesOccurs[i].equals("SHOULD"))
+				occurs[i] = BooleanClause.Occur.SHOULD;
+			else
+				occurs[i] = BooleanClause.Occur.MUST_NOT;
+		}
+		return(occurs);
+	}
+	
 	public void search(String userQuery) throws Exception {
-		
-		String defaultField = ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_FIELD);
-		QueryParser parser = new QueryParser(Version.LUCENE_30, defaultField, analyzer);
-		Query query = parser.parse(userQuery);
+		String[] defaultFields = ConfigurationFile.getPropertiesWithMultipleValues(PropertiesName.SEARCH_FIELD);		
+		Query query = MultiFieldQueryParser.parse(Version.LUCENE_30,userQuery,defaultFields,getFieldsOccur(),analyzer);
 		
 		FSDirectory directory = FSDirectory.open(new File(pathIndex));
 		searcher = new IndexSearcher(directory);
@@ -67,7 +81,7 @@ public class SearcherDocs {
 		createExplanation(query,searcher);
 	}
 	
-	public void close() throws IOException{searcher.close();}
+	public void close() throws IOException{if(searcher!=null)searcher.close();}
 	
 	public Document getDocument(int id) throws CorruptIndexException, IOException{
 		return(searcher.doc(id));
