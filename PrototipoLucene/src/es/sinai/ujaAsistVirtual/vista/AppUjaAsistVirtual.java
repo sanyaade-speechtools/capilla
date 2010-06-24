@@ -59,6 +59,7 @@ public class AppUjaAsistVirtual {
 	private void printSearchResultsHeader() {
 		System.out.println("\nLos resultados de la búsqueda son:");
 		System.out.println("----------------------------------------------------------------------\n");
+		System.out.println("Tiempo de busqueda: " + modelo.getSearch().getTime() + "ms");
 	}
 	
 	
@@ -67,7 +68,7 @@ public class AppUjaAsistVirtual {
 		
 		ScoreDoc match = modelo.getSearch().getResult().scoreDocs[id];
 		Document doc = modelo.getSearch().getDocument(match.doc);
-		System.out.println("Resultado: " + id + ": Puntuación: " + match.score);
+		System.out.println("Resultado: " + id + ":\nPuntuación: " + match.score);
 		String fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.QUESTION_NAME);
 		System.out.println("\tPregunta: " + doc.get(fieldName));
 		fieldName = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_NAME);

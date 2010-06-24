@@ -120,6 +120,14 @@ public enum PropertiesName {
 	
 	URL_TERM_VECTOR,
 	
+	LINK_NAME,
+	
+	LINK_STORE,
+	
+	LINK_INDEX,
+	
+	LINK_TERM_VECTOR,
+	
 	/**
 	 * 
 	 */
@@ -186,6 +194,14 @@ public enum PropertiesName {
 			case URL_INDEX:return("url.index");
 			
 			case URL_TERM_VECTOR:return("url.term_vector");
+			
+			case LINK_NAME:return("link.name");
+			
+			case LINK_STORE:return("link.store");
+			
+			case LINK_INDEX:return("link.index");
+			
+			case LINK_TERM_VECTOR:return("link.term_vector");
 			
 			case SEARCH_ANALYZER:{return("search_analyzer");}
 			

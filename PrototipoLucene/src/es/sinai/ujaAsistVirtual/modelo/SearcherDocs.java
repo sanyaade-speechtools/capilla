@@ -42,6 +42,8 @@ public class SearcherDocs {
 	
 	private Explanation[] explicationResults;
 	
+	private long time=0;
+	
 	public SearcherDocs(String aPathIndex, Analyzer aAnalyzer) {
 		pathIndex = new String(aPathIndex);
 		analyzer = aAnalyzer;
@@ -77,7 +79,10 @@ public class SearcherDocs {
 		FSDirectory directory = FSDirectory.open(new File(pathIndex));
 		searcher = new IndexSearcher(directory);
 		int nResults = Integer.parseInt(ConfigurationFile.getPropetiesValue(PropertiesName.SEARCH_N_RESULTS));
+		long start = System.currentTimeMillis();
 		result = searcher.search(query, nResults);
+		long end = System.currentTimeMillis();
+		time = end - start;
 		createExplanation(query,searcher);
 	}
 	
@@ -94,4 +99,6 @@ public class SearcherDocs {
 	public Explanation[] getExplicationResults() {
 		return (explicationResults);
 	}
+	
+	public long getTime(){return (time);}
 }

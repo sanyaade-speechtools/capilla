@@ -1,0 +1,200 @@
+Test 2
+
+Anotaciones: Anotaciones los dos primeros resultados son los m�s relevantes.
+
+Pregunta: configurar rimuja en windows
+
+Tiempo de busqueda: 1ms
+Resultado: 0:
+Puntuación: 1.2376444
+	Pregunta: como debo configurar mi tarjeta inalambrica para poder conectarme a rimuja
+	Respuesta:  Debes <a href="http://www.ujaen.es/sci/redes/rimuja/guias/pasos.htm"> configurar la tarjeta de red </a>  siguiendo la información que se describe en las guías prácticas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=218&artlang=es
+Detalle resultado: 1.2376444 = (MATCH) product of:
+  1.8564665 = (MATCH) sum of:
+    1.0395006 = (MATCH) weight(question:configur in 347), product of:
+      0.6157889 = queryWeight(question:configur), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.136795 = queryNorm
+      1.6880796 = (MATCH) fieldWeight(question:configur in 347), product of:
+        1.0 = tf(termFreq(question:configur)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=347)
+    0.816966 = (MATCH) weight(question:rimuj in 347), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.4965199 = (MATCH) fieldWeight(question:rimuj in 347), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=347)
+  0.6666667 = coord(2/3)
+
+Resultado: 1:
+Puntuación: 1.0313704
+	Pregunta: como debo configurar mi tarjeta inalambrica para poder conectarme a rimuja web
+	Respuesta:  Debes <a href="http://www.ujaen.es/sci/redes/rimujaweb/guias/pasos.htm"> configurar la tarjeta de red </a>  siguiendo la información que se describe en las guías prácticas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=64&id=380&artlang=es
+Detalle resultado: 1.0313704 = (MATCH) product of:
+  1.5470555 = (MATCH) sum of:
+    0.86625046 = (MATCH) weight(question:configur in 358), product of:
+      0.6157889 = queryWeight(question:configur), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.136795 = queryNorm
+      1.4067329 = (MATCH) fieldWeight(question:configur in 358), product of:
+        1.0 = tf(termFreq(question:configur)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=358)
+    0.68080497 = (MATCH) weight(question:rimuj in 358), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.2470999 = (MATCH) fieldWeight(question:rimuj in 358), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=358)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+Puntuación: 0.855272
+	Pregunta: cuando intento conectarme el cliente vpn me da un mensaje informativo indicando que el protector de pantalla de windows no esta correctamente configurado
+	Respuesta:  Por motivos de seguridad, el servidor VPN estáconfigurado para que el protector de pantalla se active y esté protegido porcontraseña cuando transcurra un máximo de 30 minutos sin actividad en el PC. Mientrasel protector de pantalla no esté correctamente configurado, el cliente VPN no permitirá establecerla conexión. Cómo configurarlo en Windows XP Pulse con el botón derecho sobre el escritorio y seleccione Propiedades.En la pestaña Protector de Pantalla, configure el tiempo de espera a menosde 30 minutos. Además, active la contraseña para el protector de pantalla. En Windows XP debe marcar la casillaMostrar pantalla debienvenida al volver. Cómo configurarlo en Windows VISTA Entre en el botón de Inicio - Panel de Control - Personalización - Protector de Pantalla. Configure el tiempo de espera a menos de 30 minutos. Además es imprescindible que esté marcada la casilla "Mostrar la pantalla de inicio de sesión al reanudar". IMPORTANTE: En ambos casos (XP y VISTA), si los cambios nofuncionan y sigue apareciendo la ventana de error, siga estos pasos: Desactive la contraseña en el Protector dePantalla. Acepte los cambios y salga de la ventana deconfiguración del Protector de Pantalla. Vuelva a entrar en la configuración delprotector de pantalla y active de nuevo la contraseña. Aplique todos los cambios y vuelva a realizarla conexión VPN.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=18&artlang=es
+Detalle resultado: 0.855272 = (MATCH) product of:
+  1.282908 = (MATCH) sum of:
+    0.6930004 = (MATCH) weight(question:configur in 10), product of:
+      0.6157889 = queryWeight(question:configur), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.136795 = queryNorm
+      1.1253864 = (MATCH) fieldWeight(question:configur in 10), product of:
+        1.0 = tf(termFreq(question:configur)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.25 = fieldNorm(field=question, doc=10)
+    0.58990765 = (MATCH) weight(question:windows in 10), product of:
+      0.5681423 = queryWeight(question:windows), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.136795 = queryNorm
+      1.0383097 = (MATCH) fieldWeight(question:windows in 10), product of:
+        1.0 = tf(termFreq(question:windows)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.25 = fieldNorm(field=question, doc=10)
+  0.6666667 = coord(2/3)
+
+Resultado: 3:
+Puntuación: 0.46200025
+	Pregunta: como puedo configurar mi perfil
+	Respuesta:  Existen dos métodos para <a href="http://www.ujaen.es/sci/redes/email/perfiles.html" target="_blank">crear un perfil de usuario</a> en Mozilla : M anualmente, utilizando el administrador de perfiles de Mozilla Automáticamente, utilizando el programa Profiles del S ervicio de Informática (recomendado)
+	Url: faq.ujaen.es/index.php?action=artikel&cat=41&id=85&artlang=es
+Detalle resultado: 0.46200025 = (MATCH) product of:
+  1.3860008 = (MATCH) sum of:
+    1.3860008 = (MATCH) weight(question:configur in 212), product of:
+      0.6157889 = queryWeight(question:configur), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.136795 = queryNorm
+      2.2507727 = (MATCH) fieldWeight(question:configur in 212), product of:
+        1.0 = tf(termFreq(question:configur)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=212)
+  0.33333334 = coord(1/3)
+
+Resultado: 4:
+Puntuación: 0.40425023
+	Pregunta: por que no puedo navegar si tengo la tarjeta inalambrica bien configurada
+	Respuesta:  Una vez que hayas configurado correctamente la tarjeta debes conectarte a la red e introducir tus credenciales (usuario y contraseña), a continuación debes esperar unos instantes a que se conecte el equipo y que el icono de conexión inalámbrica de la bandeja del sistema debe indicar que se ha establecido la conexión.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=241&artlang=es
+Detalle resultado: 0.40425023 = (MATCH) product of:
+  1.2127507 = (MATCH) sum of:
+    1.2127507 = (MATCH) weight(question:configur in 335), product of:
+      0.6157889 = queryWeight(question:configur), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.136795 = queryNorm
+      1.9694262 = (MATCH) fieldWeight(question:configur in 335), product of:
+        1.0 = tf(termFreq(question:configur)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=335)
+  0.33333334 = coord(1/3)
+
+Resultado: 5:
+Puntuación: 0.38512146
+	Pregunta: mi equipo se desconecta de rimuja o de rimuja web pasado un tiempo que puede estar ocurriendo
+	Respuesta:  RIMUJA está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 15 minutos inactiva. RIMUJA-WEB está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 5 minutos inactiva.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=249&artlang=es
+Detalle resultado: 0.38512146 = (MATCH) product of:
+  1.1553644 = (MATCH) sum of:
+    1.1553644 = (MATCH) weight(question:rimuj in 342), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      2.1163988 = (MATCH) fieldWeight(question:rimuj in 342), product of:
+        1.4142135 = tf(termFreq(question:rimuj)=2)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=342)
+  0.33333334 = coord(1/3)
+
+Resultado: 6:
+Puntuación: 0.363096
+	Pregunta: que dispositivos puedo conectar a rimuja
+	Respuesta:  Ordenadores portátiles, Pocket Pc, PDA s etc. En general cualquier dispositivo que soporte las especificaciones técnicas y los <a href="http://www.ujaen.es/sci/redes/rimuja/requisitos.htm"> requisitos de RIMUJA. </a>   En principio, el Servicio de Informática sólo dará soporte a ordenadores portátiles.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=214&artlang=es
+Detalle resultado: 0.363096 = (MATCH) product of:
+  1.089288 = (MATCH) sum of:
+    1.089288 = (MATCH) weight(question:rimuj in 345), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:rimuj in 345), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=345)
+  0.33333334 = coord(1/3)
+
+Resultado: 7:
+Puntuación: 0.363096
+	Pregunta: como se si mi tarjeta inalambrica es compatible con rimuja
+	Respuesta:  Debes comprobar que tu tarjeta soporta WPA. Mira <a href="http://www.ujaen.es/sci/redes/rimuja/requisitos.htm"> este enlace </a>   para revisar los requisitos necesarios y la forma de comprobar la compatibilidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=216&artlang=es
+Detalle resultado: 0.363096 = (MATCH) product of:
+  1.089288 = (MATCH) sum of:
+    1.089288 = (MATCH) weight(question:rimuj in 346), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:rimuj in 346), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=346)
+  0.33333334 = coord(1/3)
+
+Resultado: 8:
+Puntuación: 0.363096
+	Pregunta: es segura la comunicacion a traves de rimuja
+	Respuesta:  El envío del usuario y contraseña entre tu equipo portátil, y los puntos de acceso, se realiza usando WPA y EAP-TTLS por lo que toda la información entre los puntos de acceso y tu equipo está cifrada. No obstante, la información que se transmite a Internet podrá ser o no cifrada dependiendo del servicio y/o protocolo que se utilice.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=227&artlang=es
+Detalle resultado: 0.363096 = (MATCH) product of:
+  1.089288 = (MATCH) sum of:
+    1.089288 = (MATCH) weight(question:rimuj in 349), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:rimuj in 349), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=349)
+  0.33333334 = coord(1/3)
+
+Resultado: 9:
+Puntuación: 0.363096
+	Pregunta: desconexion automatica de rimuja
+	Respuesta:  RIMUJA está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 15 minutos inactiva. Si el equipo portátil es usado por una sola persona, se puede configurar el cliente SecureW2 para que guarde la configuración del usuario dentro del equipo y así no es necesario introducir los datos cada vez que se desconecte. El Servicio de Informática NO RECOMIENDA esta práctica ya que con ello se crea la posibilidad de conexión a RIMUJA de cualquier persona que acceda al equipo portátil, usando las credenciales que el sistema tenga archivadas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=229&artlang=es
+Detalle resultado: 0.363096 = (MATCH) product of:
+  1.089288 = (MATCH) sum of:
+    1.089288 = (MATCH) weight(question:rimuj in 350), product of:
+      0.54591054 = queryWeight(question:rimuj), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.136795 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:rimuj in 350), product of:
+        1.0 = tf(termFreq(question:rimuj)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=350)
+  0.33333334 = coord(1/3)
