@@ -32,7 +32,7 @@ public class UrlField extends DocumentField {
 	 */
 	@Override
 	public void parse(BufferedReader file, String buffer) throws IOException {
-		content = buffer;
+		content = new String(buffer);
 		while(!buffer.contains(FIELD2)) {
 			buffer = file.readLine();
 			content += buffer;

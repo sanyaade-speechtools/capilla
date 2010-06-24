@@ -38,7 +38,6 @@ public class AnswerField extends DocumentField {
 			buffer = file.readLine();
 			content += " " + buffer;
 		}
-		content += buffer;
 		content = content.replace(FIELD2, "");
 		content = content.replaceAll("\\n+", " ");
 		content = content.replaceAll("\\s+", " ");

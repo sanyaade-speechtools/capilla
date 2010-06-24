@@ -51,7 +51,7 @@ public class ujaAsistVirtualModel {
 			return(null);
 		
 	}
-	
+		
 	//Esta función debería de ponerse en otro sitio. Hay q pensarlo
 	private Vector<DocumentField> getVectorFields() {
 		Vector<DocumentField> vFields = new Vector<DocumentField>();
@@ -105,6 +105,20 @@ public class ujaAsistVirtualModel {
 		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.ANSWER_TERM_VECTOR);
 		
 		field = new AnswerField();
+		field.setName(name);
+		field.setIndex(Field.Index.valueOf(index));
+		field.setStore(Field.Store.valueOf(store));
+		field.setTermVector(Field.TermVector.valueOf(termVector));
+		vFields.add(field);
+		
+		//Campo Link
+		
+		name = ConfigurationFile.getPropetiesValue(PropertiesName.LINK_NAME);
+		index = ConfigurationFile.getPropetiesValue(PropertiesName.LINK_INDEX);
+		store = ConfigurationFile.getPropetiesValue(PropertiesName.LINK_STORE);
+		termVector = ConfigurationFile.getPropetiesValue(PropertiesName.LINK_TERM_VECTOR);
+		
+		field = new LinkField();
 		field.setName(name);
 		field.setIndex(Field.Index.valueOf(index));
 		field.setStore(Field.Store.valueOf(store));
