@@ -1,0 +1,186 @@
+Test7
+Indexado: Question
+
+Anotaciones: No hay buenos resultados porque no hay documentos que respondan a la
+pregunta que se plantea
+
+Pregunta: se me ha roto el ordenador del despacho. ¿Quién me lo soluciona?
+
+Tiempo de busqueda: 11ms
+Resultado: 0:
+Puntuación: 0.905754
+	Pregunta: como accedo al ordenador de mi despacho desde casa
+	Respuesta:  Para acceder al ordenador de su despacho, necesita haceruso de la Conexión a Escritorio Remoto. Pulse en el siguiente enlace para obtener información detallada: <a href="http://www.ujaen.es/sci/redes/vpn/esc_remoto.html">Conexión a Escritorio Remoto </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=39&artlang=es
+Detalle resultado: 0.905754 = (MATCH) product of:
+  2.264385 = (MATCH) sum of:
+    0.6738057 = (MATCH) weight(question:orden in 19), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      2.0480402 = (MATCH) fieldWeight(question:orden in 19), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=19)
+    1.5905793 = (MATCH) weight(question:despach in 19), product of:
+      0.505483 = queryWeight(question:despach), product of:
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.080320746 = queryNorm
+      3.1466525 = (MATCH) fieldWeight(question:despach in 19), product of:
+        1.0 = tf(termFreq(question:despach)=1)
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=19)
+  0.4 = coord(2/5)
+
+Resultado: 1:
+Puntuación: 0.117916
+	Pregunta: que son las pantallas azules que aparecen cuando se arrancan los ordenadores
+	Respuesta:  Todas las aulas de informática del Servicio de Informática disponen de unsistema llamado rembo mediante el cual, cada vez que un ordenadorarranca o se reinicia, se restaura automáticamente todo el contenido de launidad C: a su configuración original. Esto quiere decir que cualquiercambio que se haga en la unidad C: (es decir, borrar, copiar, mover o modificarcualquier fichero o configuración en esa unidad) se va a perder en cuanto elordenador se reinicie. Las pantallas azules que aparecen al arrancar elordenador son las que se encargan de realizar esa restauración de la unidad C. Gracias a este sistemapodemos garantizarle que cada vez que usted o alguno de sus alumnos encienda unordenador del aula lo va a encontrar en perfecto estado de funcionamiento (salvoque tuviera alguna avería hardware). Si necesita escribir algún fichero que permanezca en el equipo aunque se reinicie oapague el ordenador deberá escribirlo en la unidad D: Esta unidad no sufreninguna modificación y puede usarla tranquilamente sin temor a perder ningúndato. Sin embargo, debe tener en cuenta que si tras terminar su clase deja sus datos enla unidad D: cualquier otro alumno o profesor que vuelva a utilizar eseequipo podrá ver esos datos e incluso modificarlos y borrarlosdefinitivamente. Igualmente el Servicio de Informática se reserva el derecho deeliminar de forma periódica y por labores de mantenimiento, el contenido de launidad D: Adicionalmente además de la citada unidad D: puede utilizar para grabar sus archivos cualquier dispositivo con conexión USB, la disquetera de 3" y 1/2, o bien su <a href="index.php?action=show cat=8">espacio en disco personal</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=330&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 50), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 50), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=50)
+  0.2 = coord(1/5)
+
+Resultado: 2:
+Puntuación: 0.117916
+	Pregunta: puede infectarse mi ordenador con un virus en mensaje de correo
+	Respuesta:  Si. Tome precauciones antes de ejecutar cualquier fichero que reciba por correo. No ejecute los ficheros sospechosos o aquellos que nos esperaba recibir y actualice su antivirus diariamente. Temas relacionados: - <a href="http://www.ujaen.es/sci/invdoc/avpanda/index.html" target="_blank">Antivirus para PCs de la Universidad de Jaén</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=24&id=36&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 82), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 82), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=82)
+  0.2 = coord(1/5)
+
+Resultado: 3:
+Puntuación: 0.117916
+	Pregunta: es cierto que algunos virus pueden infectar el ordenador desde un mensaje de correo
+	Respuesta:  Siutiliza el cliente de correo que recomienda el S.I. (Mozilla), unmensaje no puede infectar su ordenador porque únicamente se trata detexto. En otros clientes de correo-e, por ejemplo Outlook, si podríadarse el caso si este producto no está debidamente actualizado con loscorrespondientes parches de seguridad.Elúnico punto de infección en un mensaje, lo forman losficheros vinculados a él. Estos sí pueden contener unvirus que se active cuando acceda o ejecute dicho fichero. Lasolución es muy sencilla, puesto que bastará con tenerel antivirus actualizado. No obstante, se debe de ser muy precavido alejecutar o abrir ficheros adjuntos de origen desconocido o sospechoso.Además, la estafeta de correo-e de la UJA dispone de un sistemaantivirus que bloquea aquellos ficheros adjuntos infectados.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=39&id=177&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 172), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 172), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=172)
+  0.2 = coord(1/5)
+
+Resultado: 4:
+Puntuación: 0.117916
+	Pregunta: que son las pantallas azules que aparecen cuando se arrancan los ordenadores
+	Respuesta:  Todas las aulas de informática del Servicio de Informática disponen de unsistema llamado rembo mediante el cual, cada vez que un ordenadorarranca o se reinicia, se restaura automáticamente todo el contenido de launidad C: a su configuración original. Esto quiere decir que cualquiercambio que se haga en la unidad C: (es decir, borrar, copiar, mover o modificarcualquier fichero o configuración en esa unidad) se va a perder en cuanto elordenador se reinicie. Las pantallas azules que aparecen al arrancar elordenador son las que se encargan de realizar esa restauración de la unidad C. Gracias a este sistemapodemos garantizarle que cada vez que usted o alguno de sus alumnos encienda unordenador del aula lo va a encontrar en perfecto estado de funcionamiento (salvoque tuviera alguna avería hardware). Si necesita escribir algún fichero que permanezca en el equipo aunque se reinicie oapague el ordenador deberá escribirlo en la unidad D: Esta unidad no sufreninguna modificación y puede usarla tranquilamente sin temor a perder ningúndato. Sin embargo, debe tener en cuenta que si tras terminar su clase deja sus datos enla unidad D: cualquier otro alumno o profesor que vuelva a utilizar eseequipo podrá ver esos datos e incluso modificarlos y borrarlosdefinitivamente. Igualmente el Servicio de Informática se reserva el derecho deeliminar de forma periódica y por labores de mantenimiento, el contenido de launidad D: Adicionalmente además de la citada unidad D: puede utilizar para grabar sus archivos cualquier dispositivo con conexión USB, la disquetera de 3" y 1/2, o bien su <a href="index.php?action=show cat=8">espacio en disco personal</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=330&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 321), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 321), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=321)
+  0.2 = coord(1/5)
+
+Resultado: 5:
+Puntuación: 0.117916
+	Pregunta: que ocurre cuando el ordenador entra en estado de hibernacion
+	Respuesta:  Si el portátil está configurado para que al pasar cierto tiempo de inactividad cambie su estado a hibernación, esto causará una desconexión inmediata de RIMUJA o de RIMUJA-WEB. Cuando regrese de nuevo al estado normal, se debe volver a establecer la conexión e introducir de nuevo las credenciales (usuario y contraseña).
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=224&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 335), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 335), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=335)
+  0.2 = coord(1/5)
+
+Resultado: 6:
+Puntuación: 0.117916
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.11791599 = (MATCH) product of:
+  0.58957994 = (MATCH) sum of:
+    0.58957994 = (MATCH) weight(question:orden in 387), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 387), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=387)
+  0.2 = coord(1/5)
+
+Resultado: 7:
+Puntuación: 0.10107086
+	Pregunta: he cambiado de ordenador como conecto el nuevo equipo a la red riuja
+	Respuesta:  Seleccione solicitud Altas, bajas, modif. Rellene todos sus datos personales. Le recomendamos que indique su e-mail, así podremos ponernos en contacto con usted más rápidamente. Es obligatorio rellenar todos los datos que aparecen marcados con (*) del apartado DATOS DE CONTACTO CON EL SOLICITANTE: D.N.I. Nombre y apellidos. Centro/Departamento/Servicio/Entidad. Puesto desempeñado: Edificio: En las opciones que solicita, debe rellenar el apartado DATOS SOLO PARA ALTA. Edificio: Clave de inventario de la CPU Nueva: Número de Inventario del Equipo sustituido: Así como el resto de datos que puedan aportar información para que se resuelva su solicitud. Piense que mientras mas completa la envíe, menos aclaraciones previas tendremos que realizar y por consiguiente, la solicitud se tramitará con mas brevedad. IMPORTANTE: Las solicitudes deben venir firmadas y selladas por el responsable del Centro, Departamento o Servicio que autoriza la solicitud, así como por el propio solicitante. Tenga en cuenta que el cambio físico del equipo NO lo realiza el Servicio de Informática. No se traspasa información personal desde el equipo sustituido al que sustituye. El usuario es responsable de sus copias de seguridad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=200&artlang=es
+Detalle resultado: 0.10107084 = (MATCH) product of:
+  0.5053542 = (MATCH) sum of:
+    0.5053542 = (MATCH) weight(question:orden in 254), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.53603 = (MATCH) fieldWeight(question:orden in 254), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=254)
+  0.2 = coord(1/5)
+
+Resultado: 8:
+Puntuación: 0.10107086
+	Pregunta: como puedo compartir archivos e impresoras desde mi ordenador para que accedan otras personas
+	Respuesta:  Para compartir recursos, lo primero que tiene que tener claro es el Sistema Operativo que tiene y el que tiene el compañero con el que va a compartir recursos. Si alguno de los equipos con recursos compartidos tiene instalado Windows XP , ambos equipos deben estar en el mismo grupo de trabajo, y debe existir un usuario común en ambos equipos con la misma contraseña. <a href="http://www.ujaen.es/sci/redes/riuja/guias/wxp/rmswxp.htm"> Pulse aquí </a> para consultar el procedimiento detallado para compartir recursos en Windows XP.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=202&artlang=es
+Detalle resultado: 0.10107084 = (MATCH) product of:
+  0.5053542 = (MATCH) sum of:
+    0.5053542 = (MATCH) weight(question:orden in 255), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.53603 = (MATCH) fieldWeight(question:orden in 255), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=255)
+  0.2 = coord(1/5)
+
+Resultado: 9:
+Puntuación: 0.084225714
+	Pregunta: que significa el aviso que sale al iniciar el ordenador de que no se escriba nada en la unidad c
+	Respuesta:  Consulte el siguiente artículo: <a href="/index.php?action=artikel cat=58 id=330 artlang=es" class="intfaqlink">¿Qué son las pantallas azules que aparecen cuando se arrancan los ordenadores?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=331&artlang=es
+Detalle resultado: 0.084225714 = (MATCH) product of:
+  0.42112857 = (MATCH) sum of:
+    0.42112857 = (MATCH) weight(question:orden in 51), product of:
+      0.32900023 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.080320746 = queryNorm
+      1.2800251 = (MATCH) fieldWeight(question:orden in 51), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=51)
+  0.2 = coord(1/5)
