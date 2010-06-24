@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="estudiantes">
+               <Question Text="algunos mensajes que recibo tienen el asunto posiblespam que son estos mensajes">
+                    <AnswerIndex>el sistema de mensajeria de la universidad de jaen aplica una serie de medidas antispam a todos los mensajes de correo recibidos si los servidores de correo detectan que un mensaje puede ser spam correo basura lo etiqueta en el asunto añadiendo posiblespam este etiquetado de mensajes te ayudara a distinguir facilmente los mensajes de correo basura del resto si quieres puedes borrar todos estos mensajes de una sola vez entra en buscar e indica se seleccionen los mensajes que tengan en el asunto el texto posiblespam</AnswerIndex>
+                    <Answer>El sistema de mensajería de la Universidad de Jaén aplica <a href="http://www.ujaen.es/sci/redes/email/antispam/index.html">una serie de medidas antispam</a> a todos los mensajes de correo recibidos. Si los servidores de correo detectan que un mensaje puede ser SPAM (Correo Basura) lo etiqueta en el asunto añadiendo POSIBLESPAM.
+Este etiquetado de mensajes te ayudará a distinguir fácilmente los mensajes de correo basura del resto.
+Si quieres puedes borrar todos estos mensajes de una sola vez. Entra en Buscar e indica se seleccionen los mensajes que tengan en el asunto el texto POSIBLESPAM.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/antispam/index.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=45&id=124&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

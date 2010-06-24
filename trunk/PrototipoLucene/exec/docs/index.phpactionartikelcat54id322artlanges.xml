@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="microsoft office">
+                    <Question Text="intercambiar archivos entre las versiones anteriores de office y microsoft office 2007">
+                         <AnswerIndex>microsoft ha cambiado el formato de archivos para en las versiones 2007 de word excel y power point si se instala el paquete de compatibilidad junto con microsoft office xp u office 2003 es posible abrir editar guardar y crear archivos con los formatos xml abiertos nuevos en 2007 microsoft office para mas informacion consulte la seccion paquete de compatibilidad de microsoft office para formatos de archivo de word excel y powerpoint 2007</AnswerIndex>
+                         <Answer>Microsoft ha cambiado el formato de archivos para en las versiones 2007 de Word, Excel y Power Point.
+Si se instala el <a href="\\ambar\wwwinstall\office\update\FileformatConverters.exe">Paquete de compatibilidad</a> junto con Microsoft Office XP u Office 2003, es posible abrir, editar, guardar y crear archivos con los formatos XML abiertos nuevos en 2007 Microsoft Office.
+Para más información consulte la sección <a href="http://office.microsoft.com/es-es/products/HA101686763082.aspx">Paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007</a>.</Answer>
+                         <Link>\\ambar\wwwinstall\office\update\FileformatConverters.exe</Link>
+                         <Link>http://office.microsoft.com/es-es/products/HA101686763082.aspx</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=54&id=322&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

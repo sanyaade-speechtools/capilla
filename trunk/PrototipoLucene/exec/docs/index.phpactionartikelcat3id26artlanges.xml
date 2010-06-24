@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="campus virtual">
+          <Question Text="que usuario y contraseña debo introducir">
+               <AnswerIndex>para acceder a campus virtual no hay que solicitar ningun usuario ni contraseña especial basta con estar dado de alta en alguno de los sistemas de informacion de la universidad y tener cuenta de correo electronico su nombre de usuario debe coincidir con la primera parte de su correo electronico sin indicar ujaen es y su contraseña es la misma que utilizar para leer su correo</AnswerIndex>
+               <Answer>Para acceder a Campus Virtual no hay que solicitar ningún usuario ni contraseña especial, basta con estar dado de alta en alguno de los sistemas de información de la Universidad y tener cuenta de correo electrónico. Su "Nombre de usuario" debe coincidir con la primera parte de su correo electrónico (sin indicar @ujaen.es) y su contraseña es la misma que utilizar para leer su correo.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=3&id=26&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

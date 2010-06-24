@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="soy un alumno del programa socrates erasmus en la universidad como consigo mis credenciales">
+                    <AnswerIndex>debes pasarte por tu secretaria para que te faciliten tu usuario y password de campus virtual si no dispones aun de el si ya dispones de estos datos son los que puedes usar para acceder a las redes inalambricas siguiendo las guias correspondientes a rimuja o rimuja web</AnswerIndex>
+                    <Answer>Debes pasarte por tu Secretaría para que te faciliten tu usuario y password de Campus Virtual, si no dispones aún de él. Si ya dispones de estos datos, son los que puedes usar para acceder a las redes inalámbricas siguiendo las guías correspondientes a <a href="http://www.ujaen.es/sci/redes/rimuja/">RIMUJA </a>o <a href="http://www.ujaen.es/sci/redes/rimujaweb/">RIMUJA-WEB</a>.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/</Link>
+                    <Link>http://www.ujaen.es/sci/redes/rimujaweb/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=230&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

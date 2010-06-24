@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="netscape communicator 4 x">
+               <Question Text="netscape communicator esta fuera de soporte tecnico">
+                    <AnswerIndex>si pero el servicio de informatica continua ofreciendo soporte tecnico para otros clientes en el caso de que todavia tenga instalado netscape communicator es muy recomentable que migre o convierta su perfil a alguno de los clientes de correo recomendados</AnswerIndex>
+                    <Answer>Sí, pero el Servicio de Informática continúa ofreciendo soporte técnico para otros clientes. En el caso de que todavía tenga instalado Netscape Communicator es muy recomentable que migre o convierta su perfil a alguno de los <a href="/index.phpp?action=artikel cat=25 id=77 artlang=es">clientes de correo recomendados</a>.</Answer>
+                    <Link>/index.phpp?action=artikel&amp;cat=25&amp;id=77&amp;artlang=es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=40&id=83&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

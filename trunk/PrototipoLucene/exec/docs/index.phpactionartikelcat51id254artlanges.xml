@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del buzon de voz">
+               <Question Text="como accedo a mi buzon de voz">
+                    <AnswerIndex>descuelgue y escuche tono de marcar llame al numero del buzon que es el 83000 el buzon de voz solicita la introduccion de su codigo de seguridad que por defecto es el 0000</AnswerIndex>
+                    <Answer>Descuelgue y escuche tono de marcar. Llame al número del buzón que es el 83000. El buzón de voz solicita la introducción de su código de seguridad que por defecto es el 0000.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=51&id=254&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

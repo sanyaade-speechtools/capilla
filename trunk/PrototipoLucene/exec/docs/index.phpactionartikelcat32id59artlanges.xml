@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="funcionamiento">
+                    <Question Text="eliminar ficheros temporales de sistema o de instalacion">
+                         <AnswerIndex>para borrar los ficheros temporales de la carpeta temp hacer clic en inicio ejecutar y escribir temp y eliminar el contenido de la carpeta despues libere espacio en disco vaya a inicio programas accesorios herramientas del sistema liberador de espacio en disco seleccione la unidad c y elija aceptar</AnswerIndex>
+                         <Answer>Para borrar los ficheros temporales de la carpeta TEMP,hacer clic en Inicio Ejecutar y escribir %temp%, y eliminar el contenidode la carpeta.
+Después, libere espacio en disco: Vaya a Inicio Programas Accesorios Herramientas del Sistema Liberador de Espacio en Disco. Seleccione la unidad C y elija "Aceptar".</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=32&id=59&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

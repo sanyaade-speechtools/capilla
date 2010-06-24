@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="no puedo enviar mensajes pero si recibir">
+                    <AnswerIndex>si tiene configurado un cliente de correo electronico como outlook outlook express mozilla thunderbird o cualquier otro similar y esta intentando enviar correo electronico desde una red externa a la universidad de jaen por ejemplo una red de otra universidad puede ocurrir que no pueda contactar con el servidor smtp ujaen es por el puerto 25 ya que pueda estar cortado por medidas de seguridad como alternativa la universidad de jaen ofrece el mismo servicio a traves del puerto seguro 587 si este puerto esta habilitado en la red desde donde esta actualmente podra solucionar el problema cambiando en la configuracion de su cliente de correo electronico el puerto 25 por el 587 desde outlook express acceda al menu herramientas cuentas pulse sobre la pestaña correo seleccione la cuenta de correo electronico a configurar y pulse el boton propiedades en la ventana propiedades pulse sobre la ultima pestaña opciones avanzadas y en el campo correo saliente smtp sustituya 25 por 587 pulse el boton aceptar y pruebe de nuevo a enviar correo desde outlook acceda al menu herramientas configuracion de la cuenta pulse sobre la pestaña correo electronico seleccione la cuenta de correo electronico a configurar y pulse el boton cambiar en la ventana que aparece pulse sobre el boton mas configuraciones en la ventana de propiedades que aparece pulse sobre la ultima pestaña avanzadas y en el campo servidor de salida smtp sustituya 25 por 587 pulse el boton aceptar y pruebe de nuevo a enviar correo</AnswerIndex>
+                    <Answer>Si tiene configurado un cliente de correo electrónico como Outlook, Outlook Express, Mozilla Thunderbird o cualquier otro similar, y está intentando enviar correo electrónico desde una red externa a la Universidad de Jaén, por ejemplo una red de otra universidad, puede ocurrir que no pueda contactar con el servidor smtp.ujaen.es por el puerto 25 ya que pueda estar cortado por medidas de seguridad.
+Como alternativa la Universidad de Jaén ofrece el mismo servicio a través del puerto seguro 587. Si este puerto está habilitado en la red desde donde está actualmente podrá solucionar el problema cambiando en la configuración de su cliente de correo electrónico el puerto 25 por el 587.
+Desde Outlook Express acceda al menú "Herramientas - Cuentas", pulse sobre la pestaña "Correo", seleccione la cuenta de correo electrónico a configurar y pulse el botón "Propiedades". En la ventana propiedades pulse sobre la última pestaña "Opciones avanzadas" y en el campo "Correo saliente (SMTP)" sustituya 25 por 587. Pulse el botón Aceptar y pruebe de nuevo a enviar correo.
+Desde Outlook acceda al menú "Herramientas - Configuración de la Cuenta",pulse sobre la pestaña "Correo electrónico", seleccione la cuenta de correoelectrónico a configurar y pulse el botón "Cambiar". En la ventanaque aparece pulse sobre el botón "Más configuraciones". En la ventana de propiedades que aparece pulse sobre la última pestaña "Avanzadas" y en elcampo "Servidor de salida (SMTP)" sustituya 25 por 587. Pulse el botónAceptar y pruebe de nuevo a enviar correo.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=426&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="cuantas conexiones vpn simultaneas puede haber">
+               <AnswerIndex>el numero de usuarios que se pueden conectar simultaneamente mediante vpn es limitado desde el momento que se alcance el numero maximo de usuarios conectados no se aceptara ninguna conexion mas y habra que esperar hasta que quede alguna conexion libre para reintentar la operacion ademas el acceso vpn esta configurado para permitir dos conexiones simultaneas por cada usuario desde equipos diferentes por lo tanto si al intentar conectarse recibe un error indicando que se ha superado el maximo de conexiones permitidas posiblemente se deba a que se ha conectado mas de dos veces con el mismo nombre de usuario y contraseña si no es asi contacte con el servicio de informatica para solucionar su problema</AnswerIndex>
+               <Answer>El número de usuarios que se pueden conectarsimultáneamente mediante VPN es limitado. Desde el momento que se alcance elnúmero máximo de usuarios conectados, no se aceptaráninguna conexión más y habrá que esperar hasta que quede alguna conexión librepara reintentar la operación.
+Además, el acceso VPN está configurado para permitir dos conexiones simultáneas por cada usuariodesde equipos diferentes. Por lo tanto, si alintentar conectarse recibe un error indicando que se ha superado el máximo deconexiones permitidas, posiblemente se deba a que se ha conectado más de dosveces con el mismo nombre de usuario y contraseña.
+Si no es así, contacte con el Servicio de Informática parasolucionar su problema.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=41&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

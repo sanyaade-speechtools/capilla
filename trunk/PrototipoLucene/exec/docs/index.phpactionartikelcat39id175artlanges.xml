@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="quienes crean los virus">
+                         <AnswerIndex>son creados en su mayoria por personas que desean demostrar sus conocimientos de informatica aunque por razones obvias suelen mantener el anonimato en la actualidad hay programas con los que cualquier usuario sin tener ningun tipo de conocimientos de programacion puede crear su propio o propios virus dandoles el nombre y caracteristicas que desee e incluso existen determinados web que ofrecen esta posibilidad</AnswerIndex>
+                         <Answer>Soncreados, en su mayoría, por personas que desean demostrar susconocimientos de informática, aunque por razones obvias, suelenmantener el anonimato.
+En la actualidad, hay programas con los que cualquier usuario, sin tenerningún tipo de conocimientos de programación, puede crearsu propio o propios virus, dándoles el nombre y característicasque desee. E incluso existen determinados Web que ofrecen esta posibilidad.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=175&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

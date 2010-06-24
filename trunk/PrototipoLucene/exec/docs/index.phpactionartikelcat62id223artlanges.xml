@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="como puedo sincronizar la fecha y hora de mi equipo a traves de las redes inalambricas">
+                    <AnswerIndex>hay que tener en cuenta que es muy importante tener actualizadas la fecha y hora del equipo si no es muy probable que algunas aplicaciones no funcionen correctamente para instalar el software de sincronizacion horaria sigue esta guia</AnswerIndex>
+                    <Answer>Hay que tener en cuenta que es muy importante tener actualizadas la fecha y hora del equipo. Si no, es muy probable que algunas aplicaciones no funcionen correctamente. Para instalar el software de sincronización horaria, sigue <a href="http://www.ujaen.es/sci/redes/riuja/ntp/guias/guiantp.htm">esta guía.</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/riuja/ntp/guias/guiantp.htm</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=223&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

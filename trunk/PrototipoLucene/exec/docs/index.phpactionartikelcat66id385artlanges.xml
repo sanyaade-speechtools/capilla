@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aplicaciones de gestion universitaria">
+          <Categorie Text="uxxi ac">
+               <Question Text="error al intentar acceder a uxxi ac con internet explorer 7">
+                    <AnswerIndex>se ha detectado que si se ha instalado alguna barra de terceros en el i e no funciona el acceso a uxxi solucion deshabilitar los componentes de terceros de las opciones avanzadas de i e esto lo hacemos ejecutando el explorer 7 siguiendo los siguientes pasos seleccionar del menu herramientas el submenu opciones de internet en la pertaña de opciones avanzadas buscar en la seccion examinar y deshabilitamos la opcion habilitar extensiones de explorador de terceros</AnswerIndex>
+                    <Answer>Se ha detectado que si se ha instalado alguna barra de terceros en el I.E. no funciona el acceso a UXXI.
+Solución: Deshabilitar los componentes de terceros de las opciones avanzadas de I.E.. Esto lo hacemos ejecutando el Explorer 7, siguiendo los siguientes pasos:
+- Seleccionar del menú Herramientas, el submenú Opciones de Internet.
+- En la pertaña de Opciones Avanzadas, buscar en la sección Examinar y deshabilitamos la opción "Habilitar extensiones de explorador de terceros".</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=66&id=385&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

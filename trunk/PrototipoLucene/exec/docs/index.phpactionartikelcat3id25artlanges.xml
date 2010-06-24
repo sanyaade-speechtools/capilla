@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="campus virtual">
+          <Question Text="no puedo acceder a campus virtual">
+               <AnswerIndex>compruebe que el equipo tiene acceso a la red para ello compruebe si puede navegar por internet asegurese que realmente esta intentando acceder a campus virtual y no a docencia virtual compruebe la version de su navegador debe acceder como minimo con las versiones internet explorer 5 5 o netscape 6 0 si accede desde fuera de la universidad y lo hace a traves de un proxy compruebe que no corta la conexion por el puerto 7776</AnswerIndex>
+               <Answer>- Compruebe que el equipo tiene acceso a la red. Para ello compruebe si puede navegar por internet.
+- Asegurése que realmente está intentando acceder a Campus Virtual y NO a Docencia Virtual.
+- Compruebe la versión de su navegador. Debe acceder como mínimo con las versiones Internet Explorer 5.5 ó Netscape 6.0.
+- Si accede desde fuera de la Universidad, y lo hace a través de un proxy, compruebe que no corta la conexión por el puerto 7776.
+<a name="dos"></a></Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=3&id=25&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

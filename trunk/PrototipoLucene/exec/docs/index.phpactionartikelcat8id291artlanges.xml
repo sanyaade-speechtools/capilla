@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="espacio en disco">
+          <Question Text="puedo acceder a mi espacio en disco desde linux">
+               <AnswerIndex>siempre y cuando no sea la primera vez que accedemos al servicio de espacio en disco es posible utilizarlo si se utiliza linux como sistema operativo para ello hay que realizar manualmente una conexion al servidor donde esta alojada nuestro espacio aqui encontrara una guia para ubuntu 6 06 y aqui otra guia para kubuntu 8 04</AnswerIndex>
+               <Answer>Siempre y cuando no sea la primera vez que accedemos al servicio de espacio en disco es posible utilizarlo si se utiliza Linux como sistema operativo. Para ello hay que realizarmanualmente una conexión al servidor donde está alojada nuestro espacio.
+- Aquí encontrará una <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_ubuntu.html" target="_blank">guía para Ubuntu 6.06</a>
+- Y aquí otra <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_kubuntu.html" target="_blank">guía para Kubuntu 8.04</a></Answer>
+               <Link>http://www3.ujaen.es/aulas/guias_ayuda/edisco_ubuntu.html</Link>
+               <Link>http://www3.ujaen.es/aulas/guias_ayuda/edisco_kubuntu.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=8&id=291&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

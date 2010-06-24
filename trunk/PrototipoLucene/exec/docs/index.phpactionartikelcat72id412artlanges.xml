@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="voy a formatear mi ordenador y quiero realizar una copia de seguridad de los mensajes de correo oulook como puedo hacerlo">
+                    <AnswerIndex>toda la informacion de outlook se almacena en uno o varios archivos con extension pst estos archivos puede guardarlos en un cdrom o bien en un lapiz usb para realizar una copia de seguridad siga las instrucciones de la siguiente pagina web ubicacion de datos y copia de seguridad en oulook</AnswerIndex>
+                    <Answer>Toda la información de Outlook se almacena en uno o varios archivos con extensión .PST. Estos archivos puede guardarlos en un CDROM o bien en un lápiz USB.
+Para realizar una copia de seguridad siga las instrucciones de la siguiente página web: <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_datos.html">Ubicación de datos y copia de seguridad en Oulook</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlook_datos.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=412&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

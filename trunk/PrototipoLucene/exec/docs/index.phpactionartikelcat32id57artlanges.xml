@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="funcionamiento">
+                    <Question Text="mal funcionamiento despues de añadir un nuevo dispositivo hardware">
+                         <AnswerIndex>tendremos que restaurar el equipo a un punto anterior en el que si funcionaba para ello deberemos seguir estos pasos boton inicio ayuda y soporte tecnico aparecera la siguiente pantalla en la que pincharemos sobre deshacer los cambios en su equipo con restaurar sistema se abre un asistente para la restauracion de la copia y seleccionamos restaurar mi equipo a un estado anterior pulsamos en siguiente se nos abrira otra pantalla en la que seleccionaremos el dia del estado anterior y el estado a escoger puesto que en varios dias se pueden tener distintos puntos de restauracion por ejemplo seleccionamos el dia 26 de mayo en el unico punto que tenemos y pulsamos en siguiente aparecera una pantalla en la que nos pedira confirmacion para efectuar la restauracion</AnswerIndex>
+                         <Answer>Tendremos que restaurar el equipo a un punto anterior en el que sí funcionaba. Para ello, deberemos seguir estos pasos: Boton Inicio  Ayuda y Soporte Técnico. Aparecerá la siguiente pantalla en la que pincharemos sobre  " Deshacer los cambios en su equipo con Restaurar sistema ":
+Se abre un asistente para la restauración de la copia y seleccionamos " Restaurar mi equipo a un estado anterior ". Pulsamos en Siguiente:
+Se nos abrirá otra pantalla en la que seleccionaremos el día del estado anterior y el estado a escoger, puesto que en varios días se pueden tener distintos puntos de restauración. Por ejemplo, seleccionamos el día 26 de mayo en el único punto que tenemos y pulsamos en "Siguiente". Aparecerá una pantalla en la que nos pedirá confirmación para efectuar la restauración:</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=32&id=57&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

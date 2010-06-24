@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="como accedo a las publicaciones electronicas de biblioteca">
+               <AnswerIndex>la uja esta suscrita a una gran variedad de publicaciones electronicas ver web de biblioteca estas revistas solo proporcionan acceso a los articulos si el ordenador desde el que se accede pertenece a la red de la universidad de jaen bien conectado directamente en las dependencias de la universidad o de forma remota mediante conexion vpn el servicio de red privada virtual ofrece acceso transparente a las bases de datos y publicaciones electronicas ofrecidas por biblioteca</AnswerIndex>
+               <Answer>La UJA esta suscrita a una gran variedad de publicaciones electrónicas (<a href="http://www.ujaen.es/serv/biblio"> verWeb de Biblioteca </a>).
+Estas revistas solo proporcionan acceso alos artículos si el ordenador desde el que se accede pertenece a la red de la Universidadde Jaén, bien conectado directamente en las dependencias de la Universidad o de forma remota mediante conexión VPN.
+El servicio de Red Privada Virtual ofrece acceso transparente a las bases dedatos y publicaciones electrónicas ofrecidas por Biblioteca.</Answer>
+               <Link>http://www.ujaen.es/serv/biblio</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=40&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

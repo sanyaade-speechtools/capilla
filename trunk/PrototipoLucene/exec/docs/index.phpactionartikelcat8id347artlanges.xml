@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="espacio en disco">
+          <Question Text="puedo acceder a mi espacio en disco con windows vista">
+               <AnswerIndex>si el acceso al servicio de espacio en disco es totalmente compatible con windows vista</AnswerIndex>
+               <Answer>Sí, el acceso al servicio de espacio en disco es totalmente compatible con Windows Vista.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=8&id=347&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

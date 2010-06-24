@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="impresoras">
+               <Categorie Text="gestion">
+                    <Question Text="la impresora conectada a sorolla agora universitas xxi no imprime">
+                         <AnswerIndex>compruebe si imprime correctamente desde cualquier otro programa ejecutandose localmente word excel y el problema se reduce a las aplicaciones de gestion especificas de la universidad agora sorolla en tal caso pongase en contacto con la unidad de gestion del servicio de informatica previamente averigüe la marca y modelo de impresora que esta usando</AnswerIndex>
+                         <Answer>Compruebe si imprimecorrectamente desde cualquier otro programa ejecutándose localmente (Word,Excel...), y el problema se reduce a las aplicaciones de gestión específicas dela Universidad (AGORA, SOROLLA...). En tal caso, póngase en contacto con la Unidad de Gestión delServicio de Informática .Previamente, averigüe la marca y modelo de impresora que está usando.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=37&id=152&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

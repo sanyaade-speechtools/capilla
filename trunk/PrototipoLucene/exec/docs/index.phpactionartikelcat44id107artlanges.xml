@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="el servidor smtp muestra el mensaje user unknown">
+                    <AnswerIndex>esa direccion de correo no existe verifique que la direccion es correcta</AnswerIndex>
+                    <Answer>Esa dirección de correo no existe. Verifique que la dirección es correcta.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=107&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

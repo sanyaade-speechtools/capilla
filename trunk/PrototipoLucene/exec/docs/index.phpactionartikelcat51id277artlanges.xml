@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del buzon de voz">
+               <Question Text="como obtener la tarjeta de referencia rapida del usuario del sistema de buzon de voz">
+                    <AnswerIndex></AnswerIndex>
+                    <Answer><a href="http://www.ujaen.es/sci/redes/telefonia/fija/guiatelefonica/tarjetareferencia.pdf">http://www.ujaen.es/sci/redes/telefonia/fija/guiatelefonica/tarjetareferencia.pdf</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/telefonia/fija/guiatelefonica/tarjetareferencia.pdf</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=51&id=277&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

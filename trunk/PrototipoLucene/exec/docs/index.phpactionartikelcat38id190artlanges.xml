@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="el antivirus no puede desinfectar un fichero que contiene virus">
+                         <AnswerIndex>si no puede desinfectar un virus puede ser debido a que no se trata estrictamente de un virus sino un troyano un troyano es un programa que se distribuye como algo util o interesante pero que solo resulta ser un programa malicioso que puede ir desde las bromas estupidas a borrar el disco duro sin embargo al no ser un virus no infecta otros archivos el antivirus puede detectar algunos troyanos como por ejemplo joke win stupid y happy99 pero no puede desinfectar nada porque no hay nada que desinfectar si activa la opcion borrar archivos infectados panda eliminara el troyano</AnswerIndex>
+                         <Answer>Sino puede desinfectar un virus puede ser debido a que no se trata estrictamentede un virus, sino un troyano. Un troyano es un programa que se distribuyecomo algo útil o interesante, pero que solo resulta ser un programamalicioso que puede ir desde las bromas estúpidas a borrar eldisco duro. Sin embargo al no ser un virus no infecta otros archivos.El antivirus puede detectar algunos troyanos (como por ejemplo Joke.Win.Stupidy Happy99), pero no puede desinfectar nada, porque no hay nada que desinfectar.Si activa la opción borrar archivos infectados, Panda eliminarael troyano.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=190&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

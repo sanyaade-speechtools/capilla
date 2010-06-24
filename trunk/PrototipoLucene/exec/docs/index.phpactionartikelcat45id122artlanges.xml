@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="estudiantes">
+               <Question Text="puedo cambiar la contraseña">
+                    <AnswerIndex>si la contraseña es la misma que la de campus virtual asi que cambiando la contraseña de campus virtual tambien cambiaras la contraseña de tu buzon puedes realizar este cambio de contraseña en los piu puntos de informacion universitaria o solicitar a tu secretaria de centro que generen automaticamente una nueva contraseña</AnswerIndex>
+                    <Answer>Si. La contraseña es la misma que la de Campus Virtual, así que cambiando la contraseña de Campus Virtual también cambiarás la contraseña de tu buzón.
+Puedes realizar este cambio de contraseña en los PIU (Puntos de Información Universitaria) o solicitar a tu Secretaría de Centro que generen automáticamente una nueva contraseña.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=45&id=122&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

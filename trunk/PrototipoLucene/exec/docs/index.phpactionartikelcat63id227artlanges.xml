@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="es segura la comunicacion a traves de rimuja">
+                    <AnswerIndex>el envio del usuario y contraseña entre tu equipo portatil y los puntos de acceso se realiza usando wpa y eap ttls por lo que toda la informacion entre los puntos de acceso y tu equipo esta cifrada no obstante la informacion que se transmite a internet podra ser o no cifrada dependiendo del servicio y o o protocolo que se utilice</AnswerIndex>
+                    <Answer>El envío del usuario y contraseña entre tu equipo portátil, y los puntos de acceso, se realiza usando WPA y EAP-TTLS por lo que toda la información entre los puntos de acceso y tu equipo está cifrada. No obstante, la información que se transmite a Internet podrá ser o no cifrada dependiendo del servicio y/o protocolo que se utilice.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=227&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

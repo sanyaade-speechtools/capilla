@@ -1,0 +1,22 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="cuando intento conectarme el cliente vpn me da un mensaje informativo indicando que el protector de pantalla de windows no esta correctamente configurado">
+               <AnswerIndex>por motivos de seguridad el servidor vpn esta configurado para que el protector de pantalla se active y este protegido por contraseña cuando transcurra un maximo de 30 minutos sin actividad en el pc mientras el protector de pantalla no este correctamente configurado el cliente vpn no permitira establecer la conexion como configurarlo en windows xp pulse con el boton derecho sobre el escritorio y seleccione propiedades en la pestaña protector de pantalla configure el tiempo de espera a menos de 30 minutos ademas active la contraseña para el protector de pantalla en windows xp debe marcar la casilla mostrar pantalla de bienvenida al volver como configurarlo en windows vista entre en el boton de inicio panel de control personalizacion protector de pantalla configure el tiempo de espera a menos de 30 minutos ademas es imprescindible que este marcada la casilla mostrar la pantalla de inicio de sesion al reanudar importante en ambos casos xp y vista si los cambios no funcionan y sigue apareciendo la ventana de error siga estos pasos desactive la contraseña en el protector de pantalla acepte los cambios y salga de la ventana de configuracion del protector de pantalla vuelva a entrar en la configuracion del protector de pantalla y active de nuevo la contraseña aplique todos los cambios y vuelva a realizar la conexion vpn</AnswerIndex>
+               <Answer>Por motivos de seguridad, el servidor VPN estáconfigurado para que el protector de pantalla se active y esté protegido porcontraseña cuando transcurra un máximo de 30 minutos sin actividad en el PC. Mientrasel protector de pantalla no esté correctamente configurado, el cliente VPN no permitirá establecerla conexión.
+Cómo configurarlo en Windows XP
+Pulse con el botón derecho sobre el escritorio y seleccione Propiedades.En la pestaña Protector de Pantalla, configure el tiempo de espera a menosde 30 minutos. Además, active la contraseña para el protector de pantalla. En Windows XP debe marcar la casillaMostrar pantalla debienvenida al volver.
+Cómo configurarlo en Windows VISTA
+Entre en el botón de Inicio - Panel de Control - Personalización - Protector de Pantalla. Configure el tiempo de espera a menos de 30 minutos. Además es imprescindible que esté marcada la casilla "Mostrar la pantalla de inicio de sesión al reanudar".
+IMPORTANTE: En ambos casos (XP y VISTA), si los cambios nofuncionan y sigue apareciendo la ventana de error, siga estos pasos:
+Desactive la contraseña en el Protector dePantalla.
+Acepte los cambios y salga de la ventana deconfiguración del Protector de Pantalla.
+Vuelva a entrar en la configuración delprotector de pantalla y active de nuevo la contraseña.
+Aplique todos los cambios y vuelva a realizarla conexión VPN.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=18&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

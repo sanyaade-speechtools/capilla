@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="configuracion de la salidad a a internet de panda antivirus en aulas y laborabotorios para las actualizaciones automaticas">
+                         <AnswerIndex>en las aulas y laboratorios toda la salida a internet va por los servidores proxy de la uja por lo tanto para las actualizaciones de panda debes configurar el proxy marcar la casilla acceso a traves de proxy en el apartado de configuracion de las actualizaciones con los siguientes datos direccion ip proxy ujaen es puerto 3128 no se requiere autenticacion</AnswerIndex>
+                         <Answer>En las aulas y laboratorios, toda la salida a Internet va por los servidores proxy de la UJA. Por lo tanto, para las actualizaciones de Panda, debes configurar el proxy (marcar la casilla "Acceso a través de Proxy" en el apartado de configuración de las actualizaciones), con los siguientes datos:Dirección IP: proxy.ujaen.esPuerto: 3128(No se requiere autenticación)</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=416&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

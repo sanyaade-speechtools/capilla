@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion a la red riuja">
+          <Question Text="he cambiado de dependencia como conecto mi equipo a la nueva toma de red">
+               <AnswerIndex>seleccione solicitud altas bajas modif rellene todos sus datos personales le recomendamos que indique su e mail asi podremos ponernos en contacto con usted mas rapidamente es obligatorio rellenar todos los datos que aparecen marcados con del apartado datos de contacto con el solicitante d n i nombre y apellidos centro o departamento o servicio o entidad puesto desempeñado edificio en las opciones que solicita debe rellenar el apartado datos solo para modificacion edificio dependencia a la que se traslada clave de inventario de la cpu numero de toma propuesta asi como el resto de datos que puedan aportar informacion para que se resuelva su solicitud piense que mientras mas completa la envie menos aclaraciones previas tendremos que realizar y por consiguiente la solicitud se tramitara con mas brevedad importante las solicitudes deben venir firmadas y selladas por el responsable del centro departamento o servicio que autoriza la solicitud asi como por el propio solicitante tenga en cuenta que el traslado fisico del equipo no lo realiza el servicio de informatica</AnswerIndex>
+               <Answer>Seleccione solicitud Altas, bajas, modif.
+Rellene todos sus datos personales. Le recomendamos que indique su e-mail, así podremos ponernos en contacto con usted más rápidamente. Es obligatorio rellenar todos los datos que aparecen marcados con (*) del apartado DATOS DE CONTACTO CON EL SOLICITANTE:
+D.N.I. Nombre y apellidos. Centro/Departamento/Servicio/Entidad. Puesto desempeñado. Edificio. En las opciones que solicita, debe rellenar el apartado DATOS SOLO PARA MODIFICACIÓN.
+Edificio. Dependencia a la que se traslada. Clave de inventario de la CPU. Número de Toma Propuesta. Así como el resto de datos que puedan aportar información para que se resuelva su solicitud. Piense que mientras mas completa la envíe, menos aclaraciones previas tendremos que realizar y por consiguiente, la solicitud se tramitará con mas brevedad.
+IMPORTANTE:
+Las solicitudes deben venir firmadas y selladas por el responsable del Centro, Departamento o Servicio que autoriza la solicitud, así como por el propio solicitante.
+Tenga en cuenta que el traslado físico del equipo NO lo realiza el Servicio de Informática. </Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=4&id=199&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

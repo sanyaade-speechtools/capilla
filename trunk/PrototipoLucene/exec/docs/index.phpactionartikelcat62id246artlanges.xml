@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="en mi ubicacion actual detecto a rimuja rimuja web y otras redes inalambricas a cual me tengo que conectar">
+                    <AnswerIndex>si detectas mas redes inalambricas debes seleccionar rimuja con proteccion wpa para tener un acceso seguro o bien rimuja web para tener un acceso no seguro a las redes inalambricas de la universidad</AnswerIndex>
+                    <Answer>Si detectas más redes inalámbricas debes seleccionar RIMUJA con protección WPA , para tener un acceso SEGURO, o bien, RIMUJA-WEB para tener un acceso NO SEGURO, a las redes inalámbricas de la Universidad.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=246&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

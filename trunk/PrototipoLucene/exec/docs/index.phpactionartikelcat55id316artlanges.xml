@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="listas de correo">
+          <Categorie Text="administrador propietario moderador">
+               <Question Text="soy propietario de una lista y he recibido el siguiente mensaje envios pendientes demasiados destinatarios en el mensaje">
+                    <AnswerIndex>el gestor de listas no ha podido entregar el mensaje porque ha incluido muchos destinatarios en el campo to a se trata de una restriccion de seguridad como administrador debera entrar en la url que aparecen en el mensaje de notificacion y aceptar el mensaje para proximos envios no incluya tantos destinatarios en el campo to divida el mensaje en dos envios uno en el que aparezca unicamente la direccion de la lista y otro con las direcciones restantes</AnswerIndex>
+                    <Answer>El gestor de listas no ha podido entregar el mensaje porque ha incluido muchos destinatarios en el campo To (A:). Se trata de una restricción de seguridad.
+Como administrador deberá entrar en la URL que aparecen en el mensaje de notificación y aceptar el mensaje.
+Para próximos envíos no incluya tantos destinatarios en el campo To. Divida el mensaje en dos envíos: uno en el que aparezca únicamente la dirección de la lista y otro con las direcciones restantes.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=55&id=316&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

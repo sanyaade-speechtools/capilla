@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="mozila me muestra el error no se pudo inicializar el componente de seguridad del navegador">
+                    <AnswerIndex>cuando se abre mozilla o se envia o recibe correo electronico puede aparecer un mensaje de error indicando el mensaje no se pudo inicializar el componente de seguridad del navegador normalmente el problema se produce tras una restauracion del perfil de usuario donde han cambiado los permisos de lectura y escritura de los ficheros que forman el perfil de usuario solucion la solucion consiste en varios pasos asegurarse de tener cerrado mozilla hacer que el directorio y todos los subdirectorios del perfil de usuario tenga permisos de escritura dentro del perfil de usuario localizar el fichero cert8 db y borrarlo arrancar de nuevo mozilla aceptar permanentemente todos los certificados que nos aparecen al enviar o recibir correo electronico con los servidores de la universidad de jaen</AnswerIndex>
+                    <Answer>Cuando se abre Mozilla o se envía o recibe correo electrónico puede aparecer un mensaje de error indicando el mensaje "No se pudo inicializar el componente de seguridad del navegador".
+Normalmente el problema se produce tras una restauración del perfil de usuario donde han cambiado los permisos de lectura y escritura de los ficheros que forman el perfil de usuario.
+Solución
+La solución consiste en varios pasos:
+Asegurarse de tener cerrado Mozilla.Hacer que el directorio y todos los subdirectorios del perfil de usuario tenga permisos de escritura.Dentro del perfil de usuario localizar el fichero cert8.db y borrarlo.Arrancar de nuevo Mozilla.Aceptar permanentemente todos los certificados que nos aparecen al enviar o recibir correo electrónico con los servidores de la Universidad de Jaén.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=409&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

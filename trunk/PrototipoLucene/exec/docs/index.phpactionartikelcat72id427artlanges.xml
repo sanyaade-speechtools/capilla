@@ -1,0 +1,25 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="restaurar copia de seguridad de mi correo de outlook">
+                    <AnswerIndex>si tiene uno o varios ficheros con extension pst correspondientes a una copia de seguridad del correo de outlook podra importarlos facilmente en cualquier equipo con outlook para ello siga los siguientes pasos si no dispone de un perfil casos de formateo o cambio de equipo puede crear un perfil manualmente o utilizando el programa profiles del servicio de informatica una vez creado el perfil 1 acceda al menu archivo importar y exportar 2 seleccione importar de otro programa o archivo 3 seleccione el tipo de archivo archivo de carpetas personales pst 4 indique el archivo de datos pst y luego en la carpeta quiere importar en la carpeta actual o en otra nueva en la misma para mas informacion consulte la pagina configuracion del cliente de outlook</AnswerIndex>
+                    <Answer>Si tiene uno o varios ficheros con extensión ".pst" correspondientes a una copia de seguridad del correo de Outlook podrá importarlos fácilmente en cualquier equipo con Outlook. Para ello siga los siguientes pasos:
+Si no dispone de un perfil (casos de formateo o cambio de equipo) puede <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html">crearun perfil manualmente</a> o utilizando el <a href="http://www.ujaen.es/sci/redes/web/profiles_si/">programa Profiles</a> del Servicio deInformática.
+Una vez creado el perfil:
+1. Acceda al menú Archivo- Importar y Exportar...
+2. Seleccione Importar de otro programa o archivo.
+3. Seleccione el tipo de archivo: Archivo de carpetas personales(.pst)
+4. Indique el archivo de datos PST y luego en la carpeta quiere importar:en la carpeta actual o en otra nueva (en la misma).
+ Para más información consulte la página <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html">Configuración del cliente de Outlook</a>.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/web/profiles_si/</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=427&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

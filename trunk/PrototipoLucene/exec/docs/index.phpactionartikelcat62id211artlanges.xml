@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="estare o estoy de visita temporal en la universidad y necesito conectividad como puedo obtenerla">
+                    <AnswerIndex>debes contactar con el o la responsable de la unidad funcional que te ha invitado para que te suministre las credenciales correspondientes</AnswerIndex>
+                    <Answer>Debes contactar con el/la responsable de la unidad funcional que te ha invitado para que te suministre las credenciales correspondientes.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=211&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

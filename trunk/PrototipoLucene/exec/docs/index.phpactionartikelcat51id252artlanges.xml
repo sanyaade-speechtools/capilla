@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del buzon de voz">
+               <Question Text="como doy de baja el buzon de voz">
+                    <AnswerIndex>para dar de baja la extension se necesita la solicitud del servicio de telefonia fija en datos solo para baja marcando la casilla eliminar buzon de voz</AnswerIndex>
+                    <Answer>Para dar de baja la extensión se necesita la <a href="http://www.ujaen.es/sci/redes/solic/sol-r250.pdf"> "Solicitud del Servicio de Telefonía Fija" </a>, en DATOS SOLO PARA BAJA, marcando la casilla "Eliminar buzón de voz".</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/solic/sol-r250.pdf</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=51&id=252&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

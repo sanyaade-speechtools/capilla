@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="mi sistema operativo no es windows xp me puedo conectar mediante el servicio vpn">
+               <AnswerIndex>actualmente ademas de la plataforma windows xp el servicio de informatica ha ampliado el soporte de conexion vpn para las plataformas windows vista apple macos y linux se puede obtener mas informacion en los siguientes enlaces</AnswerIndex>
+               <Answer>Actualmente, además de la plataforma Windows XP, elServicio de Informática ha ampliado el soporte de conexión VPN para las plataformas Windows VISTA , Apple MacOS y Linux.
+Se puede obtener más información en los siguientes enlaces:
+<a href="https://www.ujaen.es/sci/redes/vpn/seguro/vista.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/vista.html</a><a href="https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html</a><a href="https://www.ujaen.es/sci/redes/vpn/seguro/linux.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/linux.html</a></Answer>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/vista.html</Link>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html</Link>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/linux.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=42&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

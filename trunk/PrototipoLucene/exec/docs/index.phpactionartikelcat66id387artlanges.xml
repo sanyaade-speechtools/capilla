@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aplicaciones de gestion universitaria">
+          <Categorie Text="uxxi ac">
+               <Question Text="problemas al acceder a uxxi ac jinitiator">
+                    <AnswerIndex>si al acceder a uxxi ac se queda la pantalla en gris y aparece un mensaje del tipo java lang classnotfoundexception oracle forms engine main o bien oracle forms engine main notinited sera necesario reinstalar el jinitiator para ello ejecutar el autoinstalable ambar wwwinstall gestion auto auto jinitiator exe</AnswerIndex>
+                    <Answer>Si al acceder a UXXI-AC se queda la pantalla en gris y aparece un mensaje del tipo " Java.lang.classNotFoundException: oracle.forms.engine.Main ", o bien " oracle.forms.engine.Main notinited ", será necesario reinstalar el JInitiator.
+Para ello, ejecutar el autoinstalable <a href="file://ambar/wwwinstall/gestion/Auto/auto_jInitiator.exe"> \\ ambar\wwwinstall\gestion\Auto\auto_jInitiator.exe </a></Answer>
+                    <Link>file://ambar/wwwinstall/gestion/Auto/auto_jInitiator.exe</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=66&id=387&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

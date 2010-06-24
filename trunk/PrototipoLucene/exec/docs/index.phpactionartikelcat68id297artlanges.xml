@@ -1,0 +1,14 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Question Text="evitar que el navegador ponga la contraseña automaticamente en los formularios web">
+               <AnswerIndex>para hacer que el navegador no ponga la contraseña automaticamente se debera configurar correctamente para que la opcion de autocompletar no rellene los formularios web si se tiene internet explorer 7 0 se debera ir al menu herramientas opciones de internet elegir la pestaña contenido y pulsar sobre el boton configurar del apartado autocompletar aparece una pantalla en la se que debe quitar la opcion nombres de usuario y contraseñas en formularios con esto no pondra la contraseña en los formularios de entrada si se tiene mozilla firefox debera ir al menu herramientas opciones elegir la pestaña seguridad y desmarcar la opcion recordar las contraseñas de los sitios para el resto de navegadores se realiza de forma similar</AnswerIndex>
+               <Answer>Para hacer que el navegador no ponga la contraseña automáticamente se deberá configurar correctamente para que  la  opción de autocompletar no rellene los formularios web. Si se tiene Internet Explorer 7.0 se deberá ir al menú "Herramientas - Opciones de Internet". Elegir la pestaña "Contenido" y pulsar sobre el botón "Configurar" del apartado "Autocompletar". Aparece una pantalla en la se que debe quitar la opción "Nombres de usuario y contraseñas en formularios". Con esto no  pondrá la contraseña en los formularios de entrada. Si se tiene Mozilla Firefox deberá ir al menú "Herramientas - Opciones". Elegir la pestaña "Seguridad" y desmarcar la opción "Recordar las contraseñas de los sitios".
+Para el resto de navegadores se realiza de forma similar.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=68&id=297&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>
