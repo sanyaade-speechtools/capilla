@@ -1,10 +1,10 @@
 #Fichero de configuración para la búsqueda
 language=Spanish
 search_analyzer=SnowballAnalyzer
-path_stopper=exec/stopper/spanishSmart.txt
+path_stopper=PrototipoLucene/exec/stopper/spanishSmart.txt
 search_field=categorie,question
 search_field_appear=SHOULD,SHOULD
-search_index=exec/index
+search_index=PrototipoLucene/exec/index
 search_n_results=10
 search_explanation=YES
 question.name=question
