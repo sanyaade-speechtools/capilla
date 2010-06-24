@@ -1,0 +1,180 @@
+Text6
+Indexado: Question
+
+Anotaciones: Ninguno de los resultados devueltos se puede considerar bueno, porque
+no existen documentos relativos a la pregunta, aunque sí existe una categoría sobre
+los ordenadores de libre acceso.
+
+Pregunta: hay ordenadores de libre acceso a internet
+
+Tiempo de busqueda: 1ms
+
+Resultado: 0:
+Puntuación: 0.3003689
+	Pregunta: olvide mi contraseña de acceso como puedo solicitar una nueva
+	Respuesta:  Según al perfil al que pertenezcas, debes escoger la opción correspondiente. Si eres un PDI o PAS , envía un Murphy comunicando lo ocurrido. El Servicio de Informática te remitirá una nueva contraseña a la dirección de envío de la nómina.Si eres un alumno , puedes crear una nueva en los PIU s (si dispones de tarjeta de estudiante), solicitarla en la secretaria de tu centro (alumnos de 1er. y 2º ciclo) o en la Sección de Estudios de Postgrado (alumnos de 3er. ciclo).Si eres un usuario invitado/guest , contacta con el responsable de la Unidad funcional que te comunicó las credenciales.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=244&artlang=es
+Detalle resultado: 0.30036893 = (MATCH) product of:
+  1.2014757 = (MATCH) sum of:
+    1.2014757 = (MATCH) weight(question:acces in 342), product of:
+      0.51073515 = queryWeight(question:acces), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.094984904 = queryNorm
+      2.3524437 = (MATCH) fieldWeight(question:acces in 342), product of:
+        1.0 = tf(termFreq(question:acces)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=342)
+  0.25 = coord(1/4)
+
+Resultado: 1:
+Puntuación: 0.21454923
+	Pregunta: eliminar registros de documentos programas y sitios web a los que se ha tenido acceso recientemente
+	Respuesta:  Con el botón derecho haga clic sobre Inicio yseleccione "Propiedades". Seleccione la pestaña "Menú Inicio" y a continuación"Menú Inicio Clásico". Haga clic en el botón "Personalizar". Haga clic en elbotón "Borrar". Una vez terminado el proceso nos salimos de las anterioresventanas haciendo clic en el botón "Cancelar"
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=61&artlang=es
+Detalle resultado: 0.21454923 = (MATCH) product of:
+  0.8581969 = (MATCH) sum of:
+    0.8581969 = (MATCH) weight(question:acces in 43), product of:
+      0.51073515 = queryWeight(question:acces), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.094984904 = queryNorm
+      1.6803169 = (MATCH) fieldWeight(question:acces in 43), product of:
+        1.0 = tf(termFreq(question:acces)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=43)
+  0.25 = coord(1/4)
+
+Resultado: 2:
+Puntuación: 0.21454923
+	Pregunta: por que no puedo acceder a algunos servicios que estan accesibles a traves de la red cableada riuja
+	Respuesta:  Porque a través de RIMUJA o RIMUJA-WEB  no están disponibles todos los servicios que hay en la red cableada por decisión del Servicio de Informática. Consulta la lista de <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm">servicios disponibles</a>   para tu perfil en RIMUJA ,  o los <a href="http://www.ujaen.es/sci/redes/rimujaweb/servicios.htm">servicios disponibles</a> en RIMUJA-WEB. Si alguno no se encuentra disponible y deseas solicitarlo, envía un correo-e a <a href="mailto:secrimuja@ujaen.es"> secrimuja @ ujaen.es </a> , indicando brevemente el tipo de aplicación o servicio, los motivos para utilizarlo y opcionalmente alguna dirección web para obtener información adicional.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=247&artlang=es
+Detalle resultado: 0.21454923 = (MATCH) product of:
+  0.8581969 = (MATCH) sum of:
+    0.8581969 = (MATCH) weight(question:acces in 345), product of:
+      0.51073515 = queryWeight(question:acces), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.094984904 = queryNorm
+      1.6803169 = (MATCH) fieldWeight(question:acces in 345), product of:
+        1.0 = tf(termFreq(question:acces)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=345)
+  0.25 = coord(1/4)
+
+Resultado: 3:
+Puntuación: 0.19920559
+	Pregunta: como accedo al ordenador de mi despacho desde casa
+	Respuesta:  Para acceder al ordenador de su despacho, necesita haceruso de la Conexión a Escritorio Remoto. Pulse en el siguiente enlace para obtener información detallada: <a href="http://www.ujaen.es/sci/redes/vpn/esc_remoto.html">Conexión a Escritorio Remoto </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=39&artlang=es
+Detalle resultado: 0.19920559 = (MATCH) product of:
+  0.79682237 = (MATCH) sum of:
+    0.79682237 = (MATCH) weight(question:orden in 19), product of:
+      0.3890658 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.094984904 = queryNorm
+      2.0480402 = (MATCH) fieldWeight(question:orden in 19), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=19)
+  0.25 = coord(1/4)
+
+Resultado: 4:
+Puntuación: 0.19398138
+	Pregunta: como se usa internet explorer 6
+	Respuesta:  Lea un pequeño manual de este navegador en <a href="http://www.ujaen.es/sci/redes/web/iexplorer/curso/">http://www.ujaen.es/sci/redes/web/iexplorer/curso/</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=22&id=167&artlang=es
+Detalle resultado: 0.19398138 = (MATCH) product of:
+  0.7759255 = (MATCH) sum of:
+    0.7759255 = (MATCH) weight(question:internet in 72), product of:
+      0.38393024 = queryWeight(question:internet), product of:
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.094984904 = queryNorm
+      2.0210066 = (MATCH) fieldWeight(question:internet in 72), product of:
+        1.0 = tf(termFreq(question:internet)=1)
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=72)
+  0.25 = coord(1/4)
+
+Resultado: 5:
+Puntuación: 0.19398138
+	Pregunta: como se instala internet explorer 6
+	Respuesta:  Consulte la página web <a href="http://www.ujaen.es/sci/redes/web/iexplorer/instalacion/">http://www.ujaen.es/sci/redes/web/iexplorer/instalacion/</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=22&id=168&artlang=es
+Detalle resultado: 0.19398138 = (MATCH) product of:
+  0.7759255 = (MATCH) sum of:
+    0.7759255 = (MATCH) weight(question:internet in 73), product of:
+      0.38393024 = queryWeight(question:internet), product of:
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.094984904 = queryNorm
+      2.0210066 = (MATCH) fieldWeight(question:internet in 73), product of:
+        1.0 = tf(termFreq(question:internet)=1)
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=73)
+  0.25 = coord(1/4)
+
+Resultado: 6:
+Puntuación: 0.19398138
+	Pregunta: eliminar ficheros temporales de internet
+	Respuesta:  Abrir Internet Explorer, hacer clic en Herramientas Opciones de Internet y hacer clic en el botón Eliminar archivos...
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=60&artlang=es
+Detalle resultado: 0.19398138 = (MATCH) product of:
+  0.7759255 = (MATCH) sum of:
+    0.7759255 = (MATCH) weight(question:internet in 110), product of:
+      0.38393024 = queryWeight(question:internet), product of:
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.094984904 = queryNorm
+      2.0210066 = (MATCH) fieldWeight(question:internet in 110), product of:
+        1.0 = tf(termFreq(question:internet)=1)
+        4.042013 = idf(docFreq=18, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=110)
+  0.25 = coord(1/4)
+
+Resultado: 7:
+Puntuación: 0.17430489
+	Pregunta: que son las pantallas azules que aparecen cuando se arrancan los ordenadores
+	Respuesta:  Todas las aulas de informática del Servicio de Informática disponen de unsistema llamado rembo mediante el cual, cada vez que un ordenadorarranca o se reinicia, se restaura automáticamente todo el contenido de launidad C: a su configuración original. Esto quiere decir que cualquiercambio que se haga en la unidad C: (es decir, borrar, copiar, mover o modificarcualquier fichero o configuración en esa unidad) se va a perder en cuanto elordenador se reinicie. Las pantallas azules que aparecen al arrancar elordenador son las que se encargan de realizar esa restauración de la unidad C. Gracias a este sistemapodemos garantizarle que cada vez que usted o alguno de sus alumnos encienda unordenador del aula lo va a encontrar en perfecto estado de funcionamiento (salvoque tuviera alguna avería hardware). Si necesita escribir algún fichero que permanezca en el equipo aunque se reinicie oapague el ordenador deberá escribirlo en la unidad D: Esta unidad no sufreninguna modificación y puede usarla tranquilamente sin temor a perder ningúndato. Sin embargo, debe tener en cuenta que si tras terminar su clase deja sus datos enla unidad D: cualquier otro alumno o profesor que vuelva a utilizar eseequipo podrá ver esos datos e incluso modificarlos y borrarlosdefinitivamente. Igualmente el Servicio de Informática se reserva el derecho deeliminar de forma periódica y por labores de mantenimiento, el contenido de launidad D: Adicionalmente además de la citada unidad D: puede utilizar para grabar sus archivos cualquier dispositivo con conexión USB, la disquetera de 3" y 1/2, o bien su <a href="index.php?action=show cat=8">espacio en disco personal</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=330&artlang=es
+Detalle resultado: 0.17430489 = (MATCH) product of:
+  0.69721955 = (MATCH) sum of:
+    0.69721955 = (MATCH) weight(question:orden in 50), product of:
+      0.3890658 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.094984904 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 50), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=50)
+  0.25 = coord(1/4)
+
+Resultado: 8:
+Puntuación: 0.17430489
+	Pregunta: puede infectarse mi ordenador con un virus en mensaje de correo
+	Respuesta:  Si. Tome precauciones antes de ejecutar cualquier fichero que reciba por correo. No ejecute los ficheros sospechosos o aquellos que nos esperaba recibir y actualice su antivirus diariamente. Temas relacionados: - <a href="http://www.ujaen.es/sci/invdoc/avpanda/index.html" target="_blank">Antivirus para PCs de la Universidad de Jaén</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=24&id=36&artlang=es
+Detalle resultado: 0.17430489 = (MATCH) product of:
+  0.69721955 = (MATCH) sum of:
+    0.69721955 = (MATCH) weight(question:orden in 82), product of:
+      0.3890658 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.094984904 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 82), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=82)
+  0.25 = coord(1/4)
+
+Resultado: 9:
+Puntuación: 0.17430489
+	Pregunta: es cierto que algunos virus pueden infectar el ordenador desde un mensaje de correo
+	Respuesta:  Siutiliza el cliente de correo que recomienda el S.I. (Mozilla), unmensaje no puede infectar su ordenador porque únicamente se trata detexto. En otros clientes de correo-e, por ejemplo Outlook, si podríadarse el caso si este producto no está debidamente actualizado con loscorrespondientes parches de seguridad.Elúnico punto de infección en un mensaje, lo forman losficheros vinculados a él. Estos sí pueden contener unvirus que se active cuando acceda o ejecute dicho fichero. Lasolución es muy sencilla, puesto que bastará con tenerel antivirus actualizado. No obstante, se debe de ser muy precavido alejecutar o abrir ficheros adjuntos de origen desconocido o sospechoso.Además, la estafeta de correo-e de la UJA dispone de un sistemaantivirus que bloquea aquellos ficheros adjuntos infectados.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=39&id=177&artlang=es
+Detalle resultado: 0.17430489 = (MATCH) product of:
+  0.69721955 = (MATCH) sum of:
+    0.69721955 = (MATCH) weight(question:orden in 172), product of:
+      0.3890658 = queryWeight(question:orden), product of:
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.094984904 = queryNorm
+      1.7920351 = (MATCH) fieldWeight(question:orden in 172), product of:
+        1.0 = tf(termFreq(question:orden)=1)
+        4.0960803 = idf(docFreq=17, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=172)
+  0.25 = coord(1/4)
