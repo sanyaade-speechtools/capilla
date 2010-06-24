@@ -1,0 +1,26 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="error al abrir outlook no se puede abrir la carpeta c documents and settings outlook pst error desconocido 0x80040119 o 0x80040600 al leer correo enviar recibir o borrar mensajes en outlook">
+                    <AnswerIndex>si no puede abrir el archivo de carpetas personales pst puede utilizar la herramienta reparar bandeja de entrada scanpst exe para diagnosticar y reparar los errores del archivo otros casos en los que puede ser necesario ejecutar la aplicacion de reparacion es cuando aparecen mensajes de error desconocido con codigos 0x80040119 o 0x80040600 al leer enviar o recibir o borrar algun mensaje para reparar errores con scanpst exe 1 localice el archivo de datos abra outlook y entre en el menu herramientas configuracion de la cuenta seleccione archivo de datos y copie el camino al archivo de datos pst de su cuenta 2 salga de outlook 3 ejecute la aplicacion de reparacion haga doble clic en scanpst exe ubicado en unidad archivos de programa microsoft office office12 en el cuadro escriba directorio completo y el nombre del archivo pst que localizo anteriormente 4 pulse iniciar temas relacionados mas detalles en microsoft</AnswerIndex>
+                    <Answer>Si no puede abrir el archivo de carpetas personales (.pst), puede utilizar la herramienta RepararBandeja de entrada (Scanpst.exe) para diagnosticar y reparar los errores del archivo.
+Otros casos en los que puede ser necesario ejecutar la aplicación de reparación es cuando aparecen mensajes de error desconocido con códigos 0x80040119 ó 0x80040600; al leer, enviar/recibir o borrar algún mensaje.
+Para reparar errores con Scanpst.exe:
+1)Localice el archivo de datos
+- abra Outlook y entre en el menú Herramientas- Configuración de la cuenta- seleccione Archivo de datos y copie el camino al archivo de datos (.pst) de su cuenta
+2) Salga de Outlook
+3) Ejecute la aplicación de reparación
+- Haga doble clic en Scanpst.exe, ubicado en unidad:\Archivos de programa\Microsoft Office\OFFICE12.- En el cuadro Escriba directorio completo y el nombre del archivo .pst que localizó anteriormente
+4) Pulse iniciar
+  Temas relacionados
+<a href="http://office.microsoft.com/es-es/outlook/HA100758313082.aspx">Más detalles en Microsoft </a></Answer>
+                    <Link>http://office.microsoft.com/es-es/outlook/HA100758313082.aspx</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=414&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia movil">
+          <Question Text="como puedo realizar llamadas a telefonos de emergencia">
+               <AnswerIndex>para efectuar llamadas a telefonos de emergencia ejemplo 091 061 etc hay que utilizar el 0 seguido del numero correspondiente ejemplo 0061</AnswerIndex>
+               <Answer> Para efectuar llamadas a Teléfonos de Emergencia (ejemplo 091, 061, etc)  hay que utilizar el 0 seguido del número correspondiente (ejemplo 0061).</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=19&id=258&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

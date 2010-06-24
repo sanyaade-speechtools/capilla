@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="incidencias relacionadas con la conexion vpn en linux y macos">
+               <AnswerIndex>el proceso de instalacion y configuracion asi como las incidencias detectadas relacionadas con las plataformas linux y macos estan recogidas en detalle en las paginas web correspondientes a estas plataformas para macos para linux nota para entrar a estas paginas es necesario el usuario y contraseña de cuenta tic</AnswerIndex>
+               <Answer>El proceso de instalación y configuración, asi como las incidencias detectadas relacionadas con las plataformas Linux y MacOS están recogidas en detalle en las páginas web correspondientes a estas plataformas:
+Para MacOS: <a href="https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html</a>
+Para Linux: <a href="https://www.ujaen.es/sci/redes/vpn/seguro/linux.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/linux.html</a>
+NOTA: para entrar a estas páginas es necesario el usuario y contraseña de cuenta TIC.</Answer>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html</Link>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/linux.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=346&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="que diferencia hay entre utilizar dispositivos 802 11b y dispositivos 802 11g">
+                    <AnswerIndex>en principio la unica diferencia es la velocidad maxima que pueden alcanzar los dispositivos aunque en la red inalambrica de la universidad de jaen se soportan ambas puedes ver mas informacion aqui</AnswerIndex>
+                    <Answer>En principio, la única diferencia es la velocidad máxima que pueden alcanzar los dispositivos, aunque en la red inalámbrica de la Universidad de Jaén, se soportan ambas. Puedes ver mas información  <a href="http://www.ujaen.es/sci/redes/rimuja/guias/introduccion.htm"> aquí. </a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/guias/introduccion.htm</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=219&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

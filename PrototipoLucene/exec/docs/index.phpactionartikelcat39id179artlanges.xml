@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="cuando se produce el momento del contagio">
+                         <AnswerIndex>al ejecutar el fichero infectado actua primero el codigo del virus y es este instante el que aprovecha el virus para contagiar uno o mas ficheros al ejecutarse el fichero infectado el virus queda residente desde este momento puede controlar cualquier operacion del sistema operativo y aprovechar cualquier acontecimiento para contagiar en el momento de ejecucion de cualquier programa cuando se copian ficheros cada cierto tiempo tomando como base el reloj del sistema u otro criterio</AnswerIndex>
+                         <Answer>Alejecutar el fichero infectado, actúa primero el códigodel virus, y es este instante el que aprovecha el virus para contagiaruno o más ficheros. Al ejecutarse el fichero infectado el virusqueda residente. Desde este momento puede controlar cualquier operacióndel sistema operativo y aprovechar cualquier acontecimiento para contagiar:En el momento de ejecución de cualquier programa, cuando se copianficheros, cada cierto tiempo, tomando como base el reloj del sistemau otro criterio.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=179&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

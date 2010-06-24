@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="navegacion">
+               <Question Text="no puedo navegar por internet ni acceder a ninguna pagina web">
+                    <AnswerIndex>inicialmente compruebe que el equipo tenga conexion de red para descartar un problema de la propia conexion de red para ello compruebe si puede enviar y recibir correo electronico compruebe si puede navegar por internet compruebe el correcto funcionamiento de otros servicio de red que utilice habitualmente esta accediendo a traves del servidor proxy de la universidad el acceso a internet desde la universidad siempre se debe hacer a traves del servidor proxy utilizando la configuracion automatica y especificando la siguiente direccion pulse aqui para ver el proceso de configuracion del servidor proxy revise la configuracion dns de la maquina</AnswerIndex>
+                    <Answer>Inicialmente, compruebe que el equipo tenga conexión de red para descartar un problema de la propia conexión de red. Para ello: Compruebe si puede enviar y recibir correo electrónico Compruebe si puede navegar por Internet Compruebe el correcto funcionamiento de otros servicio de red que utilice habitualmente ¿Está accediendo a través del servidor proxy de la Universidad? El acceso a Internet desde la Universidad siempre se debe hacer a través del servidor proxy, utilizando la configuración automática y especificando la siguiente dirección:  http://www.ujaen.es/sci/redes/proxy/proxy.pac <a href="http://www.ujaen.es/sci/redes/proxy/
+config">Pulse aquí para ver el proceso de configuración del servidor proxy</a>   Revise la <a href="http://www.ujaen.es/sci/redes/dns/">configuración DNS de la máquina</a>.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/proxy/#config</Link>
+                    <Link>http://www.ujaen.es/sci/redes/dns/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=21&id=9&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

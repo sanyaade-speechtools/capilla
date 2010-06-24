@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="que servicios estan disponibles utilizando rimuja">
+                    <AnswerIndex>la lista de servicios disponibles a traves de la red inalambrica rimuja estan descritos en este enlace</AnswerIndex>
+                    <Answer>La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm"> este enlace. </a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/servicios.htm</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=213&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

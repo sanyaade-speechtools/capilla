@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="que ocurre cuando el ordenador entra en estado de hibernacion">
+                    <AnswerIndex>si el portatil esta configurado para que al pasar cierto tiempo de inactividad cambie su estado a hibernacion esto causara una desconexion inmediata de rimuja o de rimuja web cuando regrese de nuevo al estado normal se debe volver a establecer la conexion e introducir de nuevo las credenciales usuario y contraseña</AnswerIndex>
+                    <Answer>Si el portátil está configurado para que al pasar cierto tiempo de inactividad cambie su estado a hibernación, esto causará una desconexión inmediata de RIMUJA o de RIMUJA-WEB. Cuando regrese de nuevo al estado normal, se debe volver a establecer la conexión e introducir de nuevo las credenciales (usuario y contraseña).</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=224&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

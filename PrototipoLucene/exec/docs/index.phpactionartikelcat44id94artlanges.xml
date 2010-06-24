@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="el cliente de correo muestra el siguiente mensaje servidor mail no encontrado o similar">
+                    <AnswerIndex>puede ser debido a varias razones que tenga mal configurados los servidores de correo electronico entrante pop3 ujaen es y saliente smtp ujaen es revise la configuracion de su cliente de correo que tenga mal configurada la informacion de los servidores de nombres dns de la universidad de jaen en este caso debe modificar las propiedades de internet tcp o ip de su tarjeta de red para configurar correctamente los servidores y el nombre dns correspondiente a su maquina para seguir el procedimiento detallado consulte la seccion configuracion de los servidores dns de la universidad de jaen que tenga un problema de conexion a la red desde su pc para solucionarlo consulte la seccion problemas con la conexion a la red riuja</AnswerIndex>
+                    <Answer>Puede ser debido a varias razones:
+Que tenga mal configurados los servidores de correo electrónico entrante (pop3.ujaen.es) y saliente (smtp.ujaen.es). <a href="http://www.ujaen.es/sci/redes/email/perfiles.html" target="_blank">Revise la configuración de su cliente</a> de correo.  Que tenga mal configurada la información de los servidores de nombres (DNS) de la Universidad de Jaén. En este caso debe modificar las propiedades de Internet (TCP/IP) de su tarjeta de red para configurar correctamente los servidores y el nombre DNS correspondiente a su máquina. Para seguir el procedimiento detallado, consulte la sección <a href="http://www.ujaen.es/sci/redes/dns/" target="_blank">Configuración de los servidores DNS de la Universidad de Jaén</a>. Que tenga un problema de conexión a la red desde su PC. Para solucionarlo, consulte la sección <a href="http://www.ujaen.es/sci/sau/procedimientos/procedimientos.htm" target="_blank">problemas con la conexión a la red RIUJA</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/perfiles.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/dns/</Link>
+                    <Link>http://www.ujaen.es/sci/sau/procedimientos/procedimientos.htm</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=94&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="no puedo ver ningun fichero adjunto a los mensajes en mozilla">
+                    <AnswerIndex>en ocasiones ocurre que no se pueden ver los ficheros adjuntos a los mensajes es como si mozilla no pudiera determinar la extension de los ficheros adjuntos y por tanto no puede lanzar el programa o aplicacion para abrirlo la manera de solucionarlo es crear un nuevo perfil de usuario con los datos del perfil que esta dando el problema los pasos a realizar son los siguientes crear una copia de seguridad del perfil en cuestion en otra localizacion abrir el administrador de perfiles de mozilla localizado en el mismo grupo de programas que mozilla es decir inicio programas mozilla en el administrador de perfiles seleccionamos el perfil de correo del usuario que tiene el problema y pulsamos el boton eliminar perfil en el proceso de borrado nos aparece un cuadro de dialogo solicitando si queremos eliminar los archivos asociados o no pulsamos el boton no eliminar los archivos una vez borrado el perfil volveremos a crear un nuevo perfil con el mismo nombre que el antiguo y con el boton elegir carpeta seleccionamos la carpeta base profiles donde esta el perfil antiguo una vez realizado este ultimo paso y creado el nuevo perfil si abrimos el correo electronico y pulsamos los ficheros adjuntos volveremos a verlos como inicialmente</AnswerIndex>
+                    <Answer>En ocasiones ocurre que no se pueden ver los ficheros adjuntos a los mensajes. Es como si Mozilla no pudiera determinar la extensión de los ficheros adjuntos y por tanto no puede lanzar el programa o aplicación para abrirlo.
+La manera de solucionarlo es crear un nuevo perfil de usuario con los datos del perfil que está dando el problema.
+Los pasos a realizar son los siguientes:
+Crear una copia de seguridad del perfil en cuestion en otra localización. Abrir el administrador de perfiles de Mozilla, localizado en el mismo grupo de programas que Mozilla, es decir, Inicio- Programas- Mozilla
+En el administrador de perfiles seleccionamos el perfil  de correo del usuario que tiene el problema y pulsamos el botón "Eliminar perfil". En el proceso de borrado nos aparece un cuadro de dialogo solicitando si queremos eliminar los archivos asociados o no. Pulsamos el botón "No eliminar los archivos".
+Una vez borrado el perfil, volveremos a crear un nuevo perfil con el mismo nombre que el antiguo y con el botón "Elegir carpeta ..." seleccionamos la carpeta base "Profiles" donde está el perfil antiguo.
+Una vez realizado este último paso y creado el nuevo perfil, si abrimos el correo electrónico y pulsamos los ficheros adjuntos volveremos a verlos como inicialmente.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=289&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

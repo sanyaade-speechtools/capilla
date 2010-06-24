@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del buzon de voz">
+               <Question Text="como cambio mi codigo de seguridad">
+                    <AnswerIndex>acceda a su buzon de voz llamando al 83000 pulse la tecla 3 para acceder phonemanager pulse la tecla 1 para acceder al menu de opciones personales pulse 4 para cambiar el codigo de seguridad cuando el sistema se lo solicite indique un nuevo codigo de seguridad y pulse confirme el nuevo codigo de seguridad indicandolo de nuevo y pulse la tecla pulse aux auxutf8 docs exec dir parser sh parserfaq sh parserfaq sh results para salir</AnswerIndex>
+                    <Answer>Acceda a su buzón de voz, llamando al 83000. Pulse la tecla 3 para acceder PhoneManager. Pulse la tecla 1 para acceder al menú de opciones personales. Pulse 4 para cambiar el código de seguridad. Cuando el sistema se lo solicite, indique un nuevo código de seguridad y pulse
+. Confirme el nuevo código de seguridad indicándolo de nuevo y pulse la tecla
+. Pulse aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results para salir.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=51&id=255&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

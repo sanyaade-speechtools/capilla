@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="no se puede encontrar el servidor smtp ujaen es o el servidor pop3 ujaen es">
+                    <AnswerIndex>existen varias situaciones en las que el cliente no puede contactar con el servidor entrante o saliente para solucionarlo utilice algunas de estas indicaciones funciona la red compruebe que no hay recibido ningun aviso de corte programado en riuja si es asi tendra que esperar a que se restablezca la red compruebe que el cable de red esta bien conectado tarjeta de red y roseta pared asegurese de que puede navegar por internet conectese a una pagina que no haya visitado recientemente tambien se puede intentar realizar un ping al servidor de correo si tiene un firewall cortafuegos personal revise su configuracion los demas compañeros pueden recibir y enviar mensajes con normalidad tiene antivirus compruebe que no tiene ningun cortafuegos activado en el antivirus hay versiones de antivirus que en ocasiones interrumpen la conexion con el servidor cierre temporalmente la proteccion permanente del programa antivirus e intente descargar mensajes de correo verifique que no tiene virus analice la memoria y el disco duro si todas las comprobaciones anteriores fallan envie una solicitud de incidencias murphy</AnswerIndex>
+                    <Answer>Existen varias situaciones en las que el cliente no puede contactar con el servidor (entrante o saliente.).  Para solucionarlo utilice algunas de estas indicaciones:
+¿Funciona la red?
+Compruebe que no hay recibido ningún aviso de corte programado en RIUJA. Si es así, tendrá que esperar a que se restablezca la red. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared.  Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING al servidor de correo. Si tiene un firewall (cortafuegos) personal, revise su configuración. ¿Los demás compañeros pueden recibir y enviar mensajes con normalidad?
+¿Tiene antivirus?
+Compruebe que no tiene ningún cortafuegos activado en el antivirus. Hay versiones de antivirus que, en ocasiones, interrumpen la conexión con el servidor.  Cierre temporalmente la protección permanente del programa antivirus e intente descargar mensajes de correo. Verifique que no tiene virus: analice la memoria y el disco duro. Si todas las comprobaciones anteriores fallan envíe una <a href="http://www.ujaen.es/murphy/" target="_blank">solicitud de incidencias (murphy).</a></Answer>
+                    <Link>http://www.ujaen.es/murphy/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=101&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

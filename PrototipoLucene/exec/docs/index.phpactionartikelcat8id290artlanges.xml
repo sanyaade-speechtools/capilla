@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="espacio en disco">
+          <Question Text="no funciona o no encuentro el asistente como me conecto a mi espacio en disco">
+               <AnswerIndex>si no te funciona o encuentras el asistente puedes conectar de forma manual una unidad de red a tu espacio en disco estos son los pasos a seguir nota importante si es la primera vez que accedes a este servicio no puedes utilizar esta conexion manual en ese caso debes utilizar los asistentes descritos en esta pagina abre el explorador de windows o mi pc en el menu herramientas elige la opcion conectar a unidad de red aparecera esta ventana selecciona la unidad z carpeta boreal usuario usuario es tu usuario del campus virtual añadele el signo dolar al final pulsa donde dice conectar usando otro nombre usuario te aparecera esta otra ventana usuario aulas usuario usuario es de nuevo el del campus virtual contraseña la del campus virtual pulsa el boton aceptar volveras a la ventana anterior pulsa el boton finalizar preguntas relacionadas como me conecto a mi espacio en disco</AnswerIndex>
+               <Answer>Si no te funciona o encuentras el asistente, puedes conectar de forma manual una unidad de red a tu espacio en disco. Estos son los pasos a seguir:
+Nota importante : si es la primera vez que accedes a este servicio no puedes utilizar esta conexión manual, en ese caso debes utilizar los asistentes descritos en esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> .
+Abre el exploradorde Windows o Mi PC. En el menú "Herramientas" elige la opción "Conectar a unidadde red". Aparecerá esta ventana:
+Selecciona la unidad Z:Carpeta: \\boreal\usuario$ (usuario es tu usuario del campus virtual,añádele el signo dolar $ al final)Pulsa donde dice "Conectar usando otro nombre usuario".Te aparecerá esta otra ventana:
+Usuario: aulas\usuario (usuario es de nuevo el del campus virtual)Contraseña: la del campus virtualPulsa el botón aceptarVolverás a la ventana anterior, pulsa el botón Finalizar.Preguntas relacionadas:
+- <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a></Answer>
+               <Link>http://www3.ujaen.es/edisco/acceso.html</Link>
+               <Link>/index.php?action=artikel&amp;cat=8&amp;id=285&amp;artlang=es</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=8&id=290&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

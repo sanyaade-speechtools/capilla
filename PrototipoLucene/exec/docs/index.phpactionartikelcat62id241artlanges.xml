@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="por que no puedo navegar si tengo la tarjeta inalambrica bien configurada">
+                    <AnswerIndex>una vez que hayas configurado correctamente la tarjeta debes conectarte a la red e introducir tus credenciales usuario y contraseña a continuacion debes esperar unos instantes a que se conecte el equipo y que el icono de conexion inalambrica de la bandeja del sistema debe indicar que se ha establecido la conexion</AnswerIndex>
+                    <Answer>Una vez que hayas configurado correctamente la tarjeta debes conectarte a la red e introducir tus credenciales (usuario y contraseña), a continuación debes esperar unos instantes a que se conecte el equipo y que el icono de conexión inalámbrica de la bandeja del sistema debe indicar que se ha establecido la conexión.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=241&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="como puedo realizar alguna consulta relacionada con las redes inalambricas">
+                    <AnswerIndex>si tienes cualquier duda sugerencia incidencia etc para los equipos no pertenecientes a la universidad sin numero de inventario el soporte es via web para los equipos pertenecientes a la universidad con numero de inventario y para los equipos de invitados te puedes poner en contacto con la oficina de atencion al usuario del servicio de informatica</AnswerIndex>
+                    <Answer>Si tienes cualquier duda, sugerencia, incidencia, etc:
+Para los equipos no pertenecientes a la Universidad (sin número de inventario) el soporte es vía <a href="http://www.ujaen.es/sci/redes/rimuja/"> Web </a>.Para los equipos pertenecientes a la Universidad (con número de inventario) y para los equipos de invitados te puedes poner en contacto con la <a href="http://www.ujaen.es/sci/sau"> Oficina de Atención al Usuario </a>   del Servicio de Informática.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/</Link>
+                    <Link>http://www.ujaen.es/sci/sau</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=222&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

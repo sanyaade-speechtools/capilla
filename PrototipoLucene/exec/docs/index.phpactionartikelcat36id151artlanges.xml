@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="impresoras">
+               <Categorie Text="axxis">
+                    <Question Text="instalar o agregar una nueva impresora axxis">
+                         <AnswerIndex>para configurar una nueva impresora conectada a un axis siga el siguiente procedimiento siga la secuencia boton inicio configuracion impresoras pulse sobre el icono agregar impresora añadiremos una impresora local seleccionamos la marca y el modelo para instalar el driver correspondiente si la impresora no esta entre las soportadas por windows pulsaremos en el boton usar disco y buscamos sus drivers en el cd rom suministrado por el fabricante la instalaremos en el puerto lpt1 puerto de impresora indicaremos si la queremos activar o no como impresora predeterminada finalizaremos la instalacion una vez instalada abriremos la ventana de propiedades de la misma boton derecho del raton en la pestaña detalles seleccionaremos la opcion agregar puerto seleccionaremos otros y a continuacion axis port en tipo de puerto seleccionamos lpr tcp o ip en nombre de host pondremos la direccion ip del servidor axis al que esta conectada la impresora consulte al servicio de informatica en nombre de la impresora logica pondremos lpt1 si la impresora esta conectada al puerto 1 del axis junto al cable de alimentacion electrica o bien lpt2 si la impresora esta conectada al puerto 2 del axis</AnswerIndex>
+                         <Answer>Paraconfigurar una nueva impresora conectada a un AXIS, siga el siguienteprocedimiento:
+Sigala secuencia: Botón Inicio ConfiguraciónImpresorasPulse sobre el icono Agregar ImpresoraAñadiremos una impresora local Seleccionamosla marca y el modelo para instalar el driver correspondiente.Si la impresora no está entre las soportadas por Windows, pulsaremosen el botón Usar discoy buscamos sus drivers en el CD-ROM suministrado por el fabricante.La instalaremos en el puerto LPT1: Puertode ImpresoraIndicaremos si la queremos activar o no como impresora predeterminadaFinalizaremos la instalación. Una vez instalada, abriremos la ventanade propiedades de la misma (botón derecho del ratón) Enla pestaña Detalles ,seleccionaremos la opción Agregar puertoSeleccionaremos Otrosy a continuación AXIS PortEn tipo de puerto seleccionamos LPR (TCP/IP)En Nombre de host pondremosla dirección IP del servidor AXIS al que está conectada la impresora(consulte al Servicio de Informática)En nombre de la impresora lógica pondremos LPT1(si la impresora está conectada al puerto 1 del AXIS, junto al cablede alimentación eléctrica) o bien LPT2(si la impresora está conectada al puerto 2 del AXIS).</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=36&id=151&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

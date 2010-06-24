@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="como accedo al ordenador de mi despacho desde casa">
+               <AnswerIndex>para acceder al ordenador de su despacho necesita hacer uso de la conexion a escritorio remoto pulse en el siguiente enlace para obtener informacion detallada conexion a escritorio remoto</AnswerIndex>
+               <Answer>Para acceder al ordenador de su despacho, necesita haceruso de la Conexión a Escritorio Remoto.
+Pulse en el siguiente enlace para obtener información detallada:
+<a href="http://www.ujaen.es/sci/redes/vpn/esc_remoto.html">Conexión a Escritorio Remoto </a></Answer>
+               <Link>http://www.ujaen.es/sci/redes/vpn/esc_remoto.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=39&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

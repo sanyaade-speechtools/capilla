@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="crear discos de rescate con panda antivirus">
+                         <AnswerIndex>la nueva version de panda antivirus 2007 lite no proporciona mecanismos para la creacion de discos de rescate por lo que desde el servicio de informatica hemos creado una imagen iso que le permite crear un cd rom de arranque con el que puede arrancar el equipo desde un entorno limpio y utilizar el antivirus desde este cd cuando tienen sospechas de que su ordenador ya esta infectado por un virus para crear el disco de rescate necesita realizar las siguientes acciones descargar la imagen iso del cd de arranque de panda antivirus tener instalado un software de grabacion de cds y tener a mano un cd en blanco etiquetado como disco de rescate crear el disco de rescate con su software de grabacion preferido</AnswerIndex>
+                         <Answer>La nueva versión de Panda Antivirus 2007 (Lite) no proporciona mecanismospara la creación de discos de rescate , por lo que desde el Serviciode Informática hemos creado una imagen ISO que le permite crear un CD-ROM dearranque con el que puede arrancar el equipo desdeun entorno limpio y utilizar el antivirus desde este CD cuando tienensospechas de que su ordenador ya estáinfectado por un virus.
+Para crear el disco de rescate necesita realizar las siguientes acciones:
+Descargarla <a title="CD arranque de Panda Antivirus" target="_blank" href="ftp://ftp.ujaen.es:2121/panda/disco_rescate.iso">imagen ISO del CD de arranque de Panda Antivirus</a>. Tener instalado un <a title="Software de Grabación de CDs" target="_blank" href="http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/nero/nero66.html">software de grabación de CDs</a> y tener a mano un CD en blanco etiquetado como "Disco de Rescate". Crear el disco de rescate con su software de grabación preferido.</Answer>
+                         <Link>ftp://ftp.ujaen.es:2121/panda/disco_rescate.iso</Link>
+                         <Link>http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/nero/nero66.html</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=172&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

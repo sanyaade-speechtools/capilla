@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="soy profesor y tengo una reserva hecha como entro al aula">
+                    <AnswerIndex>debe solicitar la llave del aula reservada en la conserjeria del edificio donde se encuentre situada si tiene pensado usar el videoproyector tambien debera pedir en la misma consejeria el mando a distancia del aparato</AnswerIndex>
+                    <Answer>Debe solicitar la llave del aula reservada en la conserjería deledificio donde se encuentre situada.
+Si tiene pensado usar el videoproyector también deberá pedir en la misma consejería el mando a distancia del aparato.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=326&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del servicio">
+               <Question Text="como utilizar el servicio de telefonia sigame">
+                    <AnswerIndex>si va a ausentarse temporalmente de su puesto y desea que sus llamadas sean recibidas en el lugar donde va a encontrarse puede programar un desvio a otra extension descuelgue el telefono espere tono de marcar marque aux auxutf8 docs exec dir parser sh parserfaq sh parserfaq sh results 21 aux auxutf8 docs exec dir parser sh parserfaq sh parserfaq sh results nº de contestacion espere tono de verificacion cuelgue el telefono mientras el telefono este programado con este tipo de desvio puede efectuar llamadas salientes de la forma habitual para cancelar esta facilidad marque 21</AnswerIndex>
+                    <Answer>Si va a ausentarse temporalmente de su puesto y desea que sus llamadas sean recibidas en el lugar donde va a encontrarse, puede programar un desvío a otra extensión:
+Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 21 aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results nº de contestación
+Espere tono de verificación Cuelgue el teléfono 
+Mientras el teléfono esté programado con este tipo de desvío, puede efectuar llamadas salientes de la forma habitual.
+Para CANCELAR esta facilidad marque
+21</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=50&id=237&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

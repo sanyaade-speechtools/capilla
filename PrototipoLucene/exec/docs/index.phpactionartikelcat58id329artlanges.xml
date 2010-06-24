@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica">
+                    <AnswerIndex>en en primer lugar debera comprobar si el software que quiere usar esta ya instalado en el aula que tiene reservada para ello puede consultar la lista de software instalado en la pagina web del aula correspondiente si observa que el software no esta instalado debera solicitar su instalacion al servicio de informatica para ello debera rellenar y enviar la siguiente solicitud recuerde que solo se instalara software que este debidamente licenciado o aquel cuyo tipo de licencia shareware demo gratuito lo permita de forma legal</AnswerIndex>
+                    <Answer>En en primer lugar deberá comprobar si el softwareque quiere usar está ya instalado en el aula que tiene reservada, para ello puedeconsultar la lista de software instalado en la<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente.
+Si observa que el software no está instalado deberá solicitar su instalación al Servicio deInformática, para ello deberá rellenar y enviar la siguiente<a href="http://www3.ujaen.es/aulas/servicios_profesores.html
+instalacion%20software">solicitud</a>.
+Recuerde que sólo se instalará software que esté debidamentelicenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lopermita de forma legal.</Answer>
+                    <Link>http://www3.ujaen.es/aulas/aulas_disponibles.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/servicios_profesores.html#instalacion%20software</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,22 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="listas de correo">
+          <Categorie Text="suscriptor">
+               <Question Text="puede desactivar la recepcion de mensajes de una lista durante las vacaciones">
+                    <AnswerIndex>si solo tiene que editar sus preferencias de suscripcion siguiendo los siguientes pasos 1 acceda a la relacion de listas o mailman o listinfo 2 seleccione la lista a la que esta suscrito 3 escriba su direccion de correo electronico en el campo que aparece delante del boton anular su suscripcion o editar preferencias 4 introduzca su clave 5 configure como inhabilitado la entrega de correo</AnswerIndex>
+                    <Answer>Si. Sólo tiene que editar sus preferencias de suscripción siguiendo los siguientes pasos:
+1. Acceda a la relación de listas
+<a href="http://listas.ujaen.es/mailman/listinfo">http://listas.ujaen.es/mailman/listinfo</a>
+2. Seleccione la lista a la que está suscrito
+3. Escriba su dirección de correo electrónico en el campo que aparece delante del botón "Anular su suscripción o editar preferencias"
+4. Introduzca su clave.
+5. Configure como "Inhabilitado" la "Entrega de correo".</Answer>
+                    <Link>http://listas.ujaen.es/mailman/listinfo</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=56&id=304&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

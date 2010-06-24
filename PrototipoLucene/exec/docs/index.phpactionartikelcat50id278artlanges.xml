@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del servicio">
+               <Question Text="como utilizar el servicio de telefonia no molesten">
+                    <AnswerIndex>si desea no recibir llamadas entrantes en una linea individual descuelgue el telefono espere tono de marcar marque aux auxutf8 docs exec dir parser sh parserfaq sh parserfaq sh results 27 cuelgue para cancelar esta facilidad siga el mismo procedimiento anterior marcando 27</AnswerIndex>
+                    <Answer>Si desea NO recibir llamadas entrantes en una línea individual: Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 27
+Cuelgue Para CANCELAR esta facilidad:
+Siga el mismo procedimiento anterior marcando
+27</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=50&id=278&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

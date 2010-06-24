@@ -1,0 +1,14 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="nombres de dominio dns">
+          <Question Text="que nombre le pongo a mi servidor">
+               <AnswerIndex>el usuario de un equipo servidor que quiera asignar un nombre propio bajo el dominio ujaen es debe comunicarlo con la solicitud correspondiente indicando un nombre propuesto que el servicio de informatica estudiara y validara si no existe ningun equipo con el nombre o no induce a ninguna confusion o error se tramitara sin mas en cualquier otro caso se comunicara al usuario la posibilidad de eleccion de otro nombre</AnswerIndex>
+               <Answer>El usuario de un equipo servidor que quiera asignar un nombre propio, bajo el dominio .ujaen.es , debe comunicarlo con la <a href="http://www.ujaen.es/sci/redes/solic/sol-r210.pdf"> solicitud </a> correspondiente, indicando un nombre propuesto, que el Servicio de Informática estudiará y validará.  Si no existe ningún equipo con el nombre, o no induce a ninguna confusión o error, se tramitará sin mas. En cualquier otro caso se comunicará al usuario la posibilidad de elección de otro nombre.</Answer>
+               <Link>http://www.ujaen.es/sci/redes/solic/sol-r210.pdf</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=15&id=270&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

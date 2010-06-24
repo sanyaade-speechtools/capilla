@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="nombres de dominio dns">
+          <Question Text="que es el registro de conexiones en dns y por que tengo que desactivarlo">
+               <AnswerIndex>los equipos con windows xp y otros sistemas operativos recientes como windows vista dan la posibilidad de que el propio pc envie una peticion de autoregistro de su nombre al dns la universidad de jaen no permite el registro automatico en sus servidores dns conocido como dns dinamico esto implica que cada equipo que intente registrarse en el dns sera rechazado y generara el aviso correspondiente por tanto es conveniente que se modifique la forma en la que los equipos hacen el registro en el dns como quiera que este proceso es complejo el servicio de informatica ha previsto en todas las imagenes de equipos que se entregan en planes renove que esta opcion vaya desactivada por defecto si usted es un usuario que ha adquirido un ordenador por su cuenta debe modificar esta opcion de forma manual para su sistema operativo r evise esta guia si su sistema es xp o bien esta otra si su sitema operativo es windows vista</AnswerIndex>
+               <Answer>Los equipos con Windows XP y otros sistemas operativos recientes, como Windows Vista, dan la posibilidad de que el propio PC envíe una petición de autoregistro de su nombre al DNS. La Universidad de Jaén NO PERMITE el registro automático en sus servidores DNS (conocido como DNS dinámico). Esto implica que cada equipo que intente registrarse en el DNS será rechazado y generará el aviso correspondiente.Por tanto, es conveniente que se modifique la forma en la que los equipos hacen el registro en el DNS.
+Como quiera que este proceso es complejo, el Servicio de Informática ha previsto en todas las imágenes de equipos que se entregan en planes RENOVE , que esta opción vaya desactivada por defecto. Si usted es un usuario que ha adquirido un ordenador por su cuenta, debe modificar esta opción de forma manual para su sistema operativo. R evise <a href="http://www.ujaen.es/sci/redes/dns/guia/manualxp.htm">esta guía</a> si su sistema es XP, o bien, <a href="http://www.ujaen.es/sci/redes/dns/guia/manualvista.htm">ésta otra</a>, si su sitema operativo es Windows Vista. </Answer>
+               <Link>http://www.ujaen.es/sci/redes/dns/guia/manualxp.htm</Link>
+               <Link>http://www.ujaen.es/sci/redes/dns/guia/manualvista.htm</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=15&id=272&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

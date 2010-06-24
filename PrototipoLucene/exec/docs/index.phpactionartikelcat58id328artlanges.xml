@@ -1,0 +1,22 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="tengo un problema necesito contactar con el tecnico del aula">
+                    <AnswerIndex>si es un problema tecnico en un equipo individual puede consultar esta guia tecnica de resolucion de problemas en los ordenadores de las aulas de informatica si este problema no le impide continuar con el funcionamiento normal de su clase anotela en el parte de control o en el campo observaciones de la aplicacion de gestion de asistencias para su posterior resolucion si aun asi desea contactar un tecnico debe saber que la normativa de las aulas de informatica establece que la ubicacion habitual de los tecnicos son las aulas de libre acceso en esta pagina puede consultar cuales son las aulas de libre acceso las de color verde y accediendo a cualquiera de ellas podra ver su telefono correo electronico y tecnicos de las mismas adicionalmente tambien puede contactar con un tecnico mediante el chat que encontrara dentro de la aplicacion de gestion de asistencias</AnswerIndex>
+                    <Answer>Si es un problema técnico en un equipo individual puede consultar esta<a href="http://www3.ujaen.es/aulas/guias_ayuda/FAQ_tecnica.html">guía técnica de resolución de problemas en losordenadores de las aulas de informática</a>. Si este problema no le impide continuar con el funcionamiento normal desu clase anótela en el parte de control o en el campo "Observaciones" de la aplicación de gestión de asistencias para su posterior resolución.
+Si aún así desea contactar un técnico debe saber que la <a href="http://www3.ujaen.es/aulas/normativas.html">normativa</a>de las aulas de informática establece que la ubicación habitual de los técnicosson las aulas de libre acceso. En esta página puede consultar cuáles son las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">aulas de libre acceso</a> (las de colorverde) y accediendo a cualquiera de ellas podrá ver su teléfono, correoelectrónico ytécnicos de las mismas.
+Adicionalmente tambiénpuede contactar con un técnico mediante el chat que encontrará dentro de la<a href="http://www3.ujaen.es/aulas/servicios_profesores.html
+Asistencias">aplicación de gestión deasistencias.</a></Answer>
+                    <Link>http://www3.ujaen.es/aulas/guias_ayuda/FAQ_tecnica.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/normativas.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/aulas_disponibles.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/servicios_profesores.html#Asistencias</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=328&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

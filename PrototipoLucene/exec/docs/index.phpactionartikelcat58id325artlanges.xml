@@ -1,0 +1,33 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="soy profesor y quiero reservar un aula de informatica que tengo que hacer">
+                    <AnswerIndex>existen distintas aulas de informatica tanto en el campus de las lagunillas como en la e p s de linares destinadas exclusivamente a impartir docencia en este enlace podra saber cuales son y donde se encuentran las aulas de informatica disponibles las de docencia son las de color rojo una vez que haya decidido que aula va a reservar debe rellenar esta solicitud no olvide especificar que software va a usar y enviarla al coordinador del aula correspondiente aulas de informatica del campus de las lagunillas coordinador felipe martinez perez seccion de organizacion docente edificio b 1 telefono 953 21 22 81 e mail fmperez ujaen es aulas de informatica la e p s de linares coordinador raul mata campos despacho b 208 edificio b eps linares telefono 953 648 558 e mail raul ujaen es como alternativa a esta solicitud tambien puede solicitar la reserva de un aula de informatica desde la opcion reserva de espacios docentes del campus virtual de la universidad de jaen</AnswerIndex>
+                    <Answer>Existen distintas aulas de informática,tanto en el Campus de Las Lagunillas como en la E.P.S. de Linares,destinadas exclusivamente a impartir docencia. En este enlace podrá saber cuálesson y dónde se encuentran las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" title="Aulas de informática disponibles">aulas de informática disponibles</a>, las de docencia son las de colorrojo.
+Una vez que haya decidido qué aula va a reservar,debe rellenar esta<a href="http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf" title="Solictud de reserva de aula de informática">solicitud</a> (no olvide especificar qué software va a usar) y enviarla al coordinador del aula correspondiente:
+Aulas de informática del Campus de lasLagunillas:
+Coordinador: Felipe Martínez Pérez
+Sección de Organización Docente. Edificio B-1.
+Teléfono: 953 21 22 81
+E-mail: fmperez @ ujaen.es
+Aulas de informática la E.P.S. de Linares:
+Coordinador: Raúl Mata Campos
+Despacho B-208. Edificio B. EPS Linares.
+Teléfono: 953 648 558
+E-mail:raul @ ujaen.es<a href="http://www3.ujaen.es/aulas/servicios_profesores.html
+top"></a>
+Como alternativa a esta solicitud, también puedesolicitar la reserva de un aula de informática desde la opción "<a href="http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html">Reservade espacios docentes</a>" del<a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">CampusVirtual</a> de la Universidad de Jaén.</Answer>
+                    <Link>http://www3.ujaen.es/aulas/aulas_disponibles.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf</Link>
+                    <Link>http://www3.ujaen.es/aulas/servicios_profesores.html#top</Link>
+                    <Link>http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html</Link>
+                    <Link>https://morena.ujaen.es:7776/campus_virtual/index.jsp</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=325&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

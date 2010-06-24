@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="introduzco las credenciales usuario y contraseña y no puedo establecer la conexion con rimuja">
+                    <AnswerIndex>comprueba que introduces correctamente el nombre de usuario y el password comprueba que no tienes habilitado el bloqueo de mayusculas comprueba que no tienes el antivirus panda con versiones anteriores a la 2007 ya que son incompatibles con conexiones inalambricas autenticadas comprueba que no tienes ningun cortafuegos que cierre la posibilidad de conexion revisa la configuracion del securew2 y de la conexion a traves de las guias practicas que el servicio de informatica pone a tu disposicion</AnswerIndex>
+                    <Answer>Comprueba que introduces correctamente el nombre de usuario y el password.Comprueba que no tienes habilitado el bloqueo de mayúsculas.Comprueba que no tienes el antivirus Panda con versiones anteriores a la 2007   ya que son incompatibles con conexiones inalámbricas autenticadas.Comprueba que no tienes ningún cortafuegos que cierre la posibilidad de conexión.Revisa la configuración del SecureW2 y de la conexión a través de las <a href="http://www.ujaen.es/sci/sau/guias/guias.htm
+rimuja"> guías practicas </a> que el Servicio de Informática pone a tu disposición.</Answer>
+                    <Link>http://www.ujaen.es/sci/sau/guias/guias.htm#rimuja</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=240&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

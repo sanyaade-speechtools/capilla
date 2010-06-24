@@ -1,0 +1,23 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="listas de correo">
+          <Categorie Text="suscriptor">
+               <Question Text="no recibo mensajes de la lista a la que estoy suscrito">
+                    <AnswerIndex>los motivos por los que puede no estar recibiendo mensajes de una lista a la que esta suscrito son los siguientes su buzon esta lleno el gestor de listas desactivo automaticamente la entrega de mensajes en su buzon al detectar muchos errores en la entrega usted inhabilito la entrega de mensajes por vacaciones intente acceder a sus preferencias personales de suscripcion a la lista y compruebe que no tiene inhabilitada la entrega de mensajes si aun asi no logra encontrar el problema contacte con el propietario de la lista en la direccion nombrelista owner listas ujaen es nota debe sustituir nombrelista por el nombre de la lista a la que esta suscrito temas relacionados desactivar entrega de mensajes por vacaciones</AnswerIndex>
+                    <Answer>Los motivos por los que puede no estar recibiendo mensajes de una lista a la que está suscrito son los siguientes:
+Su buzón está lleno. El gestor de listas desactivó automáticamente la entrega de mensajes en su buzón al detectar muchos errores en la entrega. Usted "inhabilitó" la entrega de mensajes por vacaciones. Intente acceder a sus preferencias personales de suscripción a la lista y compruebe que no tiene inhabilitada la "entrega de mensajes".
+Si aún así, no logra encontrar el problema, contacte con el propietario de la lista en la dirección:
+<a href="mailto:nombrelista-owner@listas.ujaen.es">nombrelista-owner@listas.ujaen.es</a>
+Nota: debe sustituir nombrelista por el nombre de la lista a la que está suscrito.
+Temas relacionados
+<a href="/index.phpp?action=artikel cat=56 id=304 artlang=es">Desactivar entrega de mensajes por vacaciones</a></Answer>
+                    <Link>mailto:nombrelista-owner@listas.ujaen.es</Link>
+                    <Link>/index.phpp?action=artikel&amp;cat=56&amp;id=304&amp;artlang=es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=56&id=306&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

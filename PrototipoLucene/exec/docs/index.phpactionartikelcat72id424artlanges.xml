@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="outlook no abre los enlaces que aparecen en mis mensajes de correo">
+                    <AnswerIndex>siga los siguientes pasos para solucionar el problema 1 inicie internet explorer 2 en el menu herramientas haga clic en opciones de internet 3 haga clic en la ficha programas 4 en programas de internet compruebe que esta seleccionado el programa de correo electronico correcto ms outlook 5 active la casilla comprobar si internet explorer es el explorador predeterminado 6 haga clic en aplicar y despues haga clic en aceptar</AnswerIndex>
+                    <Answer>Siga los siguientes pasos para solucionar el problema:1. Inicie Internet Explorer.2. En el menú aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Herramientas aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results , haga clic en aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Opciones de Internet aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results .3. Haga clic en la ficha aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Programas aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results .4. En aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Programas de Internet aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results , compruebe que está seleccionado elprograma de correo electrónicocorrecto: "Ms. Outlook"5. Active la casilla *Comprobar si Internet Explorer es el exploradorpredeterminado*6.Haga clic en aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Aplicar aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results y, después, haga clic en aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results Aceptar aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results .</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=424&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

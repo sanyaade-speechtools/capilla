@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="que es mozilla">
+                    <AnswerIndex>mozilla es un conjunto de programas cliente para internet tiene un lector de correo un navegador web un cliente chat y un editor de paginas web</AnswerIndex>
+                    <Answer><a href="http://www.ujaen.es/sci/redes/email/mozilla/index.html" target="_blank">Mozilla</a> es un conjunto de programas  cliente para Internet. Tiene un lector de correo, un navegador web, un cliente chat y un editor de páginas web.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/mozilla/index.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=84&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

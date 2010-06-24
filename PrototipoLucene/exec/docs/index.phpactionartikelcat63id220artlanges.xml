@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="hay tarjetas inalambricas a disposicion de los usuarios de rimuja">
+                    <AnswerIndex>solo para los usuarios del perfil pdi o pas con portatil de la universidad con numero de inventario y que no disponga de tarjeta inalambrica interna o que esta no sea compatible con wpa puedes solicitar una tarjeta inalambrica externa a traves de la solicitud electronica o presencialmente en la oficina de atencion al usuario y te sera enviada o entregada por el servicio de informatica se entregara una sola tarjeta por equipo inventariado en caso de extravio el usuario debera adquirirla por su cuenta</AnswerIndex>
+                    <Answer>Sólo para los usuarios del perfil PDI o PAS con portátil de la Universidad (con número de inventario) y que no disponga de tarjeta inalámbrica interna o que ésta no sea compatible con WPA. Puedes solicitar una tarjeta inalámbrica externa a través de la <a href="http://www.ujaen.es/murphy/averiaequipo.html"> Solicitud electrónica </a>   o presencialmente en la <a href="http://www.ujaen.es/sci/sau/"> Oficina de Atención al Usuario </a> , y te será enviada/entregada por el Servicio de Informática. Se entregará UNA SOLA TARJETA por equipo inventariado, en caso de extravío, el usuario deberá adquirirla por su cuenta.</Answer>
+                    <Link>http://www.ujaen.es/murphy/averiaequipo.html</Link>
+                    <Link>http://www.ujaen.es/sci/sau/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=220&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="el lector de correo no puede guardar los mensajes en la carpeta inbox">
+                    <AnswerIndex>el cliente de correo utiliza un fichero inbox para almacenar los mensajes de correo entrantes si por algun motivo no puede guardar los mensajes mostrara un error las causas mas comunes por las que aparece este error son el antivirus no permite que el cliente de correo actualice el fichero inbox cierre temporalmente la proteccion de ficheros del antivirus y obtenga los nuevos mensajes el fichero inbox esta corrupto bien por la accion de un virus o por un apagado incorrecto del equipo hay que renombrar el fichero para el cliente de correo cree uno nuevo puede obtener informacion del directorio donde se almacenan sus mensajes de correo y el fichero inbox con el programa profiles si todas las comprobaciones anteriores fallan envie una solicitud de incidencias murphy</AnswerIndex>
+                    <Answer>El cliente de correo utiliza un fichero Inbox para almacenar los mensajes de correo entrantes. Si por algún motivo no puede guardar los mensajes mostrará un error. Las causas más comunes por las que aparece este error son:
+El antivirus no permite que el cliente de correo actualice el fichero Inbox. Cierre temporalmente la protección de ficheros del antivirus y obtenga los nuevos mensajes. El fichero Inbox está corrupto bien por la acción de un virus o por un apagado incorrecto del equipo. Hay que renombrar el fichero para el cliente de correo cree uno nuevo. Puede obtener información del directorio donde se almacenan sus mensajes de correo y el fichero Inbox con el programa Profiles. Si todas las comprobaciones anteriores fallan envíe una <a href="http://www.ujaen.es/murphy/" target="_blank">solicitud de incidencias (murphy).</a></Answer>
+                    <Link>http://www.ujaen.es/murphy/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=103&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>
