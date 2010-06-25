@@ -1,0 +1,183 @@
+Test15
+Indexado: Question
+
+Anotación: Resultado perfecto para el contenido de la f.a.q
+
+Pregunta: qué es el servicio de news
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 3.725974
+	Pregunta: no puede conectarse al servicio de news
+	Respuesta:  ¿Ha configurado correctamente el programa de conexión? El servidor de news del CICA es: news.cica.es ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el equipo está dado de alta en el DNS. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared. Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (corta fuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=48&id=130&artlang=es
+Detalle resultado: 3.725974 = (MATCH) sum of:
+  1.0685692 = (MATCH) weight(question:servici in 247), product of:
+    0.53552705 = queryWeight(question:servici), product of:
+      3.9907198 = idf(docFreq=19, maxDocs=398)
+      0.1341931 = queryNorm
+    1.9953599 = (MATCH) fieldWeight(question:servici in 247), product of:
+      1.0 = tf(termFreq(question:servici)=1)
+      3.9907198 = idf(docFreq=19, maxDocs=398)
+      0.5 = fieldNorm(field=question, doc=247)
+  2.657405 = (MATCH) weight(question:news in 247), product of:
+    0.84451807 = queryWeight(question:news), product of:
+      6.293305 = idf(docFreq=1, maxDocs=398)
+      0.1341931 = queryNorm
+    3.1466525 = (MATCH) fieldWeight(question:news in 247), product of:
+      1.0 = tf(termFreq(question:news)=1)
+      6.293305 = idf(docFreq=1, maxDocs=398)
+      0.5 = fieldNorm(field=question, doc=247)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.66785574
+	Pregunta: que es el servicio webmail
+	Respuesta:  El servicio Webmail es un cliente de correo electrónico a través de páginas web. Así, y utilizando un navegador de Internet podrás leer y envirar mensajes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=120&artlang=es
+Detalle resultado: 0.66785574 = (MATCH) product of:
+  1.3357115 = (MATCH) sum of:
+    1.3357115 = (MATCH) weight(question:servici in 239), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      2.4941998 = (MATCH) fieldWeight(question:servici in 239), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.625 = fieldNorm(field=question, doc=239)
+  0.5 = coord(1/2)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.5666944
+	Pregunta: como contactar con el servicio de informatica para la resolucion de problemas con el servicio vpn
+	Respuesta:  IMPORTANTE: El servicio VPN se limita a integrar el ordenador del usuario (por ejemplo: ordenador de casa) en RIUJA y no realiza ninguna configuración para el acceso otros servicios. La configuración correcta de estos servicios, es responsabilidad del usuario. Si tiene algún problema relacionado con la conexión VPN, que no esté recogido en esta lista de preguntas frecuentes, puede realizarnos una consulta mediante el siguiente formulario electrónico: <a href="http://www.ujaen.es/sci/redes/vpn/soporte.html"> Soporte Técnico VPN </a> Debe rellenar los campos obligatorios e indicarnos claramente los siguientes datos: En que momento se produce el error (antes de conectarse, una vez conectado, ...) y si procede, que código o mensaje de error aparece. Indique con el mayor detalle el error producido.Si tiene algún software adicional de seguridad instalado, por ejemplo un antivirus o un firewall o está conectado a través de un proxy. Debe indicarnos cualquier software no común que tenga instalado en el equipo, fabricante y versión.Ponga el programa cliente VPN en modo depuración. Para ello debe ir a: Opciones y seleccionar Registro sesión en archivo. Intente la conexión y cuando se corte envíenos el fichero UJA.log que se guarda en el directorio C:\Archivos de Programa\Cliente VPN-UJA version 6.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=14&artlang=es
+Detalle resultado: 0.5666944 = (MATCH) product of:
+  1.1333888 = (MATCH) sum of:
+    1.1333888 = (MATCH) weight(question:servici in 8), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      2.1163988 = (MATCH) fieldWeight(question:servici in 8), product of:
+        1.4142135 = tf(termFreq(question:servici)=2)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=8)
+  0.5 = coord(1/2)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.5342846
+	Pregunta: que me ofrece el servicio web
+	Respuesta:  Consulte la dirección del servicio web <a href="http://www.ujaen.es/sci/redes/web/">http://www.ujaen.es/sci/redes/web/</a> También puede consultar las características detalladas del servicio en la dirección <a href="http://www.ujaen.es/sci/redes/web/caracteristicas.html">http://www.ujaen.es/sci/redes/web/caracteristicas.html</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=161&artlang=es
+Detalle resultado: 0.5342846 = (MATCH) product of:
+  1.0685692 = (MATCH) sum of:
+    1.0685692 = (MATCH) weight(question:servici in 55), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 55), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=55)
+  0.5 = coord(1/2)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.5342846
+	Pregunta: como utilizar el servicio de telefonia sigame
+	Respuesta:  Si va a ausentarse temporalmente de su puesto y desea que sus llamadas sean recibidas en el lugar donde va a encontrarse, puede programar un desvío a otra extensión: Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 21 aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results nº de contestación Espere tono de verificación Cuelgue el teléfono Mientras el teléfono esté programado con este tipo de desvío, puede efectuar llamadas salientes de la forma habitual. Para CANCELAR esta facilidad marque 21
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=237&artlang=es
+Detalle resultado: 0.5342846 = (MATCH) product of:
+  1.0685692 = (MATCH) sum of:
+    1.0685692 = (MATCH) weight(question:servici in 267), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 267), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=267)
+  0.5 = coord(1/2)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.5342846
+	Pregunta: como utilizar el servicio de telefonia no molesten
+	Respuesta:  Si desea NO recibir llamadas entrantes en una línea individual: Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 27 Cuelgue Para CANCELAR esta facilidad: Siga el mismo procedimiento anterior marcando 27
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=278&artlang=es
+Detalle resultado: 0.5342846 = (MATCH) product of:
+  1.0685692 = (MATCH) sum of:
+    1.0685692 = (MATCH) weight(question:servici in 270), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 270), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=270)
+  0.5 = coord(1/2)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.5342846
+	Pregunta: en que consiste el servicio de espacio en disco
+	Respuesta:  Mediante este servicio todos los alumnos y profesores de la Universidad de Jaén disponen de un espacio en discoindividual y privado en el que podrán almacenar ficheros, prácticas y documentossiempre y cuando estén relacionados con sus estudios. Cada usuario dispone de unlímite de almacenamiento de 400 Mb que no podrá sobrepasar. Excepcionalmente los alumnosmatriculados en la titulación de Ingeniería en Geodesia y Cartografía disponen de un límite de 1 GB.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=283&artlang=es
+Detalle resultado: 0.5342846 = (MATCH) product of:
+  1.0685692 = (MATCH) sum of:
+    1.0685692 = (MATCH) weight(question:servici in 384), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 384), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=384)
+  0.5 = coord(1/2)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.5342846
+	Pregunta: como se solicita el servicio de espacio en disco
+	Respuesta:  Este servicio no es necesario solicitarlo previamente, lo tienen a su disposición todos los profesores y todos los estudiantes mientras estén matriculados en la Universidad de Jaén. Para tener acceso a este servicio sólo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">campus virtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=284&artlang=es
+Detalle resultado: 0.5342846 = (MATCH) product of:
+  1.0685692 = (MATCH) sum of:
+    1.0685692 = (MATCH) weight(question:servici in 385), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 385), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=385)
+  0.5 = coord(1/2)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.46749902
+	Pregunta: que programas de correo recomienda el servicio de informatica
+	Respuesta:  El Servicio de Informática recomienda, y da soporte, de los siguientes lectores de correo: Mozilla Suite Mozilla Thunderbird Webmail: <a href="http://www.ujaen.es/webmail"> http://www.ujaen.es/webmail </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=25&id=77&artlang=es
+Detalle resultado: 0.46749905 = (MATCH) product of:
+  0.9349981 = (MATCH) sum of:
+    0.9349981 = (MATCH) weight(question:servici in 90), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.74594 = (MATCH) fieldWeight(question:servici in 90), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=90)
+  0.5 = coord(1/2)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.46749902
+	Pregunta: que servicios estan disponibles utilizando rimuja
+	Respuesta:  La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm"> este enlace. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=213&artlang=es
+Detalle resultado: 0.46749905 = (MATCH) product of:
+  0.9349981 = (MATCH) sum of:
+    0.9349981 = (MATCH) weight(question:servici in 348), product of:
+      0.53552705 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.1341931 = queryNorm
+      1.74594 = (MATCH) fieldWeight(question:servici in 348), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=348)
+  0.5 = coord(1/2)

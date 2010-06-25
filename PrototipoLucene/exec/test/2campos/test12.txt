@@ -1,0 +1,393 @@
+Test 12
+Indexado: Question, Category
+
+Anotaci�n: 
+
+Pregunta: Qu� necesito para acceder a la VPN de la UJA
+
+Tiempo de busqueda: 6ms
+Resultado: 0:
+Puntuación: 0.5707507
+	Pregunta: como puedo acceder a mi correo electronico desde fuera de la uja
+	Respuesta:  Puede acceder a su cuenta de correo electrónico desde cualquier lugar siempre que cuente con una conexión a Internet y un navegador web. A este tipo de acceso se le denomina webmail (correo electrónico a través de web). Para ello, siga los siguientes pasos: Abra su navegador y acceda a la <a href="http://www.ujaen.es/webmail/" target="_blank">Webmail</a> El navegador informará de que está accediendo a una web segura, para lo cual instala un certificado de seguridad. Por lo tanto deberá ir aceptando las sucesivas ventanas que le vayan apareciendo (serán algo diferentes en función del navegador usado).  Finalmente, llegará a una ventana en la que puede introducir su nombre de usuario y su contraseña. Una vez pulsado el botón Entrar podrá acceder a su correo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=95&artlang=es
+Detalle resultado: 0.5707507 = (MATCH) sum of:
+  0.5604505 = (MATCH) product of:
+    1.120901 = (MATCH) sum of:
+      0.49917144 = (MATCH) weight(question:acced in 237), product of:
+        0.29289943 = queryWeight(question:acced), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.07519092 = queryNorm
+        1.7042418 = (MATCH) fieldWeight(question:acced in 237), product of:
+          1.0 = tf(termFreq(question:acced)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=237)
+      0.62172955 = (MATCH) weight(question:uja in 237), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.901985 = (MATCH) fieldWeight(question:uja in 237), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=237)
+    0.5 = coord(2/4)
+  0.010300217 = (MATCH) product of:
+    0.020600434 = (MATCH) sum of:
+      0.011353627 = (MATCH) weight(categorie:vpn in 237), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.1491122 = (MATCH) fieldWeight(categorie:vpn in 237), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+      0.009246808 = (MATCH) weight(categorie:uja in 237), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.10043912 = (MATCH) fieldWeight(categorie:uja in 237), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+    0.5 = coord(2/4)
+
+Resultado: 1:
+Puntuación: 0.48846433
+	Pregunta: cliente vpn uja el proceso de instalacion del cliente vpn uja solicita determinados ficheros
+	Respuesta:  Durante la instalación automática, es posible que elinstalador del cliente VPN-UJA muestre errores referentes a la instalaciónde determinados ficheros. Concretamente los errores detectados son: Se necesita el archivoipsecw2k.sys Se necesita el archivoeacfilt.dll El proceso a seguir parasolucionarlo es el siguiente: Detener el instaladorautomático. Pulse las teclas CTRL-ALT-SUP simultáneamente para acceder alAdministrador de Tareas de Windows. Después pulse la tecla ESC. A partir de aquí, el ratón y el tecladoquedan desbloqueados. En la ventana de error dela instalación, pulse el botón Examinar. Busque la ruta para cada unode los ficheros anteriores. Concretamente, estas rutas son: C:\Archivos dePrograma\Cliente VPN-UJA version 6\Drivers para buscar ipsecw2k.sys C:\Archivos dePrograma\Cliente VPN-UJA version 6\FilterDrivers para buscar eacfilt.dll A partir de aquí, secompletará la instalación de forma manual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=48&artlang=es
+Detalle resultado: 0.48846433 = (MATCH) sum of:
+  0.48049563 = (MATCH) product of:
+    0.96099126 = (MATCH) sum of:
+      0.45855793 = (MATCH) weight(question:vpn in 33), product of:
+        0.31228584 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07519092 = queryNorm
+        1.4683917 = (MATCH) fieldWeight(question:vpn in 33), product of:
+          1.4142135 = tf(termFreq(question:vpn)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+      0.50243336 = (MATCH) weight(question:uja in 33), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.5370361 = (MATCH) fieldWeight(question:uja in 33), product of:
+          1.4142135 = tf(termFreq(question:uja)=2)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+    0.5 = coord(2/4)
+  0.007968685 = (MATCH) product of:
+    0.03187474 = (MATCH) sum of:
+      0.03187474 = (MATCH) weight(categorie:vpn in 33), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.418625 = (MATCH) fieldWeight(categorie:vpn in 33), product of:
+          5.2915025 = tf(termFreq(categorie:vpn)=28)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=33)
+    0.25 = coord(1/4)
+
+Resultado: 2:
+Puntuación: 0.4423597
+	Pregunta: error de interfaz no registrada al instalar desinstalar el cliente vpn uja
+	Respuesta:  En ocasiones, se ha detectado que al instalar/desinstalar el cliente VPN-UJA siempre aparece un error de tipo "interfaz no registrada" y no se puede completar la operación. Esto puede ocurrir, en general, con muchas otras aplicaciones Windows, no sólo con el cliente VPN-UJA. En google está documentado este error con aplicaciones como Microsoft Office y Panda Antivirus, entre otras. Este error está relacionado con fallos en el registro de la librería ole32.dll de Windows. Existen dos soluciones: 1) Desde el botón de Inicio, entrar en Ejecutar y teclear: regsvr32 ole32.dll 2) Alternativamente,  se puede optar por restaurar Windows a un punto de restauración reciente, anterior al error. Esto se puede hacer (Windows XP) desde: Inicio -- Todos los programas -- Accesorios -- Herramientas del sistema -- Restaurar sistema. Basta con seleccionar la opción "Restaurar mi equipo a un estado anterior", seleccionar la fecha y seguir las instrucciones que aparecen en pantalla.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=429&artlang=es
+Detalle resultado: 0.4423597 = (MATCH) sum of:
+  0.42470217 = (MATCH) product of:
+    0.84940434 = (MATCH) sum of:
+      0.40531176 = (MATCH) weight(question:vpn in 102), product of:
+        0.31228584 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07519092 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 102), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=102)
+      0.44409257 = (MATCH) weight(question:uja in 102), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 102), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=102)
+    0.5 = coord(2/4)
+  0.017657515 = (MATCH) product of:
+    0.03531503 = (MATCH) sum of:
+      0.01946336 = (MATCH) weight(categorie:vpn in 102), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.2556209 = (MATCH) fieldWeight(categorie:vpn in 102), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.046875 = fieldNorm(field=categorie, doc=102)
+      0.015851669 = (MATCH) weight(categorie:uja in 102), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.17218134 = (MATCH) fieldWeight(categorie:uja in 102), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.046875 = fieldNorm(field=categorie, doc=102)
+    0.5 = coord(2/4)
+
+Resultado: 3:
+Puntuación: 0.43257925
+	Pregunta: error de interfaz no registrada al instalar desinstalar el cliente vpn uja
+	Respuesta:  En ocasiones, se ha detectado que al instalar/desinstalar el cliente VPN-UJA siempre aparece un error de tipo "interfaz no registrada" y no se puede completar la operación. Esto puede ocurrir, en general, con muchas otras aplicaciones Windows, no sólo con el cliente VPN-UJA. En google está documentado este error con aplicaciones como Microsoft Office y Panda Antivirus, entre otras. Este error está relacionado con fallos en el registro de la librería ole32.dll de Windows. Existen dos soluciones: 1) Desde el botón de Inicio, entrar en Ejecutar y teclear: regsvr32 ole32.dll 2) Alternativamente,  se puede optar por restaurar Windows a un punto de restauración reciente, anterior al error. Esto se puede hacer (Windows XP) desde: Inicio -- Todos los programas -- Accesorios -- Herramientas del sistema -- Restaurar sistema . Basta con seleccionar la opción "Restaurar mi equipo a un estado anterior", seleccionar la fecha y seguir las instrucciones que aparecen en pantalla.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=428&artlang=es
+Detalle resultado: 0.43257925 = (MATCH) sum of:
+  0.42470217 = (MATCH) product of:
+    0.84940434 = (MATCH) sum of:
+      0.40531176 = (MATCH) weight(question:vpn in 24), product of:
+        0.31228584 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07519092 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 24), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=24)
+      0.44409257 = (MATCH) weight(question:uja in 24), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 24), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=24)
+    0.5 = coord(2/4)
+  0.007877087 = (MATCH) product of:
+    0.03150835 = (MATCH) sum of:
+      0.03150835 = (MATCH) weight(categorie:vpn in 24), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.41381305 = (MATCH) fieldWeight(categorie:vpn in 24), product of:
+          4.358899 = tf(termFreq(categorie:vpn)=19)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.09375 = fieldNorm(field=categorie, doc=24)
+    0.25 = coord(1/4)
+
+Resultado: 4:
+Puntuación: 0.43252727
+	Pregunta: cliente vpn uja la instalacion automatica se detiene y no se puede mover el raton ni usar el teclado
+	Respuesta:  Durante la instalación automática del software se bloque elratón y el teclado con objeto de que el usuario no interfiera con el procesode instalación, desbloqueándose posteriormente. Si durante este proceso ocurre algún evento (algún programaque se activa entre medias, etc), el proceso de instalación automática puedequedar detenido, permaneciendo bloqueado el ratón y el teclado. La forma de solucionar el problema es pulsandosimultáneamente las teclas CTRL-ALT-SUPR y acceder al administradorde tareas de Windows. Después, basta con pulsar la tecla ESC. De esta forma recuperamos el control del ratón y el teclado. A partir de aquí, sepuede continuar la instalación de forma manual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=47&artlang=es
+Detalle resultado: 0.43252727 = (MATCH) sum of:
+  0.42470217 = (MATCH) product of:
+    0.84940434 = (MATCH) sum of:
+      0.40531176 = (MATCH) weight(question:vpn in 32), product of:
+        0.31228584 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07519092 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 32), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=32)
+      0.44409257 = (MATCH) weight(question:uja in 32), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 32), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=32)
+    0.5 = coord(2/4)
+  0.007825092 = (MATCH) product of:
+    0.03130037 = (MATCH) sum of:
+      0.03130037 = (MATCH) weight(categorie:vpn in 32), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.41108158 = (MATCH) fieldWeight(categorie:vpn in 32), product of:
+          5.196152 = tf(termFreq(categorie:vpn)=27)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=32)
+    0.25 = coord(1/4)
+
+Resultado: 5:
+Puntuación: 0.34787148
+	Pregunta: cliente vpn uja error en el registro de windows software microsoft driver signing policy
+	Respuesta:  Durante la instalación del cliente VPN-UJA, en determinadoscasos es posible que aparezca un mensaje de error de escritura en elregistro de Windows, en la rama \Software\Microsoft\DriverSigning\Policy. Este error estárelacionado con la instalación de drivers firmados en Windows XP. Generalmente, es suficiente con ignorarel error. En caso de que se esté realizando una instalación automática y elequipo esté bloqueado se debenpulsar simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador detareas de Windows. En la pestaña Procesos, debemos buscar el proceso Instala-auto-v6.exe.Basta con marcarlo y pulsar el botón Terminar Proceso.A partir de aquí se puede completar el resto de la instalación de formamanual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=49&artlang=es
+Detalle resultado: 0.34787148 = (MATCH) sum of:
+  0.33976173 = (MATCH) product of:
+    0.67952347 = (MATCH) sum of:
+      0.32424942 = (MATCH) weight(question:vpn in 34), product of:
+        0.31228584 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07519092 = queryNorm
+        1.0383097 = (MATCH) fieldWeight(question:vpn in 34), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=34)
+      0.35527405 = (MATCH) weight(question:uja in 34), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        1.0868486 = (MATCH) fieldWeight(question:uja in 34), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=34)
+    0.5 = coord(2/4)
+  0.008109734 = (MATCH) product of:
+    0.032438938 = (MATCH) sum of:
+      0.032438938 = (MATCH) weight(categorie:vpn in 34), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.42603487 = (MATCH) fieldWeight(categorie:vpn in 34), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=34)
+    0.25 = coord(1/4)
+
+Resultado: 6:
+Puntuación: 0.2554898
+	Pregunta: necesito una nueva cuenta buzon de correo
+	Respuesta:  Rellene completamente el <a href="Rellene completamente el impreso de solicitud, indicando la opción Alta en el apartado MOTIVO DE LA SOLICITUD. Este mismo impreso se puede utilizar para solicitar bajas y modificaciones en las cuentas de correo electrónico." target="_blank">impreso de solicitud de correo electrónico</a>, indicando la opción Alta en el apartado MOTIVO DE LA SOLICITUD. Este mismo impreso se puede utilizar para solicitar bajas y modificaciones en las cuentas de correo electrónico.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=25&id=74&artlang=es
+Detalle resultado: 0.2554898 = (MATCH) sum of:
+  0.23879753 = (MATCH) product of:
+    0.9551901 = (MATCH) sum of:
+      0.9551901 = (MATCH) weight(question:necesit in 83), product of:
+        0.37900296 = queryWeight(question:necesit), product of:
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.07519092 = queryNorm
+        2.5202708 = (MATCH) fieldWeight(question:necesit in 83), product of:
+          1.0 = tf(termFreq(question:necesit)=1)
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=83)
+    0.25 = coord(1/4)
+  0.016692273 = (MATCH) product of:
+    0.033384547 = (MATCH) sum of:
+      0.022707254 = (MATCH) weight(categorie:vpn in 83), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.2982244 = (MATCH) fieldWeight(categorie:vpn in 83), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=83)
+      0.010677293 = (MATCH) weight(categorie:uja in 83), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.11597709 = (MATCH) fieldWeight(categorie:uja in 83), product of:
+          1.7320508 = tf(termFreq(categorie:uja)=3)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=83)
+    0.5 = coord(2/4)
+
+Resultado: 7:
+Puntuación: 0.21924806
+	Pregunta: tengo un problema necesito contactar con el tecnico del aula
+	Respuesta:  Si es un problema técnico en un equipo individual puede consultar esta<a href="http://www3.ujaen.es/aulas/guias_ayuda/FAQ_tecnica.html">guía técnica de resolución de problemas en losordenadores de las aulas de informática</a>. Si este problema no le impide continuar con el funcionamiento normal desu clase anótela en el parte de control o en el campo "Observaciones" de la aplicación de gestión de asistencias para su posterior resolución. Si aún así desea contactar un técnico debe saber que la <a href="http://www3.ujaen.es/aulas/normativas.html">normativa</a>de las aulas de informática establece que la ubicación habitual de los técnicosson las aulas de libre acceso. En esta página puede consultar cuáles son las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">aulas de libre acceso</a> (las de colorverde) y accediendo a cualquiera de ellas podrá ver su teléfono, correoelectrónico ytécnicos de las mismas. Adicionalmente tambiénpuede contactar con un técnico mediante el chat que encontrará dentro de la<a href="http://www3.ujaen.es/aulas/servicios_profesores.html Asistencias">aplicación de gestión deasistencias.</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=328&artlang=es
+Detalle resultado: 0.21924804 = (MATCH) sum of:
+  0.20894782 = (MATCH) product of:
+    0.8357913 = (MATCH) sum of:
+      0.8357913 = (MATCH) weight(question:necesit in 313), product of:
+        0.37900296 = queryWeight(question:necesit), product of:
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.07519092 = queryNorm
+        2.205237 = (MATCH) fieldWeight(question:necesit in 313), product of:
+          1.0 = tf(termFreq(question:necesit)=1)
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=313)
+    0.25 = coord(1/4)
+  0.010300217 = (MATCH) product of:
+    0.020600434 = (MATCH) sum of:
+      0.011353627 = (MATCH) weight(categorie:vpn in 313), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.1491122 = (MATCH) fieldWeight(categorie:vpn in 313), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=313)
+      0.009246808 = (MATCH) weight(categorie:uja in 313), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.10043912 = (MATCH) fieldWeight(categorie:uja in 313), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=313)
+    0.5 = coord(2/4)
+
+Resultado: 8:
+Puntuación: 0.2001842
+	Pregunta: no se puede encontrar el servidor smtp ujaen es o el servidor pop3 ujaen es
+	Respuesta:  Existen varias situaciones en las que el cliente no puede contactar con el servidor (entrante o saliente.).  Para solucionarlo utilice algunas de estas indicaciones: ¿Funciona la red? Compruebe que no hay recibido ningún aviso de corte programado en RIUJA. Si es así, tendrá que esperar a que se restablezca la red. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared.  Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING al servidor de correo. Si tiene un firewall (cortafuegos) personal, revise su configuración. ¿Los demás compañeros pueden recibir y enviar mensajes con normalidad? ¿Tiene antivirus? Compruebe que no tiene ningún cortafuegos activado en el antivirus. Hay versiones de antivirus que, en ocasiones, interrumpen la conexión con el servidor.  Cierre temporalmente la protección permanente del programa antivirus e intente descargar mensajes de correo. Verifique que no tiene virus: analice la memoria y el disco duro. Si todas las comprobaciones anteriores fallan envíe una <a href="http://www.ujaen.es/murphy/" target="_blank">solicitud de incidencias (murphy).</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=101&artlang=es
+Detalle resultado: 0.2001842 = (MATCH) sum of:
+  0.18841252 = (MATCH) product of:
+    0.75365007 = (MATCH) sum of:
+      0.75365007 = (MATCH) weight(question:uja in 223), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        2.3055542 = (MATCH) fieldWeight(question:uja in 223), product of:
+          1.4142135 = tf(termFreq(question:uja)=2)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=223)
+    0.25 = coord(1/4)
+  0.011771677 = (MATCH) product of:
+    0.023543354 = (MATCH) sum of:
+      0.0129755745 = (MATCH) weight(categorie:vpn in 223), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.17041394 = (MATCH) fieldWeight(categorie:vpn in 223), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=223)
+      0.01056778 = (MATCH) weight(categorie:uja in 223), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.11478756 = (MATCH) fieldWeight(categorie:uja in 223), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=223)
+    0.5 = coord(2/4)
+
+Resultado: 9:
+Puntuación: 0.19714557
+	Pregunta: cuales son los servidores de correo de la uja
+	Respuesta:  Los servidores de correo electrónico está asignados según el tipo de usuario: - <a href="http://www.ujaen.es/sci/redes/email/caracteristicas.html" target="_blank">PAS/PDI/Becarios</a> - <a href="http://www.ujaen.es/sci/redes/email/caracteristicasestudiantes.html" target="_blank">Estudiantes</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=25&id=78&artlang=es
+Detalle resultado: 0.19714557 = (MATCH) sum of:
+  0.17763703 = (MATCH) product of:
+    0.7105481 = (MATCH) sum of:
+      0.7105481 = (MATCH) weight(question:uja in 87), product of:
+        0.32688457 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.07519092 = queryNorm
+        2.1736972 = (MATCH) fieldWeight(question:uja in 87), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=87)
+    0.25 = coord(1/4)
+  0.019508544 = (MATCH) product of:
+    0.03901709 = (MATCH) sum of:
+      0.022707254 = (MATCH) weight(categorie:vpn in 87), product of:
+        0.07614151 = queryWeight(categorie:vpn), product of:
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.07519092 = queryNorm
+        0.2982244 = (MATCH) fieldWeight(categorie:vpn in 87), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0126424 = idf(docFreq=392, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=87)
+      0.016309835 = (MATCH) weight(categorie:uja in 87), product of:
+        0.09206381 = queryWeight(categorie:uja), product of:
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.07519092 = queryNorm
+        0.17715794 = (MATCH) fieldWeight(categorie:uja in 87), product of:
+          2.6457512 = tf(termFreq(categorie:uja)=7)
+          1.2244006 = idf(docFreq=317, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=87)
+    0.5 = coord(2/4)

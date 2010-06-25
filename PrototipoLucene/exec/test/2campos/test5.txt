@@ -1,0 +1,284 @@
+Test 5
+Indexado: Question, Category
+
+Anotaci�n
+
+Pregunta: reservar una sala de videoconferencia
+
+Tiempo de busqueda: 3ms
+Resultado: 0:
+Puntuación: 3.1762805
+	Pregunta: como y cuando reservo la sala de videoconferencia
+	Respuesta:  La reserva de la Sala de Videoconferencia la llevará a cabo el usuario solicitante en el Negociado de Equipamiento y Gestión de Espacios , con al menos 2 semanas de antelación a la fecha prevista de inicio del acto. Esto se hace así para que la sala no sea utilizada para otro evento. Tiene que tener en cuenta que se deben realizar pruebas técnicas y también es necesario reservar la sala el día y hora que se realicen. Si la videoconferencia es por la tarde, también se reservará la mañana para el montaje del equipamiento necesario.El horario de uso será de lunes a viernes, en las siguientes franjas horarias: De 9:00h a 14:00h yDe 16:00h a 21:00hSi necesita apoyo técnico, debe tener lugar dentro del horario laboral de los servicios de la propia Universidad de Jaén (9:00h a 14:00h). Nota: si la conexión de la videconferencia se va a hacer por RDSI deberá reservar obligatoriamente la Sala de Juntas del Edificio D-1 no siendo posible hacerla en el Salón de Grados del mismo edificio.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=265&artlang=es
+Detalle resultado: 3.1762805 = (MATCH) sum of:
+  3.1735468 = (MATCH) sum of:
+    1.1406064 = (MATCH) weight(question:reserv in 257), product of:
+      0.40734795 = queryWeight(question:reserv), product of:
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.072738655 = queryNorm
+      2.8000789 = (MATCH) fieldWeight(question:reserv in 257), product of:
+        1.0 = tf(termFreq(question:reserv)=1)
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=257)
+    0.98142016 = (MATCH) weight(question:sal in 257), product of:
+      0.37785494 = queryWeight(question:sal), product of:
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.072738655 = queryNorm
+      2.5973463 = (MATCH) fieldWeight(question:sal in 257), product of:
+        1.0 = tf(termFreq(question:sal)=1)
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=257)
+    1.0515202 = (MATCH) weight(question:videoconferent in 257), product of:
+      0.39111677 = queryWeight(question:videoconferent), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.072738655 = queryNorm
+      2.688507 = (MATCH) fieldWeight(question:videoconferent in 257), product of:
+        1.0 = tf(termFreq(question:videoconferent)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=257)
+  0.002733767 = (MATCH) product of:
+    0.008201301 = (MATCH) sum of:
+      0.008201301 = (MATCH) weight(categorie:videoconferent in 257), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.0555249 = (MATCH) fieldWeight(categorie:videoconferent in 257), product of:
+          1.0 = tf(termFreq(categorie:videoconferent)=1)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=257)
+    0.33333334 = coord(1/3)
+
+Resultado: 1:
+Puntuación: 0.44424635
+	Pregunta: que alternativas existen para realizar videoconferencias
+	Respuesta:  Aunque la Universidad de Jaén dispone de un <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/guiapractica/guiavideo.html">equipamiento</a> específico para realizar videoconferencias existen alternativas más "caseras" para realizarlas, sobre todo si sólo se quiere realizar la videoconferencia de una única persona a otra única persona.En esta <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/otros_sistemas.html">página</a> se exponen unas sencillas guías en las que se explica paso a paso cómo instalar, configurar y realizar videoconferencias con algunos de los programas más populares.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=372&artlang=es
+Detalle resultado: 0.4442463 = (MATCH) sum of:
+  0.43813342 = (MATCH) product of:
+    1.3144002 = (MATCH) sum of:
+      1.3144002 = (MATCH) weight(question:videoconferent in 261), product of:
+        0.39111677 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072738655 = queryNorm
+        3.3606339 = (MATCH) fieldWeight(question:videoconferent in 261), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=261)
+    0.33333334 = coord(1/3)
+  0.0061128885 = (MATCH) product of:
+    0.018338665 = (MATCH) sum of:
+      0.018338665 = (MATCH) weight(categorie:videoconferent in 261), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.12415744 = (MATCH) fieldWeight(categorie:videoconferent in 261), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=261)
+    0.33333334 = coord(1/3)
+
+Resultado: 2:
+Puntuación: 0.3559743
+	Pregunta: que diferencia hay entre realizar la videoconferencia por ip o por rdsi
+	Respuesta:  Por IP : Se puede realizar tanto en la Sala de Juntas como en el Salón de Grados del edificio D-1Siempre es gratuitaLa llamada se realiza a la IP de la entidad remota. Por RDSI : Sólo se puede realizar en la Sala de Juntas del D-1Sólo es gratuita si es la entidad remota quén inicia la llamada. En caso de ser la UJA quién inicie la llamada se cargará al solicitante el importe de la llamada.En este caso la llamada es a un número de teléfono.El Servicio de Informática recomienda usar la conexión por IP siempre y cuando el equipo de la entidad remota lo soporte.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=348&artlang=es
+Detalle resultado: 0.3559743 = (MATCH) sum of:
+  0.35050675 = (MATCH) product of:
+    1.0515202 = (MATCH) sum of:
+      1.0515202 = (MATCH) weight(question:videoconferent in 260), product of:
+        0.39111677 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072738655 = queryNorm
+        2.688507 = (MATCH) fieldWeight(question:videoconferent in 260), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=260)
+    0.33333334 = coord(1/3)
+  0.005467534 = (MATCH) product of:
+    0.016402602 = (MATCH) sum of:
+      0.016402602 = (MATCH) weight(categorie:videoconferent in 260), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.1110498 = (MATCH) fieldWeight(categorie:videoconferent in 260), product of:
+          2.0 = tf(termFreq(categorie:videoconferent)=4)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=260)
+    0.33333334 = coord(1/3)
+
+Resultado: 3:
+Puntuación: 0.29126447
+	Pregunta: soy profesor y quiero reservar un aula de informatica que tengo que hacer
+	Respuesta:  Existen distintas aulas de informática,tanto en el Campus de Las Lagunillas como en la E.P.S. de Linares,destinadas exclusivamente a impartir docencia. En este enlace podrá saber cuálesson y dónde se encuentran las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" title="Aulas de informática disponibles">aulas de informática disponibles</a>, las de docencia son las de colorrojo. Una vez que haya decidido qué aula va a reservar,debe rellenar esta<a href="http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf" title="Solictud de reserva de aula de informática">solicitud</a> (no olvide especificar qué software va a usar) y enviarla al coordinador del aula correspondiente: Aulas de informática del Campus de lasLagunillas: Coordinador: Felipe Martínez Pérez Sección de Organización Docente. Edificio B-1. Teléfono: 953 21 22 81 E-mail: fmperez @ ujaen.es Aulas de informática la E.P.S. de Linares: Coordinador: Raúl Mata Campos Despacho B-208. Edificio B. EPS Linares. Teléfono: 953 648 558 E-mail:raul @ ujaen.es<a href="http://www3.ujaen.es/aulas/servicios_profesores.html top"></a> Como alternativa a esta solicitud, también puedesolicitar la reserva de un aula de informática desde la opción "<a href="http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html">Reservade espacios docentes</a>" del<a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">CampusVirtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=325&artlang=es
+Detalle resultado: 0.29126447 = (MATCH) sum of:
+  0.2851516 = (MATCH) product of:
+    0.85545474 = (MATCH) sum of:
+      0.85545474 = (MATCH) weight(question:reserv in 310), product of:
+        0.40734795 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.072738655 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 310), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=310)
+    0.33333334 = coord(1/3)
+  0.0061128885 = (MATCH) product of:
+    0.018338665 = (MATCH) sum of:
+      0.018338665 = (MATCH) weight(categorie:videoconferent in 310), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.12415744 = (MATCH) fieldWeight(categorie:videoconferent in 310), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=310)
+    0.33333334 = coord(1/3)
+
+Resultado: 4:
+Puntuación: 0.29126447
+	Pregunta: soy profesor y tengo una reserva hecha como entro al aula
+	Respuesta:  Debe solicitar la llave del aula reservada en la conserjería deledificio donde se encuentre situada. Si tiene pensado usar el videoproyector también deberá pedir en la misma consejería el mando a distancia del aparato.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=326&artlang=es
+Detalle resultado: 0.29126447 = (MATCH) sum of:
+  0.2851516 = (MATCH) product of:
+    0.85545474 = (MATCH) sum of:
+      0.85545474 = (MATCH) weight(question:reserv in 311), product of:
+        0.40734795 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.072738655 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 311), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=311)
+    0.33333334 = coord(1/3)
+  0.0061128885 = (MATCH) product of:
+    0.018338665 = (MATCH) sum of:
+      0.018338665 = (MATCH) weight(categorie:videoconferent in 311), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.12415744 = (MATCH) fieldWeight(categorie:videoconferent in 311), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=311)
+    0.33333334 = coord(1/3)
+
+Resultado: 5:
+Puntuación: 0.26761508
+	Pregunta: es obligatorio que el personal del servicio de informatica este presente en la videoconferencia
+	Respuesta:  NO , el personal de apoyo técnico SOLO DEBE ESTAR PRESENTE , el día y hora en la que se realice la Prueba Técnica. En ese instante se le explicará el manejo de la cámara de videoconferencia al usuario y se le recomendará la lectura de la <a href="http://www.ujaen.es/sci/redes/videoconferencia/guiapractica/guiavideo.html"> guía rápida del servicio de videoconferencia </a>. No obstante, si el usuario prefiera que el personal esté presente, deberá indicarlo en la <a href="http://www.ujaen.es/sci/redes/solic/sol-r220.pdf"> solicitud </a>  y concretar fecha y hora de la videoconferencia DENTRO DEL HORARIO DE TRABAJO del personal del Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=267&artlang=es
+Detalle resultado: 0.26761508 = (MATCH) sum of:
+  0.26288006 = (MATCH) product of:
+    0.78864014 = (MATCH) sum of:
+      0.78864014 = (MATCH) weight(question:videoconferent in 259), product of:
+        0.39111677 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072738655 = queryNorm
+        2.0163803 = (MATCH) fieldWeight(question:videoconferent in 259), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=259)
+    0.33333334 = coord(1/3)
+  0.0047350232 = (MATCH) product of:
+    0.014205069 = (MATCH) sum of:
+      0.014205069 = (MATCH) weight(categorie:videoconferent in 259), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.096171945 = (MATCH) fieldWeight(categorie:videoconferent in 259), product of:
+          1.7320508 = tf(termFreq(categorie:videoconferent)=3)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+    0.33333334 = coord(1/3)
+
+Resultado: 6:
+Puntuación: 0.25059468
+	Pregunta: no puedo eliminar mensajes bloqueados en la bandeja de salida de outlook
+	Respuesta:  Intente las siguientes opciones para eliminar mensajes bloqueados en la bandeja de entrada de Outlook: Opción  1:iniciar Outlook sin claveAbra Outlook y cuando le pida el usuario/clave, pulse cancelar. Intente ahora borrar el mensaje de la bandeja de salida. Si se elimina el mensaje correctamente, cierre y abra Outlook. Introduzca ahora su clave con normalidad. Opción  2:desactive temporalmente el firewall y el antivirusIntente ahora eliminar el mensaje. No olvide volver a activar el firewall y al antivirus después de borrar el mensaje.Opción  3:entre en modo a prueba de fallos de OutlookCierre Outlook y ejecute "outlook /safe" desde Inicio- EjecutarBorre el mensaje y luego abrar y cierre OutlookSi con ninguna de estas opciones puede borrar su mensaje, su perfil de correo seguramente estará dañado y deberá crear uno nuevo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=432&artlang=es
+Detalle resultado: 0.25059465 = (MATCH) sum of:
+  0.24535504 = (MATCH) product of:
+    0.7360651 = (MATCH) sum of:
+      0.7360651 = (MATCH) weight(question:sal in 380), product of:
+        0.37785494 = queryWeight(question:sal), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.072738655 = queryNorm
+        1.9480097 = (MATCH) fieldWeight(question:sal in 380), product of:
+          1.0 = tf(termFreq(question:sal)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=380)
+    0.33333334 = coord(1/3)
+  0.0052396185 = (MATCH) product of:
+    0.015718855 = (MATCH) sum of:
+      0.015718855 = (MATCH) weight(categorie:videoconferent in 380), product of:
+        0.14770491 = queryWeight(categorie:videoconferent), product of:
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.072738655 = queryNorm
+        0.106420666 = (MATCH) fieldWeight(categorie:videoconferent in 380), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          2.0306249 = idf(docFreq=141, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=380)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+Puntuación: 0.102231264
+	Pregunta: que significa el aviso que sale al iniciar el ordenador de que no se escriba nada en la unidad c
+	Respuesta:  Consulte el siguiente artículo: <a href="/index.php?action=artikel cat=58 id=330 artlang=es" class="intfaqlink">¿Qué son las pantallas azules que aparecen cuando se arrancan los ordenadores?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=331&artlang=es
+Detalle resultado: 0.102231264 = (MATCH) product of:
+  0.20446253 = (MATCH) sum of:
+    0.20446253 = (MATCH) product of:
+      0.6133876 = (MATCH) sum of:
+        0.6133876 = (MATCH) weight(question:sal in 43), product of:
+          0.37785494 = queryWeight(question:sal), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.072738655 = queryNorm
+          1.6233414 = (MATCH) fieldWeight(question:sal in 43), product of:
+            1.0 = tf(termFreq(question:sal)=1)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=43)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)
+
+Resultado: 8:
+Puntuación: 0.081785016
+	Pregunta: al arrancar el equipo me sale un mensaje en pantalla que dice insert system disk press any key to continue
+	Respuesta:  Compruebe que no está intentando arrancar el ordenador con un disquete dentro de la disquetera. Si no tiene disquetes en la disquetera el problema puede deberse a varias causas: Su disco duro no contiene ningún sistema operativo instalado. Para ello , solicite la instalación al Servicio de Informática rellenando la siguiente <a title="Solicitud Restauración Equipo" target="_blank" href="http://www.ujaen.es/sci/sau/Solicitudes/SOL-IR100.pdf">solicitud</a>. La BIOS de su equipo no reconoce el disco duro, lo que puede indicar un fallo hardware del disco o de la placa. Si se considera un usuario avanzado, puede entrar en la configuración de la BIOS y comprobar que tiene la autodetección de discos duros activada ( Autodetect Hard Disk ). Si aún así no se resuelve el problema, cumplimente esta <a href="http://www.ujaen.es/murphy/averiaequipo.html" target="_blank" title="Solicitud Murphy">solicitud murphy</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=31&id=104&artlang=es
+Detalle resultado: 0.081785016 = (MATCH) product of:
+  0.16357003 = (MATCH) sum of:
+    0.16357003 = (MATCH) product of:
+      0.49071008 = (MATCH) sum of:
+        0.49071008 = (MATCH) weight(question:sal in 90), product of:
+          0.37785494 = queryWeight(question:sal), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.072738655 = queryNorm
+          1.2986732 = (MATCH) fieldWeight(question:sal in 90), product of:
+            1.0 = tf(termFreq(question:sal)=1)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.25 = fieldNorm(field=question, doc=90)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.081785016
+	Pregunta: al arrancar el equipo me sale en pantalla un mensaje que dice error al cargar ntldr operating system not found
+	Respuesta:  Compruebe que no está intentando arrancar con un disquete insertado en la disquetera. Si no tiene disquete insertado en la disquetera: Si tiene partición FAT32 o Windows 98, simplemente debe arrancar con un disquete de Windows 98 y copiar los archivos NTLDR o NTDETECT.COM desde el directorio i386 del disquete a la raíz de la unidad C:\ Si tiene partición NTFS, debe arrancar el equipo con el CD-ROM de instalación de Windows XP y entrar en la opción de "Reparar" (R) para abrir la consola de recuperación. Una vez en la consola introduce los siguientes comandos (X simboliza la unidad asignada al CD-ROM): COPY X:\i386\NTLDR C:\ (pulsar Enter) COPY X:\i386\NTDETECT.COM C:\ (pulsar Enter) Extraemos el CD-ROM de Windows XP y tecleamos "exit" en la consola de recuperación para reiniciar el equipo. Si todavía sigue con problemas, póngase en contacto con la <a title="Oficina de Atención al Usuario" target="_blank" href="http://www.ujaen.es/sci/sau/">Oficina de Atención al Usuario</a> del Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=31&id=106&artlang=es
+Detalle resultado: 0.081785016 = (MATCH) product of:
+  0.16357003 = (MATCH) sum of:
+    0.16357003 = (MATCH) product of:
+      0.49071008 = (MATCH) sum of:
+        0.49071008 = (MATCH) weight(question:sal in 91), product of:
+          0.37785494 = queryWeight(question:sal), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.072738655 = queryNorm
+          1.2986732 = (MATCH) fieldWeight(question:sal in 91), product of:
+            1.0 = tf(termFreq(question:sal)=1)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.25 = fieldNorm(field=question, doc=91)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)

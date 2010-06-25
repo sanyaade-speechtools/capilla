@@ -1,0 +1,406 @@
+Test 14
+Indexado: Question
+
+Anotaci�n: Respuesta perfecta
+
+Pregunta: acceso a mi espacio en disco
+
+Tiempo de busqueda: 5ms
+Resultado: 0:
+Puntuación: 1.0879173
+	Pregunta: como me conecto a mi espacio en disco
+	Respuesta:  En esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> tiene toda la información para acceder al espacio en disco.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=285&artlang=es
+Detalle resultado: 1.0879173 = (MATCH) sum of:
+  1.0074323 = (MATCH) product of:
+    1.5111485 = (MATCH) sum of:
+      0.76766026 = (MATCH) weight(question:espaci in 386), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        2.1736972 = (MATCH) fieldWeight(question:espaci in 386), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=386)
+      0.7434882 = (MATCH) weight(question:disc in 386), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:disc in 386), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=386)
+    0.6666667 = coord(2/3)
+  0.080484964 = (MATCH) product of:
+    0.12072744 = (MATCH) sum of:
+      0.06036372 = (MATCH) weight(categorie:espaci in 386), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.17368147 = (MATCH) fieldWeight(categorie:espaci in 386), product of:
+          1.7320508 = tf(termFreq(categorie:espaci)=3)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=386)
+      0.06036372 = (MATCH) weight(categorie:disc in 386), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.17368147 = (MATCH) fieldWeight(categorie:disc in 386), product of:
+          1.7320508 = tf(termFreq(categorie:disc)=3)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=386)
+    0.6666667 = coord(2/3)
+
+Resultado: 1:
+Puntuación: 1.073148
+	Pregunta: como se solicita el servicio de espacio en disco
+	Respuesta:  Este servicio no es necesario solicitarlo previamente, lo tienen a su disposición todos los profesores y todos los estudiantes mientras estén matriculados en la Universidad de Jaén. Para tener acceso a este servicio sólo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">campus virtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=284&artlang=es
+Detalle resultado: 1.073148 = (MATCH) sum of:
+  1.0074323 = (MATCH) product of:
+    1.5111485 = (MATCH) sum of:
+      0.76766026 = (MATCH) weight(question:espaci in 385), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        2.1736972 = (MATCH) fieldWeight(question:espaci in 385), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=385)
+      0.7434882 = (MATCH) weight(question:disc in 385), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:disc in 385), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=385)
+    0.6666667 = coord(2/3)
+  0.0657157 = (MATCH) product of:
+    0.09857354 = (MATCH) sum of:
+      0.04928677 = (MATCH) weight(categorie:espaci in 385), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.14181033 = (MATCH) fieldWeight(categorie:espaci in 385), product of:
+          1.4142135 = tf(termFreq(categorie:espaci)=2)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=385)
+      0.04928677 = (MATCH) weight(categorie:disc in 385), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.14181033 = (MATCH) fieldWeight(categorie:disc in 385), product of:
+          1.4142135 = tf(termFreq(categorie:disc)=2)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=385)
+    0.6666667 = coord(2/3)
+
+Resultado: 2:
+Puntuación: 1.0539004
+	Pregunta: en que consiste el servicio de espacio en disco
+	Respuesta:  Mediante este servicio todos los alumnos y profesores de la Universidad de Jaén disponen de un espacio en discoindividual y privado en el que podrán almacenar ficheros, prácticas y documentossiempre y cuando estén relacionados con sus estudios. Cada usuario dispone de unlímite de almacenamiento de 400 Mb que no podrá sobrepasar. Excepcionalmente los alumnosmatriculados en la titulación de Ingeniería en Geodesia y Cartografía disponen de un límite de 1 GB.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=283&artlang=es
+Detalle resultado: 1.0539004 = (MATCH) sum of:
+  1.0074323 = (MATCH) product of:
+    1.5111485 = (MATCH) sum of:
+      0.76766026 = (MATCH) weight(question:espaci in 384), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        2.1736972 = (MATCH) fieldWeight(question:espaci in 384), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=384)
+      0.7434882 = (MATCH) weight(question:disc in 384), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:disc in 384), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=384)
+    0.6666667 = coord(2/3)
+  0.046468012 = (MATCH) product of:
+    0.069702014 = (MATCH) sum of:
+      0.034851007 = (MATCH) weight(categorie:espaci in 384), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.10027504 = (MATCH) fieldWeight(categorie:espaci in 384), product of:
+          1.0 = tf(termFreq(categorie:espaci)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=384)
+      0.034851007 = (MATCH) weight(categorie:disc in 384), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.10027504 = (MATCH) fieldWeight(categorie:disc in 384), product of:
+          1.0 = tf(termFreq(categorie:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=384)
+    0.6666667 = coord(2/3)
+
+Resultado: 3:
+Puntuación: 0.9953262
+	Pregunta: puedo acceder a mi espacio en disco desde linux
+	Respuesta:  Siempre y cuando no sea la primera vez que accedemos al servicio de espacio en disco es posible utilizarlo si se utiliza Linux como sistema operativo. Para ello hay que realizarmanualmente una conexión al servidor donde está alojada nuestro espacio. - Aquí encontrará una <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_ubuntu.html" target="_blank">guía para Ubuntu 6.06</a> - Y aquí otra <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_kubuntu.html" target="_blank">guía para Kubuntu 8.04</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=291&artlang=es
+Detalle resultado: 0.9953262 = (MATCH) sum of:
+  0.8815033 = (MATCH) product of:
+    1.3222549 = (MATCH) sum of:
+      0.6717027 = (MATCH) weight(question:espaci in 389), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        1.901985 = (MATCH) fieldWeight(question:espaci in 389), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=389)
+      0.65055215 = (MATCH) weight(question:disc in 389), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        1.8718008 = (MATCH) fieldWeight(question:disc in 389), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=389)
+    0.6666667 = coord(2/3)
+  0.11382293 = (MATCH) product of:
+    0.17073439 = (MATCH) sum of:
+      0.085367195 = (MATCH) weight(categorie:espaci in 389), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.24562271 = (MATCH) fieldWeight(categorie:espaci in 389), product of:
+          2.4494898 = tf(termFreq(categorie:espaci)=6)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=389)
+      0.085367195 = (MATCH) weight(categorie:disc in 389), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.24562271 = (MATCH) fieldWeight(categorie:disc in 389), product of:
+          2.4494898 = tf(termFreq(categorie:disc)=6)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=389)
+    0.6666667 = coord(2/3)
+
+Resultado: 4:
+Puntuación: 0.9744393
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.9744393 = (MATCH) sum of:
+  0.8815033 = (MATCH) product of:
+    1.3222549 = (MATCH) sum of:
+      0.6717027 = (MATCH) weight(question:espaci in 387), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        1.901985 = (MATCH) fieldWeight(question:espaci in 387), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=387)
+      0.65055215 = (MATCH) weight(question:disc in 387), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        1.8718008 = (MATCH) fieldWeight(question:disc in 387), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=387)
+    0.6666667 = coord(2/3)
+  0.092936024 = (MATCH) product of:
+    0.13940403 = (MATCH) sum of:
+      0.069702014 = (MATCH) weight(categorie:espaci in 387), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.20055008 = (MATCH) fieldWeight(categorie:espaci in 387), product of:
+          2.0 = tf(termFreq(categorie:espaci)=4)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+      0.069702014 = (MATCH) weight(categorie:disc in 387), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.20055008 = (MATCH) fieldWeight(categorie:disc in 387), product of:
+          2.0 = tf(termFreq(categorie:disc)=4)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+    0.6666667 = coord(2/3)
+
+Resultado: 5:
+Puntuación: 0.87851703
+	Pregunta: puedo acceder a mi espacio en disco con windows vista
+	Respuesta:  Sí, el acceso al servicio de espacio en disco es totalmente compatible con Windows Vista.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=347&artlang=es
+Detalle resultado: 0.87851703 = (MATCH) sum of:
+  0.7555742 = (MATCH) product of:
+    1.1333613 = (MATCH) sum of:
+      0.57574517 = (MATCH) weight(question:espaci in 390), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        1.6302729 = (MATCH) fieldWeight(question:espaci in 390), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=390)
+      0.5576161 = (MATCH) weight(question:disc in 390), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        1.6044006 = (MATCH) fieldWeight(question:disc in 390), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=390)
+    0.6666667 = coord(2/3)
+  0.1229428 = (MATCH) product of:
+    0.1844142 = (MATCH) sum of:
+      0.0922071 = (MATCH) weight(categorie:espaci in 390), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.2653028 = (MATCH) fieldWeight(categorie:espaci in 390), product of:
+          2.6457512 = tf(termFreq(categorie:espaci)=7)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=390)
+      0.0922071 = (MATCH) weight(categorie:disc in 390), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.2653028 = (MATCH) fieldWeight(categorie:disc in 390), product of:
+          2.6457512 = tf(termFreq(categorie:disc)=7)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=390)
+    0.6666667 = coord(2/3)
+
+Resultado: 6:
+Puntuación: 0.85947984
+	Pregunta: no funciona o no encuentro el asistente como me conecto a mi espacio en disco
+	Respuesta:  Si no te funciona o encuentras el asistente, puedes conectar de forma manual una unidad de red a tu espacio en disco. Estos son los pasos a seguir: Nota importante : si es la primera vez que accedes a este servicio no puedes utilizar esta conexión manual, en ese caso debes utilizar los asistentes descritos en esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> . Abre el exploradorde Windows o Mi PC. En el menú "Herramientas" elige la opción "Conectar a unidadde red". Aparecerá esta ventana: Selecciona la unidad Z:Carpeta: \\boreal\usuario$ (usuario es tu usuario del campus virtual,añádele el signo dolar $ al final)Pulsa donde dice "Conectar usando otro nombre usuario".Te aparecerá esta otra ventana: Usuario: aulas\usuario (usuario es de nuevo el del campus virtual)Contraseña: la del campus virtualPulsa el botón aceptarVolverás a la ventana anterior, pulsa el botón Finalizar.Preguntas relacionadas: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=290&artlang=es
+Detalle resultado: 0.85947984 = (MATCH) sum of:
+  0.7555742 = (MATCH) product of:
+    1.1333613 = (MATCH) sum of:
+      0.57574517 = (MATCH) weight(question:espaci in 388), product of:
+        0.35315877 = queryWeight(question:espaci), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.08123458 = queryNorm
+        1.6302729 = (MATCH) fieldWeight(question:espaci in 388), product of:
+          1.0 = tf(termFreq(question:espaci)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=388)
+      0.5576161 = (MATCH) weight(question:disc in 388), product of:
+        0.34755418 = queryWeight(question:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        1.6044006 = (MATCH) fieldWeight(question:disc in 388), product of:
+          1.0 = tf(termFreq(question:disc)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=388)
+    0.6666667 = coord(2/3)
+  0.10390564 = (MATCH) product of:
+    0.15585846 = (MATCH) sum of:
+      0.07792923 = (MATCH) weight(categorie:espaci in 388), product of:
+        0.34755418 = queryWeight(categorie:espaci), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.22422181 = (MATCH) fieldWeight(categorie:espaci in 388), product of:
+          2.236068 = tf(termFreq(categorie:espaci)=5)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=388)
+      0.07792923 = (MATCH) weight(categorie:disc in 388), product of:
+        0.34755418 = queryWeight(categorie:disc), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.08123458 = queryNorm
+        0.22422181 = (MATCH) fieldWeight(categorie:disc in 388), product of:
+          2.236068 = tf(termFreq(categorie:disc)=5)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=388)
+    0.6666667 = coord(2/3)
+
+Resultado: 7:
+Puntuación: 0.3777871
+	Pregunta: como puedo conocer el espacio en disco cuota que ocupan los mensajes de mi buzon
+	Respuesta:  En el margen izquierdo podrás encontrar una barra en el que se indica el porcentaje de espacio (0.0% de 15M) en disco que ocupan tus mensajes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=125&artlang=es
+Detalle resultado: 0.3777871 = (MATCH) product of:
+  0.7555742 = (MATCH) sum of:
+    0.7555742 = (MATCH) product of:
+      1.1333613 = (MATCH) sum of:
+        0.57574517 = (MATCH) weight(question:espaci in 252), product of:
+          0.35315877 = queryWeight(question:espaci), product of:
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.08123458 = queryNorm
+          1.6302729 = (MATCH) fieldWeight(question:espaci in 252), product of:
+            1.0 = tf(termFreq(question:espaci)=1)
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=252)
+        0.5576161 = (MATCH) weight(question:disc in 252), product of:
+          0.34755418 = queryWeight(question:disc), product of:
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.08123458 = queryNorm
+          1.6044006 = (MATCH) fieldWeight(question:disc in 252), product of:
+            1.0 = tf(termFreq(question:disc)=1)
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=252)
+      0.6666667 = coord(2/3)
+  0.5 = coord(1/2)
+
+Resultado: 8:
+Puntuación: 0.2518581
+	Pregunta: al enviar correo aparece un mensaje que dice error al guardabar los mensajes de correo compruebe que tiene permiso e escritura y suficiente espacio en disco
+	Respuesta:  Este problema sucede justo cuando Mozilla o Thunderbird envían un correo electrónico y se disponen a guardar una copia del mismo en la bandeja de "Enviados", o incluso en la misma bandeja de Entrada cuando intentamos descargar mensajes. Este mensaje de error puede aparecer en varias situaciones: el tamaño de la bandeja de entrada supera los 2Gbel archivo donde se almacena la bandeja de entrada está corruptoel antivirus está bloqueando la bandeja de entrada.Solución Siga los siguientes pasos para solucionar el problema: Cierre el correo de Mozilla/ThunderbirdLocalice el fichero "Inbox" (sin extensión) y renómbrelo. Por ejemplo como Inbox_antiguoAbra Mozilla/ThunderbirdEn la mayoría de las ocasiones Mozilla/Thunderbird creará un nuevo fichero Inbox vacío con el que podrá trabajar con normalidad. Si el problema no se soluciona con estos pasos, puede que el antivirus esté bloqueando el fichero Inbox. Para determinar si el problema lo está provocando el antivirus, desactívelo e intente acceder al correo. Es conveniente que desconecte el cable de red para evitar una posible infección durante el tiempo que esté desactivado el antivirus. Si el antivirus es el que está provocando el error, le recomendamos que lo desinstale y vuelva instalarlo con su última versión desde las páginas del Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=41&id=193&artlang=es
+Detalle resultado: 0.2518581 = (MATCH) product of:
+  0.5037162 = (MATCH) sum of:
+    0.5037162 = (MATCH) product of:
+      0.7555742 = (MATCH) sum of:
+        0.38383013 = (MATCH) weight(question:espaci in 204), product of:
+          0.35315877 = queryWeight(question:espaci), product of:
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.08123458 = queryNorm
+          1.0868486 = (MATCH) fieldWeight(question:espaci in 204), product of:
+            1.0 = tf(termFreq(question:espaci)=1)
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.25 = fieldNorm(field=question, doc=204)
+        0.3717441 = (MATCH) weight(question:disc in 204), product of:
+          0.34755418 = queryWeight(question:disc), product of:
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.08123458 = queryNorm
+          1.0696005 = (MATCH) fieldWeight(question:disc in 204), product of:
+            1.0 = tf(termFreq(question:disc)=1)
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.25 = fieldNorm(field=question, doc=204)
+      0.6666667 = coord(2/3)
+  0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.22864047
+	Pregunta: al enviar recibir mensajes con outlook aparece el siguiente error la unidad que contiene el archivo de datos no tiene espacio disponible en disco vacie la carpeta de elementos eliminados o elimine algunos de sus archivos para crear espacio en la unidad
+	Respuesta:  Este error puede aparecer por varios motivos: 1. El disco está lleno. Revise el tamaño de su disco duro entrando en Mi PC y pulsando con el botón derecho sobre la unidad. Luego seleccione "Propiedades"Si el disco está lleno deberá liberar espacio borrando archivos obsoletos o moviendo datos a otra unidad. 2. El formato del sistema de ficheros no permite ficheros de más tamaño. Dependiendo del sistema de ficheros creado en su disco podré tener un fichero más grande. FAT soporta ficheros de tamaño máximo de 2GbFAT32 soporta ficheros con un tamaño máximo de 4GbNTFS soporta un tamaño de fichero ilimitadoConsulte el tipo de formato en Mi PC y pulsando con el botón dereco sobre la unidad correspondiente. Si tiene un formato FAT o FAT32 es recomendable que lo convierta a NTFS. 3. El formato del archivo de datos no permite más tamaño Outlook puede utilizar dos formatos de archivos de datos: formato Outlook 97-2002 (también denominado ANSI): soporta archivos de datos de 2Gb nuevo formato para Outlook 2003 y 2007 (también denominado UNICODE): soporta archivos de datos de 20 GbPara determinar el tipo de archivo de datos abra el menú Herramientas- Configuración de la cuenta y luego seleccione la solapa "Archivo de datos". Pulse dos veces en la entrada del archivo de datos predeterminado y si en el apartado "Formato" aparece "Archivo de carpetas personales" se trata de un archivo Unicode que soporta 20Gb. En caso contrario deberá crear un nuevo archivo de datos con este formato y mover los datos al nuevo fichero.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=421&artlang=es
+Detalle resultado: 0.22864048 = (MATCH) product of:
+  0.45728096 = (MATCH) sum of:
+    0.45728096 = (MATCH) product of:
+      0.68592143 = (MATCH) sum of:
+        0.40711334 = (MATCH) weight(question:espaci in 377), product of:
+          0.35315877 = queryWeight(question:espaci), product of:
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.08123458 = queryNorm
+          1.1527771 = (MATCH) fieldWeight(question:espaci in 377), product of:
+            1.4142135 = tf(termFreq(question:espaci)=2)
+            4.3473945 = idf(docFreq=13, maxDocs=398)
+            0.1875 = fieldNorm(field=question, doc=377)
+        0.27880806 = (MATCH) weight(question:disc in 377), product of:
+          0.34755418 = queryWeight(question:disc), product of:
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.08123458 = queryNorm
+          0.8022003 = (MATCH) fieldWeight(question:disc in 377), product of:
+            1.0 = tf(termFreq(question:disc)=1)
+            4.278402 = idf(docFreq=14, maxDocs=398)
+            0.1875 = fieldNorm(field=question, doc=377)
+      0.6666667 = coord(2/3)
+  0.5 = coord(1/2)
