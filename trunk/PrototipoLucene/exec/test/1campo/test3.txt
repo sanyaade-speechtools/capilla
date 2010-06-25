@@ -1,6 +1,6 @@
 Test 3
 Indexado: Question
-Pregunta: usar correo electrï¿½nico
+Pregunta: usar correo electrónico
 
 Tiempo de busqueda: 2ms
 Resultado: 0:

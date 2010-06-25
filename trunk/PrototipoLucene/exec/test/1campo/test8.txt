@@ -1,0 +1,232 @@
+Test8
+Indexado: Question
+
+Anotaciones: El sistema responde bien en función de los documentoso que hay en la
+colección
+
+Pregunta: crear una lista de correo
+
+Tiempo de busqueda: 35ms
+Resultado: 0:
+PuntuaciÃ³n: 2.7473302
+	Pregunta: necesito crear modificar o dar de baja una lista de correo
+	Respuesta:  Es posible crear nuevas listas, siempre que su finalidad sea I+D o de interés para la Universidad, comunicándolo al Servicio de Informática mediante el formulario anterior. Rellene la <a href="http://www.ujaen.es/sci/redes/listas/" target="_blank">solicitud (en formato impreso)</a>, especificando claramente la opción deseada.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=46&id=128&artlang=es
+Detalle resultado: 2.7473302 = (MATCH) sum of:
+  1.2324964 = (MATCH) weight(question:cre in 244), product of:
+    0.66978806 = queryWeight(question:cre), product of:
+      4.9070106 = idf(docFreq=7, maxDocs=398)
+      0.13649616 = queryNorm
+    1.8401289 = (MATCH) fieldWeight(question:cre in 244), product of:
+      1.0 = tf(termFreq(question:cre)=1)
+      4.9070106 = idf(docFreq=7, maxDocs=398)
+      0.375 = fieldNorm(field=question, doc=244)
+  1.0372298 = (MATCH) weight(question:list in 244), product of:
+    0.61444366 = queryWeight(question:list), product of:
+      4.5015454 = idf(docFreq=11, maxDocs=398)
+      0.13649616 = queryNorm
+    1.6880796 = (MATCH) fieldWeight(question:list in 244), product of:
+      1.0 = tf(termFreq(question:list)=1)
+      4.5015454 = idf(docFreq=11, maxDocs=398)
+      0.375 = fieldNorm(field=question, doc=244)
+  0.47760394 = (MATCH) weight(question:corre in 244), product of:
+    0.41694477 = queryWeight(question:corre), product of:
+      3.0546265 = idf(docFreq=50, maxDocs=398)
+      0.13649616 = queryNorm
+    1.1454849 = (MATCH) fieldWeight(question:corre in 244), product of:
+      1.0 = tf(termFreq(question:corre)=1)
+      3.0546265 = idf(docFreq=50, maxDocs=398)
+      0.375 = fieldNorm(field=question, doc=244)
+
+Resultado: 1:
+PuntuaciÃ³n: 1.6831487
+	Pregunta: que es una lista de correo
+	Respuesta:  Una lista de correo electrónico permite que varias personas intercambien informaciones de interés utilizando el correo electrónico. Cada lista de correo trata de un tema en particular y se identifica mediante una dirección de correo electrónico. Los usuarios que estén interesados en el tema del que trata la lista se "suscriben" a ella indicando su dirección electrónica personal (en ocasiones se pedirán datos adicionales como nombre, organización,etc.). Temas relacionados: - <a href="http://www.ujaen.es/sci/redes/listas/" target="_blank">Servicio de Listas</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=24&id=33&artlang=es
+Detalle resultado: 1.6831486 = (MATCH) product of:
+  2.5247228 = (MATCH) sum of:
+    1.7287163 = (MATCH) weight(question:list in 79), product of:
+      0.61444366 = queryWeight(question:list), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.13649616 = queryNorm
+      2.8134658 = (MATCH) fieldWeight(question:list in 79), product of:
+        1.0 = tf(termFreq(question:list)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.625 = fieldNorm(field=question, doc=79)
+    0.79600656 = (MATCH) weight(question:corre in 79), product of:
+      0.41694477 = queryWeight(question:corre), product of:
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.13649616 = queryNorm
+      1.9091415 = (MATCH) fieldWeight(question:corre in 79), product of:
+        1.0 = tf(termFreq(question:corre)=1)
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.625 = fieldNorm(field=question, doc=79)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+PuntuaciÃ³n: 1.178204
+	Pregunta: existe una relacion de listas de correo de la universidad de jaen
+	Respuesta:  Si. En la siguiente dirección podrá consultar la relación completa: <a href="http://listas.ujaen.es/mailman/listinfo">http://listas.ujaen.es/mailman/listinfo</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=46&id=305&artlang=es
+Detalle resultado: 1.178204 = (MATCH) product of:
+  1.767306 = (MATCH) sum of:
+    1.2101014 = (MATCH) weight(question:list in 245), product of:
+      0.61444366 = queryWeight(question:list), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.13649616 = queryNorm
+      1.9694262 = (MATCH) fieldWeight(question:list in 245), product of:
+        1.0 = tf(termFreq(question:list)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=245)
+    0.5572046 = (MATCH) weight(question:corre in 245), product of:
+      0.41694477 = queryWeight(question:corre), product of:
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.13649616 = queryNorm
+      1.3363991 = (MATCH) fieldWeight(question:corre in 245), product of:
+        1.0 = tf(termFreq(question:corre)=1)
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=245)
+  0.6666667 = coord(2/3)
+
+Resultado: 3:
+PuntuaciÃ³n: 1.140067
+	Pregunta: como puedo crear un formulario que me envie la informacion por correo electronico
+	Respuesta:  Aprenda todo lo necesario para crear páginas web que contengan formularios de petición de datos, que serán enviados a su dirección de correo electrónico cuando los usuarios pulsan el botón enviar. Para más información consulte la dirección <a href="http://www.ujaen.es/sci/redes/web/fwuja.html">http://www.ujaen.es/sci/redes/web/fwuja.html</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=164&artlang=es
+Detalle resultado: 1.1400669 = (MATCH) product of:
+  1.7101003 = (MATCH) sum of:
+    1.2324964 = (MATCH) weight(question:cre in 57), product of:
+      0.66978806 = queryWeight(question:cre), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.13649616 = queryNorm
+      1.8401289 = (MATCH) fieldWeight(question:cre in 57), product of:
+        1.0 = tf(termFreq(question:cre)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=57)
+    0.47760394 = (MATCH) weight(question:corre in 57), product of:
+      0.41694477 = queryWeight(question:corre), product of:
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.13649616 = queryNorm
+      1.1454849 = (MATCH) fieldWeight(question:corre in 57), product of:
+        1.0 = tf(termFreq(question:corre)=1)
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=57)
+  0.6666667 = coord(2/3)
+
+Resultado: 4:
+PuntuaciÃ³n: 1.0098891
+	Pregunta: he enviado varios mensajes de correo a una lista pero no se distribuyen entre los suscriptores
+	Respuesta:  Hay varios motivos para que un mensaje no se distribuya en una lista: No escribió explícitamente la dirección de la lista en el campo To (Para) La descripción del campo From es muy larga y además contiene acentos. Ha incluido demasiados destinatarios en el campo To (Para). La lista es privada y no está suscrito. Está suscrito, pero ha activado alguna opción de suscripción a la lista para que no se puede enviar. Contacte con el propietario de la lista <a href="mailto:nombrelista-owner@listas.ujaen.es">nombrelista-owner@listas.ujaen.es</a>, para obtener más información sobre el problema de envío a la lista. Nota: sustituya nombrelista por la lista. Temas relacionados: <a href="http://www.ujaen.es/sci/redes/listas/utilizacion/suscriptor.html">Cambiar/comprobar las preferencias de suscripción</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=56&id=301&artlang=es
+Detalle resultado: 1.0098891 = (MATCH) product of:
+  1.5148337 = (MATCH) sum of:
+    1.0372298 = (MATCH) weight(question:list in 313), product of:
+      0.61444366 = queryWeight(question:list), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.13649616 = queryNorm
+      1.6880796 = (MATCH) fieldWeight(question:list in 313), product of:
+        1.0 = tf(termFreq(question:list)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=313)
+    0.47760394 = (MATCH) weight(question:corre in 313), product of:
+      0.41694477 = queryWeight(question:corre), product of:
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.13649616 = queryNorm
+      1.1454849 = (MATCH) fieldWeight(question:corre in 313), product of:
+        1.0 = tf(termFreq(question:corre)=1)
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=313)
+  0.6666667 = coord(2/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 1.0098891
+	Pregunta: como puedo obtener la clave de suscripcion a una lista de correo
+	Respuesta:  El gestor de listas asigna una clave de suscripción diferente para cada lista a la que esté suscrito, aunque es posible asignar una única clave globalmente para todas las listas. Si desea obtener la clave de una lista siga las siguientes instrucciones: 1. Acceda a la relación de listas <a href="http://listas.ujaen.es/mailman/listinfo">http://listas.ujaen.es/mailman/listinfo</a> 2. Seleccione la lista a la que está suscrito 3. Escriba su dirección de correo electrónico en el campo que aparece delante del botón "Anular su suscripción o editar preferencias" 4. Pulse en el botón "Recordatorio de clave"
+	Url: faq.ujaen.es/index.php?action=artikel&cat=56&id=303&artlang=es
+Detalle resultado: 1.0098891 = (MATCH) product of:
+  1.5148337 = (MATCH) sum of:
+    1.0372298 = (MATCH) weight(question:list in 314), product of:
+      0.61444366 = queryWeight(question:list), product of:
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.13649616 = queryNorm
+      1.6880796 = (MATCH) fieldWeight(question:list in 314), product of:
+        1.0 = tf(termFreq(question:list)=1)
+        4.5015454 = idf(docFreq=11, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=314)
+    0.47760394 = (MATCH) weight(question:corre in 314), product of:
+      0.41694477 = queryWeight(question:corre), product of:
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.13649616 = queryNorm
+      1.1454849 = (MATCH) fieldWeight(question:corre in 314), product of:
+        1.0 = tf(termFreq(question:corre)=1)
+        3.0546265 = idf(docFreq=50, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=314)
+  0.6666667 = coord(2/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.6847202
+	Pregunta: quienes crean los virus
+	Respuesta:  Soncreados, en su mayoría, por personas que desean demostrar susconocimientos de informática, aunque por razones obvias, suelenmantener el anonimato. En la actualidad, hay programas con los que cualquier usuario, sin tenerningún tipo de conocimientos de programación, puede crearsu propio o propios virus, dándoles el nombre y característicasque desee. E incluso existen determinados Web que ofrecen esta posibilidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=39&id=175&artlang=es
+Detalle resultado: 0.6847203 = (MATCH) product of:
+  2.0541608 = (MATCH) sum of:
+    2.0541608 = (MATCH) weight(question:cre in 170), product of:
+      0.66978806 = queryWeight(question:cre), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.13649616 = queryNorm
+      3.0668817 = (MATCH) fieldWeight(question:cre in 170), product of:
+        1.0 = tf(termFreq(question:cre)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.625 = fieldNorm(field=question, doc=170)
+  0.33333334 = coord(1/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.5477762
+	Pregunta: recomendaciones para crear una pagina web
+	Respuesta:  Lea los consejos que les damos para la creación de páginas web personales o institucionales en la web <a href="http://www.ujaen.es/sci/redes/web/guiaestilo/recomendaciones.html">http://www.ujaen.es/sci/redes/web/guiaestilo/recomendaciones.html</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=163&artlang=es
+Detalle resultado: 0.5477762 = (MATCH) product of:
+  1.6433285 = (MATCH) sum of:
+    1.6433285 = (MATCH) weight(question:cre in 56), product of:
+      0.66978806 = queryWeight(question:cre), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.13649616 = queryNorm
+      2.4535053 = (MATCH) fieldWeight(question:cre in 56), product of:
+        1.0 = tf(termFreq(question:cre)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=56)
+  0.33333334 = coord(1/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.47930416
+	Pregunta: crear discos de rescate con panda antivirus
+	Respuesta:  La nueva versión de Panda Antivirus 2007 (Lite) no proporciona mecanismospara la creación de discos de rescate , por lo que desde el Serviciode Informática hemos creado una imagen ISO que le permite crear un CD-ROM dearranque con el que puede arrancar el equipo desdeun entorno limpio y utilizar el antivirus desde este CD cuando tienensospechas de que su ordenador ya estáinfectado por un virus. Para crear el disco de rescate necesita realizar las siguientes acciones: Descargarla <a title="CD arranque de Panda Antivirus" target="_blank" href="ftp://ftp.ujaen.es:2121/panda/disco_rescate.iso">imagen ISO del CD de arranque de Panda Antivirus</a>. Tener instalado un <a title="Software de Grabación de CDs" target="_blank" href="http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/nero/nero66.html">software de grabación de CDs</a> y tener a mano un CD en blanco etiquetado como "Disco de Rescate". Crear el disco de rescate con su software de grabación preferido.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=172&artlang=es
+Detalle resultado: 0.4793042 = (MATCH) product of:
+  1.4379126 = (MATCH) sum of:
+    1.4379126 = (MATCH) weight(question:cre in 276), product of:
+      0.66978806 = queryWeight(question:cre), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.13649616 = queryNorm
+      2.1468172 = (MATCH) fieldWeight(question:cre in 276), product of:
+        1.0 = tf(termFreq(question:cre)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=276)
+  0.33333334 = coord(1/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.47930416
+	Pregunta: puedo crear un blog en la universidad de jaen
+	Respuesta:  El Servicio de Informática ofrece un servicio de blogs. En las páginas de  <a href="http://www.ujaen.es/sci/redes/solicitantes-sst.html">anexo de solicitantes</a> y <a href="http://www.ujaen.es/sci/redes/web/blogs/caracteristicas.html">características del servicio</a> podrá obtener más información sobre quiénes son los destinatarios de este servicio y en qué condiciones se ofrece.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=391&artlang=es
+Detalle resultado: 0.4793042 = (MATCH) product of:
+  1.4379126 = (MATCH) sum of:
+    1.4379126 = (MATCH) weight(question:cre in 368), product of:
+      0.66978806 = queryWeight(question:cre), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.13649616 = queryNorm
+      2.1468172 = (MATCH) fieldWeight(question:cre in 368), product of:
+        1.0 = tf(termFreq(question:cre)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=368)
+  0.33333334 = coord(1/3)

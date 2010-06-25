@@ -1,0 +1,205 @@
+Test 10
+Indexado: Question
+
+Anotación: Los resultados devueltos no son bueno debido a principalmente a que la
+f.a.q no tiene preguntas que respondan directamente a la consulta, aunque si existe
+una pregunta que, aunque formulada con otras palabras, si podría responder a esa pregunta
+el documento ¿Cómo debo configurar mi tarjeta inalámbrica para poder conectarme a RIMUJA?
+http://faq.ujaen.es/index.php?action=artikel&cat=63&id=218&artlang=es
+
+Pregunta: Como me conecto a la wifi de la universidad
+
+Tiempo de busqueda: 4ms
+Resultado: 0:
+PuntuaciÃ³n: 0.8805702
+	Pregunta: como conecto un equipo nuevo a la red de la universidad de jaen riuja
+	Respuesta:  Seleccione solicitud Altas, bajas, modif. Rellene todos sus datos personales. Le recomendamos que indique su e-mail, así podremos ponernos en contacto con usted más rápidamente. Es obligatorio rellenar todos los datos que aparecen marcados con (*) del apartado DATOS DE CONTACTO CON EL SOLICITANTE: D.N.I. Nombre y apellidos. Centro/Departamento/Servicio/Entidad. Puesto desempeñado. Edificio. En las opciones que solicita, debe rellenar el apartado DATOS SOLO PARA ALTA. Edificio. Dependencia. Clave de inventario de la CPU: Así como el resto de datos que puedan aportar información para que se resuelva su solicitud. Piense que mientras mas completa la envíe, menos aclaraciones previas tendremos que realizar y por consiguiente, la solicitud se tramitará con mas brevedad. IMPORTANTE: Las solicitudes deben venir firmadas y selladas por el responsable del Centro, Departamento o Servicio que autoriza la solicitud, así como por el propio solicitante. Tenga en cuenta que la instalación física del equipo NO lo realiza el Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=198&artlang=es
+Detalle resultado: 0.8805703 = (MATCH) product of:
+  1.3208554 = (MATCH) sum of:
+    0.54116046 = (MATCH) weight(question:conect in 284), product of:
+      0.41706833 = queryWeight(question:conect), product of:
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.12053679 = queryNorm
+      1.2975343 = (MATCH) fieldWeight(question:conect in 284), product of:
+        1.0 = tf(termFreq(question:conect)=1)
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=284)
+    0.77969486 = (MATCH) weight(question:univers in 284), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.5574646 = (MATCH) fieldWeight(question:univers in 284), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=284)
+  0.6666667 = coord(2/3)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.7338085
+	Pregunta: estare o estoy de visita temporal en la universidad y necesito conectividad como puedo obtenerla
+	Respuesta:  Debes contactar con el/la responsable de la unidad funcional que te ha invitado para que te suministre las credenciales correspondientes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=211&artlang=es
+Detalle resultado: 0.7338085 = (MATCH) product of:
+  1.1007128 = (MATCH) sum of:
+    0.45096704 = (MATCH) weight(question:conect in 289), product of:
+      0.41706833 = queryWeight(question:conect), product of:
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.12053679 = queryNorm
+      1.0812786 = (MATCH) fieldWeight(question:conect in 289), product of:
+        1.0 = tf(termFreq(question:conect)=1)
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=289)
+    0.6497457 = (MATCH) weight(question:univers in 289), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.2978871 = (MATCH) fieldWeight(question:univers in 289), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=289)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.7338085
+	Pregunta: soy un pdi pas o alumno de la universidad que necesito para conectarme a nuestras redes inalambricas
+	Respuesta:  Necesitas un ordenador portátil con una tarjeta inalámbrica que cumpla los <a href="http://www.ujaen.es/sci/redes/rimuja/requisitos.htm"> requisitos mínimos </a>  y tener una cuenta de correo del dominio @ujaen.es o @estudiante.ujaen.es y que puedas acceder correctamente a <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp"> Campus Virtual </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=209&artlang=es
+Detalle resultado: 0.7338085 = (MATCH) product of:
+  1.1007128 = (MATCH) sum of:
+    0.45096704 = (MATCH) weight(question:conect in 326), product of:
+      0.41706833 = queryWeight(question:conect), product of:
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.12053679 = queryNorm
+      1.0812786 = (MATCH) fieldWeight(question:conect in 326), product of:
+        1.0 = tf(termFreq(question:conect)=1)
+        3.4600916 = idf(docFreq=33, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=326)
+    0.6497457 = (MATCH) weight(question:univers in 326), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.2978871 = (MATCH) fieldWeight(question:univers in 326), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=326)
+  0.6666667 = coord(2/3)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.4972857
+	Pregunta: panda titanium 2006 me pregunta cada cierto tiempo que ha detectado un intruso wifi que debo de hacer con esos avisos
+	Respuesta:  Panda Titanium 2006 detecta los puntos de acceso inalámbricos como intrusos WiFi. Esto lo hace así para evitar que otros equipos pueden acceder al nuestro mediante enlaces inalámbricos. Para desactivar esta característica debes hacer lo siguiente: Abre el Panda Titanium 2006 y en la pantalla principal escoge la categoría Configurar Protecciones. Desde ahí elige Configurar protecciones y después Protección del firewall. En opciones Avanzadas elige Configurar Opciones Avanzadas y en la parte de abajo, dentro del bloque Detección de intrusiones WiFi , desactiva la casilla que dice: Activar detección de intrusiones WiFi. Ten en cuenta que se deshabilita esta protección, por lo que deberás suplirla con otras medidas de seguridad. Te recomendamos que actualices a la última versión de <a href="http://www.ujaen.es/sci/invdoc/avpanda/"> Panda </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=243&artlang=es
+Detalle resultado: 0.49728566 = (MATCH) product of:
+  1.4918569 = (MATCH) sum of:
+    1.4918569 = (MATCH) weight(question:wifi in 341), product of:
+      0.7585748 = queryWeight(question:wifi), product of:
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.12053679 = queryNorm
+      1.9666578 = (MATCH) fieldWeight(question:wifi in 341), product of:
+        1.0 = tf(termFreq(question:wifi)=1)
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=341)
+  0.33333334 = coord(1/3)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.34653103
+	Pregunta: quien gestiona los nombres de la maquinas de la universidad
+	Respuesta:  La gestión del servicio DNS es responsabilidad del Servicio de Informática y es a él a quién hay que dirigir las peticiones sobre el alta/modificación/baja de nombres de equipos bajo el dominio .ujaen.es.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=15&id=271&artlang=es
+Detalle resultado: 0.34653103 = (MATCH) product of:
+  1.0395931 = (MATCH) sum of:
+    1.0395931 = (MATCH) weight(question:univers in 5), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      2.0766194 = (MATCH) fieldWeight(question:univers in 5), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=5)
+  0.33333334 = coord(1/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.30321467
+	Pregunta: existe una relacion de listas de correo de la universidad de jaen
+	Respuesta:  Si. En la siguiente dirección podrá consultar la relación completa: <a href="http://listas.ujaen.es/mailman/listinfo">http://listas.ujaen.es/mailman/listinfo</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=46&id=305&artlang=es
+Detalle resultado: 0.30321467 = (MATCH) product of:
+  0.909644 = (MATCH) sum of:
+    0.909644 = (MATCH) weight(question:univers in 245), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.817042 = (MATCH) fieldWeight(question:univers in 245), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=245)
+  0.33333334 = coord(1/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.30321467
+	Pregunta: quien puede usar las redes inalambricas malladas de la universidad
+	Respuesta:  Todos los miembros de la comunidad universitaria que posean cuenta de correo electrónico y los visitantes que contacten con los responsables de las unidades funcionales de la universidad que los hayan invitado. Para conseguir tu cuenta de correo, consulta la información de <a href="http://www.ujaen.es/sci/redes/email/"> este servicio. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=208&artlang=es
+Detalle resultado: 0.30321467 = (MATCH) product of:
+  0.909644 = (MATCH) sum of:
+    0.909644 = (MATCH) weight(question:univers in 325), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.817042 = (MATCH) fieldWeight(question:univers in 325), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=325)
+  0.33333334 = coord(1/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.30321467
+	Pregunta: puedo crear un blog en la universidad de jaen
+	Respuesta:  El Servicio de Informática ofrece un servicio de blogs. En las páginas de  <a href="http://www.ujaen.es/sci/redes/solicitantes-sst.html">anexo de solicitantes</a> y <a href="http://www.ujaen.es/sci/redes/web/blogs/caracteristicas.html">características del servicio</a> podrá obtener más información sobre quiénes son los destinatarios de este servicio y en qué condiciones se ofrece.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=391&artlang=es
+Detalle resultado: 0.30321467 = (MATCH) product of:
+  0.909644 = (MATCH) sum of:
+    0.909644 = (MATCH) weight(question:univers in 368), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.817042 = (MATCH) fieldWeight(question:univers in 368), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.4375 = fieldNorm(field=question, doc=368)
+  0.33333334 = coord(1/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.25989828
+	Pregunta: como es el plan de numeracion de la telefonia movil de la universidad de jaen
+	Respuesta:  Todos los teléfonos móviles de la Universidad de Jaén están dentro de la Red Corporativa. El número corporativo de un teléfono móvil se compone a partir del número de 9 cifras, de las cuales se mantienen las 4 ultimas, anticipando las siguientes cifras, según el prefijo: 67094 XXXX se marcará 74 XXXX 67790 XXXX se marcará 73 XXXX 69795 XXXX se marcará 75 XXXX 67156 XXXX se marcará 76 XXXX Pongamos un ejemplo, supongamos el numero 670 949 999, su numero corporativo sería 749 999, y en el caso de 677 909 999, su corporativo sería 739 999.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=19&id=273&artlang=es
+Detalle resultado: 0.2598983 = (MATCH) product of:
+  0.77969486 = (MATCH) sum of:
+    0.77969486 = (MATCH) weight(question:univers in 47), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.5574646 = (MATCH) fieldWeight(question:univers in 47), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=47)
+  0.33333334 = coord(1/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.25989828
+	Pregunta: instalar antivirus panda desde la pagina web de la universidad
+	Respuesta:  Desde un equipo conectado a la Universidad de Jaén, hacerclic en el siguiente <a href="http://www.ujaen.es/sci/invdoc/avpanda/instalacion.html" target="_blank" title="Instalación antivirus Panda">enlace</a> Hacer clic sobre el botón " Instalación Personalizada " y seleccionar " Ejecutar ". Este proceso es totalmente automático (no hay que hacer clic en ningún botón ni escribir nada). 
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=153&artlang=es
+Detalle resultado: 0.2598983 = (MATCH) product of:
+  0.77969486 = (MATCH) sum of:
+    0.77969486 = (MATCH) weight(question:univers in 149), product of:
+      0.50061804 = queryWeight(question:univers), product of:
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.12053679 = queryNorm
+      1.5574646 = (MATCH) fieldWeight(question:univers in 149), product of:
+        1.0 = tf(termFreq(question:univers)=1)
+        4.153239 = idf(docFreq=16, maxDocs=398)
+        0.375 = fieldNorm(field=question, doc=149)
+  0.33333334 = coord(1/3)
