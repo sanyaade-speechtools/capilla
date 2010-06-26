@@ -1,15 +1,0 @@
-<FaqDocument xmlns="http://www.genAssistant.org"
-			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
-
-
-     <Categorie Text="correo electronico">
-          <Categorie Text="outlook">
-               <Question Text="tengo dos perfiles de outlook y quiero importar los contactos de uno de ellos en el otro como puede importar estos datos">
-                    <AnswerIndex>sigue los siguientes pasos para exportar los contactos a un fichero externo pst abre el perfil que contiene los contactos a exportar entra en archivo importar y exportar exportar a un archivo o archivo de carpetas personales pst selecciona la subcarpeta contactos indica un nombre de archivo utiliza un nombre y unidad de disco que puedas recordar facil pues en el siguiente paso lo utilizaremos cierra el perfil nota este paso lo puedes eliminar si conoces la ubicacion del fichero pst de tu perfil sigue los siguientes pasos para importar los contactos abre el perfil donde quieres importar los contactos entra ne archivo importar y exportar importar de otro programa o archivo o archivo de carpetas personales pst indica la ubicacion del archivo con el boton examinar finalmente selecciona la subcarpeta contactos</AnswerIndex>
-                    <Answer>Sigue los siguientes pasos para "Exportar los contactos a un fichero externo .pst"Abre el perfil que contiene los contactos a exportarEntra en Archivo importar y exportar (Exportar a un archivo/Archivo de carpetas personales (.pst)Selecciona la subcarpeta ContactosIndica un nombre de archivo. Utiliza un nombre y unidad de disco que puedas recordar fácil pues en el siguiente paso lo utilizaremos.Cierra el perfil Nota: este paso lo puedes eliminar si conoces la ubicación del fichero .PST de tu perfil. Sigue los siguientes pasos para "Importar los contactos"Abre el perfil donde quieres importar los contactosEntra ne Archivo importar y exportar (Importar de otro programa o archivo/Archivo de carpetas personales PST)Indica la ubicación del archivo con el botón ExaminarFinalmente, selecciona la subcarpeta contactos.</Answer>
-                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=419&artlang=es</Url>
-               </Question>
-          </Categorie>
-     </Categorie>
-</FaqDocument>
