@@ -1,5 +1,9 @@
 Test 1
 
+Anotación: El resultado 0 no es el idoneo pero es aceptable porque se
+refiere al servicio de blogs de la universidad por lo que puede orientar
+al usuario, aunque el mejor resultado no se obtiene.
+
 Pregunta: quiero hacer un blog
 
 Tiempo de busqueda: 88ms

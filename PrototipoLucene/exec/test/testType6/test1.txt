@@ -1,5 +1,7 @@
 Test 1
 
+Anotación: La respuesta buena debería de haber sido el resultado 2
+
 Pregunta: quiero hacer un blog
 
 Anotaciones: El resultado 2 debería de haber sido el resultado 0.

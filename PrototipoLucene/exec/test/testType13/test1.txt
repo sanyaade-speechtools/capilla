@@ -1,8 +1,9 @@
 Test 1
 Indexado: Question,Category
 
-Anotaciones: Delvuelve un resultado perfecto.
+Anotaciones: No devuelve ningún resultado de búsqueda porque el analizador no
+extrae la raiz de las palabras blog y blogs.
 
 Pregunta: quiero hacer un blog
 
-NO TIENE SOLUCI�N.
+NO TIENE SOLUCI�N.

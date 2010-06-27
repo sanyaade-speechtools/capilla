@@ -2,7 +2,7 @@ Test 1
 
 Pregunta: quiero hacer un blog
 
-Anotaciones:
+Anotaciones: La respuesta buena debería de haber sido el resultado 2
 
 Tiempo de busqueda: 28ms
 Resultado: 0:
