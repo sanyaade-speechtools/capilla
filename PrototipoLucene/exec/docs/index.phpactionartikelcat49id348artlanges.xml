@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="videoconferencia">
+          <Question Text="que diferencia hay entre realizar la videoconferencia por ip o por rdsi">
+               <AnswerIndex>por ip se puede realizar tanto en la sala de juntas como en el salon de grados del edificio d 1 siempre es gratuita la llamada se realiza a la ip de la entidad remota por rdsi solo se puede realizar en la sala de juntas del d 1 solo es gratuita si es la entidad remota quen inicia la llamada en caso de ser la uja quien inicie la llamada se cargara al solicitante el importe de la llamada en este caso la llamada es a un numero de telefono el servicio de informatica recomienda usar la conexion por ip siempre y cuando el equipo de la entidad remota lo soporte</AnswerIndex>
+               <Answer>Por IP :
+Se puede realizar tanto en la Sala de Juntas como en el Salón de Grados del edificio D-1 Siempre es gratuita La llamada se realiza a la IP de la entidad remota.
+Por RDSI :
+Sólo se puede realizar en la Sala de Juntas del D-1 Sólo es gratuita si es la entidad remota quén inicia la llamada. En caso de ser la UJA quién inicie la llamada se cargará al solicitante el importe de la llamada. En este caso la llamada es a un número de teléfono. El Servicio de Informática recomienda usar la conexión por IP siempre y cuando el equipo de la entidad remota lo soporte.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=49&id=348&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

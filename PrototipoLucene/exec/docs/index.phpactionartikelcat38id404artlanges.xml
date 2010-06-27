@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="antivirus">
+                    <Question Text="despues de actualizar el antivirus mi equipo ha dejado de funcionar">
+                         <AnswerIndex>el pasado viernes 16 de enero panda antivirus libero una actualizacion para sus productos que elimina una libreria del sistema y provoca graves fallos en el equipo como no se abre internet explorer no aparecen los programas abiertos en la barra de tareas no funciona la restauracion del sistema para corregir este problema debe descargar la siguiente herramienta y ejecutarla en el equipo afectado esta herramienta restaurara el sistema a su estado anterior previo a la actualizacion</AnswerIndex>
+                         <Answer>El pasado viernes 16 de enero Panda Antivirus liberó una actualización para sus productos que elimina una librería del sistema y provoca graves fallos en el equipo como:
+- No se abre Internet Explorer - No aparecen los programas abiertos en la barra de tareas - No funciona la Restauración del sistema - ... 
+Para corregir este problema debe descargar la siguiente <a href="ftp://ftp.ujaen.es:2121/panda/Restore_Tool.exe">herramienta</a> y ejecutarla en el equipo afectado. Esta herramienta restaurará el sistema a su estado anterior previo a la actualización.</Answer>
+                         <Link>ftp://ftp.ujaen.es:2121/panda/Restore_Tool.exe</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=38&id=404&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

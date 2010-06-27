@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="estudiantes">
+               <Question Text="mantenimiento equipos portatiles para alumnos con matricula de honor en bachillerato">
+                    <AnswerIndex>la gestion de las garantias para los portatiles matricula de honor 2007 2008 es como sigue el usuario final llamara al telefono de edm 953 010171 donde se le facilitara un nº de rma que debera ir indicado en un lugar bien visible del paquete edm enviara a la agencia de transportes al domicilio del usuario sin coste alguno para la recogida del portatil donde sera entregado tras su reparacion la garantia de los portatiles es de 2 años</AnswerIndex>
+                    <Answer>"La gestión de las garantías para los portátiles "Matrícula de Honor 2007-2008" es como sigue: el usuario final llamará al teléfono de EDM 953-010171 donde se le facilitará un nº de RMA que deberá ir indicado en un lugar bien visible del paquete. EDM enviará a la agencia de transportes al domicilio del usuario, sin coste alguno, para la recogida del portátil, donde será entregado tras su reparación. La garantía de los portátiles es de 2 años."</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=60&id=367&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="mozilla suite">
+               <Question Text="no puedo ejecutar con mozilla las aplicaciones del servicio de informatica">
+                    <AnswerIndex>las aplicaciones del servicio de informatica que se ejecutan a traves de paginas web no se pueden ejecutar con mozilla porque tiene una proteccion de seguridad definida por defecto para ejecutarlas hay dos opciones copiar la url y ejecutarlas en el menu inicio ejecutar utilizar internet explorer</AnswerIndex>
+                    <Answer>Las aplicaciones del Servicio de Informática que se ejecutan a través de páginas web no se pueden ejecutar con Mozilla porque tiene una protección de seguridad definida por defecto.
+Para ejecutarlas hay dos opciones:
+copiar la URL y ejecutarlas en el menú "Inicio | Ejecutar". Utilizar Internet Explorer</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=43&id=91&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia fija">
+          <Categorie Text="uso del buzon de voz">
+               <Question Text="no puedo introducir el codigo de autorizacion">
+                    <AnswerIndex>seguramente sea debido al terminal si es un forma compruebe que el interruptor este en la posicion mf si aun asi continua sin poder introducir el codigo de autorizacion envie un murphy</AnswerIndex>
+                    <Answer>Seguramente sea debido al terminal, si es un FORMA compruebe que el interruptor esté en la posición MF, si aún así continúa sin poder introducir el código de autorización envíe un <a href="http://www.ujaen.es/murphy/averiatelfijo.html">murphy</a>.</Answer>
+                    <Link>http://www.ujaen.es/murphy/averiatelfijo.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=51&id=282&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

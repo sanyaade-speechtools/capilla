@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="instalaciones software">
+          <Question Text="problemas con la desinstalacion de panda antivirus">
+               <AnswerIndex>al desinstalar panda antivirus pueden aparecer mensajes de error que impiden la correcta desinstalacion de este producto para poder solucionar este problema existe un software especifico para realizar la desinstalacion sin incidentes para ejecutar dicho software pinche el siguiente enlace con internet explorer cuando se haya concluido la ejecucion del programa panda se encontrara definitivamente desinstalado de su maquina</AnswerIndex>
+               <Answer>Al desinstalar Panda antivirus pueden aparecer mensajes de error que impiden la correcta desinstalación de este producto.
+Para poder solucionar este problema, existe un software específico para realizar la desinstalación sin incidentes. Para ejecutar dicho software, pinche el siguiente enlace con Internet Explorer <a href="file://///ambar/wwwinstall/panda/desinstalador/titanium05y06/UNINST_v1012.exe">file://///ambar/wwwinstall/panda/desinstalador/titanium05y06/UNINST_v1012.exe</a>. Cuando se haya concluido la ejecución del programa, Panda se encontrará definitivamente desinstalado de su máquina.</Answer>
+               <Link>file://///ambar/wwwinstall/panda/desinstalador/titanium05y06/UNINST_v1012.exe</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=11&id=55&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

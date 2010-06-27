@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="eduroam">
+               <Question Text="voy a desplazarme a una institucion adherida a eduroam como tengo que configurar mi equipo">
+                    <AnswerIndex>si tiene previsto desplazarse a una institucion que este adherida a eduroam debe configurar su equipo de la misma manera que lo hace para poder conectarse con rimuja red segura instalando en su dispositivo portatil el programa securew2 y configurandolo tal y como se describe en el apartado de guias practicas del servicio rimuja</AnswerIndex>
+                    <Answer>Si tiene previsto desplazarse a una institución que esté adherida a EDUROAM , debe configurar su equipo de la MISMA MANERA que lo hace para poder conectarse con RIMUJA (red segura) instalando en su dispositivo portátil, el programa Securew2 y configurándolo tal y como se describe en el apartado de Guías Prácticas del servicio <a href="http://www.ujaen.es/sci/redes/rimuja/"> RIMUJA </a>.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=70&id=395&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

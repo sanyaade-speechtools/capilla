@@ -1,0 +1,611 @@
+Test 12
+Indexado: Question, Category, AnswerIndex
+
+Anotación: 
+
+Pregunta: Que necesito para acceder a la VPN de la UJA
+
+Tiempo de busqueda: 4ms
+Resultado: 0:
+Puntuación: 0.8651236
+	Pregunta: cliente vpn uja el proceso de instalacion del cliente vpn uja solicita determinados ficheros
+	Respuesta:  Durante la instalación automática, es posible que el instalador del cliente VPN-UJA muestre errores referentes a la instalación de determinados ficheros. Concretamente los errores detectados son: Se necesita el archivo ipsecw2k.sys Se necesita el archivo eacfilt.dll El proceso a seguir para solucionarlo es el siguiente: Detener el instalador automático. Pulse las teclas CTRL-ALT-SUP simultáneamente para acceder al Administrador de Tareas de Windows. Después pulse la tecla ESC. A partir de aquí, el ratón y el teclado quedan desbloqueados. En la ventana de error de la instalación, pulse el botón Examinar. Busque la ruta para cada uno de los ficheros anteriores. Concretamente, estas rutas son: C:\Archivos de Programa\Cliente VPN-UJA version 6\Drivers para buscar ipsecw2k.sys C:\Archivos de Programa\Cliente VPN-UJA version 6\FilterDrivers para buscar eacfilt.dll A partir de aquí, se completará la instalación de forma manual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=48&artlang=es
+Detalle resultado: 0.86512357 = (MATCH) sum of:
+  0.4282052 = (MATCH) product of:
+    0.8564104 = (MATCH) sum of:
+      0.40865487 = (MATCH) weight(question:vpn in 32), product of:
+        0.278301 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06700819 = queryNorm
+        1.4683917 = (MATCH) fieldWeight(question:vpn in 32), product of:
+          1.4142135 = tf(termFreq(question:vpn)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=32)
+      0.44775555 = (MATCH) weight(question:uja in 32), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.5370361 = (MATCH) fieldWeight(question:uja in 32), product of:
+          1.4142135 = tf(termFreq(question:uja)=2)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=32)
+    0.5 = coord(2/4)
+  0.0068776384 = (MATCH) product of:
+    0.027510554 = (MATCH) sum of:
+      0.027510554 = (MATCH) weight(categorie:vpn in 32), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.40441203 = (MATCH) fieldWeight(categorie:vpn in 32), product of:
+          5.0990195 = tf(termFreq(categorie:vpn)=26)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=32)
+    0.25 = coord(1/4)
+  0.43004075 = (MATCH) sum of:
+    0.14148703 = (MATCH) weight(answerIndex:necesit in 32), product of:
+      0.2674109 = queryWeight(answerIndex:necesit), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.06700819 = queryNorm
+      0.5290997 = (MATCH) fieldWeight(answerIndex:necesit in 32), product of:
+        1.4142135 = tf(termFreq(answerIndex:necesit)=2)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=32)
+    0.054424938 = (MATCH) weight(answerIndex:acced in 32), product of:
+      0.19723195 = queryWeight(answerIndex:acced), product of:
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.06700819 = queryNorm
+      0.27594382 = (MATCH) fieldWeight(answerIndex:acced in 32), product of:
+        1.0 = tf(termFreq(answerIndex:acced)=1)
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=32)
+    0.13986203 = (MATCH) weight(answerIndex:vpn in 32), product of:
+      0.24024142 = queryWeight(answerIndex:vpn), product of:
+        3.5852547 = idf(docFreq=29, maxDocs=398)
+        0.06700819 = queryNorm
+      0.5821728 = (MATCH) fieldWeight(answerIndex:vpn in 32), product of:
+        1.7320508 = tf(termFreq(answerIndex:vpn)=3)
+        3.5852547 = idf(docFreq=29, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=32)
+    0.09426675 = (MATCH) weight(answerIndex:uja in 32), product of:
+      0.19723195 = queryWeight(answerIndex:uja), product of:
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.06700819 = queryNorm
+      0.47794867 = (MATCH) fieldWeight(answerIndex:uja in 32), product of:
+        1.7320508 = tf(termFreq(answerIndex:uja)=3)
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=32)
+
+Resultado: 1:
+Puntuación: 0.55083424
+	Pregunta: no puedo acceder a mis impresoras en red ni a mis recursos compartidos a que es debido
+	Respuesta:  Cuando se establece la conexión VPN, todo el tráfico de red se encamina por el túnel cifrado que se establece con la red de la Universidad de Jaén (RIUJA). El resto del tráfico de red habitual hacia Internet se corta, y se permiten únicamente aquellos servicios que el Servicio de Informática tiene habilitados para VPN. En el caso de recursos compartidos mediante la red Microsoft (impresoras, carpetas del disco duro, etc), estos quedan cortados desde el momento en que se establece la conexión VPN, por el riesgo de seguridad que ello supone. Por lo tanto, mientras esté conectado mediante VPN, no podrá acceder a carpetas en red ni imprimir por impresoras en red. Sin embargo, las impresoras conectadas localmente a su equipo no están afectadas por esta restricción, por lo que puede usarlas sin problemas. Si en algún momento, necesita hacer uso de servicios no permitidos por el servicio de VPN, simplemente desconecte la sesión VPN momentáneamente, haga uso de los recursos de red que necesite y vuelva a conectar de nuevo mediante el cliente VPN-UJA.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=43&artlang=es
+Detalle resultado: 0.5508342 = (MATCH) sum of:
+  0.07943724 = (MATCH) product of:
+    0.31774896 = (MATCH) sum of:
+      0.31774896 = (MATCH) weight(question:acced in 27), product of:
+        0.26102436 = queryWeight(question:acced), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.06700819 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:acced in 27), product of:
+          1.0 = tf(termFreq(question:acced)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=27)
+    0.25 = coord(1/4)
+  0.007417262 = (MATCH) product of:
+    0.029669048 = (MATCH) sum of:
+      0.029669048 = (MATCH) weight(categorie:vpn in 27), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.43614244 = (MATCH) fieldWeight(categorie:vpn in 27), product of:
+          4.582576 = tf(termFreq(categorie:vpn)=21)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.09375 = fieldNorm(field=categorie, doc=27)
+    0.25 = coord(1/4)
+  0.4639797 = (MATCH) sum of:
+    0.14148703 = (MATCH) weight(answerIndex:necesit in 27), product of:
+      0.2674109 = queryWeight(answerIndex:necesit), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.06700819 = queryNorm
+      0.5290997 = (MATCH) fieldWeight(answerIndex:necesit in 27), product of:
+        1.4142135 = tf(termFreq(answerIndex:necesit)=2)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=27)
+    0.054424938 = (MATCH) weight(answerIndex:acced in 27), product of:
+      0.19723195 = queryWeight(answerIndex:acced), product of:
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.06700819 = queryNorm
+      0.27594382 = (MATCH) fieldWeight(answerIndex:acced in 27), product of:
+        1.0 = tf(termFreq(answerIndex:acced)=1)
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=27)
+    0.21364278 = (MATCH) weight(answerIndex:vpn in 27), product of:
+      0.24024142 = queryWeight(answerIndex:vpn), product of:
+        3.5852547 = idf(docFreq=29, maxDocs=398)
+        0.06700819 = queryNorm
+      0.88928366 = (MATCH) fieldWeight(answerIndex:vpn in 27), product of:
+        2.6457512 = tf(termFreq(answerIndex:vpn)=7)
+        3.5852547 = idf(docFreq=29, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=27)
+    0.054424938 = (MATCH) weight(answerIndex:uja in 27), product of:
+      0.19723195 = queryWeight(answerIndex:uja), product of:
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.06700819 = queryNorm
+      0.27594382 = (MATCH) fieldWeight(answerIndex:uja in 27), product of:
+        1.0 = tf(termFreq(answerIndex:uja)=1)
+        2.9434006 = idf(docFreq=56, maxDocs=398)
+        0.09375 = fieldNorm(field=answerIndex, doc=27)
+
+Resultado: 2:
+Puntuación: 0.5453947
+	Pregunta: como puedo acceder a mi correo electronico desde fuera de la uja
+	Respuesta:  Puede acceder a su cuenta de correo electrónico desde cualquier lugar siempre que cuente con una conexión a Internet y un navegador web. A este tipo de acceso se le denomina webmail (correo electrónico a través de web). Para ello, siga los siguientes pasos: Abra su navegador y acceda a la <a href="http://www.ujaen.es/webmail/" target="_blank">Webmail</a> El navegador informará de que está accediendo a una web segura, para lo cual instala un certificado de seguridad. Por lo tanto deberá ir aceptando las sucesivas ventanas que le vayan apareciendo (serán algo diferentes en función del navegador usado).  Finalmente, llegará a una ventana en la que puede introducir su nombre de usuario y su contraseña. Una vez pulsado el botón Entrar podrá acceder a su correo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=95&artlang=es
+Detalle resultado: 0.5453947 = (MATCH) sum of:
+  0.4994589 = (MATCH) product of:
+    0.9989178 = (MATCH) sum of:
+      0.4448486 = (MATCH) weight(question:acced in 229), product of:
+        0.26102436 = queryWeight(question:acced), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.06700819 = queryNorm
+        1.7042418 = (MATCH) fieldWeight(question:acced in 229), product of:
+          1.0 = tf(termFreq(question:acced)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=229)
+      0.5540692 = (MATCH) weight(question:uja in 229), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.901985 = (MATCH) fieldWeight(question:uja in 229), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=229)
+    0.5 = coord(2/4)
+  0.009652509 = (MATCH) product of:
+    0.019305019 = (MATCH) sum of:
+      0.011621754 = (MATCH) weight(categorie:vpn in 229), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.17084269 = (MATCH) fieldWeight(categorie:vpn in 229), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=229)
+      0.007683265 = (MATCH) weight(categorie:uja in 229), product of:
+        0.07410563 = queryWeight(categorie:uja), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.06700819 = queryNorm
+        0.10367991 = (MATCH) fieldWeight(categorie:uja in 229), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=229)
+    0.5 = coord(2/4)
+  0.03628329 = (MATCH) product of:
+    0.14513315 = (MATCH) sum of:
+      0.14513315 = (MATCH) weight(answerIndex:acced in 229), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.73585016 = (MATCH) fieldWeight(answerIndex:acced in 229), product of:
+          2.0 = tf(termFreq(answerIndex:acced)=4)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=229)
+    0.25 = coord(1/4)
+
+Resultado: 3:
+Puntuación: 0.5452655
+	Pregunta: soy un pdi pas o alumno de la universidad que necesito para conectarme a nuestras redes inalambricas
+	Respuesta:  Necesitas un ordenador portátil con una tarjeta inalámbrica que cumpla los <a href="http://www.ujaen.es/sci/redes/rimuja/requisitos.htm"> requisitos mínimos </a>  y tener una cuenta de correo del dominio @ujaen.es o @estudiante.ujaen.es y que puedas acceder correctamente a <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp"> Campus Virtual </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=209&artlang=es
+Detalle resultado: 0.5452655 = (MATCH) sum of:
+  0.13300633 = (MATCH) product of:
+    0.53202534 = (MATCH) sum of:
+      0.53202534 = (MATCH) weight(question:necesit in 326), product of:
+        0.33775756 = queryWeight(question:necesit), product of:
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.06700819 = queryNorm
+        1.5751693 = (MATCH) fieldWeight(question:necesit in 326), product of:
+          1.0 = tf(termFreq(question:necesit)=1)
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=326)
+    0.25 = coord(1/4)
+  0.007239382 = (MATCH) product of:
+    0.014478764 = (MATCH) sum of:
+      0.008716315 = (MATCH) weight(categorie:vpn in 326), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.12813202 = (MATCH) fieldWeight(categorie:vpn in 326), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=326)
+      0.005762449 = (MATCH) weight(categorie:uja in 326), product of:
+        0.07410563 = queryWeight(categorie:uja), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.06700819 = queryNorm
+        0.07775994 = (MATCH) fieldWeight(categorie:uja in 326), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=326)
+    0.5 = coord(2/4)
+  0.40501976 = (MATCH) product of:
+    0.54002637 = (MATCH) sum of:
+      0.2334417 = (MATCH) weight(answerIndex:necesit in 326), product of:
+        0.2674109 = queryWeight(answerIndex:necesit), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.06700819 = queryNorm
+        0.87297 = (MATCH) fieldWeight(answerIndex:necesit in 326), product of:
+          1.0 = tf(termFreq(answerIndex:necesit)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=326)
+      0.12699151 = (MATCH) weight(answerIndex:acced in 326), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.64386886 = (MATCH) fieldWeight(answerIndex:acced in 326), product of:
+          1.0 = tf(termFreq(answerIndex:acced)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=326)
+      0.17959313 = (MATCH) weight(answerIndex:uja in 326), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.9105681 = (MATCH) fieldWeight(answerIndex:uja in 326), product of:
+          1.4142135 = tf(termFreq(answerIndex:uja)=2)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=326)
+    0.75 = coord(3/4)
+
+Resultado: 4:
+Puntuación: 0.5044754
+	Pregunta: error de interfaz no registrada al instalar desinstalar el cliente vpn uja
+	Respuesta:  En ocasiones, se ha detectado que al instalar/desinstalar el cliente VPN-UJA siempre aparece un error de tipo "interfaz no registrada" y no se puede completar la operación. Esto puede ocurrir, en general, con muchas otras aplicaciones Windows, no sólo con el cliente VPN-UJA. En google está documentado este error con aplicaciones como Microsoft Office y Panda Antivirus, entre otras. Este error está relacionado con fallos en el registro de la librería ole32.dll de Windows.    Existen dos soluciones: 1) Desde el botón de Inicio, entrar en Ejecutar y teclear: regsvr32 ole32.dll 2) Alternativamente,  se puede optar por restaurar Windows a un punto de restauración reciente, anterior al error. Esto se puede hacer (Windows XP) desde: Inicio -- Todos los programas -- Accesorios -- Herramientas del sistema -- Restaurar sistema. Basta con seleccionar la opción "Restaurar mi equipo a un estado anterior", seleccionar la fecha y seguir las instrucciones que aparecen en pantalla.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=429&artlang=es
+Detalle resultado: 0.5044754 = (MATCH) sum of:
+  0.37848353 = (MATCH) product of:
+    0.75696707 = (MATCH) sum of:
+      0.36120328 = (MATCH) weight(question:vpn in 105), product of:
+        0.278301 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06700819 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 105), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=105)
+      0.39576375 = (MATCH) weight(question:uja in 105), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 105), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=105)
+    0.5 = coord(2/4)
+  0.014478764 = (MATCH) product of:
+    0.028957527 = (MATCH) sum of:
+      0.01743263 = (MATCH) weight(categorie:vpn in 105), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.25626403 = (MATCH) fieldWeight(categorie:vpn in 105), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.046875 = fieldNorm(field=categorie, doc=105)
+      0.011524898 = (MATCH) weight(categorie:uja in 105), product of:
+        0.07410563 = queryWeight(categorie:uja), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.06700819 = queryNorm
+        0.15551987 = (MATCH) fieldWeight(categorie:uja in 105), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.046875 = fieldNorm(field=categorie, doc=105)
+    0.5 = coord(2/4)
+  0.11151312 = (MATCH) product of:
+    0.22302625 = (MATCH) sum of:
+      0.13322967 = (MATCH) weight(answerIndex:vpn in 105), product of:
+        0.24024142 = queryWeight(answerIndex:vpn), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.06700819 = queryNorm
+        0.5545658 = (MATCH) fieldWeight(answerIndex:vpn in 105), product of:
+          1.4142135 = tf(termFreq(answerIndex:vpn)=2)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=105)
+      0.089796565 = (MATCH) weight(answerIndex:uja in 105), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45528406 = (MATCH) fieldWeight(answerIndex:uja in 105), product of:
+          1.4142135 = tf(termFreq(answerIndex:uja)=2)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=105)
+    0.5 = coord(2/4)
+
+Resultado: 5:
+Puntuación: 0.49726024
+	Pregunta: error de interfaz no registrada al instalar desinstalar el cliente vpn uja
+	Respuesta:  En ocasiones, se ha detectado que al instalar/desinstalar el cliente VPN-UJA siempre aparece un error de tipo "interfaz no registrada" y no se puede completar la operación. Esto puede ocurrir, en general, con muchas otras aplicaciones Windows, no sólo con el cliente VPN-UJA. En google está documentado este error con aplicaciones como Microsoft Office y Panda Antivirus, entre otras. Este error está relacionado con fallos en el registro de la librería ole32.dll de Windows.    Existen dos soluciones: 1) Desde el botón de Inicio, entrar en Ejecutar y teclear: regsvr32 ole32.dll 2) Alternativamente,  se puede optar por restaurar Windows a un punto de restauración reciente, anterior al error. Esto se puede hacer (Windows XP) desde: Inicio -- Todos los programas -- Accesorios -- Herramientas del sistema -- Restaurar sistema . Basta con seleccionar la opción "Restaurar mi equipo a un estado anterior", seleccionar la fecha y seguir las instrucciones que aparecen en pantalla.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=428&artlang=es
+Detalle resultado: 0.49726027 = (MATCH) sum of:
+  0.37848353 = (MATCH) product of:
+    0.75696707 = (MATCH) sum of:
+      0.36120328 = (MATCH) weight(question:vpn in 36), product of:
+        0.278301 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06700819 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 36), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=36)
+      0.39576375 = (MATCH) weight(question:uja in 36), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 36), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=36)
+    0.5 = coord(2/4)
+  0.007263596 = (MATCH) product of:
+    0.029054385 = (MATCH) sum of:
+      0.029054385 = (MATCH) weight(categorie:vpn in 36), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.42710674 = (MATCH) fieldWeight(categorie:vpn in 36), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=36)
+    0.25 = coord(1/4)
+  0.11151312 = (MATCH) product of:
+    0.22302625 = (MATCH) sum of:
+      0.13322967 = (MATCH) weight(answerIndex:vpn in 36), product of:
+        0.24024142 = queryWeight(answerIndex:vpn), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.06700819 = queryNorm
+        0.5545658 = (MATCH) fieldWeight(answerIndex:vpn in 36), product of:
+          1.4142135 = tf(termFreq(answerIndex:vpn)=2)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=36)
+      0.089796565 = (MATCH) weight(answerIndex:uja in 36), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45528406 = (MATCH) fieldWeight(answerIndex:uja in 36), product of:
+          1.4142135 = tf(termFreq(answerIndex:uja)=2)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=36)
+    0.5 = coord(2/4)
+
+Resultado: 6:
+Puntuación: 0.4756948
+	Pregunta: cliente vpn uja error en el registro de windows software microsoft driver signing policy
+	Respuesta:  Durante la instalación del cliente VPN-UJA, en determinados casos es posible que aparezca un mensaje de error de escritura en el registro de Windows, en la rama \Software\Microsoft\Driver Signing\Policy. Este error está relacionado con la instalación de drivers firmados en Windows XP. Generalmente, es suficiente con ignorar el error. En caso de que se esté realizando una instalación automática y el equipo esté bloqueado se deben pulsar simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador de tareas de Windows. En la pestaña Procesos, debemos buscar el proceso Instala-auto-v6.exe. Basta con marcarlo y pulsar el botón Terminar Proceso. A partir de aquí se puede completar el resto de la instalación de forma manual.    
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=49&artlang=es
+Detalle resultado: 0.4756948 = (MATCH) sum of:
+  0.30278683 = (MATCH) product of:
+    0.60557365 = (MATCH) sum of:
+      0.28896263 = (MATCH) weight(question:vpn in 33), product of:
+        0.278301 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06700819 = queryNorm
+        1.0383097 = (MATCH) fieldWeight(question:vpn in 33), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+      0.316611 = (MATCH) weight(question:uja in 33), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.0868486 = (MATCH) fieldWeight(question:uja in 33), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+    0.5 = coord(2/4)
+  0.0070086527 = (MATCH) product of:
+    0.02803461 = (MATCH) sum of:
+      0.02803461 = (MATCH) weight(categorie:vpn in 33), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.4121158 = (MATCH) fieldWeight(categorie:vpn in 33), product of:
+          5.196152 = tf(termFreq(categorie:vpn)=27)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=33)
+    0.25 = coord(1/4)
+  0.16589934 = (MATCH) product of:
+    0.22119913 = (MATCH) sum of:
+      0.063495755 = (MATCH) weight(answerIndex:acced in 33), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.32193443 = (MATCH) fieldWeight(answerIndex:acced in 33), product of:
+          1.0 = tf(termFreq(answerIndex:acced)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=33)
+      0.09420761 = (MATCH) weight(answerIndex:vpn in 33), product of:
+        0.24024142 = queryWeight(answerIndex:vpn), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.06700819 = queryNorm
+        0.39213723 = (MATCH) fieldWeight(answerIndex:vpn in 33), product of:
+          1.0 = tf(termFreq(answerIndex:vpn)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=33)
+      0.063495755 = (MATCH) weight(answerIndex:uja in 33), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.32193443 = (MATCH) fieldWeight(answerIndex:uja in 33), product of:
+          1.0 = tf(termFreq(answerIndex:uja)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=33)
+    0.75 = coord(3/4)
+
+Resultado: 7:
+Puntuación: 0.40336928
+	Pregunta: cliente vpn uja la instalacion automatica se detiene y no se puede mover el raton ni usar el teclado
+	Respuesta:  Durante la instalación automática del software se bloque el ratón y el teclado con objeto de que el usuario no interfiera con el proceso de instalación, desbloqueándose posteriormente. Si durante este proceso ocurre algún evento (algún programa que se activa entre medias, etc), el proceso de instalación automática puede quedar detenido, permaneciendo bloqueado el ratón y el teclado. La forma de solucionar el problema es pulsando simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador de tareas de Windows. Después, basta con pulsar la tecla ESC. De esta forma recuperamos el control del ratón y el teclado. A partir de aquí, se puede continuar la instalación de forma manual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=47&artlang=es
+Detalle resultado: 0.40336928 = (MATCH) sum of:
+  0.37848353 = (MATCH) product of:
+    0.75696707 = (MATCH) sum of:
+      0.36120328 = (MATCH) weight(question:vpn in 31), product of:
+        0.278301 = queryWeight(question:vpn), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06700819 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(question:vpn in 31), product of:
+          1.0 = tf(termFreq(question:vpn)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=31)
+      0.39576375 = (MATCH) weight(question:uja in 31), product of:
+        0.29131103 = queryWeight(question:uja), product of:
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.06700819 = queryNorm
+        1.3585608 = (MATCH) fieldWeight(question:uja in 31), product of:
+          1.0 = tf(termFreq(question:uja)=1)
+          4.3473945 = idf(docFreq=13, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=31)
+    0.5 = coord(2/4)
+  0.0067440798 = (MATCH) product of:
+    0.026976319 = (MATCH) sum of:
+      0.026976319 = (MATCH) weight(categorie:vpn in 31), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.39655864 = (MATCH) fieldWeight(categorie:vpn in 31), product of:
+          5.0 = tf(termFreq(categorie:vpn)=25)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=31)
+    0.25 = coord(1/4)
+  0.018141644 = (MATCH) product of:
+    0.07256658 = (MATCH) sum of:
+      0.07256658 = (MATCH) weight(answerIndex:acced in 31), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.36792508 = (MATCH) fieldWeight(answerIndex:acced in 31), product of:
+          1.0 = tf(termFreq(answerIndex:acced)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=31)
+    0.25 = coord(1/4)
+
+Resultado: 8:
+Puntuación: 0.3711642
+	Pregunta: como accedo a las publicaciones electronicas de biblioteca
+	Respuesta:  La UJA esta suscrita a una gran variedad de publicaciones electrónicas (<a href="http://www.ujaen.es/serv/biblio"> ver Web de Biblioteca </a>). Estas revistas solo proporcionan acceso a los artículos si el ordenador desde el que se accede pertenece a la red de la Universidad de Jaén, bien conectado directamente en las dependencias de la Universidad o de forma remota mediante conexión VPN. El servicio de Red Privada Virtual ofrece acceso transparente a las bases de datos y publicaciones electrónicas ofrecidas por Biblioteca.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=40&artlang=es
+Detalle resultado: 0.3711642 = (MATCH) sum of:
+  0.1270996 = (MATCH) product of:
+    0.5083984 = (MATCH) sum of:
+      0.5083984 = (MATCH) weight(question:acced in 20), product of:
+        0.26102436 = queryWeight(question:acced), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.06700819 = queryNorm
+        1.9477048 = (MATCH) fieldWeight(question:acced in 20), product of:
+          1.0 = tf(termFreq(question:acced)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=20)
+    0.25 = coord(1/4)
+  0.0070655295 = (MATCH) product of:
+    0.028262118 = (MATCH) sum of:
+      0.028262118 = (MATCH) weight(categorie:vpn in 20), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.41546023 = (MATCH) fieldWeight(categorie:vpn in 20), product of:
+          3.7416575 = tf(termFreq(categorie:vpn)=14)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.109375 = fieldNorm(field=categorie, doc=20)
+    0.25 = coord(1/4)
+  0.23699905 = (MATCH) product of:
+    0.31599873 = (MATCH) sum of:
+      0.090708226 = (MATCH) weight(answerIndex:acced in 20), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45990634 = (MATCH) fieldWeight(answerIndex:acced in 20), product of:
+          1.0 = tf(termFreq(answerIndex:acced)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=20)
+      0.1345823 = (MATCH) weight(answerIndex:vpn in 20), product of:
+        0.24024142 = queryWeight(answerIndex:vpn), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.06700819 = queryNorm
+        0.56019604 = (MATCH) fieldWeight(answerIndex:vpn in 20), product of:
+          1.0 = tf(termFreq(answerIndex:vpn)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=20)
+      0.090708226 = (MATCH) weight(answerIndex:uja in 20), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45990634 = (MATCH) fieldWeight(answerIndex:uja in 20), product of:
+          1.0 = tf(termFreq(answerIndex:uja)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=20)
+    0.75 = coord(3/4)
+
+Resultado: 9:
+Puntuación: 0.35545057
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.35545057 = (MATCH) sum of:
+  0.11121215 = (MATCH) product of:
+    0.4448486 = (MATCH) sum of:
+      0.4448486 = (MATCH) weight(question:acced in 387), product of:
+        0.26102436 = queryWeight(question:acced), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.06700819 = queryNorm
+        1.7042418 = (MATCH) fieldWeight(question:acced in 387), product of:
+          1.0 = tf(termFreq(question:acced)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=387)
+    0.25 = coord(1/4)
+  0.007239382 = (MATCH) product of:
+    0.014478764 = (MATCH) sum of:
+      0.008716315 = (MATCH) weight(categorie:vpn in 387), product of:
+        0.06802605 = queryWeight(categorie:vpn), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.06700819 = queryNorm
+        0.12813202 = (MATCH) fieldWeight(categorie:vpn in 387), product of:
+          5.3851647 = tf(termFreq(categorie:vpn)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+      0.005762449 = (MATCH) weight(categorie:uja in 387), product of:
+        0.07410563 = queryWeight(categorie:uja), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.06700819 = queryNorm
+        0.07775994 = (MATCH) fieldWeight(categorie:uja in 387), product of:
+          3.0 = tf(termFreq(categorie:uja)=9)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+    0.5 = coord(2/4)
+  0.23699905 = (MATCH) product of:
+    0.31599873 = (MATCH) sum of:
+      0.090708226 = (MATCH) weight(answerIndex:acced in 387), product of:
+        0.19723195 = queryWeight(answerIndex:acced), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45990634 = (MATCH) fieldWeight(answerIndex:acced in 387), product of:
+          1.0 = tf(termFreq(answerIndex:acced)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.1345823 = (MATCH) weight(answerIndex:vpn in 387), product of:
+        0.24024142 = queryWeight(answerIndex:vpn), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.06700819 = queryNorm
+        0.56019604 = (MATCH) fieldWeight(answerIndex:vpn in 387), product of:
+          1.0 = tf(termFreq(answerIndex:vpn)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.090708226 = (MATCH) weight(answerIndex:uja in 387), product of:
+        0.19723195 = queryWeight(answerIndex:uja), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06700819 = queryNorm
+        0.45990634 = (MATCH) fieldWeight(answerIndex:uja in 387), product of:
+          1.0 = tf(termFreq(answerIndex:uja)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+    0.75 = coord(3/4)

@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja web abierta">
+               <Question Text="desconexion automatica de rimuja web">
+                    <AnswerIndex>el portal cautivo que da acceso a los usuarios a traves de la red inalambrica rimuja web esta configurado por seguridad para cortar la conexion transcurridos 5 minutos de inactividad para poder seguir navegando simplemente se deben de volver a introducir las credenciales de usuario en el portal cautivo si transcurre ese tiempo de inactividad si por el contrario no se llegan a superar esos 5 minutos de inactividad la conexion puede durar un tiempo indefinido</AnswerIndex>
+                    <Answer>El Portal cautivo que da acceso a los usuarios a través de la red inalámbrica RIMUJA-WEB , está configurado, por seguridad, para cortar la conexión transcurridos 5 minutos de inactividad. Para poder seguir navegando, simplemente se deben de volver a introducir las credenciales de usuario, en el Portal Cautivo , si transcurre ese tiempo de inactividad.
+Si por el contrario, no se llegan a superar esos 5 minutos de inactividad, la conexión puede durar un tiempo indefinido.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=64&id=383&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

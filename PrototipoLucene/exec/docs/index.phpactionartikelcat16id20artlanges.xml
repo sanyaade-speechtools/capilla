@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="me conecto correctamente pero no puedo hacer nada no hay trafico de red">
+               <AnswerIndex>este error puede ser debido a que e l equipo tenga activado algun cortafuegos personal firewall que esta cortando la comunicacion vpn para solucionar este problema consulte el apartado cuestiones relacionadas con los cortafuegos firewalls personales</AnswerIndex>
+               <Answer>Este error puede ser debido a que  e l equipo tenga activado algun cortafuegos personal (firewall) que está cortando la comunicación VPN. Para solucionar este problema, consulte el apartado <a href="/index.php?action=artikel cat=15 id=21 artlang=es"> Cuestiones relacionadas con los cortafuegos (firewalls) personales.</a> <a href="/index.php?action=artikel cat=15 id=21 artlang=es"></a></Answer>
+               <Link>/index.php?action=artikel&amp;cat=15&amp;id=21&amp;artlang=es</Link>
+               <Link>/index.php?action=artikel&amp;cat=15&amp;id=21&amp;artlang=es</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=20&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

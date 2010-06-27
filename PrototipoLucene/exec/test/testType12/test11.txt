@@ -1,0 +1,773 @@
+Test 11
+Indexado: Question
+Anotación:
+
+Pregunta: descargas de software
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 0.4391466
+	Pregunta: panda titanium 2006 me pregunta cada cierto tiempo que ha detectado un intruso wifi que debo de hacer con esos avisos
+	Respuesta:  Panda Titanium 2006 detecta los puntos de acceso inalámbricos como intrusos WiFi. Esto lo hace así para evitar que otros equipos pueden acceder al nuestro mediante enlaces inalámbricos. Para desactivar esta característica debes hacer lo siguiente: Abre el Panda Titanium 2006 y en la pantalla principal escoge la categoría Configurar Protecciones. Desde ahí elige Configurar protecciones y después Protección del firewall. En opciones Avanzadas elige Configurar Opciones Avanzadas y en la parte de abajo, dentro del bloque Detección de intrusiones WiFi , desactiva la casilla que dice: Activar detección de intrusiones WiFi. Ten en cuenta que se deshabilita esta protección, por lo que deberás suplirla con otras medidas de seguridad. Te recomendamos que actualices a la última versión de <a href="http://www.ujaen.es/sci/invdoc/avpanda/"> Panda </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=243&artlang=es
+Detalle resultado: 0.4391466 = (MATCH) sum of:
+  0.27217644 = (MATCH) product of:
+    0.81652933 = (MATCH) sum of:
+      0.81652933 = (MATCH) weight(question:wifi in 341), product of:
+        0.4151863 = queryWeight(question:wifi), product of:
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.06597269 = queryNorm
+        1.9666578 = (MATCH) fieldWeight(question:wifi in 341), product of:
+          1.0 = tf(termFreq(question:wifi)=1)
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=341)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 341), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 341), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=341)
+    0.33333334 = coord(1/3)
+  0.1649982 = (MATCH) product of:
+    0.4949946 = (MATCH) sum of:
+      0.4949946 = (MATCH) weight(answerIndex:wifi in 341), product of:
+        0.4151863 = queryWeight(answerIndex:wifi), product of:
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.06597269 = queryNorm
+        1.192223 = (MATCH) fieldWeight(answerIndex:wifi in 341), product of:
+          1.7320508 = tf(termFreq(answerIndex:wifi)=3)
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=341)
+    0.33333334 = coord(1/3)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.20960504
+	Pregunta: quien puede usar las redes inalambricas malladas de la universidad
+	Respuesta:  Todos los miembros de la comunidad universitaria que posean cuenta de correo electrónico y los visitantes que contacten con los responsables de las unidades funcionales de la universidad que los hayan invitado. Para conseguir tu cuenta de correo, consulta la información de <a href="http://www.ujaen.es/sci/redes/email/"> este servicio. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=208&artlang=es
+Detalle resultado: 0.20960504 = (MATCH) sum of:
+  0.16595672 = (MATCH) product of:
+    0.49787015 = (MATCH) sum of:
+      0.49787015 = (MATCH) weight(question:univers in 325), product of:
+        0.27400035 = queryWeight(question:univers), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06597269 = queryNorm
+        1.817042 = (MATCH) fieldWeight(question:univers in 325), product of:
+          1.0 = tf(termFreq(question:univers)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=325)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 325), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 325), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=325)
+    0.33333334 = coord(1/3)
+  0.041676357 = (MATCH) product of:
+    0.12502907 = (MATCH) sum of:
+      0.12502907 = (MATCH) weight(answerIndex:univers in 325), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.64386886 = (MATCH) fieldWeight(answerIndex:univers in 325), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=325)
+    0.33333334 = coord(1/3)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.16836429
+	Pregunta: como es el plan de numeracion de la telefonia fija en la universidad de jaen
+	Respuesta:  NUMERACIÓN EXTERNA EN JAÉN Todos los números comenzarán por:   953- 21 -XXXX NUMERACIÓN EXTERNA EN LINARES   Todos los números comenzarán por:   953- 648 -XXX LLAMADAS INTERNAS Todos los números comenzarán por:   8 -XXXX manteniéndose los 4 últimos dígitos del número externo. Ejemplo con los teléfonos de Información de la Universidad: Número externo   Número interno 953-212121 pasa a ser 82121 953-648600 pasa a ser 88600
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=274&artlang=es
+Detalle resultado: 0.1683643 = (MATCH) sum of:
+  0.14224862 = (MATCH) product of:
+    0.42674583 = (MATCH) sum of:
+      0.42674583 = (MATCH) weight(question:univers in 269), product of:
+        0.27400035 = queryWeight(question:univers), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06597269 = queryNorm
+        1.5574646 = (MATCH) fieldWeight(question:univers in 269), product of:
+          1.0 = tf(termFreq(question:univers)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=269)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 269), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 269), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=269)
+    0.33333334 = coord(1/3)
+  0.023815064 = (MATCH) product of:
+    0.07144519 = (MATCH) sum of:
+      0.07144519 = (MATCH) weight(answerIndex:univers in 269), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.36792508 = (MATCH) fieldWeight(answerIndex:univers in 269), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=269)
+    0.33333334 = coord(1/3)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.16476893
+	Pregunta: no puede conectarse al servidor ftp anonimo
+	Respuesta:  ¿Está indicando el servidor correcto?  El servidor ftp es: <a href="ftp://ftp.ujaen.es">ftp.ujaen.es</a> ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared.  Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (cortafuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=47&id=129&artlang=es
+Detalle resultado: 0.16476893 = (MATCH) sum of:
+  0.13164009 = (MATCH) product of:
+    0.39492026 = (MATCH) sum of:
+      0.39492026 = (MATCH) weight(question:conect in 246), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.7300458 = (MATCH) fieldWeight(question:conect in 246), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=246)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 246), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 246), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=246)
+    0.33333334 = coord(1/3)
+  0.03082822 = (MATCH) product of:
+    0.09248466 = (MATCH) sum of:
+      0.09248466 = (MATCH) weight(answerIndex:conect in 246), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.41860822 = (MATCH) fieldWeight(answerIndex:conect in 246), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=246)
+    0.33333334 = coord(1/3)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.16476893
+	Pregunta: no puede conectarse al servicio de news
+	Respuesta:  ¿Ha configurado correctamente el programa de conexión? El servidor de news del CICA es: news.cica.es ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el equipo está dado de alta en el DNS. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared. Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (corta fuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=48&id=130&artlang=es
+Detalle resultado: 0.16476893 = (MATCH) sum of:
+  0.13164009 = (MATCH) product of:
+    0.39492026 = (MATCH) sum of:
+      0.39492026 = (MATCH) weight(question:conect in 247), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.7300458 = (MATCH) fieldWeight(question:conect in 247), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=247)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 247), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 247), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=247)
+    0.33333334 = coord(1/3)
+  0.03082822 = (MATCH) product of:
+    0.09248466 = (MATCH) sum of:
+      0.09248466 = (MATCH) weight(answerIndex:conect in 247), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.41860822 = (MATCH) fieldWeight(answerIndex:conect in 247), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=247)
+    0.33333334 = coord(1/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.15719041
+	Pregunta: como configuro o conecto mi ordenador a una impresora fotocopiadora que se encuentra conectada directamente a la red riuja
+	Respuesta:  Deberá remitirnos una <a href="http://www.ujaen.es/murphy/averiaequipo.html">solicitud de incidencia</a> ,  donde el tipo de equipo será su ordenador e indicará en el apartado Descripción de la incidencia: "Deseo configurar mi ordenador para conectarme a la impresora  con número de inventario _______". En el menor tiempo posible, el Servicio de Informática enviará a un técnico que le realizará las actuaciones necesarias para abordar su petición satisfactoriamente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=206&artlang=es
+Detalle resultado: 0.15719038 = (MATCH) sum of:
+  0.11635449 = (MATCH) product of:
+    0.34906346 = (MATCH) sum of:
+      0.34906346 = (MATCH) weight(question:conect in 259), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.5291588 = (MATCH) fieldWeight(question:conect in 259), product of:
+          1.4142135 = tf(termFreq(question:conect)=2)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=259)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 259), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 259), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+    0.33333334 = coord(1/3)
+  0.03853528 = (MATCH) product of:
+    0.11560583 = (MATCH) sum of:
+      0.11560583 = (MATCH) weight(answerIndex:conect in 259), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.5232603 = (MATCH) fieldWeight(answerIndex:conect in 259), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=259)
+    0.33333334 = coord(1/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.14694437
+	Pregunta: no funciona o no encuentro el asistente como me conecto a mi espacio en disco
+	Respuesta:  Si no te funciona o encuentras el asistente, puedes conectar de forma manual una unidad de red a tu espacio en disco. Estos son los pasos a seguir: Nota importante : si es la primera vez que accedes a este servicio no puedes utilizar esta conexión manual, en ese caso debes utilizar los asistentes descritos en esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> . Abre el explorador de Windows o Mi PC. En el menú "Herramientas" elige la opción "Conectar a unidad de red". Aparecerá esta ventana:   Selecciona la unidad Z: Carpeta: \\boreal\usuario$ (usuario es tu usuario del campus virtual, añádele el signo dolar $ al final) Pulsa donde dice "Conectar usando otro nombre usuario". Te aparecerá esta otra ventana: Usuario: aulas\usuario (usuario es de nuevo el del campus virtual) Contraseña: la del campus virtual Pulsa el botón aceptar Volverás a la ventana anterior, pulsa el botón Finalizar. Preguntas relacionadas: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>                  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=290&artlang=es
+Detalle resultado: 0.14694437 = (MATCH) sum of:
+  0.09873007 = (MATCH) product of:
+    0.2961902 = (MATCH) sum of:
+      0.2961902 = (MATCH) weight(question:conect in 388), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.2975343 = (MATCH) fieldWeight(question:conect in 388), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=388)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 388), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 388), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=388)
+    0.33333334 = coord(1/3)
+  0.046242334 = (MATCH) product of:
+    0.138727 = (MATCH) sum of:
+      0.138727 = (MATCH) weight(answerIndex:conect in 388), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.62791234 = (MATCH) fieldWeight(answerIndex:conect in 388), product of:
+          2.0 = tf(termFreq(answerIndex:conect)=4)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=388)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.12592338
+	Pregunta: en mi ubicacion actual detecto a rimuja rimuja web y otras redes inalambricas a cual me tengo que conectar
+	Respuesta:  Si detectas más redes inalámbricas debes seleccionar RIMUJA con protección WPA , para tener un acceso SEGURO, o bien, RIMUJA-WEB para tener un acceso NO SEGURO, a las redes inalámbricas de la Universidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=246&artlang=es
+Detalle resultado: 0.12592337 = (MATCH) sum of:
+  0.08227505 = (MATCH) product of:
+    0.24682514 = (MATCH) sum of:
+      0.24682514 = (MATCH) weight(question:conect in 344), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.0812786 = (MATCH) fieldWeight(question:conect in 344), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=344)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 344), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 344), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=344)
+    0.33333334 = coord(1/3)
+  0.041676357 = (MATCH) product of:
+    0.12502907 = (MATCH) sum of:
+      0.12502907 = (MATCH) weight(answerIndex:univers in 344), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.64386886 = (MATCH) fieldWeight(answerIndex:univers in 344), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=344)
+    0.33333334 = coord(1/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.11996961
+	Pregunta: tengo una tarjeta que solo soporta 802 11b 11 mbits puedo conectarme a rimuja
+	Respuesta:  Si, pero lo único que tienes que escoger es que en el cifrado de datos en lugar de escoger AES debes de escoger TKIP. No obstante, te aconsejamos encarecidamente que actualices los drivers de la tarjeta inalámbrica. Si el portátil pertenece a la Universidad (tiene número de inventario), puedes solicitar una tarjeta inalámbrica externa. 
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=248&artlang=es
+Detalle resultado: 0.11996961 = (MATCH) sum of:
+  0.08227505 = (MATCH) product of:
+    0.24682514 = (MATCH) sum of:
+      0.24682514 = (MATCH) weight(question:conect in 356), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.0812786 = (MATCH) fieldWeight(question:conect in 356), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=356)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 356), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 356), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=356)
+    0.33333334 = coord(1/3)
+  0.035722595 = (MATCH) product of:
+    0.10716778 = (MATCH) sum of:
+      0.10716778 = (MATCH) weight(answerIndex:univers in 356), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.55188763 = (MATCH) fieldWeight(answerIndex:univers in 356), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=356)
+    0.33333334 = coord(1/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.052695006
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.052695014 = (MATCH) product of:
+  0.07904252 = (MATCH) sum of:
+    0.0019719605 = (MATCH) product of:
+      0.005915881 = (MATCH) sum of:
+        0.005915881 = (MATCH) weight(categorie:conect in 387), product of:
+          0.12904352 = queryWeight(categorie:conect), product of:
+            1.956014 = idf(docFreq=152, maxDocs=398)
+            0.06597269 = queryNorm
+          0.045844078 = (MATCH) fieldWeight(categorie:conect in 387), product of:
+            1.0 = tf(termFreq(categorie:conect)=1)
+            1.956014 = idf(docFreq=152, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=387)
+      0.33333334 = coord(1/3)
+    0.07707056 = (MATCH) product of:
+      0.23121166 = (MATCH) sum of:
+        0.23121166 = (MATCH) weight(answerIndex:conect in 387), product of:
+          0.22093369 = queryWeight(answerIndex:conect), product of:
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.06597269 = queryNorm
+          1.0465206 = (MATCH) fieldWeight(answerIndex:conect in 387), product of:
+            2.0 = tf(termFreq(answerIndex:conect)=4)
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.33333334 = coord(1/3)
+  0.6666667 = coord(2/3)
+
+Buscar (NO para salir): descargas de software
+
+Los resultados de la bÃºsqueda son:
+----------------------------------------------------------------------
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 0.9455447
+	Pregunta: cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno
+	Respuesta:  Esto puede ocurrir por varios motivos: Algún mensaje de la cola de correo no se puede descargar (mensaje corrupto, tamaño excesivo, infección por un virus...) y está obstruyendo el resto de mensajes en cola. En tal caso, acceda desde <a href="http://www.ujaen.es/webmail/">webmail</a> a su cuenta de correo y elimine los mensajes extraños, no solicitados, o con archivos adjuntos sospechosos, de tal forma que el posible archivo que pueda estar obstruyendo la cola deje paso al resto de mensajes. Una vez hecho esto, y sin cerrar el webmail, vuelva a intentar descargar su correo desde el cliente Netscape Messenger que utiliza habitualmente.  Es posible que durante una descarga de su correo se haya cortado la conexión. En tal caso, los mensajes que ya haya descargado Netscape son marcados como leídos por lo que no los vuelve a descargar aunque estos sigan en la cola de correo. De esta forma, mediante webmail verá más mensajes de los que Netscape descarga. Asimismo, Netscape Messenger informará de que está descargando un determinado número de mensajes y en realidad descargará menos. La solución es similar al caso anterior: desde  <a href="http://www.ujaen.es/webmail/">webmail</a> acceda a su cuenta de correo y elimine todos los mensajes que Netscape ya se haya descargado.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=96&artlang=es
+Detalle resultado: 0.9455448 = (MATCH) sum of:
+  0.76592094 = (MATCH) product of:
+    1.5318419 = (MATCH) sum of:
+      1.5318419 = (MATCH) weight(question:descarg in 230), product of:
+        0.45400658 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.087398164 = queryNorm
+        3.374052 = (MATCH) fieldWeight(question:descarg in 230), product of:
+          1.7320508 = tf(termFreq(question:descarg)=3)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=230)
+    0.5 = coord(1/2)
+  0.0013655963 = (MATCH) product of:
+    0.0027311926 = (MATCH) sum of:
+      0.0027311926 = (MATCH) weight(categorie:softwar in 230), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 230), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=230)
+    0.5 = coord(1/2)
+  0.17825823 = (MATCH) product of:
+    0.35651645 = (MATCH) sum of:
+      0.35651645 = (MATCH) weight(answerIndex:descarg in 230), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        1.071112 = (MATCH) fieldWeight(answerIndex:descarg in 230), product of:
+          3.0 = tf(termFreq(answerIndex:descarg)=9)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=230)
+    0.5 = coord(1/2)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.49960068
+	Pregunta: quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica
+	Respuesta:  En en primer lugar deberá comprobar si el software que quiere usar está ya instalado en el aula que tiene reservada, para ello puede consultar la lista de software instalado en la <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente. Si observa que el software no está instalado deberá solicitar su instalación al Servicio de Informática, para ello deberá rellenar y enviar la siguiente <a href="http://www3.ujaen.es/aulas/servicios_profesores.html instalacion%20software">solicitud</a>. Recuerde que sólo se instalará software que esté debidamente licenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lo permita de forma legal.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es
+Detalle resultado: 0.49960065 = (MATCH) sum of:
+  0.32881856 = (MATCH) product of:
+    0.6576371 = (MATCH) sum of:
+      0.6576371 = (MATCH) weight(question:softwar in 320), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.5334408 = (MATCH) fieldWeight(question:softwar in 320), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=320)
+    0.5 = coord(1/2)
+  0.0010241972 = (MATCH) product of:
+    0.0020483944 = (MATCH) sum of:
+      0.0020483944 = (MATCH) weight(categorie:softwar in 320), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.0234375 = (MATCH) fieldWeight(categorie:softwar in 320), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=320)
+    0.5 = coord(1/2)
+  0.16975792 = (MATCH) product of:
+    0.33951584 = (MATCH) sum of:
+      0.33951584 = (MATCH) weight(answerIndex:softwar in 320), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.9854824 = (MATCH) fieldWeight(answerIndex:softwar in 320), product of:
+          2.0 = tf(termFreq(answerIndex:softwar)=4)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=320)
+    0.5 = coord(1/2)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.3844574
+	Pregunta: al abrir mozilla aparece el mensaje de error advertencia probablemente esta usando software obsoleto e inseguro
+	Respuesta:  Al abrir Mozilla puede aparecer un mensaje de advertencia indicando que el software está obsoleto o es inseguro como la imagen que vemos a continuación. Esto es debido a que Mozilla comprueba semanal o mensualmente si existen nuevas versiones del programa. En caso de haber una versión más reciente abre el navegador con una página donde indica esta advertencia. Se puede evitar este comportamiento en Mozilla realizando algunos ajustes en la configuración. Los pasos que deberemos dar son los siguientes: Hacer clic en el menú "Editar - Preferencias" En la pantalla que aparece pulsar sobre "Avanzadas - Inst. de software". Desactivar la opción "Comprobar si hay actualizaciones" del apartado "Notificaciones de actualización" que aparece a la derecha de la pantalla tal y como se indica en la imagen y finalmente pulsar aceptar.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=41&id=294&artlang=es
+Detalle resultado: 0.38445744 = (MATCH) sum of:
+  0.26305485 = (MATCH) product of:
+    0.5261097 = (MATCH) sum of:
+      0.5261097 = (MATCH) weight(question:softwar in 203), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 203), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=203)
+    0.5 = coord(1/2)
+  0.0013655963 = (MATCH) product of:
+    0.0027311926 = (MATCH) sum of:
+      0.0027311926 = (MATCH) weight(categorie:softwar in 203), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 203), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=203)
+    0.5 = coord(1/2)
+  0.12003698 = (MATCH) product of:
+    0.24007396 = (MATCH) sum of:
+      0.24007396 = (MATCH) weight(answerIndex:softwar in 203), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.6968413 = (MATCH) fieldWeight(answerIndex:softwar in 203), product of:
+          1.4142135 = tf(termFreq(answerIndex:softwar)=2)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=203)
+    0.5 = coord(1/2)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.34073794
+	Pregunta: cliente vpn uja error en el registro de windows software microsoft driver signing policy
+	Respuesta:  Durante la instalación del cliente VPN-UJA, en determinados casos es posible que aparezca un mensaje de error de escritura en el registro de Windows, en la rama \Software\Microsoft\Driver Signing\Policy. Este error está relacionado con la instalación de drivers firmados en Windows XP. Generalmente, es suficiente con ignorar el error. En caso de que se esté realizando una instalación automática y el equipo esté bloqueado se deben pulsar simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador de tareas de Windows. En la pestaña Procesos, debemos buscar el proceso Instala-auto-v6.exe. Basta con marcarlo y pulsar el botón Terminar Proceso. A partir de aquí se puede completar el resto de la instalación de forma manual.    
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=49&artlang=es
+Detalle resultado: 0.34073794 = (MATCH) sum of:
+  0.26305485 = (MATCH) product of:
+    0.5261097 = (MATCH) sum of:
+      0.5261097 = (MATCH) weight(question:softwar in 33), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 33), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+    0.5 = coord(1/2)
+  0.0034139908 = (MATCH) product of:
+    0.0068279817 = (MATCH) sum of:
+      0.0068279817 = (MATCH) weight(categorie:softwar in 33), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.078125 = (MATCH) fieldWeight(categorie:softwar in 33), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=33)
+    0.5 = coord(1/2)
+  0.07426909 = (MATCH) product of:
+    0.14853819 = (MATCH) sum of:
+      0.14853819 = (MATCH) weight(answerIndex:softwar in 33), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.43114856 = (MATCH) fieldWeight(answerIndex:softwar in 33), product of:
+          1.0 = tf(termFreq(answerIndex:softwar)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=33)
+    0.5 = coord(1/2)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.26648042
+	Pregunta: crear discos de rescate con panda antivirus
+	Respuesta:  La nueva versión de Panda Antivirus 2007 (Lite) no proporciona mecanismos para la creación de discos de rescate , por lo que desde el Servicio de Informática hemos creado una imagen ISO que le permite crear un CD-ROM de arranque con el que puede arrancar el equipo desde un entorno limpio y utilizar el antivirus desde este CD cuando tienen sospechas de que su ordenador ya está infectado por un virus. Para crear el disco de rescate necesita realizar las siguientes acciones: Descargar la <a title="CD arranque de Panda Antivirus" target="_blank" href="ftp://ftp.ujaen.es:2121/panda/disco_rescate.iso">imagen ISO del CD de arranque de Panda Antivirus</a>. Tener instalado un <a title="Software de Grabación de CDs" target="_blank" href="http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/nero/nero66.html">software de grabación de CDs</a> y tener a mano un CD en blanco etiquetado como "Disco de Rescate". Crear el disco de rescate con su software de grabación preferido.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=172&artlang=es
+Detalle resultado: 0.26648042 = (MATCH) product of:
+  0.3997206 = (MATCH) sum of:
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 276), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 276), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=276)
+      0.5 = coord(1/2)
+    0.3985257 = (MATCH) sum of:
+      0.15845175 = (MATCH) weight(answerIndex:descarg in 276), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        0.47604978 = (MATCH) fieldWeight(answerIndex:descarg in 276), product of:
+          1.0 = tf(termFreq(answerIndex:descarg)=1)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=276)
+      0.24007396 = (MATCH) weight(answerIndex:softwar in 276), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.6968413 = (MATCH) fieldWeight(answerIndex:softwar in 276), product of:
+          1.4142135 = tf(termFreq(answerIndex:softwar)=2)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=276)
+  0.6666667 = coord(2/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.19965246
+	Pregunta: routers adsl marca sagem solucion de problemas
+	Respuesta:  Desde hace un tiempo se ha detectado una incompatibilidad en la conexión mediante el cliente VPN-UJA cuando se usa una conexión ADSL mediante routers ADSL del fabricante SAGEM. En nuestro caso, estos problemas siempre se han detectado con los routers SAGEM de Orange, pero no se descarta que el problema también pertenezca con los routers SAGEM suministrados por cualquier otro operador. El origen del problema se debe a que estos routers cortan el puerto UDP 500 necesario para el intercambio de claves del protocolo IPSec en el que se basa nuestro servicio de VPN de la UJA.   La solución documentada en Internet consiste en añadir una nueva clave en el registro de Windows, que permite a la conexión VPN usar un puerto aleatorio diferente para el intercambio de claves. Esta entrada es: HKEY_LOCAL_MACHINE\SOFTWARE\Nortel Networks\Extranet Access Client\DisableIkePort500Use=1 Esta entrada puede añadirse automáticamente al registro, descargando y ejecutando el siguiente fichero .REG:  <a href="images/File/SAGEM.zip">Descargar fichero SAGEM.REG </a>   ficheros adjuntos: <a href="attachments/415/SAGEM.reg" target="_blank">SAGEM.reg</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=415&artlang=es
+Detalle resultado: 0.19965246 = (MATCH) product of:
+  0.29947868 = (MATCH) sum of:
+    0.004096789 = (MATCH) product of:
+      0.008193578 = (MATCH) sum of:
+        0.008193578 = (MATCH) weight(categorie:softwar in 22), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.09375 = (MATCH) fieldWeight(categorie:softwar in 22), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.09375 = fieldNorm(field=categorie, doc=22)
+      0.5 = coord(1/2)
+    0.2953819 = (MATCH) sum of:
+      0.16806346 = (MATCH) weight(answerIndex:descarg in 22), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        0.50492704 = (MATCH) fieldWeight(answerIndex:descarg in 22), product of:
+          1.4142135 = tf(termFreq(answerIndex:descarg)=2)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=22)
+      0.12731844 = (MATCH) weight(answerIndex:softwar in 22), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.3695559 = (MATCH) fieldWeight(answerIndex:softwar in 22), product of:
+          1.0 = tf(termFreq(answerIndex:softwar)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=22)
+  0.6666667 = coord(2/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.16490144
+	Pregunta: al instalar office 2003 no aparece la opcion enviar a destinatario de correo como datos adjuntos
+	Respuesta:  (Extraido de la base de conocimiento de Microsoft <a href="http://support.microsoft.com/kb/834008/en-us">http://support.microsoft.com/kb/834008/en-us</a>) Método 1 ----------- Cambiar el cliente de correo por defecto a Microsoft Outlook 1. Start Microsoft Internet Explorer. 2. On the Tools menu, click Internet Options.  3. Click the Programs tab. 4. In the E-mail box, select Microsoft Outlook.  5. Click OK.  Método 2 ----------- 1.  Localizar la clave del registro  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Messaging Subsystem registry key. 2. Crear las siguientes entradas:     MAPI                      REG_SZ             1     CMC                       REG_SZ             1     CMCDLLNAME           REG_SZ             Mapi.dll     CMCDLLNAME32       REG_SZ             Mapi32.dll     MAPIX                    REG_SZ             1     MAPIXVER               REG_SZ             1.0.0.1     OLEMessaging         REG_SZ             1 Para aplicar el Método 2 puede <a href="\\ambar\wwwinstall\office\update\datos_adjuntos.reg">descargar el siguiente archivo</a> y ejecutarlo en su PC.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=54&id=336&artlang=es
+Detalle resultado: 0.16490144 = (MATCH) product of:
+  0.24735215 = (MATCH) sum of:
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 306), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 306), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=306)
+      0.5 = coord(1/2)
+    0.24615726 = (MATCH) sum of:
+      0.11883882 = (MATCH) weight(answerIndex:descarg in 306), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        0.35703734 = (MATCH) fieldWeight(answerIndex:descarg in 306), product of:
+          1.0 = tf(termFreq(answerIndex:descarg)=1)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=306)
+      0.12731844 = (MATCH) weight(answerIndex:softwar in 306), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.3695559 = (MATCH) fieldWeight(answerIndex:softwar in 306), product of:
+          1.0 = tf(termFreq(answerIndex:softwar)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=306)
+  0.6666667 = coord(2/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.15030015
+	Pregunta: durante la instalacion de panda se visualiza el error 113
+	Respuesta:  Este tipo de error se debe a que el fichero comprimido se ha alterado mientras se descargaba en su ordenador. Descargue de nuevo el fichero desde la web de la Universidad de Jaén y vuelva a instalar el antivirus.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=185&artlang=es
+Detalle resultado: 0.15030016 = (MATCH) product of:
+  0.22545023 = (MATCH) sum of:
+    0.0013655963 = (MATCH) product of:
+      0.0027311926 = (MATCH) sum of:
+        0.0027311926 = (MATCH) weight(categorie:softwar in 158), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.03125 = (MATCH) fieldWeight(categorie:softwar in 158), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.03125 = fieldNorm(field=categorie, doc=158)
+      0.5 = coord(1/2)
+    0.22408463 = (MATCH) product of:
+      0.44816926 = (MATCH) sum of:
+        0.44816926 = (MATCH) weight(answerIndex:descarg in 158), product of:
+          0.33284703 = queryWeight(answerIndex:descarg), product of:
+            3.8083982 = idf(docFreq=23, maxDocs=398)
+            0.087398164 = queryNorm
+          1.3464721 = (MATCH) fieldWeight(answerIndex:descarg in 158), product of:
+            1.4142135 = tf(termFreq(answerIndex:descarg)=2)
+            3.8083982 = idf(docFreq=23, maxDocs=398)
+            0.25 = fieldNorm(field=answerIndex, doc=158)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.14226153
+	Pregunta: tengo un ordenador con sistema operativo unix o linux y quiero sincronizarlo con ntp
+	Respuesta:  Para conseguir este software visite la página de <a href="http://www.rediris.es/gt/iris-ntp/docs/ tools"> Herramientas del Piloto del Servicio de Tiempo de RedIRIS </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=53&id=263&artlang=es
+Detalle resultado: 0.14226153 = (MATCH) product of:
+  0.2133923 = (MATCH) sum of:
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 303), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 303), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=303)
+      0.5 = coord(1/2)
+    0.21219741 = (MATCH) product of:
+      0.42439482 = (MATCH) sum of:
+        0.42439482 = (MATCH) weight(answerIndex:softwar in 303), product of:
+          0.3445174 = queryWeight(answerIndex:softwar), product of:
+            3.9419296 = idf(docFreq=20, maxDocs=398)
+            0.087398164 = queryNorm
+          1.231853 = (MATCH) fieldWeight(answerIndex:softwar in 303), product of:
+            1.0 = tf(termFreq(answerIndex:softwar)=1)
+            3.9419296 = idf(docFreq=20, maxDocs=398)
+            0.3125 = fieldNorm(field=answerIndex, doc=303)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.115667336
+	Pregunta: aparece el mensaje de error error de compilacion en el modulo oculto al iniciar word o excel
+	Respuesta:  Causa Este problema puede ocurrir cuando se cumplen las dos condiciones siguientes: ? La carpeta Inicio de Microsoft Office o la carpeta Inicio de Microsoft Excel contiene uno de los siguientes archivos de plantilla de complemento Adobe Acrobat PDFMaker (o ambos): Pdfmaker.dot Pdfmaker.xla ? El software de Norton AntiVirus está instalado. <a href=" top"></a> Solución Método 1: Descargue la version más reciente del complemento para Adobe Acrobat 5.0 Para obtener un complemento actualizado para Adobe Acrobat 5.0, visite el siguiente sitio Web de Adobe: <a href="http://www.adobe.es/products/acrobat/update.html" target="_blank">http://www.adobe.es/products/acrobat/update.html</a> (http://www.adobe.es/products/acrobat/update.html) Nota Microsoft no admite la descarga e instalación de complementos desde el sitio Web de Adobe. Si necesita ayuda, debe ponerse en contacto con el Servicio de soporte técnico de Adobe. <a href=" top"></a> Método 2: Mueva los archivos Mueva los archivos Pdfmaker.dot y Pdfmaker.xla (si este último está presente) desde la carpeta Inicio de Office o de Excel a una carpeta diferente de la unidad de disco duro. Por ejemplo, la carpeta Mis documentos. Para ello, siga estos pasos: Nota Dado que existen varias versiones de Microsoft Windows, es posible que los pasos siguientes no sean iguales en su equipo. Si es así, vea la documentación del producto para completarlos. 1. Haga clic en Inicio , seleccione Buscar y haga clic en Archivos o carpetas. 2. En el cuadro Buscar archivos o carpetas con el nombre , escriba pdfmaker.dot pdfmaker.xla. 3. En el cuadro Buscar en , haga clic en el disco duro en el que está instalado Windows (normalmente la unidad C) y, a continuación, haga clic en Buscar ahora. El archivo Pdfmaker.dot se encuentra en una de las carpetas siguientes: ? C :\Archivos de programa\Microsoft Office\Office\Inicio (Word 2000) ? C :\Archivos de programa\Microsoft Office\Office10\Inicio (Word 2002) ? C :\Documents and Settings\ Nombre de usuario \Datos de programa\Microsoft\Word\Inicio El archivo Pdfmaker.xla se encuentra en una de las carpetas siguientes: ? C :\Archivos de programa\Microsoft Office\Office\Xlstart (Excel 2000) ? C :\Archivos de programa\Microsoft Office\Office10\Xlstart (Excel 2002) ? C :\Documents and Settings\ Nombre de usuario \Datos de programa\Microsoft\Excel\Xlstart 4. En la ventana Resultado de la búsqueda, haga clic con el botón secundario del mouse (ratón) en el archivo (en cada archivo que encuentre) y, a continuación, haga clic en Cortar. 5. En el escritorio, haga clic con el botón secundario en la carpeta Mis documentos y, a continuación, haga clic en Pegar. Método 3: Visite el sitio Web de Symantec para obtener información sobre Norton Antivirus, así como actualizaciones del producto Para solucionar este problema, visite el siguiente sitio Web de Symantec parra obtener más información y actualizaciones del producto: <a href="http://www.symantec.com/region/es/" target="_blank">http://www.symantec.com/region/es/</a> (http://www.symantec.com/region/es/)
+	Url: faq.ujaen.es/index.php?action=artikel&cat=54&id=298&artlang=es
+Detalle resultado: 0.11566734 = (MATCH) product of:
+  0.17350101 = (MATCH) sum of:
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 305), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 305), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=305)
+      0.5 = coord(1/2)
+    0.17230612 = (MATCH) sum of:
+      0.09803703 = (MATCH) weight(answerIndex:descarg in 305), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        0.2945408 = (MATCH) fieldWeight(answerIndex:descarg in 305), product of:
+          1.4142135 = tf(termFreq(answerIndex:descarg)=2)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.0546875 = fieldNorm(field=answerIndex, doc=305)
+      0.07426909 = (MATCH) weight(answerIndex:softwar in 305), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.21557428 = (MATCH) fieldWeight(answerIndex:softwar in 305), product of:
+          1.0 = tf(termFreq(answerIndex:softwar)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.0546875 = fieldNorm(field=answerIndex, doc=305)
+  0.6666667 = coord(2/3)

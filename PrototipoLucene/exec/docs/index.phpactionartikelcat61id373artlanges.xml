@@ -1,0 +1,27 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="pdf">
+                    <Question Text="como puedo guardar un formulario pdf con mis datos escritos">
+                         <AnswerIndex>la mayoria de los equipos tienen instalados dos herramientas para visualizar y crear documentos en formato pdf estas son adobe reade r un visor de documentos y pdf creator utilidad que permite crear documentos en pdf a partir de otros como un archivo word una pagina web etc para rellenar un formulario pdf debemos utilizar adobe reader con esta herramienta podemos abrir el fichero pdf que contiene el formulario rellenar sus campos e imprimirlo pero si queremos ademas guardar una copia del formulario con los datos escritos entonces tenemos que utilizar ademas pdf creator para guardar una copia del formulario debemos seguir los siguientes pasos 1 hacer clic en el boton imprimir del menu de adobe reade 2 seleccionar como impresora pdf creator y hacer clic en aceptar 3 a continuacion se abre el cuadro de dialogo de pdf creator donde debemos poner un nombre a nuestra copia del formulario y pulsar en guardar nota la copia del formulario realizada con pdf creator no es editable es decir que no podra modificar los datos introducidos anteriormente ni rellenar campos que se dejo en blanco deliveradamente para guardar una copia editable del formulario es preciso utilizar adobe acrobat profesional</AnswerIndex>
+                         <Answer>La mayoría de los equipos tienen instalados dos herramientas para visualizar y crear documentos en formato PDF, estas son Adobe Reade r, un visor de documentos y PDF Creator , utilidad que permite crear documentos en PDF a partir de otros como un archivo Word, una página web, etc.
+Para rellenar un formulario PDF debemos utilizar  Adobe Reader. Con esta herramienta podemos abrir el fichero PDF que contiene el formulario,  rellenar sus campos e imprimirlo. Pero si queremos además guardar una copia del formulario con los datos escritos, entonces tenemos que utilizar además PDF Creator .
+Para guardar una copia del formulario debemos seguir los siguientes pasos:
+1. Hacer clic en el botón Imprimir del menú de Adobe Reade
+ 
+ 
+2. Seleccionar como impresora "PDF Creator" y hacer clic en Aceptar .
+3. A continuación se abre el cuádro de diálogo de PDF Creator donde debemos poner un nombre a nuestra copia del formulario y pulsar en Guardar .
+Nota : La copia del formulario realizada con PDF Creator no es editable, es decir, que no podrá modificar los datos introducidos anteriormente ni rellenar campos que se dejó en blanco deliveradamente.
+Para guardar una copia editable del formulario es preciso utilizar <a href="http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/acrobat/acrobat6/acrobat60.html">Adobe Acrobat Profesional</a>.</Answer>
+                         <Link>http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/acrobat/acrobat6/acrobat60.html</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=61&id=373&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

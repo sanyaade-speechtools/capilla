@@ -1,0 +1,22 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="microsoft office">
+                    <Question Text="al instalar office 2003 no aparece la opcion enviar a destinatario de correo como datos adjuntos">
+                         <AnswerIndex>extraido de la base de conocimiento de microsoft o kb o 834008 o en us metodo 1 cambiar el cliente de correo por defecto a microsoft outlook 1 start microsoft internet explorer 2 on the tools menu click internet options 3 click the programs tab 4 in the e mail box select microsoft outlook 5 click ok metodo 2 1 localizar la clave del registro hkey local machine software microsoft windows messaging subsystem registry key 2 crear las siguientes entradas mapi reg sz 1 cmc reg sz 1 cmcdllname reg sz mapi dll cmcdllname32 reg sz mapi32 dll mapix reg sz 1 mapixver reg sz 1 0 0 1 olemessaging reg sz 1 para aplicar el metodo 2 puede descargar el siguiente archivo y ejecutarlo en su pc</AnswerIndex>
+                         <Answer>(Extraido de la base de conocimiento de Microsoft <a href="http://support.microsoft.com/kb/834008/en-us">http://support.microsoft.com/kb/834008/en-us</a>)
+Método 1 ----------- Cambiar el cliente de correo por defecto a Microsoft Outlook 1. Start Microsoft Internet Explorer. 2. On the Tools menu, click Internet Options.  3. Click the Programs tab. 4. In the E-mail box, select Microsoft Outlook.  5. Click OK. 
+Método 2 ----------- 1.  Localizar la clave del registro  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Messaging Subsystem registry key. 2. Crear las siguientes entradas:     MAPI                      REG_SZ             1     CMC                       REG_SZ             1     CMCDLLNAME           REG_SZ             Mapi.dll     CMCDLLNAME32       REG_SZ             Mapi32.dll     MAPIX                    REG_SZ             1     MAPIXVER               REG_SZ             1.0.0.1     OLEMessaging         REG_SZ             1
+Para aplicar el Método 2 puede <a href="\\ambar\wwwinstall\office\update\datos_adjuntos.reg">descargar el siguiente archivo</a> y ejecutarlo en su PC.</Answer>
+                         <Link>http://support.microsoft.com/kb/834008/en-us</Link>
+                         <Link>\\ambar\wwwinstall\office\update\datos_adjuntos.reg</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=54&id=336&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

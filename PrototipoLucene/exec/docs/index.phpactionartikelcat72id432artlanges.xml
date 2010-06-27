@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="no puedo eliminar mensajes bloqueados en la bandeja de salida de outlook">
+                    <AnswerIndex>intente las siguientes opciones para eliminar mensajes bloqueados en la bandeja de entrada de outlook opcion 1 iniciar outlook sin clave abra outlook y cuando le pida el usuario o clave pulse cancelar intente ahora borrar el mensaje de la bandeja de salida si se elimina el mensaje correctamente cierre y abra outlook introduzca ahora su clave con normalidad opcion 2 desactive temporalmente el firewall y el antivirus intente ahora eliminar el mensaje no olvide volver a activar el firewall y al antivirus despues de borrar el mensaje opcion 3 entre en modo a prueba de fallos de outlook cierre outlook y ejecute outlook o safe desde inicio ejecutar borre el mensaje y luego abrar y cierre outlook si con ninguna de estas opciones puede borrar su mensaje su perfil de correo seguramente estara dañado y debera crear uno nuevo</AnswerIndex>
+                    <Answer>Intente las siguientes opciones para eliminar mensajes bloqueados en la bandeja de entrada de Outlook:
+Opción  1:iniciar Outlook sin clave Abra Outlook y cuando le pida el usuario/clave, pulse cancelar. Intente ahora borrar el mensaje de la bandeja de salida.
+Si se elimina el mensaje correctamente, cierre y abra Outlook. Introduzca ahora su clave con normalidad.
+Opción  2:desactive temporalmente el firewall y el antivirus Intente ahora eliminar el mensaje. No olvide volver a activar el firewall y al antivirus después de borrar el mensaje. Opción  3:entre en modo a prueba de fallos de Outlook Cierre Outlook y ejecute "outlook /safe" desde Inicio- Ejecutar Borre el mensaje y luego abrar y cierre Outlook Si con ninguna de estas opciones puede borrar su mensaje, su perfil de correo seguramente estará dañado y deberá crear uno nuevo.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=432&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

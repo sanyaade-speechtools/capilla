@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="tengo una tarjeta que solo soporta 802 11b 11 mbits puedo conectarme a rimuja">
+                    <AnswerIndex>si pero lo unico que tienes que escoger es que en el cifrado de datos en lugar de escoger aes debes de escoger tkip no obstante te aconsejamos encarecidamente que actualices los drivers de la tarjeta inalambrica si el portatil pertenece a la universidad tiene numero de inventario puedes solicitar una tarjeta inalambrica externa</AnswerIndex>
+                    <Answer>Si, pero lo único que tienes que escoger es que en el cifrado de datos en lugar de escoger AES debes de escoger TKIP. No obstante, te aconsejamos encarecidamente que actualices los drivers de la tarjeta inalámbrica.
+Si el portátil pertenece a la Universidad (tiene número de inventario), puedes solicitar una tarjeta inalámbrica externa. </Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=248&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

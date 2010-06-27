@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="como puedo configurar outlook para leer un buzon de correo de la uja">
+                    <AnswerIndex>hay dos formas para configurar outlook con el asistente de outlook automaticametne con el programa profiles del servicio de informatica</AnswerIndex>
+                    <Answer>Hay dos formas para configurar Outlook:
+- <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html">Con el Asistente de Outlook</a>
+- <a href="http://www.ujaen.es/sci/redes/web/profiles_si/">Automáticametne, con el programa Profiles del Servicio de Informática.</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/web/profiles_si/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=411&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

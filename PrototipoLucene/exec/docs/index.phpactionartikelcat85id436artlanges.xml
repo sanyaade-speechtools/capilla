@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="administracion electronica">
+          <Question Text="en internet explorer me pide debe desactivar la opcion de bloquear ventanas emergentes para esta aplicacion p e al utilizar mi firma digital">
+               <AnswerIndex>debes deshabilitar el bloqueador de elementos emergentes en internet explorer para ujaen es para ello ejecute el siguiente programa y reinicia el internet explorer</AnswerIndex>
+               <Answer>Debes deshabilitar el bloqueador de elementos emergentes en Internet Explorer para ujaen.es, para ello ejecute el siguiente programa:
+<a href="file://ambar/wwwinstall/drivers/parches/IExplorer.exe">file://ambar/wwwinstall/drivers/parches/IExplorer.exe</a>
+y reinicia el Internet Explorer.</Answer>
+               <Link>file://ambar/wwwinstall/drivers/parches/IExplorer.exe</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=85&id=436&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

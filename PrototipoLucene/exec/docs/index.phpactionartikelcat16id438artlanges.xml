@@ -1,0 +1,29 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="cuando intento conectarme aparece el error el host remoto no responde">
+               <AnswerIndex>cuando aparece una ventana de error indicando que el host remoto no responde generalmente es debido a que el trafico de red ipsec necesario para establecer la conexion vpn se esta cortando en algun punto generalmente este error se suele producir por dos causas 1 existen algun cortafuegos firewall personal instalado en el equipo que corta el trafico ipsec para solucionarlo debemos seguir los siguientes pasos desactivar el propio firewall que incorpora windows boton inicio configuracion panel de control firewall de windows desactivar cualquier otro firewall personal zonealarm norton panda o permitir el trafico de red del cliente vpn uja cuando se le solicite 2 en algunos casos es el propio router adsl el que corta dicho trafico en el servicio de informatica hemos detectados dos modelos de router problematicos routers comtrend generalmente de telefonica para solucionarlo consultar el enlace conexion vpn con router adsl comtrend 536 telefonica routers sagem generalmente de orange para solucionarlo consultar el enlace routers adsl marca sagem solucion de problemas informacion de referencia puertos utilizados por el cliente vpn uja tcp 500 udp 500 udp 10001 nat transversal protolo ip 50 esp protolo ip 51 ah</AnswerIndex>
+               <Answer>Cuando aparece una ventana de error indicando que "el host remoto no responde" generalmente es debido a que el tráfico de red IPSec necesario para establecer la conexión VPN se está cortando en algún punto.
+Generalmente este error se suele producir por dos causas:
+1) Existen algún cortafuegos (firewall) personal instalado en el equipo que corta el tráfico IPSec. Para solucionarlo debemos seguir los siguientes pasos:
+Desactivar el propio firewall que incorpora Windows ( Botón Inicio - Configuración - Panel de Control - Firewall de Windows ) Desactivar cualquier otro firewall personal (ZoneAlarm, Norton, Panda...) o permitir el tráfico de red del cliente VPN-UJA cuando se le solicite. 2) En algunos casos, es el propio router ADSL el que corta dicho tráfico. En el Servicio de Informática hemos detectados dos modelos de router "problemáticos":
+Routers COMTREND (generalmente de Telefónica) - Para solucionarlo, consultar el enlace: <a href="/index.php?action=artikel cat=16 id=437 artlang=es">Conexión VPN con router ADSL Comtrend 536+ (Telefónica)</a>  
+Routers SAGEM (generalmente de Orange) - Para solucionarlo, consultar el enlace: <a href="/index.php?action=artikel cat=16 id=415 artlang=es">Routers ADSL marca SAGEM: Solución de problemas</a>  
+ 
+Información de referencia: puertos utilizados por el cliente VPN-UJA:
+TCP-500 
+UDP-500
+UDP-10001 (NAT Transversal)
+Protolo IP 50 (ESP) Protolo IP 51 (AH)
+ 
+ 
+ </Answer>
+               <Link>/index.php?action=artikel&amp;cat=16&amp;id=437&amp;artlang=es</Link>
+               <Link>/index.php?action=artikel&amp;cat=16&amp;id=415&amp;artlang=es</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=438&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

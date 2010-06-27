@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="ms internet explorer">
+               <Categorie Text="version 6">
+                    <Question Text="como se instala internet explorer 6">
+                         <AnswerIndex>consulte la pagina web o sci o redes o web o iexplorer o instalacion o</AnswerIndex>
+                         <Answer>Consulte la página web <a href="http://www.ujaen.es/sci/redes/web/iexplorer/instalacion/">http://www.ujaen.es/sci/redes/web/iexplorer/instalacion/</a></Answer>
+                         <Link>http://www.ujaen.es/sci/redes/web/iexplorer/instalacion/</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=22&id=168&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

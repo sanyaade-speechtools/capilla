@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="alojamiento">
+               <Question Text="quiero poner un contador de visitas en mi pagina web como">
+                    <AnswerIndex>primero debera solicitar un contador web al servicio de informatica mediante el modelo de solicitud de servicios web si ya tiene contador asignado acceda a la pagina web para proceder a insertar su contador en las paginas que desee</AnswerIndex>
+                    <Answer>Primero deberá solicitar un contador web al Servicio de Informática mediante el modelo de solicitud de servicios web.
+Si ya tiene contador asignado acceda a la página web <a href="http://www.ujaen.es/sci/redes/web/contador/contador.html">http://www.ujaen.es/sci/redes/web/contador/contador.html</a> para proceder a insertar su contador en las páginas que desee.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/web/contador/contador.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=20&id=166&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

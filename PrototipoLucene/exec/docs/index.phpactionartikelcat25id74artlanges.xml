@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="caracteristicas del servicio de correo de la uja">
+               <Question Text="necesito una nueva cuenta buzon de correo">
+                    <AnswerIndex>rellene completamente el impreso de solicitud de correo electronico indicando la opcion alta en el apartado motivo de la solicitud este mismo impreso se puede utilizar para solicitar bajas y modificaciones en las cuentas de correo electronico</AnswerIndex>
+                    <Answer>Rellene completamente el <a href="Rellene completamente el impreso de solicitud, indicando la opción Alta en el apartado MOTIVO DE LA SOLICITUD. Este mismo impreso se puede utilizar para solicitar bajas y modificaciones en las cuentas de correo electrónico." target="_blank">impreso de solicitud de correo electrónico</a>, indicando la opción Alta en el apartado MOTIVO DE LA SOLICITUD. Este mismo impreso se puede utilizar para solicitar bajas y modificaciones en las cuentas de correo electrónico.</Answer>
+                    <Link>Rellene</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=25&id=74&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

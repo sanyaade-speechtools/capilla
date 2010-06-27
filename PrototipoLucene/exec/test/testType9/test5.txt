@@ -1,0 +1,408 @@
+Test 5
+Indexado: 
+
+Anotaci�n
+
+Pregunta: reservar una sala de videoconferencia
+
+Tiempo de busqueda: 1ms
+Resultado: 0:
+Puntuación: 3.5997794
+	Pregunta: como y cuando reservo la sala de videoconferencia
+	Respuesta:  La reserva de la Sala de Videoconferencia la llevará a cabo el usuario solicitante en el Negociado de Equipamiento y Gestión de Espacios , con al menos 2 semanas de antelación a la fecha prevista de inicio del acto. Esto se hace así para que la sala no sea utilizada para otro evento. Tiene que tener en cuenta que se deben realizar pruebas técnicas y también es necesario reservar la sala el día y hora que se realicen. Si la videoconferencia es por la tarde, también se reservará la mañana para el montaje del equipamiento necesario. El horario de uso será de lunes a viernes, en las siguientes franjas horarias: De 9:00h a 14:00h y De 16:00h a 21:00h Si necesita apoyo técnico, debe tener lugar dentro del horario laboral de los servicios de la propia Universidad de Jaén (9:00h a 14:00h). Nota: si la conexión de la videconferencia se va a hacer por RDSI deberá reservar obligatoriamente la Sala de Juntas del Edificio D-1 no siendo posible hacerla en el Salón de Grados del mismo edificio.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=265&artlang=es
+Detalle resultado: 3.5997794 = (MATCH) sum of:
+  2.6750245 = (MATCH) sum of:
+    0.9614321 = (MATCH) weight(question:reserv in 248), product of:
+      0.34335893 = queryWeight(question:reserv), product of:
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.06131237 = queryNorm
+      2.8000789 = (MATCH) fieldWeight(question:reserv in 248), product of:
+        1.0 = tf(termFreq(question:reserv)=1)
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+    0.827252 = (MATCH) weight(question:sal in 248), product of:
+      0.3184989 = queryWeight(question:sal), product of:
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.06131237 = queryNorm
+      2.5973463 = (MATCH) fieldWeight(question:sal in 248), product of:
+        1.0 = tf(termFreq(question:sal)=1)
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+    0.88634026 = (MATCH) weight(question:videoconferent in 248), product of:
+      0.3296775 = queryWeight(question:videoconferent), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.06131237 = queryNorm
+      2.688507 = (MATCH) fieldWeight(question:videoconferent in 248), product of:
+        1.0 = tf(termFreq(question:videoconferent)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+  0.002166967 = (MATCH) product of:
+    0.0065009007 = (MATCH) sum of:
+      0.0065009007 = (MATCH) weight(categorie:videoconferent in 248), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.05384455 = (MATCH) fieldWeight(categorie:videoconferent in 248), product of:
+          1.0 = tf(termFreq(categorie:videoconferent)=1)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=248)
+    0.33333334 = coord(1/3)
+  0.92258793 = (MATCH) sum of:
+    0.34076154 = (MATCH) weight(answerIndex:reserv in 248), product of:
+      0.30904755 = queryWeight(answerIndex:reserv), product of:
+        5.0405416 = idf(docFreq=6, maxDocs=398)
+        0.06131237 = queryNorm
+      1.1026185 = (MATCH) fieldWeight(answerIndex:reserv in 248), product of:
+        2.0 = tf(termFreq(answerIndex:reserv)=4)
+        5.0405416 = idf(docFreq=6, maxDocs=398)
+        0.109375 = fieldNorm(field=answerIndex, doc=248)
+    0.30762887 = (MATCH) weight(answerIndex:sal in 248), product of:
+      0.29363889 = queryWeight(answerIndex:sal), product of:
+        4.7892275 = idf(docFreq=8, maxDocs=398)
+        0.06131237 = queryNorm
+      1.0476435 = (MATCH) fieldWeight(answerIndex:sal in 248), product of:
+        2.0 = tf(termFreq(answerIndex:sal)=4)
+        4.7892275 = idf(docFreq=8, maxDocs=398)
+        0.109375 = fieldNorm(field=answerIndex, doc=248)
+    0.27419752 = (MATCH) weight(answerIndex:videoconferent in 248), product of:
+      0.3296775 = queryWeight(answerIndex:videoconferent), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.06131237 = queryNorm
+      0.8317144 = (MATCH) fieldWeight(answerIndex:videoconferent in 248), product of:
+        1.4142135 = tf(termFreq(answerIndex:videoconferent)=2)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.109375 = fieldNorm(field=answerIndex, doc=248)
+
+Resultado: 1:
+Puntuación: 0.5660522
+	Pregunta: que alternativas existen para realizar videoconferencias
+	Respuesta:  Aunque la Universidad de Jaén dispone de un <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/guiapractica/guiavideo.html">equipamiento</a> específico para realizar videoconferencias existen alternativas más "caseras" para realizarlas, sobre todo si sólo se quiere realizar la videoconferencia de una única persona a otra única persona. En esta <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/otros_sistemas.html">página</a> se exponen unas sencillas guías en las que se explica paso a paso cómo instalar, configurar y realizar videoconferencias con algunos de los programas más populares.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=372&artlang=es
+Detalle resultado: 0.56605226 = (MATCH) sum of:
+  0.36930844 = (MATCH) product of:
+    1.1079253 = (MATCH) sum of:
+      1.1079253 = (MATCH) weight(question:videoconferent in 252), product of:
+        0.3296775 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.06131237 = queryNorm
+        3.3606339 = (MATCH) fieldWeight(question:videoconferent in 252), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=252)
+    0.33333334 = coord(1/3)
+  0.004845486 = (MATCH) product of:
+    0.014536457 = (MATCH) sum of:
+      0.014536457 = (MATCH) weight(categorie:videoconferent in 252), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 252), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=252)
+    0.33333334 = coord(1/3)
+  0.19189832 = (MATCH) product of:
+    0.5756949 = (MATCH) sum of:
+      0.5756949 = (MATCH) weight(answerIndex:videoconferent in 252), product of:
+        0.3296775 = queryWeight(answerIndex:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.06131237 = queryNorm
+        1.7462366 = (MATCH) fieldWeight(answerIndex:videoconferent in 252), product of:
+          1.7320508 = tf(termFreq(answerIndex:videoconferent)=3)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=252)
+    0.33333334 = coord(1/3)
+
+Resultado: 2:
+Puntuación: 0.3852536
+	Pregunta: es obligatorio que el personal del servicio de informatica este presente en la videoconferencia
+	Respuesta:  NO , el personal de apoyo técnico SOLO DEBE ESTAR PRESENTE , el día y hora en la que se realice la Prueba Técnica. En ese instante se le explicará el manejo de la cámara de videoconferencia al usuario y se le recomendará la lectura de la <a href="http://www.ujaen.es/sci/redes/videoconferencia/guiapractica/guiavideo.html"> guía rápida del servicio de videoconferencia </a>. No obstante, si el usuario prefiera que el personal esté presente, deberá indicarlo en la <a href="http://www.ujaen.es/sci/redes/solic/sol-r220.pdf"> solicitud </a>  y concretar fecha y hora de la videoconferencia DENTRO DEL HORARIO DE TRABAJO del personal del Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=267&artlang=es
+Detalle resultado: 0.38525364 = (MATCH) sum of:
+  0.22158508 = (MATCH) product of:
+    0.6647552 = (MATCH) sum of:
+      0.6647552 = (MATCH) weight(question:videoconferent in 250), product of:
+        0.3296775 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.06131237 = queryNorm
+        2.0163803 = (MATCH) fieldWeight(question:videoconferent in 250), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=250)
+    0.33333334 = coord(1/3)
+  0.0037532968 = (MATCH) product of:
+    0.01125989 = (MATCH) sum of:
+      0.01125989 = (MATCH) weight(categorie:videoconferent in 250), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.093261495 = (MATCH) fieldWeight(categorie:videoconferent in 250), product of:
+          1.7320508 = tf(termFreq(categorie:videoconferent)=3)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=250)
+    0.33333334 = coord(1/3)
+  0.15991527 = (MATCH) product of:
+    0.47974578 = (MATCH) sum of:
+      0.47974578 = (MATCH) weight(answerIndex:videoconferent in 250), product of:
+        0.3296775 = queryWeight(answerIndex:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.06131237 = queryNorm
+        1.4551972 = (MATCH) fieldWeight(answerIndex:videoconferent in 250), product of:
+          1.7320508 = tf(termFreq(answerIndex:videoconferent)=3)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=250)
+    0.33333334 = coord(1/3)
+
+Resultado: 3:
+Puntuación: 0.38264793
+	Pregunta: que diferencia hay entre realizar la videoconferencia por ip o por rdsi
+	Respuesta:  Por IP : Se puede realizar tanto en la Sala de Juntas como en el Salón de Grados del edificio D-1 Siempre es gratuita La llamada se realiza a la IP de la entidad remota. Por RDSI : Sólo se puede realizar en la Sala de Juntas del D-1 Sólo es gratuita si es la entidad remota quén inicia la llamada. En caso de ser la UJA quién inicie la llamada se cargará al solicitante el importe de la llamada. En este caso la llamada es a un número de teléfono. El Servicio de Informática recomienda usar la conexión por IP siempre y cuando el equipo de la entidad remota lo soporte.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=348&artlang=es
+Detalle resultado: 0.38264793 = (MATCH) sum of:
+  0.29544675 = (MATCH) product of:
+    0.88634026 = (MATCH) sum of:
+      0.88634026 = (MATCH) weight(question:videoconferent in 251), product of:
+        0.3296775 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.06131237 = queryNorm
+        2.688507 = (MATCH) fieldWeight(question:videoconferent in 251), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=251)
+    0.33333334 = coord(1/3)
+  0.004333934 = (MATCH) product of:
+    0.013001801 = (MATCH) sum of:
+      0.013001801 = (MATCH) weight(categorie:videoconferent in 251), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.1076891 = (MATCH) fieldWeight(categorie:videoconferent in 251), product of:
+          2.0 = tf(termFreq(categorie:videoconferent)=4)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=251)
+    0.33333334 = coord(1/3)
+  0.08286722 = (MATCH) product of:
+    0.24860166 = (MATCH) sum of:
+      0.24860166 = (MATCH) weight(answerIndex:sal in 251), product of:
+        0.29363889 = queryWeight(answerIndex:sal), product of:
+          4.7892275 = idf(docFreq=8, maxDocs=398)
+          0.06131237 = queryNorm
+        0.8466238 = (MATCH) fieldWeight(answerIndex:sal in 251), product of:
+          1.4142135 = tf(termFreq(answerIndex:sal)=2)
+          4.7892275 = idf(docFreq=8, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=251)
+    0.33333334 = coord(1/3)
+
+Resultado: 4:
+Puntuación: 0.3580985
+	Pregunta: soy profesor y tengo una reserva hecha como entro al aula
+	Respuesta:  Debe solicitar la llave del aula reservada en la conserjería del edificio donde se encuentre situada. Si tiene pensado usar el videoproyector también deberá pedir en la misma consejería el mando a distancia del aparato.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=326&artlang=es
+Detalle resultado: 0.35809848 = (MATCH) sum of:
+  0.24035802 = (MATCH) product of:
+    0.72107404 = (MATCH) sum of:
+      0.72107404 = (MATCH) weight(question:reserv in 317), product of:
+        0.34335893 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.06131237 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 317), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=317)
+    0.33333334 = coord(1/3)
+  0.0041532735 = (MATCH) product of:
+    0.01245982 = (MATCH) sum of:
+      0.01245982 = (MATCH) weight(categorie:videoconferent in 317), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.10320007 = (MATCH) fieldWeight(categorie:videoconferent in 317), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=317)
+    0.33333334 = coord(1/3)
+  0.113587186 = (MATCH) product of:
+    0.34076154 = (MATCH) sum of:
+      0.34076154 = (MATCH) weight(answerIndex:reserv in 317), product of:
+        0.30904755 = queryWeight(answerIndex:reserv), product of:
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.06131237 = queryNorm
+        1.1026185 = (MATCH) fieldWeight(answerIndex:reserv in 317), product of:
+          1.0 = tf(termFreq(answerIndex:reserv)=1)
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=317)
+    0.33333334 = coord(1/3)
+
+Resultado: 5:
+Puntuación: 0.32952014
+	Pregunta: soy profesor y quiero reservar un aula de informatica que tengo que hacer
+	Respuesta:  Existen distintas aulas de informática, tanto en el Campus de Las Lagunillas como en la E.P.S. de Linares, destinadas exclusivamente a impartir docencia. En este enlace podrá saber cuáles son y dónde se encuentran las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" title="Aulas de informática disponibles">aulas de informática disponibles</a>, las de docencia son las de color rojo. Una vez que haya decidido qué aula va a reservar, debe rellenar esta <a href="http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf" title="Solictud de reserva de aula de informática">solicitud</a> (no olvide especificar qué software va a usar) y enviarla al coordinador del aula correspondiente: Aulas de informática del Campus de las Lagunillas: Coordinador: Felipe Martínez Pérez Sección de Organización Docente. Edificio B-1. Teléfono: 953 21 22 81 E-mail: fmperez @ ujaen.es   Aulas de informática la E.P.S. de Linares: Coordinador: Raúl Mata Campos Despacho B-208. Edificio B. EPS Linares. Teléfono: 953 648 558 E-mail: raul @ ujaen.es <a href="http://www3.ujaen.es/aulas/servicios_profesores.html top"> </a> Como alternativa a esta solicitud, también puede solicitar la reserva de un aula de informática desde la opción "<a href="http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html">Reserva de espacios docentes</a>" del <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">Campus Virtual</a> de la Universidad de Jaén.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=325&artlang=es
+Detalle resultado: 0.32952014 = (MATCH) sum of:
+  0.24035802 = (MATCH) product of:
+    0.72107404 = (MATCH) sum of:
+      0.72107404 = (MATCH) weight(question:reserv in 288), product of:
+        0.34335893 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.06131237 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 288), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=288)
+    0.33333334 = coord(1/3)
+  0.004845486 = (MATCH) product of:
+    0.014536457 = (MATCH) sum of:
+      0.014536457 = (MATCH) weight(categorie:videoconferent in 288), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 288), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=288)
+    0.33333334 = coord(1/3)
+  0.084316626 = (MATCH) product of:
+    0.25294986 = (MATCH) sum of:
+      0.25294986 = (MATCH) weight(answerIndex:reserv in 288), product of:
+        0.30904755 = queryWeight(answerIndex:reserv), product of:
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.06131237 = queryNorm
+        0.818482 = (MATCH) fieldWeight(answerIndex:reserv in 288), product of:
+          1.7320508 = tf(termFreq(answerIndex:reserv)=3)
+          5.0405416 = idf(docFreq=6, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=288)
+    0.33333334 = coord(1/3)
+
+Resultado: 6:
+Puntuación: 0.26223776
+	Pregunta: no puedo eliminar mensajes bloqueados en la bandeja de salida de outlook
+	Respuesta:  Intente las siguientes opciones para eliminar mensajes bloqueados en la bandeja de entrada de Outlook: Opción  1:iniciar Outlook sin clave Abra Outlook y cuando le pida el usuario/clave, pulse cancelar. Intente ahora borrar el mensaje de la bandeja de salida. Si se elimina el mensaje correctamente, cierre y abra Outlook. Introduzca ahora su clave con normalidad. Opción  2:desactive temporalmente el firewall y el antivirus Intente ahora eliminar el mensaje. No olvide volver a activar el firewall y al antivirus después de borrar el mensaje. Opción  3:entre en modo a prueba de fallos de Outlook Cierre Outlook y ejecute "outlook /safe" desde Inicio- Ejecutar Borre el mensaje y luego abrar y cierre Outlook Si con ninguna de estas opciones puede borrar su mensaje, su perfil de correo seguramente estará dañado y deberá crear uno nuevo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=432&artlang=es
+Detalle resultado: 0.26223776 = (MATCH) sum of:
+  0.20681301 = (MATCH) product of:
+    0.620439 = (MATCH) sum of:
+      0.620439 = (MATCH) weight(question:sal in 381), product of:
+        0.3184989 = queryWeight(question:sal), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.06131237 = queryNorm
+        1.9480097 = (MATCH) fieldWeight(question:sal in 381), product of:
+          1.0 = tf(termFreq(question:sal)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=381)
+    0.33333334 = coord(1/3)
+  0.0041532735 = (MATCH) product of:
+    0.01245982 = (MATCH) sum of:
+      0.01245982 = (MATCH) weight(categorie:videoconferent in 381), product of:
+        0.12073461 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.06131237 = queryNorm
+        0.10320007 = (MATCH) fieldWeight(categorie:videoconferent in 381), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=381)
+    0.33333334 = coord(1/3)
+  0.05127148 = (MATCH) product of:
+    0.15381444 = (MATCH) sum of:
+      0.15381444 = (MATCH) weight(answerIndex:sal in 381), product of:
+        0.29363889 = queryWeight(answerIndex:sal), product of:
+          4.7892275 = idf(docFreq=8, maxDocs=398)
+          0.06131237 = queryNorm
+        0.5238218 = (MATCH) fieldWeight(answerIndex:sal in 381), product of:
+          1.0 = tf(termFreq(answerIndex:sal)=1)
+          4.7892275 = idf(docFreq=8, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=381)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+Puntuación: 0.08733117
+	Pregunta: que son las pruebas tecnicas
+	Respuesta:  Las Pruebas técnicas es una conexión que se realiza en presencia del personal de apoyo técnico de la Universidad de Jaén y del centro con el que se va a establecer la videoconferencia. Se realizan con antelación al acto y sin presencia de publico, para tratar todos los aspectos que puedan influir en el buen desarrollo de la videoconferencia. Es el momento de probar, transparencias, presentaciones, comprobar la calidad de video y audio, etc. Como se puede observarse es OBLIGATORIO realizarlas antes del acto pudiendo ser horas e incluso algún día antes de la videoconferencia.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=266&artlang=es
+Detalle resultado: 0.087331176 = (MATCH) product of:
+  0.13099676 = (MATCH) sum of:
+    0.003064554 = (MATCH) product of:
+      0.009193662 = (MATCH) sum of:
+        0.009193662 = (MATCH) weight(categorie:videoconferent in 249), product of:
+          0.12073461 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.06131237 = queryNorm
+          0.07614769 = (MATCH) fieldWeight(categorie:videoconferent in 249), product of:
+            1.4142135 = tf(termFreq(categorie:videoconferent)=2)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=249)
+      0.33333334 = coord(1/3)
+    0.1279322 = (MATCH) product of:
+      0.3837966 = (MATCH) sum of:
+        0.3837966 = (MATCH) weight(answerIndex:videoconferent in 249), product of:
+          0.3296775 = queryWeight(answerIndex:videoconferent), product of:
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.06131237 = queryNorm
+          1.1641577 = (MATCH) fieldWeight(answerIndex:videoconferent in 249), product of:
+            1.7320508 = tf(termFreq(answerIndex:videoconferent)=3)
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=249)
+      0.33333334 = coord(1/3)
+  0.6666667 = coord(2/3)
+
+Resultado: 8:
+Puntuación: 0.04604016
+	Pregunta: quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica
+	Respuesta:  En en primer lugar deberá comprobar si el software que quiere usar está ya instalado en el aula que tiene reservada, para ello puede consultar la lista de software instalado en la <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente. Si observa que el software no está instalado deberá solicitar su instalación al Servicio de Informática, para ello deberá rellenar y enviar la siguiente <a href="http://www3.ujaen.es/aulas/servicios_profesores.html instalacion%20software">solicitud</a>. Recuerde que sólo se instalará software que esté debidamente licenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lo permita de forma legal.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es
+Detalle resultado: 0.04604016 = (MATCH) product of:
+  0.069060236 = (MATCH) sum of:
+    0.0041532735 = (MATCH) product of:
+      0.01245982 = (MATCH) sum of:
+        0.01245982 = (MATCH) weight(categorie:videoconferent in 320), product of:
+          0.12073461 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.06131237 = queryNorm
+          0.10320007 = (MATCH) fieldWeight(categorie:videoconferent in 320), product of:
+            2.236068 = tf(termFreq(categorie:videoconferent)=5)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=320)
+      0.33333334 = coord(1/3)
+    0.06490696 = (MATCH) product of:
+      0.19472088 = (MATCH) sum of:
+        0.19472088 = (MATCH) weight(answerIndex:reserv in 320), product of:
+          0.30904755 = queryWeight(answerIndex:reserv), product of:
+            5.0405416 = idf(docFreq=6, maxDocs=398)
+            0.06131237 = queryNorm
+          0.6300677 = (MATCH) fieldWeight(answerIndex:reserv in 320), product of:
+            1.0 = tf(termFreq(answerIndex:reserv)=1)
+            5.0405416 = idf(docFreq=6, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=320)
+      0.33333334 = coord(1/3)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+Puntuación: 0.04229431
+	Pregunta: como cambio mi codigo de seguridad
+	Respuesta:  Acceda a su buzón de voz, llamando al 83000. Pulse la tecla 3 para acceder PhoneManager. Pulse la tecla 1 para acceder al menú de opciones personales. Pulse 4 para cambiar el código de seguridad. Cuando el sistema se lo solicite, indique un nuevo código de seguridad y pulse . Confirme el nuevo código de seguridad indicándolo de nuevo y pulse la tecla . Pulse aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results para salir.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=51&id=255&artlang=es
+Detalle resultado: 0.04229431 = (MATCH) product of:
+  0.06344146 = (MATCH) sum of:
+    0.004845486 = (MATCH) product of:
+      0.014536457 = (MATCH) sum of:
+        0.014536457 = (MATCH) weight(categorie:videoconferent in 297), product of:
+          0.12073461 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.06131237 = queryNorm
+          0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 297), product of:
+            2.236068 = tf(termFreq(categorie:videoconferent)=5)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=297)
+      0.33333334 = coord(1/3)
+    0.058595978 = (MATCH) product of:
+      0.17578793 = (MATCH) sum of:
+        0.17578793 = (MATCH) weight(answerIndex:sal in 297), product of:
+          0.29363889 = queryWeight(answerIndex:sal), product of:
+            4.7892275 = idf(docFreq=8, maxDocs=398)
+            0.06131237 = queryNorm
+          0.59865344 = (MATCH) fieldWeight(answerIndex:sal in 297), product of:
+            1.0 = tf(termFreq(answerIndex:sal)=1)
+            4.7892275 = idf(docFreq=8, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=297)
+      0.33333334 = coord(1/3)
+  0.6666667 = coord(2/3)

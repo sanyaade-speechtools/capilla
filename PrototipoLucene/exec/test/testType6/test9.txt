@@ -1,0 +1,611 @@
+Test9
+Indexación:
+
+Anotaciones: El resultado 4 debería de haber sido el resultado 0.
+
+Pregunta: donde obtengo mi usuario de campus virtual
+
+Tiempo de busqueda: 2ms
+Resultado: 0:
+Puntuación: 1.0698558
+	Pregunta: no puedo acceder a campus virtual
+	Respuesta:  - Compruebe que el equipo tiene acceso a la red. Para ello compruebe si puede navegar por internet.   - Asegurése que realmente está intentando acceder a Campus Virtual y NO a Docencia Virtual.   - Compruebe la versión de su navegador. Debe acceder como mínimo con las versiones Internet Explorer 5.5 ó Netscape 6.0.   - Si accede desde fuera de la Universidad, y lo hace a través de un proxy, compruebe que no corta la conexión por el puerto 7776. <a name="dos"></a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=25&artlang=es
+Detalle resultado: 1.0698558 = (MATCH) sum of:
+  0.9043718 = (MATCH) product of:
+    1.8087436 = (MATCH) sum of:
+      0.9043718 = (MATCH) weight(question:campus in 187), product of:
+        0.32298082 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.8000789 = (MATCH) fieldWeight(question:campus in 187), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=187)
+      0.9043718 = (MATCH) weight(question:virtual in 187), product of:
+        0.32298082 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.8000789 = (MATCH) fieldWeight(question:virtual in 187), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=187)
+    0.5 = coord(2/4)
+  0.00853689 = (MATCH) product of:
+    0.01707378 = (MATCH) sum of:
+      0.006731838 = (MATCH) weight(categorie:campus in 187), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.0718226 = (MATCH) fieldWeight(categorie:campus in 187), product of:
+          1.4142135 = tf(termFreq(categorie:campus)=2)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=187)
+      0.010341942 = (MATCH) weight(categorie:virtual in 187), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.17663561 = (MATCH) fieldWeight(categorie:virtual in 187), product of:
+          5.5677643 = tf(termFreq(categorie:virtual)=31)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=187)
+    0.5 = coord(2/4)
+  0.15694714 = (MATCH) product of:
+    0.31389427 = (MATCH) sum of:
+      0.13674225 = (MATCH) weight(answerIndex:campus in 187), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.6086577 = (MATCH) fieldWeight(answerIndex:campus in 187), product of:
+          1.0 = tf(termFreq(answerIndex:campus)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=187)
+      0.17715202 = (MATCH) weight(answerIndex:virtual in 187), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.8238579 = (MATCH) fieldWeight(answerIndex:virtual in 187), product of:
+          1.4142135 = tf(termFreq(answerIndex:virtual)=2)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=187)
+    0.5 = coord(2/4)
+
+Resultado: 1:
+Puntuación: 0.9884622
+	Pregunta: no me aparecen en campus virtual las asignaturas que imparto
+	Respuesta:  Campus Virtual refleja diariamente los datos que existen en la aplicación de Gestión Académica y Recursos Docentes, y es en la Sección de Organización Docente del Servicio de Personal y Organización Docente donde se mecaniza los correspondientes a la adscripción de profesor a grupo de asignatura. Una vez mecanicen esta adscripción se reflejará al día siguiente en Campus Virtual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=389&artlang=es
+Detalle resultado: 0.98846215 = (MATCH) sum of:
+  0.7913253 = (MATCH) product of:
+    1.5826505 = (MATCH) sum of:
+      0.7913253 = (MATCH) weight(question:campus in 192), product of:
+        0.32298082 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.450069 = (MATCH) fieldWeight(question:campus in 192), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=192)
+      0.7913253 = (MATCH) weight(question:virtual in 192), product of:
+        0.32298082 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.450069 = (MATCH) fieldWeight(question:virtual in 192), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=192)
+    0.5 = coord(2/4)
+  0.01186946 = (MATCH) product of:
+    0.02373892 = (MATCH) sum of:
+      0.012594116 = (MATCH) weight(categorie:campus in 192), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.13436778 = (MATCH) fieldWeight(categorie:campus in 192), product of:
+          2.6457512 = tf(termFreq(categorie:campus)=7)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=192)
+      0.011144806 = (MATCH) weight(categorie:virtual in 192), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.19034815 = (MATCH) fieldWeight(categorie:virtual in 192), product of:
+          6.0 = tf(termFreq(categorie:virtual)=36)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=192)
+    0.5 = coord(2/4)
+  0.18526739 = (MATCH) product of:
+    0.37053478 = (MATCH) sum of:
+      0.19338277 = (MATCH) weight(answerIndex:campus in 192), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.8607721 = (MATCH) fieldWeight(answerIndex:campus in 192), product of:
+          1.4142135 = tf(termFreq(answerIndex:campus)=2)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=192)
+      0.17715202 = (MATCH) weight(answerIndex:virtual in 192), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.8238579 = (MATCH) fieldWeight(answerIndex:virtual in 192), product of:
+          1.4142135 = tf(termFreq(answerIndex:virtual)=2)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=192)
+    0.5 = coord(2/4)
+
+Resultado: 2:
+Puntuación: 0.84834874
+	Pregunta: accedo bien a campus virtual pero no tengo la opcion de activar mi correo electronico
+	Respuesta:  Si se accede correctamente a Campus Virtual y no existe ningún enlace para activar el correo electrónico, puede que el problema sea debido a que se trata de una nueva cuenta de la Universidad de Jaén, y la opción se activará el día de comienzo del Curso Académico. Este problema sucede con alumnos recién matriculados, alumnos Erasmus o alumnos de otras Universidades.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=431&artlang=es
+Detalle resultado: 0.84834874 = (MATCH) sum of:
+  0.6782788 = (MATCH) product of:
+    1.3565576 = (MATCH) sum of:
+      0.6782788 = (MATCH) weight(question:campus in 194), product of:
+        0.32298082 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:campus in 194), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+      0.6782788 = (MATCH) weight(question:virtual in 194), product of:
+        0.32298082 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.05767352 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:virtual in 194), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+    0.5 = coord(2/4)
+  0.012865293 = (MATCH) product of:
+    0.025730586 = (MATCH) sum of:
+      0.014280385 = (MATCH) weight(categorie:campus in 194), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.15235874 = (MATCH) fieldWeight(categorie:campus in 194), product of:
+          3.0 = tf(termFreq(categorie:campus)=9)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+      0.0114502 = (MATCH) weight(categorie:virtual in 194), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.19556414 = (MATCH) fieldWeight(categorie:virtual in 194), product of:
+          6.164414 = tf(termFreq(categorie:virtual)=38)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+    0.5 = coord(2/4)
+  0.1572046 = (MATCH) product of:
+    0.3144092 = (MATCH) sum of:
+      0.16409071 = (MATCH) weight(answerIndex:campus in 194), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.7303893 = (MATCH) fieldWeight(answerIndex:campus in 194), product of:
+          1.0 = tf(termFreq(answerIndex:campus)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=194)
+      0.15031847 = (MATCH) weight(answerIndex:virtual in 194), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.69906664 = (MATCH) fieldWeight(answerIndex:virtual in 194), product of:
+          1.0 = tf(termFreq(answerIndex:virtual)=1)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=194)
+    0.5 = coord(2/4)
+
+Resultado: 3:
+Puntuación: 0.48700246
+	Pregunta: puedo cambiar mi identificador de usuario y mi direccion de correo electronico
+	Respuesta:  No. La dirección de correo electrónico crea automáticamente a partir del identificador de usuario de Campus Virtual. De esta forma se consigue que no existan coincidencias de identificadores entre todos los estudiantes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=117&artlang=es
+Detalle resultado: 0.48700243 = (MATCH) sum of:
+  0.098971665 = (MATCH) product of:
+    0.39588666 = (MATCH) sum of:
+      0.39588666 = (MATCH) weight(question:usuari in 237), product of:
+        0.2467505 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.05767352 = queryNorm
+        1.6044006 = (MATCH) fieldWeight(question:usuari in 237), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=237)
+    0.25 = coord(1/4)
+  0.011257131 = (MATCH) product of:
+    0.022514261 = (MATCH) sum of:
+      0.012495337 = (MATCH) weight(categorie:campus in 237), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.1333139 = (MATCH) fieldWeight(categorie:campus in 237), product of:
+          3.0 = tf(termFreq(categorie:campus)=9)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+      0.010018925 = (MATCH) weight(categorie:virtual in 237), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.17111862 = (MATCH) fieldWeight(categorie:virtual in 237), product of:
+          6.164414 = tf(termFreq(categorie:virtual)=38)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+    0.5 = coord(2/4)
+  0.37677366 = (MATCH) product of:
+    0.5023649 = (MATCH) sum of:
+      0.08315264 = (MATCH) weight(answerIndex:usuari in 237), product of:
+        0.13850206 = queryWeight(answerIndex:usuari), product of:
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.05767352 = queryNorm
+        0.6003711 = (MATCH) fieldWeight(answerIndex:usuari in 237), product of:
+          1.0 = tf(termFreq(answerIndex:usuari)=1)
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=237)
+      0.21878763 = (MATCH) weight(answerIndex:campus in 237), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.9738524 = (MATCH) fieldWeight(answerIndex:campus in 237), product of:
+          1.0 = tf(termFreq(answerIndex:campus)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=237)
+      0.20042464 = (MATCH) weight(answerIndex:virtual in 237), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.93208885 = (MATCH) fieldWeight(answerIndex:virtual in 237), product of:
+          1.0 = tf(termFreq(answerIndex:virtual)=1)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=237)
+    0.75 = coord(3/4)
+
+Resultado: 4:
+Puntuación: 0.44329274
+	Pregunta: que usuario y contraseña debo introducir
+	Respuesta:  Para acceder a Campus Virtual no hay que solicitar ningún usuario ni contraseña especial, basta con estar dado de alta en alguno de los sistemas de información de la Universidad y tener cuenta de correo electrónico. Su "Nombre de usuario" debe coincidir con la primera parte de su correo electrónico (sin indicar @ujaen.es) y su contraseña es la misma que utilizar para leer su correo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=26&artlang=es
+Detalle resultado: 0.44329274 = (MATCH) sum of:
+  0.13196222 = (MATCH) product of:
+    0.5278489 = (MATCH) sum of:
+      0.5278489 = (MATCH) weight(question:usuari in 188), product of:
+        0.2467505 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.05767352 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 188), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=188)
+    0.25 = coord(1/4)
+  0.009376104 = (MATCH) product of:
+    0.018752208 = (MATCH) sum of:
+      0.008244784 = (MATCH) weight(categorie:campus in 188), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.087964356 = (MATCH) fieldWeight(categorie:campus in 188), product of:
+          1.7320508 = tf(termFreq(categorie:campus)=3)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=188)
+      0.010507424 = (MATCH) weight(categorie:virtual in 188), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.17946196 = (MATCH) fieldWeight(categorie:virtual in 188), product of:
+          5.656854 = tf(termFreq(categorie:virtual)=32)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=188)
+    0.5 = coord(2/4)
+  0.3019544 = (MATCH) product of:
+    0.40260586 = (MATCH) sum of:
+      0.088196695 = (MATCH) weight(answerIndex:usuari in 188), product of:
+        0.13850206 = queryWeight(answerIndex:usuari), product of:
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.05767352 = queryNorm
+        0.63678974 = (MATCH) fieldWeight(answerIndex:usuari in 188), product of:
+          1.4142135 = tf(termFreq(answerIndex:usuari)=2)
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=188)
+      0.16409071 = (MATCH) weight(answerIndex:campus in 188), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.7303893 = (MATCH) fieldWeight(answerIndex:campus in 188), product of:
+          1.0 = tf(termFreq(answerIndex:campus)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=188)
+      0.15031847 = (MATCH) weight(answerIndex:virtual in 188), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.69906664 = (MATCH) fieldWeight(answerIndex:virtual in 188), product of:
+          1.0 = tf(termFreq(answerIndex:virtual)=1)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=188)
+    0.75 = coord(3/4)
+
+Resultado: 5:
+Puntuación: 0.43260115
+	Pregunta: usuario o contraseña no valido
+	Respuesta:  Si le aparece este error realice las siguientes comprobaciones: - Accede a "Campus Virtual" y NO a "Docencia Virtual". - Como identificador de usuario está introduciendo la primera parte del usuario de correo electrónico. NO hay que introducir @ujaen.es. - Al introducir la contraseña hay que diferenciar entre mayúsculas y minúsculas. - Si es un alumno, y hace más de dos años que no se ha matriculado no tiene acceso. - Si es un PDI/PAS cuyo contrato ha finalizado, no tiene acceso. - Si es un becario, no tiene acceso.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=27&artlang=es
+Detalle resultado: 0.43260115 = (MATCH) sum of:
+  0.13196222 = (MATCH) product of:
+    0.5278489 = (MATCH) sum of:
+      0.5278489 = (MATCH) weight(question:usuari in 189), product of:
+        0.2467505 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.05767352 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 189), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=189)
+    0.25 = coord(1/4)
+  0.010095298 = (MATCH) product of:
+    0.020190597 = (MATCH) sum of:
+      0.009520257 = (MATCH) weight(categorie:campus in 189), product of:
+        0.09372869 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.05767352 = queryNorm
+        0.10157249 = (MATCH) fieldWeight(categorie:campus in 189), product of:
+          2.0 = tf(termFreq(categorie:campus)=4)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=189)
+      0.01067034 = (MATCH) weight(categorie:virtual in 189), product of:
+        0.05854959 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.05767352 = queryNorm
+        0.18224448 = (MATCH) fieldWeight(categorie:virtual in 189), product of:
+          5.7445626 = tf(termFreq(categorie:virtual)=33)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=189)
+    0.5 = coord(2/4)
+  0.29054362 = (MATCH) product of:
+    0.3873915 = (MATCH) sum of:
+      0.07349724 = (MATCH) weight(answerIndex:usuari in 189), product of:
+        0.13850206 = queryWeight(answerIndex:usuari), product of:
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.05767352 = queryNorm
+        0.5306581 = (MATCH) fieldWeight(answerIndex:usuari in 189), product of:
+          1.4142135 = tf(termFreq(answerIndex:usuari)=2)
+          2.4014845 = idf(docFreq=97, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=189)
+      0.13674225 = (MATCH) weight(answerIndex:campus in 189), product of:
+        0.22466199 = queryWeight(answerIndex:campus), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.05767352 = queryNorm
+        0.6086577 = (MATCH) fieldWeight(answerIndex:campus in 189), product of:
+          1.0 = tf(termFreq(answerIndex:campus)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=189)
+      0.17715202 = (MATCH) weight(answerIndex:virtual in 189), product of:
+        0.21502739 = queryWeight(answerIndex:virtual), product of:
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.05767352 = queryNorm
+        0.8238579 = (MATCH) fieldWeight(answerIndex:virtual in 189), product of:
+          1.4142135 = tf(termFreq(answerIndex:virtual)=2)
+          3.7283554 = idf(docFreq=25, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=189)
+    0.75 = coord(3/4)
+
+Resultado: 6:
+Puntuación: 0.19616055
+	Pregunta: soy un alumno del programa socrates erasmus en la universidad como consigo mis credenciales
+	Respuesta:  Debes pasarte por tu Secretaría para que te faciliten tu usuario y password de Campus Virtual, si no dispones aún de él. Si ya dispones de estos datos, son los que puedes usar para acceder a las redes inalámbricas siguiendo las guías correspondientes a <a href="http://www.ujaen.es/sci/redes/rimuja/">RIMUJA </a>o <a href="http://www.ujaen.es/sci/redes/rimujaweb/">RIMUJA-WEB</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=230&artlang=es
+Detalle resultado: 0.19616055 = (MATCH) product of:
+  0.29424083 = (MATCH) sum of:
+    0.01166057 = (MATCH) product of:
+      0.02332114 = (MATCH) sum of:
+        0.013171243 = (MATCH) weight(categorie:campus in 290), product of:
+          0.09372869 = queryWeight(categorie:campus), product of:
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.05767352 = queryNorm
+          0.14052519 = (MATCH) fieldWeight(categorie:campus in 290), product of:
+            3.1622777 = tf(termFreq(categorie:campus)=10)
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=290)
+        0.010149897 = (MATCH) weight(categorie:virtual in 290), product of:
+          0.05854959 = queryWeight(categorie:virtual), product of:
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.05767352 = queryNorm
+          0.17335556 = (MATCH) fieldWeight(categorie:virtual in 290), product of:
+            6.244998 = tf(termFreq(categorie:virtual)=39)
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=290)
+      0.5 = coord(2/4)
+    0.28258026 = (MATCH) product of:
+      0.37677366 = (MATCH) sum of:
+        0.062364478 = (MATCH) weight(answerIndex:usuari in 290), product of:
+          0.13850206 = queryWeight(answerIndex:usuari), product of:
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.05767352 = queryNorm
+          0.45027834 = (MATCH) fieldWeight(answerIndex:usuari in 290), product of:
+            1.0 = tf(termFreq(answerIndex:usuari)=1)
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=290)
+        0.16409071 = (MATCH) weight(answerIndex:campus in 290), product of:
+          0.22466199 = queryWeight(answerIndex:campus), product of:
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.05767352 = queryNorm
+          0.7303893 = (MATCH) fieldWeight(answerIndex:campus in 290), product of:
+            1.0 = tf(termFreq(answerIndex:campus)=1)
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=290)
+        0.15031847 = (MATCH) weight(answerIndex:virtual in 290), product of:
+          0.21502739 = queryWeight(answerIndex:virtual), product of:
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.05767352 = queryNorm
+          0.69906664 = (MATCH) fieldWeight(answerIndex:virtual in 290), product of:
+            1.0 = tf(termFreq(answerIndex:virtual)=1)
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=290)
+      0.75 = coord(3/4)
+  0.6666667 = coord(2/3)
+
+Resultado: 7:
+Puntuación: 0.19505003
+	Pregunta: como se solicita el servicio de espacio en disco
+	Respuesta:  Este servicio no es necesario solicitarlo previamente, lo tienen a su disposición todos los profesores y todos los estudiantes mientras estén matriculados en la Universidad de Jaén. Para tener acceso a este servicio sólo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">campus virtual</a> de la Universidad de Jaén. 
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=284&artlang=es
+Detalle resultado: 0.19505003 = (MATCH) product of:
+  0.29257503 = (MATCH) sum of:
+    0.009994773 = (MATCH) product of:
+      0.019989546 = (MATCH) sum of:
+        0.011289636 = (MATCH) weight(categorie:campus in 385), product of:
+          0.09372869 = queryWeight(categorie:campus), product of:
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.05767352 = queryNorm
+          0.12045016 = (MATCH) fieldWeight(categorie:campus in 385), product of:
+            3.1622777 = tf(termFreq(categorie:campus)=10)
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=385)
+        0.008699912 = (MATCH) weight(categorie:virtual in 385), product of:
+          0.05854959 = queryWeight(categorie:virtual), product of:
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.05767352 = queryNorm
+          0.14859048 = (MATCH) fieldWeight(categorie:virtual in 385), product of:
+            6.244998 = tf(termFreq(categorie:virtual)=39)
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=385)
+      0.5 = coord(2/4)
+    0.28258026 = (MATCH) product of:
+      0.37677366 = (MATCH) sum of:
+        0.062364478 = (MATCH) weight(answerIndex:usuari in 385), product of:
+          0.13850206 = queryWeight(answerIndex:usuari), product of:
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.05767352 = queryNorm
+          0.45027834 = (MATCH) fieldWeight(answerIndex:usuari in 385), product of:
+            1.0 = tf(termFreq(answerIndex:usuari)=1)
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=385)
+        0.16409071 = (MATCH) weight(answerIndex:campus in 385), product of:
+          0.22466199 = queryWeight(answerIndex:campus), product of:
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.05767352 = queryNorm
+          0.7303893 = (MATCH) fieldWeight(answerIndex:campus in 385), product of:
+            1.0 = tf(termFreq(answerIndex:campus)=1)
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=385)
+        0.15031847 = (MATCH) weight(answerIndex:virtual in 385), product of:
+          0.21502739 = queryWeight(answerIndex:virtual), product of:
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.05767352 = queryNorm
+          0.69906664 = (MATCH) fieldWeight(answerIndex:virtual in 385), product of:
+            1.0 = tf(termFreq(answerIndex:virtual)=1)
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.1875 = fieldNorm(field=answerIndex, doc=385)
+      0.75 = coord(3/4)
+  0.6666667 = coord(2/3)
+
+Resultado: 8:
+Puntuación: 0.18405658
+	Pregunta: no funciona o no encuentro el asistente como me conecto a mi espacio en disco
+	Respuesta:  Si no te funciona o encuentras el asistente, puedes conectar de forma manual una unidad de red a tu espacio en disco. Estos son los pasos a seguir: Nota importante : si es la primera vez que accedes a este servicio no puedes utilizar esta conexión manual, en ese caso debes utilizar los asistentes descritos en esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> . Abre el explorador de Windows o Mi PC. En el menú "Herramientas" elige la opción "Conectar a unidad de red". Aparecerá esta ventana:   Selecciona la unidad Z: Carpeta: \\boreal\usuario$ (usuario es tu usuario del campus virtual, añádele el signo dolar $ al final) Pulsa donde dice "Conectar usando otro nombre usuario". Te aparecerá esta otra ventana: Usuario: aulas\usuario (usuario es de nuevo el del campus virtual) Contraseña: la del campus virtual Pulsa el botón aceptar Volverás a la ventana anterior, pulsa el botón Finalizar. Preguntas relacionadas: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>                  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=290&artlang=es
+Detalle resultado: 0.18405658 = (MATCH) product of:
+  0.27608487 = (MATCH) sum of:
+    0.009994773 = (MATCH) product of:
+      0.019989546 = (MATCH) sum of:
+        0.011289636 = (MATCH) weight(categorie:campus in 388), product of:
+          0.09372869 = queryWeight(categorie:campus), product of:
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.05767352 = queryNorm
+          0.12045016 = (MATCH) fieldWeight(categorie:campus in 388), product of:
+            3.1622777 = tf(termFreq(categorie:campus)=10)
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=388)
+        0.008699912 = (MATCH) weight(categorie:virtual in 388), product of:
+          0.05854959 = queryWeight(categorie:virtual), product of:
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.05767352 = queryNorm
+          0.14859048 = (MATCH) fieldWeight(categorie:virtual in 388), product of:
+            6.244998 = tf(termFreq(categorie:virtual)=39)
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=388)
+      0.5 = coord(2/4)
+    0.2660901 = (MATCH) product of:
+      0.35478678 = (MATCH) sum of:
+        0.08250045 = (MATCH) weight(answerIndex:usuari in 388), product of:
+          0.13850206 = queryWeight(answerIndex:usuari), product of:
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.05767352 = queryNorm
+          0.59566224 = (MATCH) fieldWeight(answerIndex:usuari in 388), product of:
+            2.6457512 = tf(termFreq(answerIndex:usuari)=7)
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=388)
+        0.14210673 = (MATCH) weight(answerIndex:campus in 388), product of:
+          0.22466199 = queryWeight(answerIndex:campus), product of:
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.05767352 = queryNorm
+          0.6325357 = (MATCH) fieldWeight(answerIndex:campus in 388), product of:
+            1.7320508 = tf(termFreq(answerIndex:campus)=3)
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=388)
+        0.13017961 = (MATCH) weight(answerIndex:virtual in 388), product of:
+          0.21502739 = queryWeight(answerIndex:virtual), product of:
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.05767352 = queryNorm
+          0.60540944 = (MATCH) fieldWeight(answerIndex:virtual in 388), product of:
+            1.7320508 = tf(termFreq(answerIndex:virtual)=3)
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=388)
+      0.75 = coord(3/4)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+Puntuación: 0.17725617
+	Pregunta: soy becario de investigacion y no puedo ver mi nomina
+	Respuesta:  Los becarios de investigación que cobran por "Nómina Externa" (gestionado por la Sección de Habilitación) en la UJA podrán acceder al portal para ver sus nóminas mensuales. Para poder acceder a la aplicación deberá tener pagos vigentes a día de hoy en la aplicación. Si en Campus Virtual no le aparece el enlace "mis nóminas", inténtelo nuevamente sustituyendo "index.jsp" por "index_portal.jsp" en la página inicial de Campus Virtual y pulse "enter" para cargar la nueva página. Si a continuación le aparece una ventanita indicando "Identificador y/o Contraseña incorrectos", pulse "aceptar" e introduzca el usuario/clave y pulse "enviar". Una vez validado, se mostratá directamente el portal de nóminas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=417&artlang=es
+Detalle resultado: 0.17725617 = (MATCH) product of:
+  0.26588425 = (MATCH) sum of:
+    0.012381105 = (MATCH) product of:
+      0.02476221 = (MATCH) sum of:
+        0.013463676 = (MATCH) weight(categorie:campus in 193), product of:
+          0.09372869 = queryWeight(categorie:campus), product of:
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.05767352 = queryNorm
+          0.1436452 = (MATCH) fieldWeight(categorie:campus in 193), product of:
+            2.828427 = tf(termFreq(categorie:campus)=8)
+            1.6251599 = idf(docFreq=212, maxDocs=398)
+            0.03125 = fieldNorm(field=categorie, doc=193)
+        0.011298534 = (MATCH) weight(categorie:virtual in 193), product of:
+          0.05854959 = queryWeight(categorie:virtual), product of:
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.05767352 = queryNorm
+          0.19297376 = (MATCH) fieldWeight(categorie:virtual in 193), product of:
+            6.0827627 = tf(termFreq(categorie:virtual)=37)
+            1.0151901 = idf(docFreq=391, maxDocs=398)
+            0.03125 = fieldNorm(field=categorie, doc=193)
+      0.5 = coord(2/4)
+    0.25350314 = (MATCH) product of:
+      0.33800417 = (MATCH) sum of:
+        0.04157632 = (MATCH) weight(answerIndex:usuari in 193), product of:
+          0.13850206 = queryWeight(answerIndex:usuari), product of:
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.05767352 = queryNorm
+          0.30018556 = (MATCH) fieldWeight(answerIndex:usuari in 193), product of:
+            1.0 = tf(termFreq(answerIndex:usuari)=1)
+            2.4014845 = idf(docFreq=97, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=193)
+        0.15470621 = (MATCH) weight(answerIndex:campus in 193), product of:
+          0.22466199 = queryWeight(answerIndex:campus), product of:
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.05767352 = queryNorm
+          0.68861765 = (MATCH) fieldWeight(answerIndex:campus in 193), product of:
+            1.4142135 = tf(termFreq(answerIndex:campus)=2)
+            3.8954096 = idf(docFreq=21, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=193)
+        0.14172162 = (MATCH) weight(answerIndex:virtual in 193), product of:
+          0.21502739 = queryWeight(answerIndex:virtual), product of:
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.05767352 = queryNorm
+          0.65908635 = (MATCH) fieldWeight(answerIndex:virtual in 193), product of:
+            1.4142135 = tf(termFreq(answerIndex:virtual)=2)
+            3.7283554 = idf(docFreq=25, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=193)
+      0.75 = coord(3/4)
+  0.6666667 = coord(2/3)

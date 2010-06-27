@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="microsoft office">
+                    <Question Text="como puedo ver los archivos en el formato de office 2007 si tengo instalada una version anterior de microsoft office">
+                         <AnswerIndex>el nuevo office 2007 incorpora algunos cambios con respecto a las version anterior como el formato de archivo por defecto para word excel y powerpoint 2007 que ha cambiado a xml extensible markup language para poder abrir archivos guardados con el nuevo formato con las versiones office 2003 office xp y office 2000 es necesario instalar el paquete de compatibilidad de microsoft office para formatos de archivo de word excel y powerpoint 2007 para mas informacion consulte la seccion intercambiar archivos entre las versiones anteriores de office y la version 2007</AnswerIndex>
+                         <Answer>El nuevo Office 2007 incorpora algunos cambios con respecto a las versión anterior, como el formato de archivo por defecto para Word, Excel y PowerPoint 2007 que ha cambiado a XML (Extensible Markup Language).
+Para poder abrir archivos guardados con el nuevo formato con las versiones Office 2003, Office Xp y Office 2000, es necesario instalar el <a href="file://ambar/wwwinstall/office/update/FileFormatConverters.exe">paquete de compatibilidad de Microsoft Office para formatos de archivo de Word, Excel y PowerPoint 2007</a>.
+Para más información consulte la sección <a href="http://office.microsoft.com/es-es/products/HA101686763082.aspx">intercambiar archivos entre las versiones anteriores de Office y la versión 2007</a>.</Answer>
+                         <Link>file://ambar/wwwinstall/office/update/FileFormatConverters.exe</Link>
+                         <Link>http://office.microsoft.com/es-es/products/HA101686763082.aspx</Link>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=54&id=357&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

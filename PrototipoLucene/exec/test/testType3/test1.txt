@@ -1,0 +1,204 @@
+Test 1
+
+Pregunta: quiero hacer un blog
+
+Tiempo de busqueda: 36ms
+Resultado: 0:
+Puntuación: 0.30531687
+	Pregunta: puedo crear un blog en la universidad de jaen
+	Respuesta:  El Servicio de Informática ofrece un servicio de blogs. En las páginas de  <a href="http://www.ujaen.es/sci/redes/solicitantes-sst.html">anexo de solicitantes</a> y <a href="http://www.ujaen.es/sci/redes/web/blogs/caracteristicas.html">características del servicio</a> podrá obtener más información sobre quiénes son los destinatarios de este servicio y en qué condiciones se ofrece.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=391&artlang=es
+Detalle resultado: 0.3053169 = (MATCH) product of:
+  0.6106338 = (MATCH) sum of:
+    0.6106338 = (MATCH) product of:
+      1.2212676 = (MATCH) sum of:
+        1.2212676 = (MATCH) weight(question:blog in 368), product of:
+          0.47410744 = queryWeight(question:blog), product of:
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.080523156 = queryNorm
+          2.5759299 = (MATCH) fieldWeight(question:blog in 368), product of:
+            1.0 = tf(termFreq(question:blog)=1)
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=368)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 1:
+Puntuación: 0.30531687
+	Pregunta: he olvidado la contraseña de mi blog como puedo obtener una nueva
+	Respuesta:  Al iniciar sesión en su blog encontrará el  enlace  siguiente: ¿Olvidaste tu contraseña?. Pulse, y siga los pasos. Al final del proceso recibirá un correo electrónico con una nueva clave.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=392&artlang=es
+Detalle resultado: 0.3053169 = (MATCH) product of:
+  0.6106338 = (MATCH) sum of:
+    0.6106338 = (MATCH) product of:
+      1.2212676 = (MATCH) sum of:
+        1.2212676 = (MATCH) weight(question:blog in 369), product of:
+          0.47410744 = queryWeight(question:blog), product of:
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.080523156 = queryNorm
+          2.5759299 = (MATCH) fieldWeight(question:blog in 369), product of:
+            1.0 = tf(termFreq(question:blog)=1)
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=369)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 2:
+Puntuación: 0.22082075
+	Pregunta: quiero hacer una pagina web como la hago
+	Respuesta:  El Servicio Web de la Universidad de Jaén dispone de una guía de estilo que se debe aplicar a todas las páginas web publicadas en: servidor institucional, servidores web autorizado y hospedaje web (páginas institucionales y páginas académicas personales). Para más información sobre la guía de estilo y sobre las plantillas disponibles para realizar las páginas web visite la dirección <a href="http://www.ujaen.es/sci/redes/web/guiaestilo/">http://www.ujaen.es/sci/redes/web/guiaestilo/</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=159&artlang=es
+Detalle resultado: 0.22082075 = (MATCH) product of:
+  0.4416415 = (MATCH) sum of:
+    0.4416415 = (MATCH) product of:
+      0.883283 = (MATCH) sum of:
+        0.883283 = (MATCH) weight(question:quier in 54), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          2.3419335 = (MATCH) fieldWeight(question:quier in 54), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.5 = fieldNorm(field=question, doc=54)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 3:
+Puntuación: 0.19321816
+	Pregunta: quiero poner un contador de visitas en mi pagina web como
+	Respuesta:  Primero deberá solicitar un contador web al Servicio de Informática mediante el modelo de solicitud de servicios web. Si ya tiene contador asignado acceda a la página web <a href="http://www.ujaen.es/sci/redes/web/contador/contador.html">http://www.ujaen.es/sci/redes/web/contador/contador.html</a> para proceder a insertar su contador en las páginas que desee.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=166&artlang=es
+Detalle resultado: 0.19321816 = (MATCH) product of:
+  0.3864363 = (MATCH) sum of:
+    0.3864363 = (MATCH) product of:
+      0.7728726 = (MATCH) sum of:
+        0.7728726 = (MATCH) weight(question:quier in 59), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          2.0491917 = (MATCH) fieldWeight(question:quier in 59), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=59)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 4:
+Puntuación: 0.16561556
+	Pregunta: quiero migrar mi equipo a windows xp professional
+	Respuesta:  Antes de proceder con la migración o la instalación debestener en cuenta los siguientes puntos: 1) Comprobarque tu equipo cumple las <a title="Características hardware mínimas para Windows XP" target="_blank" href="/index.phpq.ujaen.es/index.php?action=artikel cat=33 id=135 artlang=es">características hardware mínimas para Windows XP</a>. 2) <a href="http://www.microsoft.com/whdc/hcl/search.mspx">Comprobarla compatibilidad hardware de los componentes y periféricos de tu equipo conWindows XP</a>. 3) Obtenerdrivers actualizados de los dispositivos para Windows XP. Para ello, tendrá que visitar la web del fabricante del dispositivo. 4) Comprobar la compatibilidad software de las aplicaciones instaladas actualmente en su equipo, con el fin de verificar que son compatibles con Windows XP Professional. Para comprobar la compatibilidad puede ejecutar el Upgrade Advisor o Asesor de Actualizaciones de Microsoft, que se encuentra en el CD-ROM de instalación de Windows XP Professional. Para ello, ejecutamos el fichero "Setup.exe" y seleccionamos las siguientes opciones: - Comprobar la compatibilidad del sistema. - Comprobar mi sistema automáticamente. Otra opción es seguir la siguiente secuencia: Inicio Ejecutar y teclear 'winnt32 /checkupgradeonly'.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=33&id=133&artlang=es
+Detalle resultado: 0.16561557 = (MATCH) product of:
+  0.33123115 = (MATCH) sum of:
+    0.33123115 = (MATCH) product of:
+      0.6624623 = (MATCH) sum of:
+        0.6624623 = (MATCH) weight(question:quier in 118), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.7564502 = (MATCH) fieldWeight(question:quier in 118), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=118)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 5:
+Puntuación: 0.16561556
+	Pregunta: soy profesor y quiero reservar un aula de informatica que tengo que hacer
+	Respuesta:  Existen distintas aulas de informática,tanto en el Campus de Las Lagunillas como en la E.P.S. de Linares,destinadas exclusivamente a impartir docencia. En este enlace podrá saber cuálesson y dónde se encuentran las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" title="Aulas de informática disponibles">aulas de informática disponibles</a>, las de docencia son las de colorrojo. Una vez que haya decidido qué aula va a reservar,debe rellenar esta<a href="http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf" title="Solictud de reserva de aula de informática">solicitud</a> (no olvide especificar qué software va a usar) y enviarla al coordinador del aula correspondiente: Aulas de informática del Campus de lasLagunillas: Coordinador: Felipe Martínez Pérez Sección de Organización Docente. Edificio B-1. Teléfono: 953 21 22 81 E-mail: fmperez @ ujaen.es Aulas de informática la E.P.S. de Linares: Coordinador: Raúl Mata Campos Despacho B-208. Edificio B. EPS Linares. Teléfono: 953 648 558 E-mail:raul @ ujaen.es<a href="http://www3.ujaen.es/aulas/servicios_profesores.html top"></a> Como alternativa a esta solicitud, también puedesolicitar la reserva de un aula de informática desde la opción "<a href="http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html">Reservade espacios docentes</a>" del<a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">CampusVirtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=325&artlang=es
+Detalle resultado: 0.16561557 = (MATCH) product of:
+  0.33123115 = (MATCH) sum of:
+    0.33123115 = (MATCH) product of:
+      0.6624623 = (MATCH) sum of:
+        0.6624623 = (MATCH) weight(question:quier in 288), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.7564502 = (MATCH) fieldWeight(question:quier in 288), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=288)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 6:
+Puntuación: 0.16561556
+	Pregunta: tengo dos perfiles de outlook y quiero importar los contactos de uno de ellos en el otro como puede importar estos datos
+	Respuesta:  Sigue los siguientes pasos para "Exportar los contactos a un fichero externo .pst"Abre el perfil que contiene los contactos a exportarEntra en Archivo importar y exportar (Exportar a un archivo/Archivo de carpetas personales (.pst)Selecciona la subcarpeta ContactosIndica un nombre de archivo. Utiliza un nombre y unidad de disco que puedas recordar fácil pues en el siguiente paso lo utilizaremos.Cierra el perfil Nota: este paso lo puedes eliminar si conoces la ubicación del fichero .PST de tu perfil. Sigue los siguientes pasos para "Importar los contactos"Abre el perfil donde quieres importar los contactosEntra ne Archivo importar y exportar (Importar de otro programa o archivo/Archivo de carpetas personales PST)Indica la ubicación del archivo con el botón ExaminarFinalmente, selecciona la subcarpeta contactos.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=419&artlang=es
+Detalle resultado: 0.16561557 = (MATCH) product of:
+  0.33123115 = (MATCH) sum of:
+    0.33123115 = (MATCH) product of:
+      0.6624623 = (MATCH) sum of:
+        0.6624623 = (MATCH) weight(question:quier in 376), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.7564502 = (MATCH) fieldWeight(question:quier in 376), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=376)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 7:
+Puntuación: 0.13801298
+	Pregunta: tengo un ordenador con sistema operativo unix o linux y quiero sincronizarlo con ntp
+	Respuesta:  Para conseguir este software visite la página de <a href="http://www.rediris.es/gt/iris-ntp/docs/ tools"> Herramientas del Piloto del Servicio de Tiempo de RedIRIS </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=53&id=263&artlang=es
+Detalle resultado: 0.13801298 = (MATCH) product of:
+  0.27602595 = (MATCH) sum of:
+    0.27602595 = (MATCH) product of:
+      0.5520519 = (MATCH) sum of:
+        0.5520519 = (MATCH) weight(question:quier in 303), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.4637084 = (MATCH) fieldWeight(question:quier in 303), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=303)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 8:
+Puntuación: 0.13801298
+	Pregunta: tengo un ordenador con sistema operativo windows xp vista y quiero sincronizarlo con ntp
+	Respuesta:  Para la instalación y configuración del cliente de tiempo NetTime visite esta página: <a href="http://www.ujaen.es/sci/redes/riuja/ntp/guias/guiantp.htm"> Servicio de sincronización horaria </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=53&id=264&artlang=es
+Detalle resultado: 0.13801298 = (MATCH) product of:
+  0.27602595 = (MATCH) sum of:
+    0.27602595 = (MATCH) product of:
+      0.5520519 = (MATCH) sum of:
+        0.5520519 = (MATCH) weight(question:quier in 304), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.4637084 = (MATCH) fieldWeight(question:quier in 304), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=304)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.13801298
+	Pregunta: quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica
+	Respuesta:  En en primer lugar deberá comprobar si el softwareque quiere usar está ya instalado en el aula que tiene reservada, para ello puedeconsultar la lista de software instalado en la<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente. Si observa que el software no está instalado deberá solicitar su instalación al Servicio deInformática, para ello deberá rellenar y enviar la siguiente<a href="http://www3.ujaen.es/aulas/servicios_profesores.html instalacion%20software">solicitud</a>. Recuerde que sólo se instalará software que esté debidamentelicenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lopermita de forma legal.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es
+Detalle resultado: 0.13801298 = (MATCH) product of:
+  0.27602595 = (MATCH) sum of:
+    0.27602595 = (MATCH) product of:
+      0.5520519 = (MATCH) sum of:
+        0.5520519 = (MATCH) weight(question:quier in 320), product of:
+          0.37715974 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.080523156 = queryNorm
+          1.4637084 = (MATCH) fieldWeight(question:quier in 320), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=320)
+      0.5 = coord(1/2)
+  0.5 = coord(1/2) 

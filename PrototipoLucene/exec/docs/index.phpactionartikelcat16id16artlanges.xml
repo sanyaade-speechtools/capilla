@@ -1,0 +1,21 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="al intentar conectarme aparece el mensaje error al iniciar sesion consulte el registro del conmutador para obtener mas informacion">
+               <AnswerIndex>este error aparece cuando hay cualquier tipo de problema de autenticacion de usuario puede ser debido a varias causas ha introducido un usuario y contraseña no validos o ha cometido algun error al teclear en tal caso introduzca de nuevo el usuario y contraseña asegurandose de que son correctos su usuario no esta dado de alta en nuestro directorio ldap o su perfil de usuario no tiene permisos de acceso vpn compruebe si tiene acceso a campus virtual si no tiene acceso consulte con la unidad de gestion para ver si su usuario existe y tiene los privilegios de acceso suficientes tambien hay que tener en cuenta que el acceso por vpn esta filtrado a usuarios con un perfil de pas o pdi las opciones de autentificacion no estan correctamente configuradas puede comprobarlo en el menu opciones à opciones de autenticacion en la mayoria de los casos salvo usuarios especiales debera estar marcada la opcion autenticacion de la seguridad de grupo con el id de grupo y contraseña de grupo rellenas y la casilla autenticacion de contraseña de grupo marcada estas opciones vienen activadas por defecto cuando el cliente vpn se instala por primera vez si esta conectandose desde otra plataforma diferente a windows macos linux debe tener en cuenta que la configuracion para estas plataformas es diferente puede obtener mas informacion en los siguientes enlaces macos inst 4 linux inst 6 1 si el error no se debe a ninguna de estas causas pongase en contacto con el servicio de informatica indicando el problema</AnswerIndex>
+               <Answer>Este error aparece cuando hay cualquier tipo de problema de autenticación de usuario. Puede ser debido a varias causas: Ha introducido un usuario y contraseña no válidos o ha cometido algún error al teclear. En tal caso, introduzca de nuevo el usuario y contraseña, asegurándose de que son correctos. Su usuario no está dado de alta en nuestro directorio LDAP o su perfil de usuario no tiene permisos de acceso VPN. Compruebe si tiene acceso a Campus Virtual. Si no tiene acceso, consulte con la Unidad de Gestión para ver si su usuario existe y tiene los privilegios de acceso suficientes. También hay que tener en cuenta que el acceso por VPN está filtrado a usuarios con un perfil de PAS o PDI. Las opciones de autentificación no están correctamente configuradas. Puede comprobarlo en el menú Opciones à Opciones de autenticación. En la mayoría de los casos (salvo usuarios especiales) deberá estar marcada la opción Autenticación de la seguridad de grupo , con el ID de grupo y contraseña de grupo rellenas y la casilla Autenticación de contraseña de grupo marcada. Estas opciones vienen activadas por defecto cuando el cliente VPN se instala por primera vez. Si esta conectándose desde otra plataforma diferente a Windows (MacOS, Linux), debe tener en cuenta que la configuración para estas plataformas es diferente. Puede obtener más información en los siguientes enlaces: MacOS : <a href="https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html
+inst-4" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html
+inst-4</a>
+Linux: <a href="https://www.ujaen.es/sci/redes/vpn/seguro/linux.html
+inst-6.1" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/linux.html
+inst-6.1</a>
+Si el error no se debe a ninguna de estas causas, póngase en contacto con el Servicio de Informática indicando el problema.</Answer>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/macosx.html#inst-4</Link>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/linux.html#inst-6.1</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=16&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

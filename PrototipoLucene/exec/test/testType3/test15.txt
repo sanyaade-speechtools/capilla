@@ -1,0 +1,345 @@
+Test15
+Indexado: Question, Question
+
+Anotaci�n: Resultado perfecto para el contenido de la f.a.q
+
+Pregunta: que es el servicio de news
+
+Tiempo de busqueda: 1ms
+Resultado: 0:
+Puntuación: 3.5929868
+	Pregunta: no puede conectarse al servicio de news
+	Respuesta:  ¿Ha configurado correctamente el programa de conexión? El servidor de news del CICA es: news.cica.es ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el equipo está dado de alta en el DNS. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared. Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (corta fuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=48&id=130&artlang=es
+Detalle resultado: 3.5929868 = (MATCH) sum of:
+  3.5665708 = (MATCH) sum of:
+    1.0228541 = (MATCH) weight(question:servici in 247), product of:
+      0.51261634 = queryWeight(question:servici), product of:
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.12845209 = queryNorm
+      1.9953599 = (MATCH) fieldWeight(question:servici in 247), product of:
+        1.0 = tf(termFreq(question:servici)=1)
+        3.9907198 = idf(docFreq=19, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=247)
+    2.5437167 = (MATCH) weight(question:news in 247), product of:
+      0.8083882 = queryWeight(question:news), product of:
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.12845209 = queryNorm
+      3.1466525 = (MATCH) fieldWeight(question:news in 247), product of:
+        1.0 = tf(termFreq(question:news)=1)
+        6.293305 = idf(docFreq=1, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=247)
+  0.026415974 = (MATCH) sum of:
+    0.0128874555 = (MATCH) weight(categorie:servici in 247), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.09071992 = (MATCH) fieldWeight(categorie:servici in 247), product of:
+        3.0 = tf(termFreq(categorie:servici)=9)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=247)
+    0.013528518 = (MATCH) weight(categorie:news in 247), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.053664066 = (MATCH) fieldWeight(categorie:news in 247), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=247)
+
+Resultado: 1:
+Puntuación: 0.6457275
+	Pregunta: que es el servicio webmail
+	Respuesta:  El servicio Webmail es un cliente de correo electrónico a través de páginas web. Así, y utilizando un navegador de Internet podrás leer y envirar mensajes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=120&artlang=es
+Detalle resultado: 0.6457275 = (MATCH) sum of:
+  0.6392838 = (MATCH) product of:
+    1.2785676 = (MATCH) sum of:
+      1.2785676 = (MATCH) weight(question:servici in 239), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        2.4941998 = (MATCH) fieldWeight(question:servici in 239), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=239)
+    0.5 = coord(1/2)
+  0.0064437278 = (MATCH) product of:
+    0.0128874555 = (MATCH) sum of:
+      0.0128874555 = (MATCH) weight(categorie:servici in 239), product of:
+        0.14205761 = queryWeight(categorie:servici), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.12845209 = queryNorm
+        0.09071992 = (MATCH) fieldWeight(categorie:servici in 239), product of:
+          3.0 = tf(termFreq(categorie:servici)=9)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=239)
+    0.5 = coord(1/2)
+
+Resultado: 2:
+Puntuación: 0.5431812
+	Pregunta: como utilizar el servicio de telefonia no molesten
+	Respuesta:  Si desea NO recibir llamadas entrantes en una línea individual: Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 27 Cuelgue Para CANCELAR esta facilidad: Siga el mismo procedimiento anterior marcando 27
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=278&artlang=es
+Detalle resultado: 0.5431812 = (MATCH) sum of:
+  0.51142704 = (MATCH) product of:
+    1.0228541 = (MATCH) sum of:
+      1.0228541 = (MATCH) weight(question:servici in 270), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:servici in 270), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=270)
+    0.5 = coord(1/2)
+  0.03175413 = (MATCH) sum of:
+    0.018225612 = (MATCH) weight(categorie:servici in 270), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.12829733 = (MATCH) fieldWeight(categorie:servici in 270), product of:
+        4.2426405 = tf(termFreq(categorie:servici)=18)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=270)
+    0.013528518 = (MATCH) weight(categorie:news in 270), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.053664066 = (MATCH) fieldWeight(categorie:news in 270), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=270)
+
+Resultado: 3:
+Puntuación: 0.5415932
+	Pregunta: como utilizar el servicio de telefonia sigame
+	Respuesta:  Si va a ausentarse temporalmente de su puesto y desea que sus llamadas sean recibidas en el lugar donde va a encontrarse, puede programar un desvío a otra extensión: Descuelgue el teléfono Espere tono de marcar Marque aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results 21 aux auxUTF8 docs exec_dir_parser.sh parserFAQ.sh parserFAQ.sh~ results nº de contestación Espere tono de verificación Cuelgue el teléfono Mientras el teléfono esté programado con este tipo de desvío, puede efectuar llamadas salientes de la forma habitual. Para CANCELAR esta facilidad marque 21
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=237&artlang=es
+Detalle resultado: 0.5415932 = (MATCH) sum of:
+  0.51142704 = (MATCH) product of:
+    1.0228541 = (MATCH) sum of:
+      1.0228541 = (MATCH) weight(question:servici in 267), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:servici in 267), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=267)
+    0.5 = coord(1/2)
+  0.030166151 = (MATCH) sum of:
+    0.016637633 = (MATCH) weight(categorie:servici in 267), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.11711891 = (MATCH) fieldWeight(categorie:servici in 267), product of:
+        3.8729835 = tf(termFreq(categorie:servici)=15)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=267)
+    0.013528518 = (MATCH) weight(categorie:news in 267), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.053664066 = (MATCH) fieldWeight(categorie:news in 267), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.02734375 = fieldNorm(field=categorie, doc=267)
+
+Resultado: 4:
+Puntuación: 0.54029363
+	Pregunta: en que consiste el servicio de espacio en disco
+	Respuesta:  Mediante este servicio todos los alumnos y profesores de la Universidad de Jaén disponen de un espacio en discoindividual y privado en el que podrán almacenar ficheros, prácticas y documentossiempre y cuando estén relacionados con sus estudios. Cada usuario dispone de unlímite de almacenamiento de 400 Mb que no podrá sobrepasar. Excepcionalmente los alumnosmatriculados en la titulación de Ingeniería en Geodesia y Cartografía disponen de un límite de 1 GB.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=283&artlang=es
+Detalle resultado: 0.54029363 = (MATCH) sum of:
+  0.51142704 = (MATCH) product of:
+    1.0228541 = (MATCH) sum of:
+      1.0228541 = (MATCH) weight(question:servici in 384), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:servici in 384), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=384)
+    0.5 = coord(1/2)
+  0.028866593 = (MATCH) sum of:
+    0.017270721 = (MATCH) weight(categorie:servici in 384), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.121575475 = (MATCH) fieldWeight(categorie:servici in 384), product of:
+        4.690416 = tf(termFreq(categorie:servici)=22)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=384)
+    0.011595872 = (MATCH) weight(categorie:news in 384), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.04599777 = (MATCH) fieldWeight(categorie:news in 384), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=384)
+
+Resultado: 5:
+Puntuación: 0.54029363
+	Pregunta: como se solicita el servicio de espacio en disco
+	Respuesta:  Este servicio no es necesario solicitarlo previamente, lo tienen a su disposición todos los profesores y todos los estudiantes mientras estén matriculados en la Universidad de Jaén. Para tener acceso a este servicio sólo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">campus virtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=284&artlang=es
+Detalle resultado: 0.54029363 = (MATCH) sum of:
+  0.51142704 = (MATCH) product of:
+    1.0228541 = (MATCH) sum of:
+      1.0228541 = (MATCH) weight(question:servici in 385), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:servici in 385), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=385)
+    0.5 = coord(1/2)
+  0.028866593 = (MATCH) sum of:
+    0.017270721 = (MATCH) weight(categorie:servici in 385), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.121575475 = (MATCH) fieldWeight(categorie:servici in 385), product of:
+        4.690416 = tf(termFreq(categorie:servici)=22)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=385)
+    0.011595872 = (MATCH) weight(categorie:news in 385), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.04599777 = (MATCH) fieldWeight(categorie:news in 385), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=385)
+
+Resultado: 6:
+Puntuación: 0.51633656
+	Pregunta: que me ofrece el servicio web
+	Respuesta:  Consulte la dirección del servicio web <a href="http://www.ujaen.es/sci/redes/web/">http://www.ujaen.es/sci/redes/web/</a> También puede consultar las características detalladas del servicio en la dirección <a href="http://www.ujaen.es/sci/redes/web/caracteristicas.html">http://www.ujaen.es/sci/redes/web/caracteristicas.html</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=161&artlang=es
+Detalle resultado: 0.51633656 = (MATCH) sum of:
+  0.51142704 = (MATCH) product of:
+    1.0228541 = (MATCH) sum of:
+      1.0228541 = (MATCH) weight(question:servici in 55), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:servici in 55), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=55)
+    0.5 = coord(1/2)
+  0.0049095065 = (MATCH) product of:
+    0.009819013 = (MATCH) sum of:
+      0.009819013 = (MATCH) weight(categorie:servici in 55), product of:
+        0.14205761 = queryWeight(categorie:servici), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.12845209 = queryNorm
+        0.06911994 = (MATCH) fieldWeight(categorie:servici in 55), product of:
+          1.0 = tf(termFreq(categorie:servici)=1)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.0625 = fieldNorm(field=categorie, doc=55)
+    0.5 = coord(1/2)
+
+Resultado: 7:
+Puntuación: 0.47636527
+	Pregunta: que servicios estan disponibles utilizando rimuja
+	Respuesta:  La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm"> este enlace. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=213&artlang=es
+Detalle resultado: 0.47636527 = (MATCH) sum of:
+  0.44749868 = (MATCH) product of:
+    0.89499736 = (MATCH) sum of:
+      0.89499736 = (MATCH) weight(question:servici in 348), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.74594 = (MATCH) fieldWeight(question:servici in 348), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=348)
+    0.5 = coord(1/2)
+  0.028866593 = (MATCH) sum of:
+    0.017270721 = (MATCH) weight(categorie:servici in 348), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.121575475 = (MATCH) fieldWeight(categorie:servici in 348), product of:
+        4.690416 = tf(termFreq(categorie:servici)=22)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=348)
+    0.011595872 = (MATCH) weight(categorie:news in 348), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.04599777 = (MATCH) fieldWeight(categorie:news in 348), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=348)
+
+Resultado: 8:
+Puntuación: 0.45802125
+	Pregunta: que programas de correo recomienda el servicio de informatica
+	Respuesta:  El Servicio de Informática recomienda, y da soporte, de los siguientes lectores de correo: Mozilla Suite Mozilla Thunderbird Webmail: <a href="http://www.ujaen.es/webmail"> http://www.ujaen.es/webmail </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=25&id=77&artlang=es
+Detalle resultado: 0.45802125 = (MATCH) sum of:
+  0.44749868 = (MATCH) product of:
+    0.89499736 = (MATCH) sum of:
+      0.89499736 = (MATCH) weight(question:servici in 90), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.74594 = (MATCH) fieldWeight(question:servici in 90), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=90)
+    0.5 = coord(1/2)
+  0.010522564 = (MATCH) product of:
+    0.021045128 = (MATCH) sum of:
+      0.021045128 = (MATCH) weight(categorie:servici in 90), product of:
+        0.14205761 = queryWeight(categorie:servici), product of:
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.12845209 = queryNorm
+        0.14814502 = (MATCH) fieldWeight(categorie:servici in 90), product of:
+          2.4494898 = tf(termFreq(categorie:servici)=6)
+          1.105919 = idf(docFreq=357, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=90)
+    0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.41243687
+	Pregunta: que servicios estan disponibles utilizando rimuja web
+	Respuesta:  La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimujaweb/servicios.htm">este enlace</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=64&id=377&artlang=es
+Detalle resultado: 0.41243687 = (MATCH) sum of:
+  0.38357028 = (MATCH) product of:
+    0.76714057 = (MATCH) sum of:
+      0.76714057 = (MATCH) weight(question:servici in 358), product of:
+        0.51261634 = queryWeight(question:servici), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.12845209 = queryNorm
+        1.4965199 = (MATCH) fieldWeight(question:servici in 358), product of:
+          1.0 = tf(termFreq(question:servici)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=358)
+    0.5 = coord(1/2)
+  0.028866593 = (MATCH) sum of:
+    0.017270721 = (MATCH) weight(categorie:servici in 358), product of:
+      0.14205761 = queryWeight(categorie:servici), product of:
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.12845209 = queryNorm
+      0.121575475 = (MATCH) fieldWeight(categorie:servici in 358), product of:
+        4.690416 = tf(termFreq(categorie:servici)=22)
+        1.105919 = idf(docFreq=357, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=358)
+    0.011595872 = (MATCH) weight(categorie:news in 358), product of:
+      0.2520964 = queryWeight(categorie:news), product of:
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.12845209 = queryNorm
+      0.04599777 = (MATCH) fieldWeight(categorie:news in 358), product of:
+        1.0 = tf(termFreq(categorie:news)=1)
+        1.9625715 = idf(docFreq=151, maxDocs=398)
+        0.0234375 = fieldNorm(field=categorie, doc=358)

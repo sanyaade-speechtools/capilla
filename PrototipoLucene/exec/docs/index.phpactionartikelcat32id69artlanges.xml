@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="funcionamiento">
+                    <Question Text="mostrar ocultar iconos de inicio rapido">
+                         <AnswerIndex>hacer clic con el boton derecho sobre la barra de tareas propiedades y activar o desactivar la casilla mostrar inicio rapido</AnswerIndex>
+                         <Answer>Hacer clic con el botón derecho sobre la barra de tareas Propiedades y activar / desactivar la casilla Mostrar inicio rápido</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=32&id=69&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

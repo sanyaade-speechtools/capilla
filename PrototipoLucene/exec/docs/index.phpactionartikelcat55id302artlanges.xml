@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="listas de correo">
+          <Categorie Text="administrador propietario moderador">
+               <Question Text="he configurado una lista para que no se anuncie en la relacion completa de la maquina pero no funciona">
+                    <AnswerIndex>la opcion para restringir el anuncio de la lista solo funciona fuera de la intranet de la universidad de jaen conectese desde un equipo externo a la uja y comprobara como la lista no se anuncia</AnswerIndex>
+                    <Answer>La opción para restringir el anuncio de la lista sólo funciona fuera de la Intranet de la Universidad de Jaén. Conéctese desde un equipo externo a la UJA y comprobará como la lista no se anuncia.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=55&id=302&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

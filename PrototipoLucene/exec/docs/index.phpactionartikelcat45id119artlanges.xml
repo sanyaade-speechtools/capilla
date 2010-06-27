@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="estudiantes">
+               <Question Text="como acceder al buzon de correo">
+                    <AnswerIndex>si ya has activado el buzon en el campus virtual podras utilizarlo con cualquier navegador web conectandote al servicio webmail</AnswerIndex>
+                    <Answer>Si ya has activado el buzón en el Campus Virtual, podrás utilizarlo con cualquier navegador web, conectándote al servicio Webmail.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=45&id=119&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

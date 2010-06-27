@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="videoconferencia">
+          <Question Text="que alternativas existen para realizar videoconferencias">
+               <AnswerIndex>aunque la universidad de jaen dispone de un equipamiento especifico para realizar videoconferencias existen alternativas mas caseras para realizarlas sobre todo si solo se quiere realizar la videoconferencia de una unica persona a otra unica persona en esta pagina se exponen unas sencillas guias en las que se explica paso a paso como instalar configurar y realizar videoconferencias con algunos de los programas mas populares</AnswerIndex>
+               <Answer>Aunque la Universidad de Jaén dispone de un <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/guiapractica/guiavideo.html">equipamiento</a> específico para realizar videoconferencias existen alternativas más "caseras" para realizarlas, sobre todo si sólo se quiere realizar la videoconferencia de una única persona a otra única persona. En esta <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/otros_sistemas.html">página</a> se exponen unas sencillas guías en las que se explica paso a paso cómo instalar, configurar y realizar videoconferencias con algunos de los programas más populares.</Answer>
+               <Link>http://www.ujaen.es/sci/invdoc/sid/videoconferencia/guiapractica/guiavideo.html</Link>
+               <Link>http://www.ujaen.es/sci/invdoc/sid/videoconferencia/otros_sistemas.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=49&id=372&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

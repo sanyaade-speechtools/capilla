@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="impresoras">
+               <Categorie Text="local">
+                    <Question Text="mi impresora imprime caracteres extraños">
+                         <AnswerIndex>reinstale la impresora con el cd rom original del fabricante o de forma manual pero seleccionando el driver adecuado al modelo de impresora pudiera ser necesario visitar la pagina web del fabricante de la impresora y descargarse los ultimos drivers del modelo en cuestion</AnswerIndex>
+                         <Answer>Reinstale la impresora con el CD-ROM original del fabricante o de forma manual, pero seleccionando el driver adecuado al modelo de impresora (pudiera ser necesario visitar la página Web del fabricante de la impresora y descargarse los últimos drivers del modelo en cuestión).</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=34&id=139&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

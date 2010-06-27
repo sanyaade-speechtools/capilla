@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="que numero de virus hay actualmente en el entorno pc">
+                         <AnswerIndex>hay mas de 120 000 virus conocidos aunque por supuesto muchos de ellos no son muy frecuentes</AnswerIndex>
+                         <Answer>Hay más de 120.000 virus conocidos, aunque por supuesto muchos de ellos no son muy frecuentes.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=178&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

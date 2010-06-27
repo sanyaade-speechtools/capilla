@@ -1,0 +1,13 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="fatfile">
+          <Question Text="no puedo descargar el fichero que me han enviado con fatfile">
+               <AnswerIndex>el fichero enviado mendiante el sistema fatfile tiene un periodo de permanencia que oscila entre 3 dias y una semana este tiempo es seleccionado por el remitente del mensaje por lo que si necesita de nuevo el archivo debera solicitarlo al remitente</AnswerIndex>
+               <Answer>El fichero enviado mendiante el sistema FATfile tiene un periodo de permanencia que oscila entre 3 días y una semana. Este tiempo es seleccionado por el remitente del mensaje, por lo que si necesita de nuevo el archivo deberá solicitarlo al remitente.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=9&id=314&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

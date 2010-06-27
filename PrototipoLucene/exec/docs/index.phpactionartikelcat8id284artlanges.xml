@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="espacio en disco">
+          <Question Text="como se solicita el servicio de espacio en disco">
+               <AnswerIndex>este servicio no es necesario solicitarlo previamente lo tienen a su disposicion todos los profesores y todos los estudiantes mientras esten matriculados en la universidad de jaen para tener acceso a este servicio solo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al campus virtual de la universidad de jaen</AnswerIndex>
+               <Answer>Este servicio no es necesario solicitarlo previamente, lo tienen a su disposición todos los profesores y todos los estudiantes mientras estén matriculados en la Universidad de Jaén.
+Para tener acceso a este servicio sólo es necesario disponer de un usuario y contraseña que son los mismos que se utilizan para acceder al <a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">campus virtual</a> de la Universidad de Jaén. </Answer>
+               <Link>https://morena.ujaen.es:7776/campus_virtual/index.jsp</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=8&id=284&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

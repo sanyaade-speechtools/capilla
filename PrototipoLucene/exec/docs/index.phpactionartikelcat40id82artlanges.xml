@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="netscape communicator 4 x">
+               <Question Text="como puedo convertir mi perfil netscape communicator a mozilla">
+                    <AnswerIndex>mozilla detecta y convierte automaticamente los perfiles de netscape communicator la libreta de direcciones es la unica informacion que no convierte porque el formato de los ficheros es propietario tendra que seguir una serie de pasos para convertir su perfil si tiene problemas durante la instalacion y su perfil communicator no se ha detectado cierre todas las ventanas de mozilla pulse en el boton inicio ejecutar de windows y escriba mozilla exe installer</AnswerIndex>
+                    <Answer>Mozilla detecta y convierte automáticamente los perfiles de Netscape Communicator. La libreta de direcciones es la única información que no convierte porque el formato de los ficheros es propietario. Tendrá que seguir una serie de pasos para <a href="http://www.ujaen.es/sci/redes/email/mozilla/migracion_nsmz.html" target="_blank">convertir su perfil</a>.
+Si tiene problemas durante la instalación y su perfil Communicator no se ha detectado. Cierre todas las ventanas de Mozilla, pulse en el botón "Inicio | Ejecutar..." de Windows y escriba mozilla.exe -installer.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/mozilla/migracion_nsmz.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=40&id=82&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="ftp transferencia de ficheros">
+          <Categorie Text="problemas al conectar o transferir ficheros">
+               <Question Text="no puede conectarse al servidor ftp anonimo">
+                    <AnswerIndex>esta indicando el servidor correcto el servidor ftp es ftp ujaen es funciona la red si hay algun aviso de corte programado en riuja entonces hay que esperar a que se restablezca la red compruebe que el cable de red esta bien conectado tarjeta de red y roseta pared asegurese de que puede navegar por internet conectese a una pagina que no haya visitado recientemente tambien se puede intentar realizar un ping a la maquina del usuario si tiene un firewall cortafuegos personal revise la configuracion</AnswerIndex>
+                    <Answer>¿Está indicando el servidor correcto?
+ El servidor ftp es: <a href="ftp://ftp.ujaen.es">ftp.ujaen.es</a> ¿Funciona la red?
+Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared.  Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (cortafuegos) personal, revise la configuración.</Answer>
+                    <Link>ftp://ftp.ujaen.es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=47&id=129&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

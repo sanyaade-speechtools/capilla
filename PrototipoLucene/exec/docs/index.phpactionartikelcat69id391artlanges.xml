@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="blogs">
+               <Question Text="puedo crear un blog en la universidad de jaen">
+                    <AnswerIndex>el servicio de informatica ofrece un servicio de blogs en las paginas de anexo de solicitantes y caracteristicas del servicio podra obtener mas informacion sobre quienes son los destinatarios de este servicio y en que condiciones se ofrece</AnswerIndex>
+                    <Answer>El Servicio de Informática ofrece un servicio de blogs. En las páginas de  <a href="http://www.ujaen.es/sci/redes/solicitantes-sst.html">anexo de solicitantes</a> y <a href="http://www.ujaen.es/sci/redes/web/blogs/caracteristicas.html">características del servicio</a> podrá obtener más información sobre quiénes son los destinatarios de este servicio y en qué condiciones se ofrece.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/solicitantes-sst.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/web/blogs/caracteristicas.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=69&id=391&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

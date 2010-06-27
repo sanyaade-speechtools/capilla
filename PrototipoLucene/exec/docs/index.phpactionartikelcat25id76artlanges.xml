@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="caracteristicas del servicio de correo de la uja">
+               <Question Text="cual es la capacidad de mi buzon de correo">
+                    <AnswerIndex>el espacio dedicado a almacenar mensajes de correo esta limitado por tipo usuario pas o pdi o becarios estudiantes</AnswerIndex>
+                    <Answer>El espacio dedicado a almacenar mensajes de correo está limitado por tipo usuario:
+- <a href="http://www.ujaen.es/sci/redes/email/caracteristicas.html" target="_blank">PAS/PDI/Becarios</a> - <a href="http://www.ujaen.es/sci/redes/email/caracteristicasestudiantes.html" target="_blank">Estudiantes</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/caracteristicas.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/caracteristicasestudiantes.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=25&id=76&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>
