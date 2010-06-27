@@ -1,15 +1,17 @@
 Test 1
 Indexado: Question,Category
 
-Anotaciones: Delvuelve un resultado perfecto.
+AnotaciÃ³n: El resultado 0 no es el idoneo pero es aceptable porque se
+refiere al servicio de blogs de la universidad por lo que puede orientar
+al usuario, aunque el mejor resultado no se obtiene.
 
 Pregunta: quiero hacer un blog
 
 Tiempo de busqueda: 0ms
 Resultado: 0:
 PuntuaciÃ³n: 0.5322393
-	Pregunta: he olvidado la contraseña de mi blog como puedo obtener una nueva
-	Respuesta:  Al iniciar sesión en su blog encontrará el  enlace  siguiente: ¿Olvidaste tu contraseña?. Pulse, y siga los pasos. Al final del proceso recibirá un correo electrónico con una nueva clave.
+	Pregunta: he olvidado la contraseï¿½a de mi blog como puedo obtener una nueva
+	Respuesta:  Al iniciar sesiï¿½n en su blog encontrarï¿½ï¿½el ï¿½enlaceï¿½ siguiente: ï¿½Olvidaste tu contraseï¿½a?. Pulse, y siga los pasos. Al final del proceso recibirï¿½ un correo electrï¿½nico conï¿½una nueva clave.
 	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=392&artlang=es
 Detalle resultado: 0.5322393 = (MATCH) product of:
   0.7983589 = (MATCH) sum of:
@@ -40,7 +42,7 @@ Detalle resultado: 0.5322393 = (MATCH) product of:
 Resultado: 1:
 PuntuaciÃ³n: 0.25437298
 	Pregunta: tengo dos perfiles de outlook y quiero importar los contactos de uno de ellos en el otro como puede importar estos datos
-	Respuesta:  Sigue los siguientes pasos para "Exportar los contactos a un fichero externo .pst" Abre el perfil que contiene los contactos a exportar Entra en Archivo importar y exportar? (Exportar a un archivo/Archivo de carpetas personales (.pst) Selecciona la subcarpeta Contactos Indica un nombre de archivo. Utiliza un nombre y unidad de disco que puedas recordar fácil pues en el siguiente paso lo utilizaremos. Cierra el perfil  Nota: este paso lo puedes eliminar si conoces la ubicación del fichero .PST de tu perfil.  Sigue los siguientes pasos para "Importar los contactos" Abre el perfil donde quieres importar los contactos Entra ne Archivo importar y exportar? (Importar de otro programa o archivo/Archivo de carpetas personales PST) Indica la ubicación del archivo con el botón Examinar? Finalmente, selecciona la subcarpeta contactos.
+	Respuesta:  Sigue los siguientes pasos para "Exportar los contactos a un fichero externo .pst" Abre el perfil que contiene los contactos a exportar Entra en Archivo importar y exportar? (Exportar a un archivo/Archivo de carpetas personales (.pst) Selecciona la subcarpeta Contactos Indica un nombre de archivo. Utiliza un nombre y unidad de disco que puedas recordar fï¿½cil pues en el siguiente paso lo utilizaremos. Cierra el perfil ï¿½Nota: este paso lo puedes eliminar si conoces la ubicaciï¿½n del fichero .PST de tu perfil. ï¿½Sigue los siguientes pasos para "Importar los contactos" Abre el perfil donde quieres importar los contactos Entra ne Archivo importar y exportar? (Importar de otro programa o archivo/Archivo de carpetas personales PST) Indica la ubicaciï¿½n del archivo con el botï¿½n Examinar? Finalmente, selecciona la subcarpeta contactos.
 	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=419&artlang=es
 Detalle resultado: 0.254373 = (MATCH) product of:
   0.3815595 = (MATCH) sum of:
