@@ -1,0 +1,23 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="problemas de conexion vpn en portatiles y tablets pc mediante conexion inalambrica">
+               <AnswerIndex>en los portatiles y tablets pc del ultimo plan renove del servicio de informatica en determinados casos se han detectado problemas cuando se hace la conexion mediante el cliente vpn uja a traves de una conexion wi fi inalambrica a pesar de que toda la configuracion es correcta al intentar conectarse aparece despues de un rato un mensaje de tipo el host remoto no responde el error es debido a una instalacion incorrecta del cliente vpn que viene originalmente con la imagen de estos equipos la solucion es sencilla 1 entrar en boton inicio configuracion panel de control agregar o quitar programas 2 desinstalar completamente tanto el cliente vpn uja como el agente tunnelguard 3 reiniciar el equipo 4 instalar la version actual del software desde</AnswerIndex>
+               <Answer>En los portátiles y tablets PC del último Plan Renove del Servicio de Informática, en determinados casos se han detectado problemas cuando se hace la conexión mediante el cliente VPN-UJA a través de una conexión wi-fi (inalámbrica).
+A pesar de que toda la configuración es correcta, al intentar conectarse aparece después de un rato un mensaje de tipo "El host remoto no responde".
+El error es debido a una instalación incorrecta del cliente VPN que viene originalmente con la imagen de estos equipos.
+La solución es sencilla:
+1) Entrar en Botón Inicio -- Configuración -- Panel de Control -- Agregar o quitar programas.
+2) Desinstalar completamente tanto el cliente VPN-UJA como el agente TunnelGuard.
+3) Reiniciar el equipo.
+4) Instalar la versión actual del software desde:
+<a href="https://www.ujaen.es/sci/redes/vpn/seguro/soft.html" target="_blank">https://www.ujaen.es/sci/redes/vpn/seguro/soft.html</a>
+ </Answer>
+               <Link>https://www.ujaen.es/sci/redes/vpn/seguro/soft.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=410&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

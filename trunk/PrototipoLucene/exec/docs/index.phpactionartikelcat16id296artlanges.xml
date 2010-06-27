@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="red privada virtual vpn">
+          <Question Text="problemas en la conexion vpn con el firewall zonealarm">
+               <AnswerIndex>se han detectado problemas en la conexion con el cliente vpn uja y el firewall personal zonealarm de checkpoint en determinados casos especialmente con las ultimas versiones de este firewall 6 y 7 la conexion se queda en la ventana de espera de recibir el mensaje de bienvenida del servidor vpn de la universidad de jaen y pasados unos segundos se corta la solucion pasa por modificar las zonas preestablecidas de zonealarm para ello es necesario entrar en el panel de administracion de zonealarm en el apartado servidor de seguridad y en la pestaña principal una vez ahi en el apartado seguridad en la zona de internet bajamos el nivel de alto por defecto a medio cerramos la ventana de zonealarm y probamos de nuevo la conexion que ya debe funcionar alternativamente siempre queda la opcion no recomendable de desactivar el firewall zonealarm cada vez que se establezca una conexion vpn ficheros adjuntos zasliders gif</AnswerIndex>
+               <Answer>Se han detectado problemas en la conexión con el cliente VPN-UJA y el firewall personal ZoneAlarm de CheckPoint en determinados casos, especialmente con las últimas versiones de este firewall (6 y 7).
+La conexión se queda en la ventana de espera de recibir el mensaje de bienvenida del servidor VPN de la Universidad de Jaén, y pasados unos segundos se corta.
+La solución pasa por modificar las zonas preestablecidas de ZoneAlarm. Para ello, es necesario entrar en el Panel de Administración de ZoneAlarm, en el apartado " Servidor de Seguridad " y en la pestaña " Principal ".
+Una vez ahí, en el apartado "Seguridad en la Zona de Internet" bajamos el nivel de Alto (por defecto) a Medio.
+Cerramos la ventana de ZoneAlarm y probamos de nuevo la conexión, que ya debe funcionar.
+Alternativamente, siempre queda la opción (no recomendable) de desactivar el firewall ZoneAlarm cada vez que se establezca una conexión VPN.
+ficheros adjuntos: <a href="attachments/296/zasliders.gif" target="_blank">zasliders.gif</a></Answer>
+               <Link>attachments/296/zasliders.gif</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=16&id=296&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

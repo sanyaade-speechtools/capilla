@@ -1,0 +1,385 @@
+Test9
+Indexaci�n: Question
+
+Anotaciones:
+
+Pregunta: donde obtengo mi usuario de campus virtual
+
+Tiempo de busqueda: 3ms
+Resultado: 0:
+Puntuación: 1.041169
+	Pregunta: no puedo acceder a campus virtual
+	Respuesta:  - Compruebe que el equipo tiene acceso a la red. Para ello compruebe si puede navegar por internet. - Asegurése que realmente está intentando acceder a Campus Virtual y NO a Docencia Virtual. - Compruebe la versión de su navegador. Debe acceder como mínimo con las versiones Internet Explorer 5.5 ó Netscape 6.0. - Si accede desde fuera de la Universidad, y lo hace a través de un proxy, compruebe que no corta la conexión por el puerto 7776. <a name="dos"></a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=25&artlang=es
+Detalle resultado: 1.041169 = (MATCH) sum of:
+  1.0314327 = (MATCH) product of:
+    2.0628655 = (MATCH) sum of:
+      1.0314327 = (MATCH) weight(question:campus in 187), product of:
+        0.36835846 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.8000789 = (MATCH) fieldWeight(question:campus in 187), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=187)
+      1.0314327 = (MATCH) weight(question:virtual in 187), product of:
+        0.36835846 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.8000789 = (MATCH) fieldWeight(question:virtual in 187), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=187)
+    0.5 = coord(2/4)
+  0.009736292 = (MATCH) product of:
+    0.019472584 = (MATCH) sum of:
+      0.007677637 = (MATCH) weight(categorie:campus in 187), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.0718226 = (MATCH) fieldWeight(categorie:campus in 187), product of:
+          1.4142135 = tf(termFreq(categorie:campus)=2)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=187)
+      0.011794948 = (MATCH) weight(categorie:virtual in 187), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.17663561 = (MATCH) fieldWeight(categorie:virtual in 187), product of:
+          5.5677643 = tf(termFreq(categorie:virtual)=31)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=187)
+    0.5 = coord(2/4)
+
+Resultado: 1:
+Puntuación: 0.9160407
+	Pregunta: no me aparecen en campus virtual las asignaturas que imparto
+	Respuesta:  Campus Virtual refleja diariamente los datos que existen en la aplicación de Gestión Académica y Recursos Docentes, y es en la Sección de Organización Docente del Servicio de Personal y Organización Docente donde se mecaniza los correspondientes a la adscripción de profesor a grupo de asignatura. Una vez mecanicen esta adscripción se reflejará al día siguiente en Campus Virtual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=389&artlang=es
+Detalle resultado: 0.91604066 = (MATCH) sum of:
+  0.9025036 = (MATCH) product of:
+    1.8050072 = (MATCH) sum of:
+      0.9025036 = (MATCH) weight(question:campus in 192), product of:
+        0.36835846 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.450069 = (MATCH) fieldWeight(question:campus in 192), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=192)
+      0.9025036 = (MATCH) weight(question:virtual in 192), product of:
+        0.36835846 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.450069 = (MATCH) fieldWeight(question:virtual in 192), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=192)
+    0.5 = coord(2/4)
+  0.013537077 = (MATCH) product of:
+    0.027074154 = (MATCH) sum of:
+      0.014363544 = (MATCH) weight(categorie:campus in 192), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.13436778 = (MATCH) fieldWeight(categorie:campus in 192), product of:
+          2.6457512 = tf(termFreq(categorie:campus)=7)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=192)
+      0.012710611 = (MATCH) weight(categorie:virtual in 192), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.19034815 = (MATCH) fieldWeight(categorie:virtual in 192), product of:
+          6.0 = tf(termFreq(categorie:virtual)=36)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=192)
+    0.5 = coord(2/4)
+
+Resultado: 2:
+Puntuación: 0.7882474
+	Pregunta: accedo bien a campus virtual pero no tengo la opcion de activar mi correo electronico
+	Respuesta:  Si se accede correctamente a Campus Virtual y no existe ningún enlace para activar el correo electrónico, puede que el problema sea debido a que se trata de una nueva cuenta de la Universidad de Jaén, y la opción se activará el día de comienzo del Curso Académico. Este problema sucede con alumnos recién matriculados, alumnos Erasmus o alumnos de otras Universidades.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=431&artlang=es
+Detalle resultado: 0.78824735 = (MATCH) sum of:
+  0.77357453 = (MATCH) product of:
+    1.5471491 = (MATCH) sum of:
+      0.77357453 = (MATCH) weight(question:campus in 194), product of:
+        0.36835846 = queryWeight(question:campus), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:campus in 194), product of:
+          1.0 = tf(termFreq(question:campus)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+      0.77357453 = (MATCH) weight(question:virtual in 194), product of:
+        0.36835846 = queryWeight(question:virtual), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.065776445 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:virtual in 194), product of:
+          1.0 = tf(termFreq(question:virtual)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+    0.5 = coord(2/4)
+  0.01467282 = (MATCH) product of:
+    0.02934564 = (MATCH) sum of:
+      0.016286729 = (MATCH) weight(categorie:campus in 194), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.15235874 = (MATCH) fieldWeight(categorie:campus in 194), product of:
+          3.0 = tf(termFreq(categorie:campus)=9)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+      0.013058912 = (MATCH) weight(categorie:virtual in 194), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.19556414 = (MATCH) fieldWeight(categorie:virtual in 194), product of:
+          6.164414 = tf(termFreq(categorie:virtual)=38)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+    0.5 = coord(2/4)
+
+Resultado: 3:
+Puntuación: 0.1620161
+	Pregunta: usuario o contraseña no valido
+	Respuesta:  Si le aparece este error realice las siguientes comprobaciones: - Accede a "Campus Virtual" y NO a "Docencia Virtual". - Como identificador de usuario está introduciendo la primera parte del usuario de correo electrónico. NO hay que introducir @ujaen.es. - Al introducir la contraseña hay que diferenciar entre mayúsculas y minúsculas. - Si es un alumno, y hace más de dos años que no se ha matriculado no tiene acceso. - Si es un PDI/PAS cuyo contrato ha finalizado, no tiene acceso. - Si es un becario, no tiene acceso.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=27&artlang=es
+Detalle resultado: 0.1620161 = (MATCH) sum of:
+  0.15050244 = (MATCH) product of:
+    0.6020098 = (MATCH) sum of:
+      0.6020098 = (MATCH) weight(question:usuari in 189), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 189), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=189)
+    0.25 = coord(1/4)
+  0.011513651 = (MATCH) product of:
+    0.023027303 = (MATCH) sum of:
+      0.010857819 = (MATCH) weight(categorie:campus in 189), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.10157249 = (MATCH) fieldWeight(categorie:campus in 189), product of:
+          2.0 = tf(termFreq(categorie:campus)=4)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=189)
+      0.012169484 = (MATCH) weight(categorie:virtual in 189), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.18224448 = (MATCH) fieldWeight(categorie:virtual in 189), product of:
+          5.7445626 = tf(termFreq(categorie:virtual)=33)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=189)
+    0.5 = coord(2/4)
+
+Resultado: 4:
+Puntuación: 0.16190144
+	Pregunta: hay portatiles a disposicion de los usuarios
+	Respuesta:  Sí, a través de la Biblioteca Universitaria. Para ver las condiciones, revise <a href="http://www.ujaen.es/serv/biblio/portatiles.html">esta documentación</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=221&artlang=es
+Detalle resultado: 0.16190144 = (MATCH) sum of:
+  0.15050244 = (MATCH) product of:
+    0.6020098 = (MATCH) sum of:
+      0.6020098 = (MATCH) weight(question:usuari in 332), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 332), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=332)
+    0.25 = coord(1/4)
+  0.011399003 = (MATCH) product of:
+    0.022798005 = (MATCH) sum of:
+      0.012875789 = (MATCH) weight(categorie:campus in 332), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.12045016 = (MATCH) fieldWeight(categorie:campus in 332), product of:
+          3.1622777 = tf(termFreq(categorie:campus)=10)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=332)
+      0.009922218 = (MATCH) weight(categorie:virtual in 332), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.14859048 = (MATCH) fieldWeight(categorie:virtual in 332), product of:
+          6.244998 = tf(termFreq(categorie:virtual)=39)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=332)
+    0.5 = coord(2/4)
+
+Resultado: 5:
+Puntuación: 0.16190144
+	Pregunta: como envio un fichero a varios usuarios
+	Respuesta:  Simplemente acceda al sistema mediante su usuario y contraseña y en el campo de destinatarios indique las direcciones de correo separadas por coma.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=9&id=309&artlang=es
+Detalle resultado: 0.16190144 = (MATCH) sum of:
+  0.15050244 = (MATCH) product of:
+    0.6020098 = (MATCH) sum of:
+      0.6020098 = (MATCH) weight(question:usuari in 392), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 392), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=392)
+    0.25 = coord(1/4)
+  0.011399003 = (MATCH) product of:
+    0.022798005 = (MATCH) sum of:
+      0.012875789 = (MATCH) weight(categorie:campus in 392), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.12045016 = (MATCH) fieldWeight(categorie:campus in 392), product of:
+          3.1622777 = tf(termFreq(categorie:campus)=10)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=392)
+      0.009922218 = (MATCH) weight(categorie:virtual in 392), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.14859048 = (MATCH) fieldWeight(categorie:virtual in 392), product of:
+          6.244998 = tf(termFreq(categorie:virtual)=39)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=392)
+    0.5 = coord(2/4)
+
+Resultado: 6:
+Puntuación: 0.16119586
+	Pregunta: que usuario y contraseña debo introducir
+	Respuesta:  Para acceder a Campus Virtual no hay que solicitar ningún usuario ni contraseña especial, basta con estar dado de alta en alguno de los sistemas de información de la Universidad y tener cuenta de correo electrónico. Su "Nombre de usuario" debe coincidir con la primera parte de su correo electrónico (sin indicar @ujaen.es) y su contraseña es la misma que utilizar para leer su correo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=26&artlang=es
+Detalle resultado: 0.16119586 = (MATCH) sum of:
+  0.15050244 = (MATCH) product of:
+    0.6020098 = (MATCH) sum of:
+      0.6020098 = (MATCH) weight(question:usuari in 188), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        2.139201 = (MATCH) fieldWeight(question:usuari in 188), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=188)
+    0.25 = coord(1/4)
+  0.010693413 = (MATCH) product of:
+    0.021386826 = (MATCH) sum of:
+      0.009403147 = (MATCH) weight(categorie:campus in 188), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.087964356 = (MATCH) fieldWeight(categorie:campus in 188), product of:
+          1.7320508 = tf(termFreq(categorie:campus)=3)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=188)
+      0.01198368 = (MATCH) weight(categorie:virtual in 188), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.17946196 = (MATCH) fieldWeight(categorie:virtual in 188), product of:
+          5.656854 = tf(termFreq(categorie:virtual)=32)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=188)
+    0.5 = coord(2/4)
+
+Resultado: 7:
+Puntuación: 0.14308864
+	Pregunta: hay tarjetas inalambricas a disposicion de los usuarios de rimuja
+	Respuesta:  Sólo para los usuarios del perfil PDI o PAS con portátil de la Universidad (con número de inventario) y que no disponga de tarjeta inalámbrica interna o que ésta no sea compatible con WPA. Puedes solicitar una tarjeta inalámbrica externa a través de la <a href="http://www.ujaen.es/murphy/averiaequipo.html"> Solicitud electrónica </a>   o presencialmente en la <a href="http://www.ujaen.es/sci/sau/"> Oficina de Atención al Usuario </a> , y te será enviada/entregada por el Servicio de Informática. Se entregará UNA SOLA TARJETA por equipo inventariado, en caso de extravío, el usuario deberá adquirirla por su cuenta.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=220&artlang=es
+Detalle resultado: 0.14308864 = (MATCH) sum of:
+  0.13168964 = (MATCH) product of:
+    0.52675855 = (MATCH) sum of:
+      0.52675855 = (MATCH) weight(question:usuari in 351), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        1.8718008 = (MATCH) fieldWeight(question:usuari in 351), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=351)
+    0.25 = coord(1/4)
+  0.011399003 = (MATCH) product of:
+    0.022798005 = (MATCH) sum of:
+      0.012875789 = (MATCH) weight(categorie:campus in 351), product of:
+        0.106897235 = queryWeight(categorie:campus), product of:
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.065776445 = queryNorm
+        0.12045016 = (MATCH) fieldWeight(categorie:campus in 351), product of:
+          3.1622777 = tf(termFreq(categorie:campus)=10)
+          1.6251599 = idf(docFreq=212, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=351)
+      0.009922218 = (MATCH) weight(categorie:virtual in 351), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.14859048 = (MATCH) fieldWeight(categorie:virtual in 351), product of:
+          6.244998 = tf(termFreq(categorie:virtual)=39)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=351)
+    0.5 = coord(2/4)
+
+Resultado: 8:
+Puntuación: 0.13596769
+	Pregunta: activar desactivar cambio rapido de usuario
+	Respuesta:  Si queremos tener activo el cambio rápido deusuario tendremos que <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=33 id=64 artlang=es" target="_blank" title="Mostrar la pantalla de bienvenida">activar previamente la pantalla de bienvenida</a>. Una vez activada, en la misma ventana marcaremos o desmarcaremos lacasilla "Usar cambio rápido de usuario"
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=65&artlang=es
+Detalle resultado: 0.13596769 = (MATCH) sum of:
+  0.13168964 = (MATCH) product of:
+    0.52675855 = (MATCH) sum of:
+      0.52675855 = (MATCH) weight(question:usuari in 114), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        1.8718008 = (MATCH) fieldWeight(question:usuari in 114), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=114)
+    0.25 = coord(1/4)
+  0.004278046 = (MATCH) product of:
+    0.017112184 = (MATCH) sum of:
+      0.017112184 = (MATCH) weight(categorie:virtual in 114), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.25626403 = (MATCH) fieldWeight(categorie:virtual in 114), product of:
+          5.3851647 = tf(termFreq(categorie:virtual)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.046875 = fieldNorm(field=categorie, doc=114)
+    0.25 = coord(1/4)
+
+Resultado: 9:
+Puntuación: 0.13525468
+	Pregunta: activar desactivar cambio rapido de usuario
+	Respuesta:  Si queremos tener activo el cambio rápido deusuario tendremos que <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=33 id=64 artlang=es" target="_blank" title="Mostrar la pantalla de bienvenida">activar previamente la pantalla de bienvenida</a>. Una vez activada, en la misma ventana marcaremos o desmarcaremos lacasilla "Usar cambio rápido de usuario"
+	Url: faq.ujaen.es/index.php?action=artikel&cat=33&id=65&artlang=es
+Detalle resultado: 0.13525468 = (MATCH) sum of:
+  0.13168964 = (MATCH) product of:
+    0.52675855 = (MATCH) sum of:
+      0.52675855 = (MATCH) weight(question:usuari in 126), product of:
+        0.28141806 = queryWeight(question:usuari), product of:
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.065776445 = queryNorm
+        1.8718008 = (MATCH) fieldWeight(question:usuari in 126), product of:
+          1.0 = tf(termFreq(question:usuari)=1)
+          4.278402 = idf(docFreq=14, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=126)
+    0.25 = coord(1/4)
+  0.0035650386 = (MATCH) product of:
+    0.014260154 = (MATCH) sum of:
+      0.014260154 = (MATCH) weight(categorie:virtual in 126), product of:
+        0.0667756 = queryWeight(categorie:virtual), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.065776445 = queryNorm
+        0.21355337 = (MATCH) fieldWeight(categorie:virtual in 126), product of:
+          5.3851647 = tf(termFreq(categorie:virtual)=29)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=126)
+    0.25 = coord(1/4)

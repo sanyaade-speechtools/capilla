@@ -1,0 +1,69 @@
+Test 1
+Indexado: Question,Category
+
+Anotaciones: Delvuelve un resultado perfecto.
+
+Pregunta: quiero hacer un blog
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 0.5322393
+	Pregunta: he olvidado la contraseña de mi blog como puedo obtener una nueva
+	Respuesta:  Al iniciar sesión en su blog encontrará el  enlace  siguiente: ¿Olvidaste tu contraseña?. Pulse, y siga los pasos. Al final del proceso recibirá un correo electrónico con una nueva clave.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=69&id=392&artlang=es
+Detalle resultado: 0.5322393 = (MATCH) product of:
+  0.7983589 = (MATCH) sum of:
+    0.50810885 = (MATCH) product of:
+      1.0162177 = (MATCH) sum of:
+        1.0162177 = (MATCH) weight(question:blog in 369), product of:
+          0.3945052 = queryWeight(question:blog), product of:
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.067003384 = queryNorm
+          2.5759299 = (MATCH) fieldWeight(question:blog in 369), product of:
+            1.0 = tf(termFreq(question:blog)=1)
+            5.88784 = idf(docFreq=2, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=369)
+      0.5 = coord(1/2)
+    0.2902501 = (MATCH) product of:
+      0.5805002 = (MATCH) sum of:
+        0.5805002 = (MATCH) weight(answerIndex:blog in 369), product of:
+          0.42167273 = queryWeight(answerIndex:blog), product of:
+            6.293305 = idf(docFreq=1, maxDocs=398)
+            0.067003384 = queryNorm
+          1.3766605 = (MATCH) fieldWeight(answerIndex:blog in 369), product of:
+            1.0 = tf(termFreq(answerIndex:blog)=1)
+            6.293305 = idf(docFreq=1, maxDocs=398)
+            0.21875 = fieldNorm(field=answerIndex, doc=369)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.25437298
+	Pregunta: tengo dos perfiles de outlook y quiero importar los contactos de uno de ellos en el otro como puede importar estos datos
+	Respuesta:  Sigue los siguientes pasos para "Exportar los contactos a un fichero externo .pst" Abre el perfil que contiene los contactos a exportar Entra en Archivo importar y exportar? (Exportar a un archivo/Archivo de carpetas personales (.pst) Selecciona la subcarpeta Contactos Indica un nombre de archivo. Utiliza un nombre y unidad de disco que puedas recordar fácil pues en el siguiente paso lo utilizaremos. Cierra el perfil  Nota: este paso lo puedes eliminar si conoces la ubicación del fichero .PST de tu perfil.  Sigue los siguientes pasos para "Importar los contactos" Abre el perfil donde quieres importar los contactos Entra ne Archivo importar y exportar? (Importar de otro programa o archivo/Archivo de carpetas personales PST) Indica la ubicación del archivo con el botón Examinar? Finalmente, selecciona la subcarpeta contactos.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=419&artlang=es
+Detalle resultado: 0.254373 = (MATCH) product of:
+  0.3815595 = (MATCH) sum of:
+    0.27561772 = (MATCH) product of:
+      0.55123544 = (MATCH) sum of:
+        0.55123544 = (MATCH) weight(question:quier in 376), product of:
+          0.31383494 = queryWeight(question:quier), product of:
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.067003384 = queryNorm
+          1.7564502 = (MATCH) fieldWeight(question:quier in 376), product of:
+            1.0 = tf(termFreq(question:quier)=1)
+            4.683867 = idf(docFreq=9, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=376)
+      0.5 = coord(1/2)
+    0.10594176 = (MATCH) product of:
+      0.21188352 = (MATCH) sum of:
+        0.21188352 = (MATCH) weight(answerIndex:quier in 376), product of:
+          0.36027816 = queryWeight(answerIndex:quier), product of:
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.067003384 = queryNorm
+          0.5881109 = (MATCH) fieldWeight(answerIndex:quier in 376), product of:
+            1.0 = tf(termFreq(answerIndex:quier)=1)
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.109375 = fieldNorm(field=answerIndex, doc=376)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)

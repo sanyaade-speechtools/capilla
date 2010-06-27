@@ -1,0 +1,721 @@
+Test 16
+
+Indexado: Question
+
+Anotación: La respuesta no es del todo correcta.
+
+Pregunta: como puedo conectar mi impresora en red linux
+
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 0.86239266
+	Pregunta: cuando me conecto desde linux la conexion se hace correctamente pero no hay trafico de red
+	Respuesta:  El problema generalmente es debido al cortafuegos interno de Linux (iptables). Para que la conexión VPN funcione correctamente, se debe permitir el paso de tráfico para los siguientes puertos: Protocolo 50 (ESP) en ambos sentidos Protocolo 51 (AH) Puerto UDP 500 (ISAKMP) Puerto UDP 10001 (NAT Transversal) Esto, generalmente se puede hacer editando el fichero correspondiente de iptables (en Redhat /etc/sysconfig/iptables) o con alguna herramienta gráfica propietaria de la distribución. Si a pesar de abrir los puertos anteriores sigue sin haber tráfico de red, se puede abrir todo el tráfico relativo a la interfaz virtual de VPN (nlv0), con una regla del tipo: iptables -A input -i nlv0 -j ACCEPT En cualquier caso, se recomienda consultar la ayuda correspondiente a iptables.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=343&artlang=es
+Detalle resultado: 0.8623928 = (MATCH) sum of:
+  0.7645276 = (MATCH) product of:
+    1.2742126 = (MATCH) sum of:
+      0.2838775 = (MATCH) weight(question:conect in 15), product of:
+        0.21878226 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2975343 = (MATCH) fieldWeight(question:conect in 15), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=15)
+      0.30478653 = (MATCH) weight(question:red in 15), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.3444705 = (MATCH) fieldWeight(question:red in 15), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=15)
+      0.6855485 = (MATCH) weight(question:linux in 15), product of:
+        0.33998966 = queryWeight(question:linux), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.063230194 = queryNorm
+        2.0163803 = (MATCH) fieldWeight(question:linux in 15), product of:
+          1.0 = tf(termFreq(question:linux)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=15)
+    0.6 = coord(3/5)
+  0.012920523 = (MATCH) product of:
+    0.032301307 = (MATCH) sum of:
+      0.007864157 = (MATCH) weight(categorie:impresor in 15), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.12468632 = (MATCH) fieldWeight(categorie:impresor in 15), product of:
+          1.0 = tf(termFreq(categorie:impresor)=1)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.125 = fieldNorm(field=categorie, doc=15)
+      0.02443715 = (MATCH) weight(categorie:red in 15), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.3806963 = (MATCH) fieldWeight(categorie:red in 15), product of:
+          3.0 = tf(termFreq(categorie:red)=9)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.125 = fieldNorm(field=categorie, doc=15)
+    0.4 = coord(2/5)
+  0.08494466 = (MATCH) product of:
+    0.21236163 = (MATCH) sum of:
+      0.060638554 = (MATCH) weight(answerIndex:red in 15), product of:
+        0.18723094 = queryWeight(answerIndex:red), product of:
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.063230194 = queryNorm
+        0.32387036 = (MATCH) fieldWeight(answerIndex:red in 15), product of:
+          1.0 = tf(termFreq(answerIndex:red)=1)
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=15)
+      0.15172309 = (MATCH) weight(answerIndex:linux in 15), product of:
+        0.29616183 = queryWeight(answerIndex:linux), product of:
+          4.683867 = idf(docFreq=9, maxDocs=398)
+          0.063230194 = queryNorm
+        0.5122979 = (MATCH) fieldWeight(answerIndex:linux in 15), product of:
+          1.0 = tf(termFreq(answerIndex:linux)=1)
+          4.683867 = idf(docFreq=9, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=15)
+    0.4 = coord(2/5)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.754935
+	Pregunta: instalar o agregar una nueva impresora compartida conectada localmente a otro equipo de la red
+	Respuesta:  Mediante el asistente para " Agregar impresora ", que se encuentra en "Impresoras y Faxes", dentro de Panel de Control. Seleccionamos "Una impresora en red o una impresora conectada a otro equipo", después seleccionamos "Buscar una impresora" y por último, en "Impresoras compartidas", habría que buscar la que queremos instalar. Si la impresora deseada no aparece en "Impresoras compartidas" tiene que hacer las siguientes comprobaciones:   EN SU EQUIPO : 1)   Compruebe que puede acceder correctamente al equipo mediante el icono Entorno de Red. Si no lo encuentra, siga los siguientes pasos: Botón Inicio Buscar Archivos o carpetas . En ¿qué desea buscar? Seleccione la opción "Equipos o personas". En ¿qué está buscando? Seleccione la opción "Un equipo en la red".Escriba el nombre del equipo que comparte la impresora y compruebe que puede encontrarlo en la red Microsoft. Debe asegurarse de que los dos ordenadores están en la misma subred y en el mismo grupo de trabajo , y su equipo puede acceder correctamente a la impresora compartida. ( Nota : el nombre de equipo y grupo de trabajo se consulta haciendo clic con el botón derecho del ratón sobre el icono "Mi PC" del escritorio, en "Propiedades". Ahí seleccionamos la pestaña "Nombre de equipo")   En el EQUIPO REMOTO (al que está conectado la impresora) : 1)   Compruebe que dicho equipo está encendido. 2) Compruebe que la impresora está compartida correctamente y con los permisos adecuados: Inicio Panel de Control Impresoras. Pulse con el botón derecho del ratón sobre el icono de la impresora correspondiente y seleccione Compartir. Debe estar marcada la casilla Compartir como... , tener relleno el campo "Nombre del Recurso" y comprobar la contraseña (en caso de que la tuviera).
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=147&artlang=es
+Detalle resultado: 0.754935 = (MATCH) sum of:
+  0.47423238 = (MATCH) product of:
+    0.7903873 = (MATCH) sum of:
+      0.23656456 = (MATCH) weight(question:conect in 143), product of:
+        0.21878226 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.063230194 = queryNorm
+        1.0812786 = (MATCH) fieldWeight(question:conect in 143), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=143)
+      0.29983392 = (MATCH) weight(question:impresor in 143), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:impresor in 143), product of:
+          1.0 = tf(termFreq(question:impresor)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=143)
+      0.25398877 = (MATCH) weight(question:red in 143), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.1203921 = (MATCH) fieldWeight(question:red in 143), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=143)
+    0.6 = coord(3/5)
+  0.009393525 = (MATCH) product of:
+    0.023483813 = (MATCH) sum of:
+      0.008860819 = (MATCH) weight(categorie:impresor in 143), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.14048842 = (MATCH) fieldWeight(categorie:impresor in 143), product of:
+          3.6055512 = tf(termFreq(categorie:impresor)=13)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=143)
+      0.014622995 = (MATCH) weight(categorie:red in 143), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.2278056 = (MATCH) fieldWeight(categorie:red in 143), product of:
+          5.7445626 = tf(termFreq(categorie:red)=33)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=143)
+    0.4 = coord(2/5)
+  0.2713091 = (MATCH) product of:
+    0.45218182 = (MATCH) sum of:
+      0.07834748 = (MATCH) weight(answerIndex:conect in 143), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        0.3700009 = (MATCH) fieldWeight(answerIndex:conect in 143), product of:
+          1.4142135 = tf(termFreq(answerIndex:conect)=2)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.078125 = fieldNorm(field=answerIndex, doc=143)
+      0.28720784 = (MATCH) weight(answerIndex:impresor in 143), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        1.152293 = (MATCH) fieldWeight(answerIndex:impresor in 143), product of:
+          3.7416575 = tf(termFreq(answerIndex:impresor)=14)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.078125 = fieldNorm(field=answerIndex, doc=143)
+      0.0866265 = (MATCH) weight(answerIndex:red in 143), product of:
+        0.18723094 = queryWeight(answerIndex:red), product of:
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.063230194 = queryNorm
+        0.46267194 = (MATCH) fieldWeight(answerIndex:red in 143), product of:
+          2.0 = tf(termFreq(answerIndex:red)=4)
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.078125 = fieldNorm(field=answerIndex, doc=143)
+    0.6 = coord(3/5)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.67207336
+	Pregunta: no puedo acceder a mis impresoras en red ni a mis recursos compartidos a que es debido
+	Respuesta:  Cuando se establece la conexión VPN, todo el tráfico de red se encamina por el túnel cifrado que se establece con la red de la Universidad de Jaén (RIUJA). El resto del tráfico de red habitual hacia Internet se corta, y se permiten únicamente aquellos servicios que el Servicio de Informática tiene habilitados para VPN. En el caso de recursos compartidos mediante la red Microsoft (impresoras, carpetas del disco duro, etc), estos quedan cortados desde el momento en que se establece la conexión VPN, por el riesgo de seguridad que ello supone. Por lo tanto, mientras esté conectado mediante VPN, no podrá acceder a carpetas en red ni imprimir por impresoras en red. Sin embargo, las impresoras conectadas localmente a su equipo no están afectadas por esta restricción, por lo que puede usarlas sin problemas. Si en algún momento, necesita hacer uso de servicios no permitidos por el servicio de VPN, simplemente desconecte la sesión VPN momentáneamente, haga uso de los recursos de red que necesite y vuelva a conectar de nuevo mediante el cliente VPN-UJA.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=43&artlang=es
+Detalle resultado: 0.67207336 = (MATCH) sum of:
+  0.4111933 = (MATCH) product of:
+    0.68532217 = (MATCH) sum of:
+      0.13149945 = (MATCH) weight(question:pued in 27), product of:
+        0.16311699 = queryWeight(question:pued), product of:
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.063230194 = queryNorm
+        0.80616647 = (MATCH) fieldWeight(question:pued in 27), product of:
+          1.0 = tf(termFreq(question:pued)=1)
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=27)
+      0.29983392 = (MATCH) weight(question:impresor in 27), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:impresor in 27), product of:
+          1.0 = tf(termFreq(question:impresor)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=27)
+      0.25398877 = (MATCH) weight(question:red in 27), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.1203921 = (MATCH) fieldWeight(question:red in 27), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=27)
+    0.6 = coord(3/5)
+  0.013557757 = (MATCH) product of:
+    0.033894394 = (MATCH) sum of:
+      0.0058981176 = (MATCH) weight(categorie:impresor in 27), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.09351474 = (MATCH) fieldWeight(categorie:impresor in 27), product of:
+          1.0 = tf(termFreq(categorie:impresor)=1)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.09375 = fieldNorm(field=categorie, doc=27)
+      0.027996276 = (MATCH) weight(categorie:red in 27), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.43614244 = (MATCH) fieldWeight(categorie:red in 27), product of:
+          4.582576 = tf(termFreq(categorie:red)=21)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.09375 = fieldNorm(field=categorie, doc=27)
+    0.4 = coord(2/5)
+  0.24732228 = (MATCH) product of:
+    0.4122038 = (MATCH) sum of:
+      0.11514681 = (MATCH) weight(answerIndex:conect in 27), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        0.543788 = (MATCH) fieldWeight(answerIndex:conect in 27), product of:
+          1.7320508 = tf(termFreq(answerIndex:conect)=3)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=27)
+      0.15954168 = (MATCH) weight(answerIndex:impresor in 27), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        0.64008963 = (MATCH) fieldWeight(answerIndex:impresor in 27), product of:
+          1.7320508 = tf(termFreq(answerIndex:impresor)=3)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=27)
+      0.1375153 = (MATCH) weight(answerIndex:red in 27), product of:
+        0.18723094 = queryWeight(answerIndex:red), product of:
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.063230194 = queryNorm
+        0.7344689 = (MATCH) fieldWeight(answerIndex:red in 27), product of:
+          2.6457512 = tf(termFreq(answerIndex:red)=7)
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=27)
+    0.6 = coord(3/5)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.6540298
+	Pregunta: como configuro o conecto mi ordenador a una impresora fotocopiadora que se encuentra conectada directamente a la red riuja
+	Respuesta:  Deberá remitirnos una <a href="http://www.ujaen.es/murphy/averiaequipo.html">solicitud de incidencia</a> ,  donde el tipo de equipo será su ordenador e indicará en el apartado Descripción de la incidencia: "Deseo configurar mi ordenador para conectarme a la impresora  con número de inventario _______". En el menor tiempo posible, el Servicio de Informática enviará a un técnico que le realizará las actuaciones necesarias para abordar su petición satisfactoriamente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=206&artlang=es
+Detalle resultado: 0.65402985 = (MATCH) sum of:
+  0.5330253 = (MATCH) product of:
+    0.8883755 = (MATCH) sum of:
+      0.33455282 = (MATCH) weight(question:conect in 259), product of:
+        0.21878226 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.063230194 = queryNorm
+        1.5291588 = (MATCH) fieldWeight(question:conect in 259), product of:
+          1.4142135 = tf(termFreq(question:conect)=2)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=259)
+      0.29983392 = (MATCH) weight(question:impresor in 259), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:impresor in 259), product of:
+          1.0 = tf(termFreq(question:impresor)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=259)
+      0.25398877 = (MATCH) weight(question:red in 259), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.1203921 = (MATCH) fieldWeight(question:red in 259), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=259)
+    0.6 = coord(3/5)
+  0.015276822 = (MATCH) product of:
+    0.02546137 = (MATCH) sum of:
+      0.0066149496 = (MATCH) weight(categorie:conect in 259), product of:
+        0.123679146 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.063230194 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 259), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+      0.0072985482 = (MATCH) weight(categorie:impresor in 259), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.11571859 = (MATCH) fieldWeight(categorie:impresor in 259), product of:
+          4.2426405 = tf(termFreq(categorie:impresor)=18)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+      0.011547873 = (MATCH) weight(categorie:red in 259), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.17989954 = (MATCH) fieldWeight(categorie:red in 259), product of:
+          6.4807405 = tf(termFreq(categorie:red)=42)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+    0.6 = coord(3/5)
+  0.10572765 = (MATCH) product of:
+    0.26431912 = (MATCH) sum of:
+      0.11080007 = (MATCH) weight(answerIndex:conect in 259), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        0.5232603 = (MATCH) fieldWeight(answerIndex:conect in 259), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=259)
+      0.15351905 = (MATCH) weight(answerIndex:impresor in 259), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        0.6159265 = (MATCH) fieldWeight(answerIndex:impresor in 259), product of:
+          1.0 = tf(termFreq(answerIndex:impresor)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=259)
+    0.4 = coord(2/5)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.5974333
+	Pregunta: tengo una impresora compartida conectada localmente a otro equipo de la red pero no imprime y no da ningun mensaje de error
+	Respuesta:  EN SU EQUIPO : 1)   Compruebe que la impresora está instalada y en estado "Listo": Para ello, siga los siguientes pasos: Botón Inicio Panel de Control Impresoras. Pase el puntero del ratón sobre el icono de la impresora correspondiente y verifique que el estado es "Listo" o "Preparado". 2)   Si el estado es "Listo" o "Preparado", <a href="http://www.ujaen.es/sci/sau/procedimientos/colaimpre.htm"> compruebe la cola de impresión </a> y el estado de los trabajos que se encuentran en cola. Compruebe si hay algún trabajo de impresión que esté atascando los demás e intente eliminarlo (con el botón derecho del ratón sobre el trabajo). Si el estado es "No preparado" siga con las comprobaciones en el equipo remoto (a continuación).   En el EQUIPO REMOTO (al que está conectado la impresora) : 1)   Compruebe que dicho equipo está encendido. 2) Compruebe que la impresora está compartida correctamente y con los permisos adecuados: Botón Inicio Panel de Control Impresoras. Pulse con el botón derecho del ratón sobre el icono de la impresora correspondiente y seleccione Compartir . Debe estar marcada la casilla Compartir como ..., tener relleno el campo Nombre del recurso y comprobar la contraseña (en caso de que la tenga). 3) Compruebe que se puede imprimir correctamente desde ese equipo remoto. Imprima una página de prueba:  Inicio Panel de Control Impresoras. Pulse con el botón derecho del ratón sobre el icono de la impresora correspondiente y seleccione Propiedades. En la ventana que se abre haga clic en Imprimir Página de Prueba .
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=145&artlang=es
+Detalle resultado: 0.5974333 = (MATCH) sum of:
+  0.47423238 = (MATCH) product of:
+    0.7903873 = (MATCH) sum of:
+      0.23656456 = (MATCH) weight(question:conect in 141), product of:
+        0.21878226 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.063230194 = queryNorm
+        1.0812786 = (MATCH) fieldWeight(question:conect in 141), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=141)
+      0.29983392 = (MATCH) weight(question:impresor in 141), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:impresor in 141), product of:
+          1.0 = tf(termFreq(question:impresor)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=141)
+      0.25398877 = (MATCH) weight(question:red in 141), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.1203921 = (MATCH) fieldWeight(question:red in 141), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=141)
+    0.6 = coord(3/5)
+  0.008929486 = (MATCH) product of:
+    0.022323716 = (MATCH) sum of:
+      0.0081507685 = (MATCH) weight(categorie:impresor in 141), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.12923056 = (MATCH) fieldWeight(categorie:impresor in 141), product of:
+          3.3166249 = tf(termFreq(categorie:impresor)=11)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=141)
+      0.014172948 = (MATCH) weight(categorie:red in 141), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.22079451 = (MATCH) fieldWeight(categorie:red in 141), product of:
+          5.5677643 = tf(termFreq(categorie:red)=31)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=141)
+    0.4 = coord(2/5)
+  0.11427144 = (MATCH) product of:
+    0.2856786 = (MATCH) sum of:
+      0.055400036 = (MATCH) weight(answerIndex:conect in 141), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        0.26163015 = (MATCH) fieldWeight(answerIndex:conect in 141), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.078125 = fieldNorm(field=answerIndex, doc=141)
+      0.23027857 = (MATCH) weight(answerIndex:impresor in 141), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        0.92388976 = (MATCH) fieldWeight(answerIndex:impresor in 141), product of:
+          3.0 = tf(termFreq(answerIndex:impresor)=9)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.078125 = fieldNorm(field=answerIndex, doc=141)
+    0.4 = coord(2/5)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.47155166
+	Pregunta: tengo instalada una impresora fotocopiadora en red pero no me imprime y no da ningun mensaje de error
+	Respuesta:  EN SU EQUIPO : 1) Compruebe que la impresora está instalada y en estado "Listo": Para ello, siga los siguientes pasos: Botón Inicio Panel de Control Impresoras. Pase el puntero del ratón sobre el icono de la impresora correspondiente y verifique que el estado es "Listo" o "Preparado". 2) Si el estado es "Listo" o "Preparado", <a href="http://www.ujaen.es/sci/sau/procedimientos/colaimpre.htm"> compruebe la cola de impresión </a><a href="http://www.ujaen.es/sci/sau/procedimientos/colaimpre.htm"> </a>y el estado de los trabajos que se encuentran en cola. Compruebe si hay algún trabajo de impresión que esté atascando los demás e intente eliminarlo (con el botón derecho del ratón sobre el trabajo). Si el estado es "No preparado" compruebe que la impresora está encendida y no presenta ningún mensaje de error o anomalía similar. Revise además que el cable de conexión a red de la impresora está perfectamente conectado en ambos extremos. 3) Si nada de lo anterior ha funcionado, procederemos a <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=35 id=148 artlang=es" target="_blank" title="Instalar impresora - fotocopiadora en red">reinstalar</a> la impresora, <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=34 id=142 artlang=es" target="_blank" title="Desinstalar una impresora">desinstalándola </a>previamente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=146&artlang=es
+Detalle resultado: 0.47155163 = (MATCH) sum of:
+  0.22152908 = (MATCH) product of:
+    0.5538227 = (MATCH) sum of:
+      0.29983392 = (MATCH) weight(question:impresor in 142), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2173154 = (MATCH) fieldWeight(question:impresor in 142), product of:
+          1.0 = tf(termFreq(question:impresor)=1)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=142)
+      0.25398877 = (MATCH) weight(question:red in 142), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.1203921 = (MATCH) fieldWeight(question:red in 142), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=142)
+    0.4 = coord(2/5)
+  0.009165171 = (MATCH) product of:
+    0.022912927 = (MATCH) sum of:
+      0.008513199 = (MATCH) weight(categorie:impresor in 142), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.1349769 = (MATCH) fieldWeight(categorie:impresor in 142), product of:
+          3.4641016 = tf(termFreq(categorie:impresor)=12)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=142)
+      0.014399729 = (MATCH) weight(categorie:red in 142), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.22432745 = (MATCH) fieldWeight(categorie:red in 142), product of:
+          5.656854 = tf(termFreq(categorie:red)=32)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=142)
+    0.4 = coord(2/5)
+  0.24085738 = (MATCH) product of:
+    0.40142894 = (MATCH) sum of:
+      0.077560045 = (MATCH) weight(answerIndex:conect in 142), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        0.3662822 = (MATCH) fieldWeight(answerIndex:conect in 142), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=142)
+      0.26323035 = (MATCH) weight(answerIndex:impresor in 142), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        1.056094 = (MATCH) fieldWeight(answerIndex:impresor in 142), product of:
+          2.4494898 = tf(termFreq(answerIndex:impresor)=6)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=142)
+      0.060638554 = (MATCH) weight(answerIndex:red in 142), product of:
+        0.18723094 = queryWeight(answerIndex:red), product of:
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.063230194 = queryNorm
+        0.32387036 = (MATCH) fieldWeight(answerIndex:red in 142), product of:
+          1.0 = tf(termFreq(answerIndex:red)=1)
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=142)
+    0.6 = coord(3/5)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.459189
+	Pregunta: puedo acceder a mi espacio en disco desde linux
+	Respuesta:  Siempre y cuando no sea la primera vez que accedemos al servicio de espacio en disco es posible utilizarlo si se utiliza Linux como sistema operativo. Para ello hay que realizar manualmente una conexión al servidor donde está alojada nuestro espacio. - Aquí encontrará una <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_ubuntu.html" target="_blank">guía para Ubuntu 6.06</a> - Y aquí otra <a href="http://www3.ujaen.es/aulas/guias_ayuda/edisco_kubuntu.html" target="_blank">guía para Kubuntu 8.04</a>        
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=291&artlang=es
+Detalle resultado: 0.459189 = (MATCH) sum of:
+  0.39356232 = (MATCH) product of:
+    0.9839058 = (MATCH) sum of:
+      0.18409923 = (MATCH) weight(question:pued in 389), product of:
+        0.16311699 = queryWeight(question:pued), product of:
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.063230194 = queryNorm
+        1.128633 = (MATCH) fieldWeight(question:pued in 389), product of:
+          1.0 = tf(termFreq(question:pued)=1)
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=389)
+      0.79980654 = (MATCH) weight(question:linux in 389), product of:
+        0.33998966 = queryWeight(question:linux), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.063230194 = queryNorm
+        2.3524437 = (MATCH) fieldWeight(question:linux in 389), product of:
+          1.0 = tf(termFreq(question:linux)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=389)
+    0.4 = coord(2/5)
+  0.013607328 = (MATCH) product of:
+    0.022678878 = (MATCH) sum of:
+      0.0056699566 = (MATCH) weight(categorie:conect in 389), product of:
+        0.123679146 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.063230194 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 389), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=389)
+      0.006427325 = (MATCH) weight(categorie:impresor in 389), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.10190533 = (MATCH) fieldWeight(categorie:impresor in 389), product of:
+          4.358899 = tf(termFreq(categorie:impresor)=19)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=389)
+      0.010581597 = (MATCH) weight(categorie:red in 389), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.16484633 = (MATCH) fieldWeight(categorie:red in 389), product of:
+          6.928203 = tf(termFreq(categorie:red)=48)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=389)
+    0.6 = coord(3/5)
+  0.052019354 = (MATCH) product of:
+    0.26009676 = (MATCH) sum of:
+      0.26009676 = (MATCH) weight(answerIndex:linux in 389), product of:
+        0.29616183 = queryWeight(answerIndex:linux), product of:
+          4.683867 = idf(docFreq=9, maxDocs=398)
+          0.063230194 = queryNorm
+        0.8782251 = (MATCH) fieldWeight(answerIndex:linux in 389), product of:
+          1.0 = tf(termFreq(answerIndex:linux)=1)
+          4.683867 = idf(docFreq=9, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=389)
+    0.2 = coord(1/5)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.4087531
+	Pregunta: instalar o agregar una nueva impresora no compartida impresora fotocopiadora en red
+	Respuesta:  Se debe hacer mediante el CD-ROM de instalación de la propia impresora, siguiendo el asistente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=148&artlang=es
+Detalle resultado: 0.40875307 = (MATCH) sum of:
+  0.32544866 = (MATCH) product of:
+    0.81362164 = (MATCH) sum of:
+      0.5088351 = (MATCH) weight(question:impresor in 144), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        2.0658529 = (MATCH) fieldWeight(question:impresor in 144), product of:
+          1.4142135 = tf(termFreq(question:impresor)=2)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=144)
+      0.30478653 = (MATCH) weight(question:red in 144), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.3444705 = (MATCH) fieldWeight(question:red in 144), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=144)
+    0.4 = coord(2/5)
+  0.0096152825 = (MATCH) product of:
+    0.024038207 = (MATCH) sum of:
+      0.009195306 = (MATCH) weight(categorie:impresor in 144), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.14579172 = (MATCH) fieldWeight(categorie:impresor in 144), product of:
+          3.7416575 = tf(termFreq(categorie:impresor)=14)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=144)
+      0.014842901 = (MATCH) weight(categorie:red in 144), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.23123144 = (MATCH) fieldWeight(categorie:red in 144), product of:
+          5.8309517 = tf(termFreq(categorie:red)=34)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=144)
+    0.4 = coord(2/5)
+  0.07368914 = (MATCH) product of:
+    0.3684457 = (MATCH) sum of:
+      0.3684457 = (MATCH) weight(answerIndex:impresor in 144), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        1.4782236 = (MATCH) fieldWeight(answerIndex:impresor in 144), product of:
+          1.0 = tf(termFreq(answerIndex:impresor)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.375 = fieldNorm(field=answerIndex, doc=144)
+    0.2 = coord(1/5)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.4018791
+	Pregunta: desinstalar o eliminar una impresora compartida o una impresora fotocopiadora en red
+	Respuesta:  Vaya a Inicio Panel de Control Impresoras y Faxes y allí haga clic con el botón derecho sobre la impresora que deseas eliminar o desinstalar y elige la opción " Eliminar "
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=149&artlang=es
+Detalle resultado: 0.40187913 = (MATCH) sum of:
+  0.32544866 = (MATCH) product of:
+    0.81362164 = (MATCH) sum of:
+      0.5088351 = (MATCH) weight(question:impresor in 275), product of:
+        0.2463075 = queryWeight(question:impresor), product of:
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.063230194 = queryNorm
+        2.0658529 = (MATCH) fieldWeight(question:impresor in 275), product of:
+          1.4142135 = tf(termFreq(question:impresor)=2)
+          3.8954096 = idf(docFreq=21, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=275)
+      0.30478653 = (MATCH) weight(question:red in 275), product of:
+        0.22669634 = queryWeight(question:red), product of:
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.063230194 = queryNorm
+        1.3444705 = (MATCH) fieldWeight(question:red in 275), product of:
+          1.0 = tf(termFreq(question:red)=1)
+          3.5852547 = idf(docFreq=29, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=275)
+    0.4 = coord(2/5)
+  0.01564001 = (MATCH) product of:
+    0.02606668 = (MATCH) sum of:
+      0.0066149496 = (MATCH) weight(categorie:conect in 275), product of:
+        0.123679146 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.063230194 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 275), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=275)
+      0.0074985456 = (MATCH) weight(categorie:impresor in 275), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.118889555 = (MATCH) fieldWeight(categorie:impresor in 275), product of:
+          4.358899 = tf(termFreq(categorie:impresor)=19)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=275)
+      0.011953184 = (MATCH) weight(categorie:red in 275), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.18621373 = (MATCH) fieldWeight(categorie:red in 275), product of:
+          6.708204 = tf(termFreq(categorie:red)=45)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=275)
+    0.6 = coord(3/5)
+  0.060790446 = (MATCH) product of:
+    0.30395222 = (MATCH) sum of:
+      0.30395222 = (MATCH) weight(answerIndex:impresor in 275), product of:
+        0.24924897 = queryWeight(answerIndex:impresor), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.063230194 = queryNorm
+        1.2194723 = (MATCH) fieldWeight(answerIndex:impresor in 275), product of:
+          1.4142135 = tf(termFreq(answerIndex:impresor)=2)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=275)
+    0.2 = coord(1/5)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.33763313
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.33763313 = (MATCH) sum of:
+  0.036819845 = (MATCH) product of:
+    0.18409923 = (MATCH) sum of:
+      0.18409923 = (MATCH) weight(question:pued in 387), product of:
+        0.16311699 = queryWeight(question:pued), product of:
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.063230194 = queryNorm
+        1.128633 = (MATCH) fieldWeight(question:pued in 387), product of:
+          1.0 = tf(termFreq(question:pued)=1)
+          2.5797327 = idf(docFreq=81, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=387)
+    0.2 = coord(1/5)
+  0.013607328 = (MATCH) product of:
+    0.022678878 = (MATCH) sum of:
+      0.0056699566 = (MATCH) weight(categorie:conect in 387), product of:
+        0.123679146 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.063230194 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 387), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+      0.006427325 = (MATCH) weight(categorie:impresor in 387), product of:
+        0.06307153 = queryWeight(categorie:impresor), product of:
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.063230194 = queryNorm
+        0.10190533 = (MATCH) fieldWeight(categorie:impresor in 387), product of:
+          4.358899 = tf(termFreq(categorie:impresor)=19)
+          0.9974906 = idf(docFreq=398, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+      0.010581597 = (MATCH) weight(categorie:red in 387), product of:
+        0.06419067 = queryWeight(categorie:red), product of:
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.063230194 = queryNorm
+        0.16484633 = (MATCH) fieldWeight(categorie:red in 387), product of:
+          6.928203 = tf(termFreq(categorie:red)=48)
+          1.0151901 = idf(docFreq=391, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=387)
+    0.6 = coord(3/5)
+  0.28720596 = (MATCH) product of:
+    0.4786766 = (MATCH) sum of:
+      0.13456808 = (MATCH) weight(answerIndex:pued in 387), product of:
+        0.23335831 = queryWeight(answerIndex:pued), product of:
+          3.6906152 = idf(docFreq=26, maxDocs=398)
+          0.063230194 = queryNorm
+        0.5766586 = (MATCH) fieldWeight(answerIndex:pued in 387), product of:
+          1.0 = tf(termFreq(answerIndex:pued)=1)
+          3.6906152 = idf(docFreq=26, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.22160015 = (MATCH) weight(answerIndex:conect in 387), product of:
+        0.21174943 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.063230194 = queryNorm
+        1.0465206 = (MATCH) fieldWeight(answerIndex:conect in 387), product of:
+          2.0 = tf(termFreq(answerIndex:conect)=4)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.12250837 = (MATCH) weight(answerIndex:red in 387), product of:
+        0.18723094 = queryWeight(answerIndex:red), product of:
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.063230194 = queryNorm
+        0.6543169 = (MATCH) fieldWeight(answerIndex:red in 387), product of:
+          1.4142135 = tf(termFreq(answerIndex:red)=2)
+          2.9611003 = idf(docFreq=55, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=387)
+    0.6 = coord(3/5)

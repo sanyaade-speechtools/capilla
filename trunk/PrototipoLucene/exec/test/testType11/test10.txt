@@ -1,0 +1,405 @@
+Test 10
+Indexado: Question
+
+Anotación: 
+
+Pregunta: Como me conecto a la wifi de la universidad
+
+Tiempo de busqueda: 79ms
+Resultado: 0:
+PuntuaciÃ³n: 0.4391466
+	Pregunta: panda titanium 2006 me pregunta cada cierto tiempo que ha detectado un intruso wifi que debo de hacer con esos avisos
+	Respuesta:  Panda Titanium 2006 detecta los puntos de acceso inalámbricos como intrusos WiFi. Esto lo hace así para evitar que otros equipos pueden acceder al nuestro mediante enlaces inalámbricos. Para desactivar esta característica debes hacer lo siguiente: Abre el Panda Titanium 2006 y en la pantalla principal escoge la categoría Configurar Protecciones. Desde ahí elige Configurar protecciones y después Protección del firewall. En opciones Avanzadas elige Configurar Opciones Avanzadas y en la parte de abajo, dentro del bloque Detección de intrusiones WiFi , desactiva la casilla que dice: Activar detección de intrusiones WiFi. Ten en cuenta que se deshabilita esta protección, por lo que deberás suplirla con otras medidas de seguridad. Te recomendamos que actualices a la última versión de <a href="http://www.ujaen.es/sci/invdoc/avpanda/"> Panda </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=243&artlang=es
+Detalle resultado: 0.4391466 = (MATCH) sum of:
+  0.27217644 = (MATCH) product of:
+    0.81652933 = (MATCH) sum of:
+      0.81652933 = (MATCH) weight(question:wifi in 341), product of:
+        0.4151863 = queryWeight(question:wifi), product of:
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.06597269 = queryNorm
+        1.9666578 = (MATCH) fieldWeight(question:wifi in 341), product of:
+          1.0 = tf(termFreq(question:wifi)=1)
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=341)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 341), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 341), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=341)
+    0.33333334 = coord(1/3)
+  0.1649982 = (MATCH) product of:
+    0.4949946 = (MATCH) sum of:
+      0.4949946 = (MATCH) weight(answerIndex:wifi in 341), product of:
+        0.4151863 = queryWeight(answerIndex:wifi), product of:
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.06597269 = queryNorm
+        1.192223 = (MATCH) fieldWeight(answerIndex:wifi in 341), product of:
+          1.7320508 = tf(termFreq(answerIndex:wifi)=3)
+          6.293305 = idf(docFreq=1, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=341)
+    0.33333334 = coord(1/3)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.2223334
+	Pregunta: instalar antivirus panda desde la pagina web de la universidad
+	Respuesta:  Desde un equipo conectado a la Universidad de Jaén, hacer clic en el siguiente <a href="http://www.ujaen.es/sci/invdoc/avpanda/instalacion.html" target="_blank" title="Instalación antivirus Panda">enlace</a> Hacer clic sobre el botón " Instalación Personalizada " y seleccionar " Ejecutar ". Este proceso es totalmente automático (no hay que hacer clic en ningún botón ni escribir nada).  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=153&artlang=es
+Detalle resultado: 0.2223334 = (MATCH) product of:
+  0.3335001 = (MATCH) sum of:
+    0.14224862 = (MATCH) product of:
+      0.42674583 = (MATCH) sum of:
+        0.42674583 = (MATCH) weight(question:univers in 149), product of:
+          0.27400035 = queryWeight(question:univers), product of:
+            4.153239 = idf(docFreq=16, maxDocs=398)
+            0.06597269 = queryNorm
+          1.5574646 = (MATCH) fieldWeight(question:univers in 149), product of:
+            1.0 = tf(termFreq(question:univers)=1)
+            4.153239 = idf(docFreq=16, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=149)
+      0.33333334 = coord(1/3)
+    0.19125149 = (MATCH) product of:
+      0.28687721 = (MATCH) sum of:
+        0.16184816 = (MATCH) weight(answerIndex:conect in 149), product of:
+          0.22093369 = queryWeight(answerIndex:conect), product of:
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.06597269 = queryNorm
+          0.7325644 = (MATCH) fieldWeight(answerIndex:conect in 149), product of:
+            1.0 = tf(termFreq(answerIndex:conect)=1)
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.21875 = fieldNorm(field=answerIndex, doc=149)
+        0.12502907 = (MATCH) weight(answerIndex:univers in 149), product of:
+          0.19418406 = queryWeight(answerIndex:univers), product of:
+            2.9434006 = idf(docFreq=56, maxDocs=398)
+            0.06597269 = queryNorm
+          0.64386886 = (MATCH) fieldWeight(answerIndex:univers in 149), product of:
+            1.0 = tf(termFreq(answerIndex:univers)=1)
+            2.9434006 = idf(docFreq=56, maxDocs=398)
+            0.21875 = fieldNorm(field=answerIndex, doc=149)
+      0.6666667 = coord(2/3)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.20960504
+	Pregunta: quien puede usar las redes inalambricas malladas de la universidad
+	Respuesta:  Todos los miembros de la comunidad universitaria que posean cuenta de correo electrónico y los visitantes que contacten con los responsables de las unidades funcionales de la universidad que los hayan invitado. Para conseguir tu cuenta de correo, consulta la información de <a href="http://www.ujaen.es/sci/redes/email/"> este servicio. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=208&artlang=es
+Detalle resultado: 0.20960504 = (MATCH) sum of:
+  0.16595672 = (MATCH) product of:
+    0.49787015 = (MATCH) sum of:
+      0.49787015 = (MATCH) weight(question:univers in 325), product of:
+        0.27400035 = queryWeight(question:univers), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06597269 = queryNorm
+        1.817042 = (MATCH) fieldWeight(question:univers in 325), product of:
+          1.0 = tf(termFreq(question:univers)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=325)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 325), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 325), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=325)
+    0.33333334 = coord(1/3)
+  0.041676357 = (MATCH) product of:
+    0.12502907 = (MATCH) sum of:
+      0.12502907 = (MATCH) weight(answerIndex:univers in 325), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.64386886 = (MATCH) fieldWeight(answerIndex:univers in 325), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=325)
+    0.33333334 = coord(1/3)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.16836429
+	Pregunta: como es el plan de numeracion de la telefonia fija en la universidad de jaen
+	Respuesta:  NUMERACIÓN EXTERNA EN JAÉN Todos los números comenzarán por:   953- 21 -XXXX NUMERACIÓN EXTERNA EN LINARES   Todos los números comenzarán por:   953- 648 -XXX LLAMADAS INTERNAS Todos los números comenzarán por:   8 -XXXX manteniéndose los 4 últimos dígitos del número externo. Ejemplo con los teléfonos de Información de la Universidad: Número externo   Número interno 953-212121 pasa a ser 82121 953-648600 pasa a ser 88600
+	Url: faq.ujaen.es/index.php?action=artikel&cat=50&id=274&artlang=es
+Detalle resultado: 0.1683643 = (MATCH) sum of:
+  0.14224862 = (MATCH) product of:
+    0.42674583 = (MATCH) sum of:
+      0.42674583 = (MATCH) weight(question:univers in 269), product of:
+        0.27400035 = queryWeight(question:univers), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.06597269 = queryNorm
+        1.5574646 = (MATCH) fieldWeight(question:univers in 269), product of:
+          1.0 = tf(termFreq(question:univers)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=269)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 269), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 269), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=269)
+    0.33333334 = coord(1/3)
+  0.023815064 = (MATCH) product of:
+    0.07144519 = (MATCH) sum of:
+      0.07144519 = (MATCH) weight(answerIndex:univers in 269), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.36792508 = (MATCH) fieldWeight(answerIndex:univers in 269), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=269)
+    0.33333334 = coord(1/3)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.16476893
+	Pregunta: no puede conectarse al servidor ftp anonimo
+	Respuesta:  ¿Está indicando el servidor correcto?  El servidor ftp es: <a href="ftp://ftp.ujaen.es">ftp.ujaen.es</a> ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared.  Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (cortafuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=47&id=129&artlang=es
+Detalle resultado: 0.16476893 = (MATCH) sum of:
+  0.13164009 = (MATCH) product of:
+    0.39492026 = (MATCH) sum of:
+      0.39492026 = (MATCH) weight(question:conect in 246), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.7300458 = (MATCH) fieldWeight(question:conect in 246), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=246)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 246), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 246), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=246)
+    0.33333334 = coord(1/3)
+  0.03082822 = (MATCH) product of:
+    0.09248466 = (MATCH) sum of:
+      0.09248466 = (MATCH) weight(answerIndex:conect in 246), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.41860822 = (MATCH) fieldWeight(answerIndex:conect in 246), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=246)
+    0.33333334 = coord(1/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.16476893
+	Pregunta: no puede conectarse al servicio de news
+	Respuesta:  ¿Ha configurado correctamente el programa de conexión? El servidor de news del CICA es: news.cica.es ¿Funciona la red? Si hay algún aviso de corte programado en RIUJA, entonces hay que esperar a que se restablezca la red. Compruebe que el equipo está dado de alta en el DNS. Compruebe que el cable de red esta bien conectado: tarjeta de red y roseta pared. Asegúrese de que puede navegar por Internet. Conéctese a una página que no haya visitado recientemente. También se puede intentar realizar un PING a la máquina del usuario. Si tiene un firewall (corta fuegos) personal, revise la configuración.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=48&id=130&artlang=es
+Detalle resultado: 0.16476893 = (MATCH) sum of:
+  0.13164009 = (MATCH) product of:
+    0.39492026 = (MATCH) sum of:
+      0.39492026 = (MATCH) weight(question:conect in 247), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.7300458 = (MATCH) fieldWeight(question:conect in 247), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=247)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 247), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 247), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=247)
+    0.33333334 = coord(1/3)
+  0.03082822 = (MATCH) product of:
+    0.09248466 = (MATCH) sum of:
+      0.09248466 = (MATCH) weight(answerIndex:conect in 247), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.41860822 = (MATCH) fieldWeight(answerIndex:conect in 247), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=247)
+    0.33333334 = coord(1/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.15719041
+	Pregunta: como configuro o conecto mi ordenador a una impresora fotocopiadora que se encuentra conectada directamente a la red riuja
+	Respuesta:  Deberá remitirnos una <a href="http://www.ujaen.es/murphy/averiaequipo.html">solicitud de incidencia</a> ,  donde el tipo de equipo será su ordenador e indicará en el apartado Descripción de la incidencia: "Deseo configurar mi ordenador para conectarme a la impresora  con número de inventario _______". En el menor tiempo posible, el Servicio de Informática enviará a un técnico que le realizará las actuaciones necesarias para abordar su petición satisfactoriamente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=206&artlang=es
+Detalle resultado: 0.15719038 = (MATCH) sum of:
+  0.11635449 = (MATCH) product of:
+    0.34906346 = (MATCH) sum of:
+      0.34906346 = (MATCH) weight(question:conect in 259), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.5291588 = (MATCH) fieldWeight(question:conect in 259), product of:
+          1.4142135 = tf(termFreq(question:conect)=2)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=259)
+    0.33333334 = coord(1/3)
+  0.0023006205 = (MATCH) product of:
+    0.0069018616 = (MATCH) sum of:
+      0.0069018616 = (MATCH) weight(categorie:conect in 259), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.05348476 = (MATCH) fieldWeight(categorie:conect in 259), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=259)
+    0.33333334 = coord(1/3)
+  0.03853528 = (MATCH) product of:
+    0.11560583 = (MATCH) sum of:
+      0.11560583 = (MATCH) weight(answerIndex:conect in 259), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.5232603 = (MATCH) fieldWeight(answerIndex:conect in 259), product of:
+          1.0 = tf(termFreq(answerIndex:conect)=1)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=259)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.14694437
+	Pregunta: no funciona o no encuentro el asistente como me conecto a mi espacio en disco
+	Respuesta:  Si no te funciona o encuentras el asistente, puedes conectar de forma manual una unidad de red a tu espacio en disco. Estos son los pasos a seguir: Nota importante : si es la primera vez que accedes a este servicio no puedes utilizar esta conexión manual, en ese caso debes utilizar los asistentes descritos en esta <a href="http://www3.ujaen.es/edisco/acceso.html" target="_blank">página</a> . Abre el explorador de Windows o Mi PC. En el menú "Herramientas" elige la opción "Conectar a unidad de red". Aparecerá esta ventana:   Selecciona la unidad Z: Carpeta: \\boreal\usuario$ (usuario es tu usuario del campus virtual, añádele el signo dolar $ al final) Pulsa donde dice "Conectar usando otro nombre usuario". Te aparecerá esta otra ventana: Usuario: aulas\usuario (usuario es de nuevo el del campus virtual) Contraseña: la del campus virtual Pulsa el botón aceptar Volverás a la ventana anterior, pulsa el botón Finalizar. Preguntas relacionadas: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>                  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=290&artlang=es
+Detalle resultado: 0.14694437 = (MATCH) sum of:
+  0.09873007 = (MATCH) product of:
+    0.2961902 = (MATCH) sum of:
+      0.2961902 = (MATCH) weight(question:conect in 388), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.2975343 = (MATCH) fieldWeight(question:conect in 388), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=388)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 388), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 388), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=388)
+    0.33333334 = coord(1/3)
+  0.046242334 = (MATCH) product of:
+    0.138727 = (MATCH) sum of:
+      0.138727 = (MATCH) weight(answerIndex:conect in 388), product of:
+        0.22093369 = queryWeight(answerIndex:conect), product of:
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.06597269 = queryNorm
+        0.62791234 = (MATCH) fieldWeight(answerIndex:conect in 388), product of:
+          2.0 = tf(termFreq(answerIndex:conect)=4)
+          3.3488657 = idf(docFreq=37, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=388)
+    0.33333334 = coord(1/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.1336703
+	Pregunta: como puedo publicar una pagina web institucional en el servidor de la universidad de jaen
+	Respuesta:  El hospedaje de páginas web INSTITUCIONALES en el servidor de la Universidad de Jaén se debe solicitar mediante el siguiente modelo de solicitud: <a href="http://www.ujaen.es/sci/redes/solic/sol-r120.pdf">Servicio web</a> Una vez solicitado, el Servicio de Informática le asignará un espacio web. Para ello, recibirá una carta donde se le indicará su nombre de usuario y su contraseña para poder subir los archivos de su web mediante FTP, así como unas breves instrucciones sobre el uso de este servicio.   La subida de los archivos de su web la puede llevar a cabo conectándose mediante un cliente FTP (WS-FTP) a <a href="http://www.ujaen.es/">www.ujaen.es</a>, a su cuenta particular de usuario creada para el alojamiento web. Para ello, siga los pasos que se indican más adelante en esta sección.   La web debe tener necesariamente un archivo denominado index.html que será el archivo que contendrá la página principal. Si después de subir sus archivos al servidor, su página no se visualiza, compruebe la existencia del citado archivo index.html.   Los nombres de todos los archivos deben estar preferiblemente en minúsculas para que todos los hipervínculos que puedan contener las páginas funcionen correctamente. El servidor web distingue entre mayúsculas y minúsculas, por lo que cualquier error en los hipervínculos que haga referencia a páginas no encontradas, puede ser debido a esto con total probabilidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=6&artlang=es
+Detalle resultado: 0.1336703 = (MATCH) product of:
+  0.20050544 = (MATCH) sum of:
+    0.11854051 = (MATCH) product of:
+      0.35562152 = (MATCH) sum of:
+        0.35562152 = (MATCH) weight(question:univers in 64), product of:
+          0.27400035 = queryWeight(question:univers), product of:
+            4.153239 = idf(docFreq=16, maxDocs=398)
+            0.06597269 = queryNorm
+          1.2978871 = (MATCH) fieldWeight(question:univers in 64), product of:
+            1.0 = tf(termFreq(question:univers)=1)
+            4.153239 = idf(docFreq=16, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=64)
+      0.33333334 = coord(1/3)
+    0.081964925 = (MATCH) product of:
+      0.12294739 = (MATCH) sum of:
+        0.0693635 = (MATCH) weight(answerIndex:conect in 64), product of:
+          0.22093369 = queryWeight(answerIndex:conect), product of:
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.06597269 = queryNorm
+          0.31395617 = (MATCH) fieldWeight(answerIndex:conect in 64), product of:
+            1.0 = tf(termFreq(answerIndex:conect)=1)
+            3.3488657 = idf(docFreq=37, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=64)
+        0.05358389 = (MATCH) weight(answerIndex:univers in 64), product of:
+          0.19418406 = queryWeight(answerIndex:univers), product of:
+            2.9434006 = idf(docFreq=56, maxDocs=398)
+            0.06597269 = queryNorm
+          0.27594382 = (MATCH) fieldWeight(answerIndex:univers in 64), product of:
+            1.0 = tf(termFreq(answerIndex:univers)=1)
+            2.9434006 = idf(docFreq=56, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=64)
+      0.6666667 = coord(2/3)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.12592338
+	Pregunta: en mi ubicacion actual detecto a rimuja rimuja web y otras redes inalambricas a cual me tengo que conectar
+	Respuesta:  Si detectas más redes inalámbricas debes seleccionar RIMUJA con protección WPA , para tener un acceso SEGURO, o bien, RIMUJA-WEB para tener un acceso NO SEGURO, a las redes inalámbricas de la Universidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=246&artlang=es
+Detalle resultado: 0.12592337 = (MATCH) sum of:
+  0.08227505 = (MATCH) product of:
+    0.24682514 = (MATCH) sum of:
+      0.24682514 = (MATCH) weight(question:conect in 344), product of:
+        0.22827156 = queryWeight(question:conect), product of:
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.06597269 = queryNorm
+        1.0812786 = (MATCH) fieldWeight(question:conect in 344), product of:
+          1.0 = tf(termFreq(question:conect)=1)
+          3.4600916 = idf(docFreq=33, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=344)
+    0.33333334 = coord(1/3)
+  0.0019719605 = (MATCH) product of:
+    0.005915881 = (MATCH) sum of:
+      0.005915881 = (MATCH) weight(categorie:conect in 344), product of:
+        0.12904352 = queryWeight(categorie:conect), product of:
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.06597269 = queryNorm
+        0.045844078 = (MATCH) fieldWeight(categorie:conect in 344), product of:
+          1.0 = tf(termFreq(categorie:conect)=1)
+          1.956014 = idf(docFreq=152, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=344)
+    0.33333334 = coord(1/3)
+  0.041676357 = (MATCH) product of:
+    0.12502907 = (MATCH) sum of:
+      0.12502907 = (MATCH) weight(answerIndex:univers in 344), product of:
+        0.19418406 = queryWeight(answerIndex:univers), product of:
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.06597269 = queryNorm
+        0.64386886 = (MATCH) fieldWeight(answerIndex:univers in 344), product of:
+          1.0 = tf(termFreq(answerIndex:univers)=1)
+          2.9434006 = idf(docFreq=56, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=344)
+    0.33333334 = coord(1/3)

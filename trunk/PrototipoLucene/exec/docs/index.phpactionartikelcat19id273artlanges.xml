@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="telefonia movil">
+          <Question Text="como es el plan de numeracion de la telefonia movil de la universidad de jaen">
+               <AnswerIndex>todos los telefonos moviles de la universidad de jaen estan dentro de la red corporativa el numero corporativo de un telefono movil se compone a partir del numero de 9 cifras de las cuales se mantienen las 4 ultimas anticipando las siguientes cifras segun el prefijo 67094 xxxx se marcara 74 xxxx 67790 xxxx se marcara 73 xxxx 69795 xxxx se marcara 75 xxxx 67156 xxxx se marcara 76 xxxx pongamos un ejemplo supongamos el numero 670 949 999 su numero corporativo seria 749 999 y en el caso de 677 909 999 su corporativo seria 739 999</AnswerIndex>
+               <Answer>Todos los teléfonos móviles de la Universidad de Jaén están dentro de la Red Corporativa.
+El número corporativo de un teléfono móvil se compone a partir del número de 9 cifras, de las cuales se mantienen las 4 ultimas, anticipando las siguientes cifras, según el prefijo:
+67094 XXXX se marcará 74 XXXX
+67790 XXXX se marcará 73 XXXX
+69795 XXXX se marcará 75 XXXX
+67156 XXXX se marcará 76 XXXX
+Pongamos un ejemplo, supongamos el numero 670 949 999, su numero corporativo sería 749 999, y en el caso de 677 909 999, su corporativo sería 739 999.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=19&id=273&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

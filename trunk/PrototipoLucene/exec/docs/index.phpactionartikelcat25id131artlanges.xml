@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="caracteristicas del servicio de correo de la uja">
+               <Question Text="soporte de protocolos seguros pop3 seguro">
+                    <AnswerIndex>el servidor de correo entrante de la universidad de jaen le permitira recibir los mensajes que lleguen a su buzon este servidor soporta dos protocolos pop3 y pop3 seguro este ultimo es muy recomendable configurarlo puesto que una vez activado toda la comunicacion entre el lector de correo y el servidor se transmitira codificada es una forma de garantizar la privacidad de la informacion temas relacionados configuracion de pop3 seguro en mozilla</AnswerIndex>
+                    <Answer>El servidor de correo entrante de la Universidad de Jaén le permitirá recibir los mensajes que lleguen a su buzón. Este servidor soporta dos protocolos POP3 y POP3 seguro. Éste último es muy recomendable configurarlo puesto que una vez activado toda la comunicación entre el lector de correo y el servidor se transmitirá codificada. Es una forma de garantizar la privacidad de la información.
+Temas relacionados:
+- <a target="_blank">Configuración de POP3 seguro en Mozilla</a>.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=25&id=131&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

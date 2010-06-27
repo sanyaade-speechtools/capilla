@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="todo esta correcto y no consigo conectarme que puede estar ocurriendo">
+                    <AnswerIndex>comprueba que no tengas instalado el antivirus panda con versiones anteriores a la 2007 ya que son incompatibles con conexiones inalambricas autenticadas actualiza tu antivirus</AnswerIndex>
+                    <Answer>Comprueba que no tengas instalado el antivirus Panda con versiones anteriores a la 2007, ya que son incompatibles con conexiones inalámbricas autenticadas. Actualiza tu antivirus.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=242&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

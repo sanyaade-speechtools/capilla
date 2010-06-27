@@ -1,0 +1,8 @@
+Test 1
+
+Pregunta: quiero hacer un blog
+
+Tiempo de busqueda: 7ms
+
+NO HA DEVUELTO NADA. Esto es debido a que el analizador no extrae la raíz de la
+palabra blog, porque en la colección si existe una categoria cuyo nombre es blogs.

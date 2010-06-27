@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="existe algun aula donde pueda usar auriculares microfonos y o webcams">
+                    <AnswerIndex>en cualquiera de las aulas del edificio a4 puede solicitar la colocacion de unos altavoces en el equipo del profesor adicionalmente en las aulas i 32 e i 33 tambien puede solicitar el prestamo de auriculares con microfono incorporado y o o webcams para todos los puestos del aula para solicitar cualquiera de estos perifericos escriba un correo a aulasa4 ujaen es indicando la fecha aula software a usar y el numero de auriculares o y o o webcams que necesitara</AnswerIndex>
+                    <Answer>En cualquiera de las aulas del edificio A4 puede solicitar la colocación de unos altavoces en el equipo del profesor.
+Adicionalmente en las aulas <a href="http://www3.ujaen.es/aulas/aulas/A4-I32.html">I-32</a> e <a href="http://www3.ujaen.es/aulas/aulas/A4-I33.html">I-33</a> también puede solicitar el préstamo de auriculares con micrófono incorporado y/o webcams para todos los puestos del aula.
+Para solicitar cualquiera de estos periféricos escriba un correo a aulasA4 @ ujaen.es indicando la fecha, aula, software a usar y el número de auriculares o y/o webcams que necesitará.
+ </Answer>
+                    <Link>http://www3.ujaen.es/aulas/aulas/A4-I32.html</Link>
+                    <Link>http://www3.ujaen.es/aulas/aulas/A4-I33.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=332&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

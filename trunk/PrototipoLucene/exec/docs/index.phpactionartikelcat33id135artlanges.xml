@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="mantenimiento equipo">
+               <Categorie Text="sistema operativo">
+                    <Question Text="caracteristicas hardware minimas para instalar o migrar a windows xp">
+                         <AnswerIndex>procesador intel pentium 4 1 6 ghz o equivalente 256 mb de memoria ram 4 gb de espacio en disco duro monitor supervga con una resolucion de 1024 x 768 unidad lectora de cd rom o dvd</AnswerIndex>
+                         <Answer>Procesador Intel Pentium 4 1.6 GHz o equivalente 256 MB de memoria RAM 4 GB de espacio en disco duro Monitor SuperVGA con una resolución de 1024 x 768 Unidad lectora de CD-ROM o DVD</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=33&id=135&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="videoconferencia">
+          <Question Text="como y cuando reservo la sala de videoconferencia">
+               <AnswerIndex>la reserva de la sala de videoconferencia la llevara a cabo el usuario solicitante en el negociado de equipamiento y gestion de espacios con al menos 2 semanas de antelacion a la fecha prevista de inicio del acto esto se hace asi para que la sala no sea utilizada para otro evento tiene que tener en cuenta que se deben realizar pruebas tecnicas y tambien es necesario reservar la sala el dia y hora que se realicen si la videoconferencia es por la tarde tambien se reservara la mañana para el montaje del equipamiento necesario el horario de uso sera de lunes a viernes en las siguientes franjas horarias de 9 00h a 14 00h y de 16 00h a 21 00h si necesita apoyo tecnico debe tener lugar dentro del horario laboral de los servicios de la propia universidad de jaen 9 00h a 14 00h nota si la conexion de la videconferencia se va a hacer por rdsi debera reservar obligatoriamente la sala de juntas del edificio d 1 no siendo posible hacerla en el salon de grados del mismo edificio</AnswerIndex>
+               <Answer>La reserva de la Sala de Videoconferencia la llevará a cabo el usuario solicitante en el Negociado de Equipamiento y Gestión de Espacios , con al menos 2 semanas de antelación a la fecha prevista de inicio del acto. Esto se hace así para que la sala no sea utilizada para otro evento. Tiene que tener en cuenta que se deben realizar pruebas técnicas y también es necesario reservar la sala el día y hora que se realicen. Si la videoconferencia es por la tarde, también se reservará la mañana para el montaje del equipamiento necesario. El horario de uso será de lunes a viernes, en las siguientes franjas horarias:
+De 9:00h a 14:00h y De 16:00h a 21:00h Si necesita apoyo técnico, debe tener lugar dentro del horario laboral de los servicios de la propia Universidad de Jaén (9:00h a 14:00h).
+Nota: si la conexión de la videconferencia se va a hacer por RDSI deberá reservar obligatoriamente la Sala de Juntas del Edificio D-1 no siendo posible hacerla en el Salón de Grados del mismo edificio.</Answer>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=49&id=265&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

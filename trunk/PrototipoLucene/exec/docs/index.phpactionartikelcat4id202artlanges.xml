@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion a la red riuja">
+          <Question Text="como puedo compartir archivos e impresoras desde mi ordenador para que accedan otras personas">
+               <AnswerIndex>para compartir recursos lo primero que tiene que tener claro es el sistema operativo que tiene y el que tiene el compañero con el que va a compartir recursos si alguno de los equipos con recursos compartidos tiene instalado windows xp ambos equipos deben estar en el mismo grupo de trabajo y debe existir un usuario comun en ambos equipos con la misma contraseña pulse aqui para consultar el procedimiento detallado para compartir recursos en windows xp</AnswerIndex>
+               <Answer>Para compartir recursos, lo primero que tiene que tener claro es el Sistema Operativo que tiene y el que tiene el compañero con el que va a compartir recursos.
+Si alguno de los equipos con recursos compartidos tiene instalado Windows XP , ambos equipos deben estar en el mismo grupo de trabajo, y debe existir un usuario común en ambos equipos con la misma contraseña. <a href="http://www.ujaen.es/sci/redes/riuja/guias/wxp/rmswxp.htm"> Pulse aquí </a> para consultar el procedimiento detallado para compartir recursos en Windows XP.</Answer>
+               <Link>http://www.ujaen.es/sci/redes/riuja/guias/wxp/rmswxp.htm</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=4&id=202&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

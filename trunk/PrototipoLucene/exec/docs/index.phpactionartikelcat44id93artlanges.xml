@@ -1,0 +1,19 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="tengo problemas cuando introduzco mi contraseña de correo">
+                    <AnswerIndex>compruebe que no tenga pulsada la tecla de mayusculas al introducir su contraseña si sigue fallando envie al servicio de informatica una solicitud de incidencias murphy indicando lo siguiente problema con el correo electronico el programa muestra el mensaje invalid password mi programa de correo es una vez recibida el servicio de informatica revisara su cuenta por si hay alguna anomalia y en caso de persistir los problemas le facilitara una nueva contraseña de acceso</AnswerIndex>
+                    <Answer>Compruebe que no tenga pulsada la tecla de mayúsculas al introducir su contraseña
+Si sigue fallando, envíe al Servicio de Informática una <a href="http://www.ujaen.es/murphy/index.html">solicitud de incidencias (murphy),</a> indicando lo siguiente:
+Problema con el CORREO ELECTRÓNICO El programa muestra el mensaje "invalid password" Mi programa de correo es:.........................................................
+Una vez recibida, el Servicio de Informática revisará su cuenta por si hay alguna anomalía y en caso de persistir los problemas, le facilitará una nueva contraseña de acceso</Answer>
+                    <Link>http://www.ujaen.es/murphy/index.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=93&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

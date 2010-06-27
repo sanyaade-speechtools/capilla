@@ -1,0 +1,364 @@
+Test 11
+Indexado: Question, Category, AnswerIndex
+Anotación:
+
+Pregunta: descargas de software
+
+Tiempo de busqueda: 2ms
+Resultado: 0:
+Puntuación: 0.9455447
+	Pregunta: cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno
+	Respuesta:  Esto puede ocurrir por varios motivos: Algún mensaje de la cola de correo no se puede descargar (mensaje corrupto, tamaño excesivo, infección por un virus...) y está obstruyendo el resto de mensajes en cola. En tal caso, acceda desde <a href="http://www.ujaen.es/webmail/">webmail</a> a su cuenta de correo y elimine los mensajes extraños, no solicitados, o con archivos adjuntos sospechosos, de tal forma que el posible archivo que pueda estar obstruyendo la cola deje paso al resto de mensajes. Una vez hecho esto, y sin cerrar el webmail, vuelva a intentar descargar su correo desde el cliente Netscape Messenger que utiliza habitualmente.  Es posible que durante una descarga de su correo se haya cortado la conexión. En tal caso, los mensajes que ya haya descargado Netscape son marcados como leídos por lo que no los vuelve a descargar aunque estos sigan en la cola de correo. De esta forma, mediante webmail verá más mensajes de los que Netscape descarga. Asimismo, Netscape Messenger informará de que está descargando un determinado número de mensajes y en realidad descargará menos. La solución es similar al caso anterior: desde  <a href="http://www.ujaen.es/webmail/">webmail</a> acceda a su cuenta de correo y elimine todos los mensajes que Netscape ya se haya descargado.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=96&artlang=es
+Detalle resultado: 0.9455448 = (MATCH) sum of:
+  0.76592094 = (MATCH) product of:
+    1.5318419 = (MATCH) sum of:
+      1.5318419 = (MATCH) weight(question:descarg in 230), product of:
+        0.45400658 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.087398164 = queryNorm
+        3.374052 = (MATCH) fieldWeight(question:descarg in 230), product of:
+          1.7320508 = tf(termFreq(question:descarg)=3)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=230)
+    0.5 = coord(1/2)
+  0.0013655963 = (MATCH) product of:
+    0.0027311926 = (MATCH) sum of:
+      0.0027311926 = (MATCH) weight(categorie:softwar in 230), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 230), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=230)
+    0.5 = coord(1/2)
+  0.17825823 = (MATCH) product of:
+    0.35651645 = (MATCH) sum of:
+      0.35651645 = (MATCH) weight(answerIndex:descarg in 230), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        1.071112 = (MATCH) fieldWeight(answerIndex:descarg in 230), product of:
+          3.0 = tf(termFreq(answerIndex:descarg)=9)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=230)
+    0.5 = coord(1/2)
+
+Resultado: 1:
+Puntuación: 0.9305599
+	Pregunta: no puedo descargar ningun software de la pagina web a traves de internet explorer
+	Respuesta:  Hay que desactivar el firewall de la protección permanente del Panda Antivirus y detener el de Windows (Panel de Control - Herramientas Administrativas - Servicios - Firewall de Windows).
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=286&artlang=es
+Detalle resultado: 0.9305598 = (MATCH) product of:
+  1.3958397 = (MATCH) sum of:
+    1.3946447 = (MATCH) sum of:
+      0.7370077 = (MATCH) weight(question:descarg in 261), product of:
+        0.45400658 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.087398164 = queryNorm
+        1.6233414 = (MATCH) fieldWeight(question:descarg in 261), product of:
+          1.0 = tf(termFreq(question:descarg)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=261)
+      0.6576371 = (MATCH) weight(question:softwar in 261), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.5334408 = (MATCH) fieldWeight(question:softwar in 261), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=261)
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 261), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 261), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=261)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+Puntuación: 0.49960065
+	Pregunta: quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica
+	Respuesta:  En en primer lugar deberá comprobar si el software que quiere usar está ya instalado en el aula que tiene reservada, para ello puede consultar la lista de software instalado en la <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente. Si observa que el software no está instalado deberá solicitar su instalación al Servicio de Informática, para ello deberá rellenar y enviar la siguiente <a href="http://www3.ujaen.es/aulas/servicios_profesores.html instalacion%20software">solicitud</a>. Recuerde que sólo se instalará software que esté debidamente licenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lo permita de forma legal.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es
+Detalle resultado: 0.49960065 = (MATCH) sum of:
+  0.32881856 = (MATCH) product of:
+    0.6576371 = (MATCH) sum of:
+      0.6576371 = (MATCH) weight(question:softwar in 320), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.5334408 = (MATCH) fieldWeight(question:softwar in 320), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=320)
+    0.5 = coord(1/2)
+  0.0010241972 = (MATCH) product of:
+    0.0020483944 = (MATCH) sum of:
+      0.0020483944 = (MATCH) weight(categorie:softwar in 320), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.0234375 = (MATCH) fieldWeight(categorie:softwar in 320), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=320)
+    0.5 = coord(1/2)
+  0.16975792 = (MATCH) product of:
+    0.33951584 = (MATCH) sum of:
+      0.33951584 = (MATCH) weight(answerIndex:softwar in 320), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.9854824 = (MATCH) fieldWeight(answerIndex:softwar in 320), product of:
+          2.0 = tf(termFreq(answerIndex:softwar)=4)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=320)
+    0.5 = coord(1/2)
+
+Resultado: 3:
+Puntuación: 0.426422
+	Pregunta: cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno se queda esperando o atascado
+	Respuesta:  Este problema sucede normalmente cuando se tiene una bandeja de entrada con un tamaño superior a 100 MB. Cuando el tamaño de esta bandeja supera un determinado límite Netscape tarda más de la cuenta en procesarla y buscar o posicionarse en los mensajes de la misma. Si a esto le añadimos la acción de inspección que está realizando el antivirus demora el proceso aún más pudiendo ocurrir errores como en este caso. Se recomienda: Desactivar Panda Antivirus para llevar a cabo el segundo paso. Reducir el tamaño de la bandeja de entrada al mínimo, pasando los mensajes a otras carpetas. Actualizar Panda Antivirus a una versión superior.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=40&id=192&artlang=es
+Detalle resultado: 0.426422 = (MATCH) product of:
+  0.639633 = (MATCH) sum of:
+    0.6382674 = (MATCH) product of:
+      1.2765348 = (MATCH) sum of:
+        1.2765348 = (MATCH) weight(question:descarg in 195), product of:
+          0.45400658 = queryWeight(question:descarg), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.087398164 = queryNorm
+          2.81171 = (MATCH) fieldWeight(question:descarg in 195), product of:
+            1.7320508 = tf(termFreq(question:descarg)=3)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=195)
+      0.5 = coord(1/2)
+    0.0013655963 = (MATCH) product of:
+      0.0027311926 = (MATCH) sum of:
+        0.0027311926 = (MATCH) weight(categorie:softwar in 195), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.03125 = (MATCH) fieldWeight(categorie:softwar in 195), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.03125 = fieldNorm(field=categorie, doc=195)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 4:
+Puntuación: 0.3844574
+	Pregunta: al abrir mozilla aparece el mensaje de error advertencia probablemente esta usando software obsoleto e inseguro
+	Respuesta:  Al abrir Mozilla puede aparecer un mensaje de advertencia indicando que el software está obsoleto o es inseguro como la imagen que vemos a continuación. Esto es debido a que Mozilla comprueba semanal o mensualmente si existen nuevas versiones del programa. En caso de haber una versión más reciente abre el navegador con una página donde indica esta advertencia. Se puede evitar este comportamiento en Mozilla realizando algunos ajustes en la configuración. Los pasos que deberemos dar son los siguientes: Hacer clic en el menú "Editar - Preferencias" En la pantalla que aparece pulsar sobre "Avanzadas - Inst. de software". Desactivar la opción "Comprobar si hay actualizaciones" del apartado "Notificaciones de actualización" que aparece a la derecha de la pantalla tal y como se indica en la imagen y finalmente pulsar aceptar.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=41&id=294&artlang=es
+Detalle resultado: 0.38445744 = (MATCH) sum of:
+  0.26305485 = (MATCH) product of:
+    0.5261097 = (MATCH) sum of:
+      0.5261097 = (MATCH) weight(question:softwar in 203), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 203), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=203)
+    0.5 = coord(1/2)
+  0.0013655963 = (MATCH) product of:
+    0.0027311926 = (MATCH) sum of:
+      0.0027311926 = (MATCH) weight(categorie:softwar in 203), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 203), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=203)
+    0.5 = coord(1/2)
+  0.12003698 = (MATCH) product of:
+    0.24007396 = (MATCH) sum of:
+      0.24007396 = (MATCH) weight(answerIndex:softwar in 203), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.6968413 = (MATCH) fieldWeight(answerIndex:softwar in 203), product of:
+          1.4142135 = tf(termFreq(answerIndex:softwar)=2)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=203)
+    0.5 = coord(1/2)
+
+Resultado: 5:
+Puntuación: 0.34461972
+	Pregunta: no puedo descargar el fichero que me han enviado con fatfile
+	Respuesta:  El fichero enviado mendiante el sistema FATfile tiene un periodo de permanencia que oscila entre 3 días y una semana. Este tiempo es seleccionado por el remitente del mensaje, por lo que si necesita de nuevo el archivo deberá solicitarlo al remitente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=9&id=314&artlang=es
+Detalle resultado: 0.34461972 = (MATCH) product of:
+  0.51692957 = (MATCH) sum of:
+    0.5159054 = (MATCH) product of:
+      1.0318108 = (MATCH) sum of:
+        1.0318108 = (MATCH) weight(question:descarg in 397), product of:
+          0.45400658 = queryWeight(question:descarg), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.087398164 = queryNorm
+          2.272678 = (MATCH) fieldWeight(question:descarg in 397), product of:
+            1.0 = tf(termFreq(question:descarg)=1)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=397)
+      0.5 = coord(1/2)
+    0.0010241972 = (MATCH) product of:
+      0.0020483944 = (MATCH) sum of:
+        0.0020483944 = (MATCH) weight(categorie:softwar in 397), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.0234375 = (MATCH) fieldWeight(categorie:softwar in 397), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.0234375 = fieldNorm(field=categorie, doc=397)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 6:
+Puntuación: 0.34073794
+	Pregunta: cliente vpn uja error en el registro de windows software microsoft driver signing policy
+	Respuesta:  Durante la instalación del cliente VPN-UJA, en determinados casos es posible que aparezca un mensaje de error de escritura en el registro de Windows, en la rama \Software\Microsoft\Driver Signing\Policy. Este error está relacionado con la instalación de drivers firmados en Windows XP. Generalmente, es suficiente con ignorar el error. En caso de que se esté realizando una instalación automática y el equipo esté bloqueado se deben pulsar simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador de tareas de Windows. En la pestaña Procesos, debemos buscar el proceso Instala-auto-v6.exe. Basta con marcarlo y pulsar el botón Terminar Proceso. A partir de aquí se puede completar el resto de la instalación de forma manual.    
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=49&artlang=es
+Detalle resultado: 0.34073794 = (MATCH) sum of:
+  0.26305485 = (MATCH) product of:
+    0.5261097 = (MATCH) sum of:
+      0.5261097 = (MATCH) weight(question:softwar in 33), product of:
+        0.4288637 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.087398164 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 33), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+    0.5 = coord(1/2)
+  0.0034139908 = (MATCH) product of:
+    0.0068279817 = (MATCH) sum of:
+      0.0068279817 = (MATCH) weight(categorie:softwar in 33), product of:
+        0.087398164 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.087398164 = queryNorm
+        0.078125 = (MATCH) fieldWeight(categorie:softwar in 33), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=33)
+    0.5 = coord(1/2)
+  0.07426909 = (MATCH) product of:
+    0.14853819 = (MATCH) sum of:
+      0.14853819 = (MATCH) weight(answerIndex:softwar in 33), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.43114856 = (MATCH) fieldWeight(answerIndex:softwar in 33), product of:
+          1.0 = tf(termFreq(answerIndex:softwar)=1)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.109375 = fieldNorm(field=answerIndex, doc=33)
+    0.5 = coord(1/2)
+
+Resultado: 7:
+Puntuación: 0.30871814
+	Pregunta: compatibilidad software de aplicaciones con windows xp
+	Respuesta:  Ejecutar el Upgrade Advisor o Asesor de Actualizaciones de Microsoft, que se encuentra en el CD-ROM de instalación de Windows XP Professional. Para ello, ejecutamos el fichero "Setup.exe" y seleccionamos las siguientes opciones: - Comprobar la compatibilidad del sistema. - Comprobar mi sistema automáticamente. Otra opción es seguir la siguiente secuencia: Inicio Ejecutar y teclear 'winnt32 /checkupgradeonly'.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=33&id=138&artlang=es
+Detalle resultado: 0.30871814 = (MATCH) product of:
+  0.4630772 = (MATCH) sum of:
+    0.46034598 = (MATCH) product of:
+      0.92069197 = (MATCH) sum of:
+        0.92069197 = (MATCH) weight(question:softwar in 44), product of:
+          0.4288637 = queryWeight(question:softwar), product of:
+            4.9070106 = idf(docFreq=7, maxDocs=398)
+            0.087398164 = queryNorm
+          2.1468172 = (MATCH) fieldWeight(question:softwar in 44), product of:
+            1.0 = tf(termFreq(question:softwar)=1)
+            4.9070106 = idf(docFreq=7, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=44)
+      0.5 = coord(1/2)
+    0.0027311926 = (MATCH) product of:
+      0.0054623852 = (MATCH) sum of:
+        0.0054623852 = (MATCH) weight(categorie:softwar in 44), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.0625 = (MATCH) fieldWeight(categorie:softwar in 44), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.0625 = fieldNorm(field=categorie, doc=44)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 8:
+Puntuación: 0.29571348
+	Pregunta: el lector de correo no me descarga todos los mensajes y se queda bloqueado
+	Respuesta:  Este error aparece cuando existe algún problema durante la conexión entre cliente y servidor. En la mayoría de las ocaciones el problema lo provoca el antivirus que ralentiza tanto la conexión que hace pensar al cliente que el servidor se ha desconectado. Para solucionarlo desinstale el antivirus y vuelva a instalarlo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=109&artlang=es
+Detalle resultado: 0.29571348 = (MATCH) product of:
+  0.44357023 = (MATCH) sum of:
+    0.44220462 = (MATCH) product of:
+      0.88440925 = (MATCH) sum of:
+        0.88440925 = (MATCH) weight(question:descarg in 222), product of:
+          0.45400658 = queryWeight(question:descarg), product of:
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.087398164 = queryNorm
+          1.9480097 = (MATCH) fieldWeight(question:descarg in 222), product of:
+            1.0 = tf(termFreq(question:descarg)=1)
+            5.1946926 = idf(docFreq=5, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=222)
+      0.5 = coord(1/2)
+    0.0013655963 = (MATCH) product of:
+      0.0027311926 = (MATCH) sum of:
+        0.0027311926 = (MATCH) weight(categorie:softwar in 222), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.03125 = (MATCH) fieldWeight(categorie:softwar in 222), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.03125 = fieldNorm(field=categorie, doc=222)
+      0.5 = coord(1/2)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+Puntuación: 0.26648042
+	Pregunta: crear discos de rescate con panda antivirus
+	Respuesta:  La nueva versión de Panda Antivirus 2007 (Lite) no proporciona mecanismos para la creación de discos de rescate , por lo que desde el Servicio de Informática hemos creado una imagen ISO que le permite crear un CD-ROM de arranque con el que puede arrancar el equipo desde un entorno limpio y utilizar el antivirus desde este CD cuando tienen sospechas de que su ordenador ya está infectado por un virus. Para crear el disco de rescate necesita realizar las siguientes acciones: Descargar la <a title="CD arranque de Panda Antivirus" target="_blank" href="ftp://ftp.ujaen.es:2121/panda/disco_rescate.iso">imagen ISO del CD de arranque de Panda Antivirus</a>. Tener instalado un <a title="Software de Grabación de CDs" target="_blank" href="http://www.ujaen.es/sci/invdoc/soft/microinf/acuespe/nero/nero66.html">software de grabación de CDs</a> y tener a mano un CD en blanco etiquetado como "Disco de Rescate". Crear el disco de rescate con su software de grabación preferido.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=172&artlang=es
+Detalle resultado: 0.26648042 = (MATCH) product of:
+  0.3997206 = (MATCH) sum of:
+    0.0011948968 = (MATCH) product of:
+      0.0023897935 = (MATCH) sum of:
+        0.0023897935 = (MATCH) weight(categorie:softwar in 276), product of:
+          0.087398164 = queryWeight(categorie:softwar), product of:
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.087398164 = queryNorm
+          0.02734375 = (MATCH) fieldWeight(categorie:softwar in 276), product of:
+            1.0 = tf(termFreq(categorie:softwar)=1)
+            1.0 = idf(docFreq=397, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=276)
+      0.5 = coord(1/2)
+    0.3985257 = (MATCH) sum of:
+      0.15845175 = (MATCH) weight(answerIndex:descarg in 276), product of:
+        0.33284703 = queryWeight(answerIndex:descarg), product of:
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.087398164 = queryNorm
+        0.47604978 = (MATCH) fieldWeight(answerIndex:descarg in 276), product of:
+          1.0 = tf(termFreq(answerIndex:descarg)=1)
+          3.8083982 = idf(docFreq=23, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=276)
+      0.24007396 = (MATCH) weight(answerIndex:softwar in 276), product of:
+        0.3445174 = queryWeight(answerIndex:softwar), product of:
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.087398164 = queryNorm
+        0.6968413 = (MATCH) fieldWeight(answerIndex:softwar in 276), product of:
+          1.4142135 = tf(termFreq(answerIndex:softwar)=2)
+          3.9419296 = idf(docFreq=20, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=276)
+  0.6666667 = coord(2/3)

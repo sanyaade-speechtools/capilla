@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="puede un usuario inalambrico conectarse a mi pc a traves de las redes inalambricas rimuja y rimuja web">
+                    <AnswerIndex>si si pertenece al mismo perfil por lo que es responsabilidad tuya aplicar una politica de seguridad correcta dentro de tu equipo</AnswerIndex>
+                    <Answer>Si, si pertenece al mismo perfil, por lo que es responsabilidad tuya aplicar una política de seguridad correcta dentro de tu equipo.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=228&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

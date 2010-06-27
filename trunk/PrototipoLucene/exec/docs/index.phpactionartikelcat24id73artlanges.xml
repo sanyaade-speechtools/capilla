@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="general">
+               <Question Text="en que consiste la compactacion o compresion de carpetas y como la puedo hacer">
+                    <AnswerIndex>en los clientes de correo electronico como netscape y mozilla cada una de las carpetas que almacenan los mensajes bandeja de entrada enviados etc estan asociadas a un fichero de datos con el mismo nombre si la bandeja en cuestion tiene muchos mensajes el fichero asociado puede ser demasiado grande para su manejo por la aplicacion de correo por lo que dicha aplicacion puede volverse lenta en la gestion de los mensajes contenidos en la misma o incluso comportarse de forma anomala con objeto de paliar este tipo de problemas estas aplicaciones disponen de una utilidad para compactar el tamaño de estos archivos o carpetas aunque lo recomendado en estos casos seria almacenar pocos mensajes sobre todo en la bandeja de entrada y moverlos a carpetas menos usadas o creadas por el usuario en el caso de mozilla comprimir una carpeta se realiza de la misma manera que en netscape se ha de pulsar con el boton derecho sobre la bandeja o carpeta y seleccionar la opcion compactar esta carpeta del menu emergente que aparece el sistema comprimira automaticamente la carpeta y los mensajes contenidos en la misma para que el sistema automaticamente realice la compresion de las carpetas y bandejas se ha de modificar la configuracion desde la pantalla preferencias a la que accederemos pulsando en el menu editar preferencias dentro de la pantalla preferencias seleccionaremos dentro del arbol categoria la opcion correo y noticias sin conexion y espacio en disco y activaremos la opcion comprimir carpetas cuando se ahorren mas de</AnswerIndex>
+                    <Answer>En los clientes de correo electrónico como Netscape y Mozilla, cada una de las carpetas que almacenan los mensajes (bandeja de entrada, enviados, etc.) están asociadas a un fichero de datos con el mismo nombre. Si la bandeja en cuestión tiene muchos mensajes, el fichero asociado puede ser demasiado grande para su manejo por la aplicación de correo, por lo que dicha aplicación puede volverse lenta en la gestión de los mensajes contenidos en la misma o incluso comportarse de forma anómala.
+Con objeto de paliar este tipo de problemas, estas aplicaciones disponen de una utilidad para compactar el tamaño de estos archivos o carpetas, aunque lo recomendado en estos casos sería almacenar pocos mensajes (sobre todo en la bandeja de entrada) y moverlos a carpetas menos usadas o creadas por el usuario.
+En el caso de Mozilla, comprimir una carpeta se realiza de la misma manera que en Netscape, se ha de pulsar con el botón derecho sobre la bandeja o carpeta y seleccionar la opción "Compactar esta carpeta" del menú emergente que aparece. El sistema comprimirá automáticamente la carpeta y los mensajes contenidos en la misma.
+Para que el sistema automáticamente realice la compresión de las carpetas y bandejas, se ha de modificar la configuración desde la pantalla preferencias a la que accederemos pulsando en el menú Editar- Preferencias. Dentro de la pantalla preferencias, seleccionaremos dentro del árbol "Categoría" la opción "Correo y noticias" - "Sin conexión y Espacio en disco" y activaremos la opción "Comprimir carpetas cuando se ahorren más de"</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=24&id=73&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

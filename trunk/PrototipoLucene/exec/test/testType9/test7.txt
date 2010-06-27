@@ -1,0 +1,350 @@
+Test7
+Indexado: Question, Category, AnswerIndex
+
+Anotaciones: No hay resultados de búsqueda porque no hay cagetogorías que contengan
+los terminos de búsqueda.
+
+Pregunta: se me ha roto el ordenador del despacho. ¿Quién me lo soluciona?
+
+Tiempo de busqueda: 2ms
+Resultado: 0:
+Puntuación: 0.42486423
+	Pregunta: como accedo al ordenador de mi despacho desde casa
+	Respuesta:  Para acceder al ordenador de su despacho, necesita hacer uso de la Conexión a Escritorio Remoto. Pulse en el siguiente enlace para obtener información detallada: <a href="http://www.ujaen.es/sci/redes/vpn/esc_remoto.html"> Conexión a Escritorio Remoto </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=39&artlang=es
+Detalle resultado: 0.42486423 = (MATCH) product of:
+  0.6372963 = (MATCH) sum of:
+    0.46948692 = (MATCH) product of:
+      1.1737173 = (MATCH) sum of:
+        0.34925926 = (MATCH) weight(question:orden in 19), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          2.0480402 = (MATCH) fieldWeight(question:orden in 19), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.5 = fieldNorm(field=question, doc=19)
+        0.824458 = (MATCH) weight(question:despach in 19), product of:
+          0.26201114 = queryWeight(question:despach), product of:
+            6.293305 = idf(docFreq=1, maxDocs=398)
+            0.041633315 = queryNorm
+          3.1466525 = (MATCH) fieldWeight(question:despach in 19), product of:
+            1.0 = tf(termFreq(question:despach)=1)
+            6.293305 = idf(docFreq=1, maxDocs=398)
+            0.5 = fieldNorm(field=question, doc=19)
+      0.4 = coord(2/5)
+    0.16780937 = (MATCH) product of:
+      0.41952342 = (MATCH) sum of:
+        0.11859489 = (MATCH) weight(answerIndex:orden in 19), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.8438835 = (MATCH) fieldWeight(answerIndex:orden in 19), product of:
+            1.0 = tf(termFreq(answerIndex:orden)=1)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.25 = fieldNorm(field=answerIndex, doc=19)
+        0.30092853 = (MATCH) weight(answerIndex:despach in 19), product of:
+          0.22386293 = queryWeight(answerIndex:despach), product of:
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.041633315 = queryNorm
+          1.3442535 = (MATCH) fieldWeight(answerIndex:despach in 19), product of:
+            1.0 = tf(termFreq(answerIndex:despach)=1)
+            5.377014 = idf(docFreq=4, maxDocs=398)
+            0.25 = fieldNorm(field=answerIndex, doc=19)
+      0.4 = coord(2/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 1:
+Puntuación: 0.070268616
+	Pregunta: routers adsl marca sagem solucion de problemas
+	Respuesta:  Desde hace un tiempo se ha detectado una incompatibilidad en la conexión mediante el cliente VPN-UJA cuando se usa una conexión ADSL mediante routers ADSL del fabricante SAGEM. En nuestro caso, estos problemas siempre se han detectado con los routers SAGEM de Orange, pero no se descarta que el problema también pertenezca con los routers SAGEM suministrados por cualquier otro operador. El origen del problema se debe a que estos routers cortan el puerto UDP 500 necesario para el intercambio de claves del protocolo IPSec en el que se basa nuestro servicio de VPN de la UJA.   La solución documentada en Internet consiste en añadir una nueva clave en el registro de Windows, que permite a la conexión VPN usar un puerto aleatorio diferente para el intercambio de claves. Esta entrada es: HKEY_LOCAL_MACHINE\SOFTWARE\Nortel Networks\Extranet Access Client\DisableIkePort500Use=1 Esta entrada puede añadirse automáticamente al registro, descargando y ejecutando el siguiente fichero .REG:  <a href="images/File/SAGEM.zip">Descargar fichero SAGEM.REG </a>   ficheros adjuntos: <a href="attachments/415/SAGEM.reg" target="_blank">SAGEM.reg</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=415&artlang=es
+Detalle resultado: 0.070268616 = (MATCH) product of:
+  0.10540292 = (MATCH) sum of:
+    0.09792707 = (MATCH) product of:
+      0.48963535 = (MATCH) sum of:
+        0.48963535 = (MATCH) weight(question:solucion in 22), product of:
+          0.23315313 = queryWeight(question:solucion), product of:
+            5.6001577 = idf(docFreq=3, maxDocs=398)
+            0.041633315 = queryNorm
+          2.100059 = (MATCH) fieldWeight(question:solucion in 22), product of:
+            1.0 = tf(termFreq(question:solucion)=1)
+            5.6001577 = idf(docFreq=3, maxDocs=398)
+            0.375 = fieldNorm(field=question, doc=22)
+      0.2 = coord(1/5)
+    0.007475844 = (MATCH) product of:
+      0.03737922 = (MATCH) sum of:
+        0.03737922 = (MATCH) weight(answerIndex:solucion in 22), product of:
+          0.12883978 = queryWeight(answerIndex:solucion), product of:
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.041633315 = queryNorm
+          0.29012173 = (MATCH) fieldWeight(answerIndex:solucion in 22), product of:
+            1.0 = tf(termFreq(answerIndex:solucion)=1)
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.09375 = fieldNorm(field=answerIndex, doc=22)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 2:
+Puntuación: 0.06984995
+	Pregunta: es cierto que algunos virus pueden infectar el ordenador desde un mensaje de correo
+	Respuesta:  Si utiliza el cliente de correo que recomienda el S.I. (Mozilla), un mensaje no puede infectar su ordenador porque únicamente se trata de texto. En otros clientes de correo-e, por ejemplo Outlook, si podría darse el caso si este producto no está debidamente actualizado con los correspondientes parches de seguridad. El único punto de infección en un mensaje, lo forman los ficheros vinculados a él. Estos sí pueden contener un virus que se active cuando acceda o ejecute dicho fichero. La solución es muy sencilla, puesto que bastará con tener el antivirus actualizado. No obstante, se debe de ser muy precavido al ejecutar o abrir ficheros adjuntos de origen desconocido o sospechoso. Además, la estafeta de correo-e de la UJA dispone de un sistema antivirus que bloquea aquellos ficheros adjuntos infectados.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=39&id=177&artlang=es
+Detalle resultado: 0.06984995 = (MATCH) product of:
+  0.10477493 = (MATCH) sum of:
+    0.06112037 = (MATCH) product of:
+      0.30560184 = (MATCH) sum of:
+        0.30560184 = (MATCH) weight(question:orden in 172), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.7920351 = (MATCH) fieldWeight(question:orden in 172), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=172)
+      0.2 = coord(1/5)
+    0.04365456 = (MATCH) product of:
+      0.1091364 = (MATCH) sum of:
+        0.059297446 = (MATCH) weight(answerIndex:orden in 172), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.42194176 = (MATCH) fieldWeight(answerIndex:orden in 172), product of:
+            1.0 = tf(termFreq(answerIndex:orden)=1)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=172)
+        0.049838956 = (MATCH) weight(answerIndex:solucion in 172), product of:
+          0.12883978 = queryWeight(answerIndex:solucion), product of:
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.041633315 = queryNorm
+          0.38682896 = (MATCH) fieldWeight(answerIndex:solucion in 172), product of:
+            1.0 = tf(termFreq(answerIndex:solucion)=1)
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=172)
+      0.4 = coord(2/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 3:
+Puntuación: 0.060512733
+	Pregunta: desde que ordenadores puedo acceder a mi espacio en disco
+	Respuesta:  Puedes acceder a tu espacio en disco desde los siguientes equipos: - Ordenadores de las <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" target="_blank">aulas de informática</a> o de <a href="http://www.ujaen.es/serv/biblio/salas.html roap" target="_blank">Biblioteca</a> - Ordenadores conectados a la red de la UJA (<a href="http://www.ujaen.es/sci/redes/riuja/index.htm" target="_blank">Riuja</a>) - Ordenadores portátiles conectados a <a href="http://www.ujaen.es/sci/redes/rimuja/" target="_blank">Rimuja</a> - Ordenadores externos conectados a Riuja mediante <a href="http://www.ujaen.es/sci/redes/vpn/" target="_blank">VPN </a>(Red privada virtual) Temas relacionados: - <a href="/index.php?action=artikel cat=8 id=285 artlang=es">¿Cómo me conecto a mi espacio en disco?</a>  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=8&id=287&artlang=es
+Detalle resultado: 0.06051273 = (MATCH) product of:
+  0.09076909 = (MATCH) sum of:
+    0.06112037 = (MATCH) product of:
+      0.30560184 = (MATCH) sum of:
+        0.30560184 = (MATCH) weight(question:orden in 387), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.7920351 = (MATCH) fieldWeight(question:orden in 387), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=387)
+      0.2 = coord(1/5)
+    0.029648721 = (MATCH) product of:
+      0.1482436 = (MATCH) sum of:
+        0.1482436 = (MATCH) weight(answerIndex:orden in 387), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          1.0548544 = (MATCH) fieldWeight(answerIndex:orden in 387), product of:
+            2.0 = tf(termFreq(answerIndex:orden)=4)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.15625 = fieldNorm(field=answerIndex, doc=387)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 4:
+Puntuación: 0.053375117
+	Pregunta: mi ordenador portatil acer aspire one no muestra imagen alguna por pantalla o no carga la bateria
+	Respuesta:  Si su equipo presenta alguno de estos problemas y sin embargo tiene iluminado el led de encendido y nota que  el ventilador y el disco duro están funcionando, se pueden solucionar aplicando los siguientes pasos: La solución a estos problemas se encuentra en la actualización de la versión de la Bios que a continuación indicaremos. Aspire One 110  la Versión que corresponde actualizar es: V 3308   <a href="http://support.acer-euro.com/drivers/notebook/as_one_110.html">http://support.acer-euro.com/drivers/notebook/as_one_110.html</a>   Aspire One 150 : la versión que corresponde actualizar es : V3308   <a href="http://support.acer-euro.com/drivers/notebook/as_one_150.html">http://support.acer-euro.com/drivers/notebook/as_one_150.html</a> Unicos requisitos para proceder a tal actualización :   Monitor externo se conecta a través de la VGA.   Realizar la actualización con el ordenador conectado a la red eléctrica. Observará que en el próximo encendido aparecerá la imagen en pantalla. Adicionalmente,  con la actualización de la Bios a la version V3309 se soluciona el problema de carga de la batería, para esto el procedimiento es el mismo.  A continuación se muestrán imágenes y procedimiento de ejemplo: Al seleccionar  la versión de actualizar , luego unos segundo aparecerá: Pinchar en salvar , seleccionar una ruta de descarga , Por ejemplo: En este caso lo descargamos en mis documentos , como también se puede seleccionar programas. (no seleccionar escritorio) El archivo a descargar es un comprimido  .ZIP  al finalizar la descarga debemos descomprimirlo En general se hace seleccionando el archivo botón derecho extraer en: Una vez realizada la extracción a parecerá esta carpeta: Hacemos doble click: Y ahora Siempre teniendo el equipo conectado a la red ejecutaremos con doble click FLASH.EXE Al reinicio la maquina recuperará la imagen.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=32&id=422&artlang=es
+Detalle resultado: 0.053375117 = (MATCH) product of:
+  0.08006267 = (MATCH) sum of:
+    0.043657407 = (MATCH) product of:
+      0.21828704 = (MATCH) sum of:
+        0.21828704 = (MATCH) weight(question:orden in 104), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.2800251 = (MATCH) fieldWeight(question:orden in 104), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=104)
+      0.2 = coord(1/5)
+    0.03640526 = (MATCH) product of:
+      0.091013156 = (MATCH) sum of:
+        0.0370609 = (MATCH) weight(answerIndex:orden in 104), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.2637136 = (MATCH) fieldWeight(answerIndex:orden in 104), product of:
+            1.0 = tf(termFreq(answerIndex:orden)=1)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.078125 = fieldNorm(field=answerIndex, doc=104)
+        0.053952254 = (MATCH) weight(answerIndex:solucion in 104), product of:
+          0.12883978 = queryWeight(answerIndex:solucion), product of:
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.041633315 = queryNorm
+          0.41875464 = (MATCH) fieldWeight(answerIndex:solucion in 104), product of:
+            1.7320508 = tf(termFreq(answerIndex:solucion)=3)
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.078125 = fieldNorm(field=answerIndex, doc=104)
+      0.4 = coord(2/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 5:
+Puntuación: 0.052823924
+	Pregunta: que significa el aviso que sale al iniciar el ordenador de que no se escriba nada en la unidad c
+	Respuesta:  Consulte el siguiente artículo: <a href="/index.php?action=artikel cat=58 id=330 artlang=es" class="intfaqlink">¿Qué son las pantallas azules que aparecen cuando se arrancan los ordenadores?</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=331&artlang=es
+Detalle resultado: 0.052823924 = (MATCH) product of:
+  0.07923588 = (MATCH) sum of:
+    0.043657407 = (MATCH) product of:
+      0.21828704 = (MATCH) sum of:
+        0.21828704 = (MATCH) weight(question:orden in 51), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.2800251 = (MATCH) fieldWeight(question:orden in 51), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=51)
+      0.2 = coord(1/5)
+    0.03557847 = (MATCH) product of:
+      0.17789234 = (MATCH) sum of:
+        0.17789234 = (MATCH) weight(answerIndex:orden in 51), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          1.2658253 = (MATCH) fieldWeight(answerIndex:orden in 51), product of:
+            1.0 = tf(termFreq(answerIndex:orden)=1)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.375 = fieldNorm(field=answerIndex, doc=51)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 6:
+Puntuación: 0.051796343
+	Pregunta: que son las pantallas azules que aparecen cuando se arrancan los ordenadores
+	Respuesta:  Todas las aulas de informática del Servicio de Informática disponen de un sistema llamado rembo mediante el cual, cada vez que un ordenador arranca o se reinicia, se restaura automáticamente todo el contenido de la unidad C: a su configuración original. Esto quiere decir que cualquier cambio que se haga en la unidad C: (es decir, borrar, copiar, mover o modificar cualquier fichero o configuración en esa unidad) se va a perder en cuanto el ordenador se reinicie. Las pantallas azules que aparecen al arrancar el ordenador son las que se encargan de realizar esa restauración de la unidad C. Gracias a este sistema podemos garantizarle que cada vez que usted o alguno de sus alumnos encienda un ordenador del aula lo va a encontrar en perfecto estado de funcionamiento (salvo que tuviera alguna avería hardware). Si necesita escribir algún fichero que permanezca en el equipo aunque se reinicie o apague el ordenador deberá escribirlo en la unidad D: Esta unidad no sufre ninguna modificación y puede usarla tranquilamente sin temor a perder ningún dato. Sin embargo, debe tener en cuenta que si tras terminar su clase deja sus datos en la unidad D: cualquier otro alumno o profesor que vuelva a utilizar ese equipo podrá ver esos datos e incluso modificarlos y borrarlos definitivamente. Igualmente el Servicio de Informática se reserva el derecho de eliminar de forma periódica y por labores de mantenimiento, el contenido de la unidad D: Adicionalmente además de la citada unidad D: puede utilizar para grabar sus archivos cualquier dispositivo con conexión USB, la disquetera de 3" y 1/2, o bien su <a href="index.php?action=show cat=8">espacio en disco personal</a>.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=1&id=330&artlang=es
+Detalle resultado: 0.05179634 = (MATCH) product of:
+  0.077694505 = (MATCH) sum of:
+    0.06112037 = (MATCH) product of:
+      0.30560184 = (MATCH) sum of:
+        0.30560184 = (MATCH) weight(question:orden in 50), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.7920351 = (MATCH) fieldWeight(question:orden in 50), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=50)
+      0.2 = coord(1/5)
+    0.016574139 = (MATCH) product of:
+      0.08287069 = (MATCH) sum of:
+        0.08287069 = (MATCH) weight(answerIndex:orden in 50), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.5896815 = (MATCH) fieldWeight(answerIndex:orden in 50), product of:
+            2.236068 = tf(termFreq(answerIndex:orden)=5)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.078125 = fieldNorm(field=answerIndex, doc=50)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 7:
+Puntuación: 0.051796343
+	Pregunta: que son las pantallas azules que aparecen cuando se arrancan los ordenadores
+	Respuesta:  Todas las aulas de informática del Servicio de Informática disponen de un sistema llamado rembo mediante el cual, cada vez que un ordenador arranca o se reinicia, se restaura automáticamente todo el contenido de la unidad C: a su configuración original. Esto quiere decir que cualquier cambio que se haga en la unidad C: (es decir, borrar, copiar, mover o modificar cualquier fichero o configuración en esa unidad) se va a perder en cuanto el ordenador se reinicie. Las pantallas azules que aparecen al arrancar el ordenador son las que se encargan de realizar esa restauración de la unidad C. Gracias a este sistema podemos garantizarle que cada vez que usted o alguno de sus alumnos encienda un ordenador del aula lo va a encontrar en perfecto estado de funcionamiento (salvo que tuviera alguna avería hardware). Si necesita escribir algún fichero que permanezca en el equipo aunque se reinicie o apague el ordenador deberá escribirlo en la unidad D: Esta unidad no sufre ninguna modificación y puede usarla tranquilamente sin temor a perder ningún dato. Sin embargo, debe tener en cuenta que si tras terminar su clase deja sus datos en la unidad D: cualquier otro alumno o profesor que vuelva a utilizar ese equipo podrá ver esos datos e incluso modificarlos y borrarlos definitivamente. Igualmente el Servicio de Informática se reserva el derecho de eliminar de forma periódica y por labores de mantenimiento, el contenido de la unidad D: Adicionalmente además de la citada unidad D: puede utilizar para grabar sus archivos cualquier dispositivo con conexión USB, la disquetera de 3" y 1/2, o bien su <a href="index.php?action=show cat=8">espacio en disco personal</a>.  
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=330&artlang=es
+Detalle resultado: 0.05179634 = (MATCH) product of:
+  0.077694505 = (MATCH) sum of:
+    0.06112037 = (MATCH) product of:
+      0.30560184 = (MATCH) sum of:
+        0.30560184 = (MATCH) weight(question:orden in 321), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.7920351 = (MATCH) fieldWeight(question:orden in 321), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.4375 = fieldNorm(field=question, doc=321)
+      0.2 = coord(1/5)
+    0.016574139 = (MATCH) product of:
+      0.08287069 = (MATCH) sum of:
+        0.08287069 = (MATCH) weight(answerIndex:orden in 321), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.5896815 = (MATCH) fieldWeight(answerIndex:orden in 321), product of:
+            2.236068 = tf(termFreq(answerIndex:orden)=5)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.078125 = fieldNorm(field=answerIndex, doc=321)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 8:
+Puntuación: 0.043081485
+	Pregunta: como configuro o conecto mi ordenador a una impresora fotocopiadora que se encuentra conectada directamente a la red riuja
+	Respuesta:  Deberá remitirnos una <a href="http://www.ujaen.es/murphy/averiaequipo.html">solicitud de incidencia</a> ,  donde el tipo de equipo será su ordenador e indicará en el apartado Descripción de la incidencia: "Deseo configurar mi ordenador para conectarme a la impresora  con número de inventario _______". En el menor tiempo posible, el Servicio de Informática enviará a un técnico que le realizará las actuaciones necesarias para abordar su petición satisfactoriamente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=206&artlang=es
+Detalle resultado: 0.043081485 = (MATCH) product of:
+  0.06462222 = (MATCH) sum of:
+    0.043657407 = (MATCH) product of:
+      0.21828704 = (MATCH) sum of:
+        0.21828704 = (MATCH) weight(question:orden in 259), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.2800251 = (MATCH) fieldWeight(question:orden in 259), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=259)
+      0.2 = coord(1/5)
+    0.020964812 = (MATCH) product of:
+      0.10482406 = (MATCH) sum of:
+        0.10482406 = (MATCH) weight(answerIndex:orden in 259), product of:
+          0.14053467 = queryWeight(answerIndex:orden), product of:
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.041633315 = queryNorm
+          0.7458947 = (MATCH) fieldWeight(answerIndex:orden in 259), product of:
+            1.4142135 = tf(termFreq(answerIndex:orden)=2)
+            3.375534 = idf(docFreq=36, maxDocs=398)
+            0.15625 = fieldNorm(field=answerIndex, doc=259)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)
+
+Resultado: 9:
+Puntuación: 0.038502663
+	Pregunta: al arrancar el ordenador se muestra un mensaje de error de ejecucion en el proceso tpsrv exe
+	Respuesta:  El error que aparece al arrancar el equipo es similar a este: Si tiene Panda Antivirus Pro 2009 debe instalar la nueva versión Panda <a href="http://www.ujaen.es/sci/invdoc/avpanda/instalacion.html">2010 Pro</a>.    Si tiene  Panda Antivirus Pro 2010 siga estos pasos: Pulse en este enlace:  "<a href="\\ambar\wwwinstall\panda\Hotfixes\tpsrv_P2010.exe">solución al error tpsrv.exe</a>" Guarde el fichero en el escritorio de su equipo y ejecute el archivo descargado. Una vez instalado se le pedirá reiniciar el equipo Reinicie el equipo y compruebe que la incidencia está solucionada.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=38&id=418&artlang=es
+Detalle resultado: 0.038502663 = (MATCH) product of:
+  0.05775399 = (MATCH) sum of:
+    0.043657407 = (MATCH) product of:
+      0.21828704 = (MATCH) sum of:
+        0.21828704 = (MATCH) weight(question:orden in 167), product of:
+          0.1705334 = queryWeight(question:orden), product of:
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.041633315 = queryNorm
+          1.2800251 = (MATCH) fieldWeight(question:orden in 167), product of:
+            1.0 = tf(termFreq(question:orden)=1)
+            4.0960803 = idf(docFreq=17, maxDocs=398)
+            0.3125 = fieldNorm(field=question, doc=167)
+      0.2 = coord(1/5)
+    0.014096585 = (MATCH) product of:
+      0.070482925 = (MATCH) sum of:
+        0.070482925 = (MATCH) weight(answerIndex:solucion in 167), product of:
+          0.12883978 = queryWeight(answerIndex:solucion), product of:
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.041633315 = queryNorm
+          0.54705876 = (MATCH) fieldWeight(answerIndex:solucion in 167), product of:
+            1.4142135 = tf(termFreq(answerIndex:solucion)=2)
+            3.0946317 = idf(docFreq=48, maxDocs=398)
+            0.125 = fieldNorm(field=answerIndex, doc=167)
+      0.2 = coord(1/5)
+  0.6666667 = coord(2/3)

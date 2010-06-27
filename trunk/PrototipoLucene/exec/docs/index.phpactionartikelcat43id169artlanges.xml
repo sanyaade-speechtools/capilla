@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="mozilla suite">
+               <Question Text="que es mozilla y como se usa">
+                    <AnswerIndex>acceda al tutorial de mozilla disponible en la web o sci o redes o email o mozilla o</AnswerIndex>
+                    <Answer>Acceda al tutorial de Mozilla disponible en la web <a href="http://www.ujaen.es/sci/redes/email/mozilla/">http://www.ujaen.es/sci/redes/email/mozilla/</a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/mozilla/</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=43&id=169&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

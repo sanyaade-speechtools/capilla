@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="outlook">
+               <Question Text="no recibo mensajes de correo desde un compañero de la universidad sin embargo recibo perfectamente correo desde otros utilizo outlook como cliente de correo">
+                    <AnswerIndex>la unica razon para no recibir mensajes entre usuarios internos a la comunidad universitaria es que existe algun filtro que este borrando los mensajes revise que no tiene definida esa direccion en la lista de destinatarios bloqueados de outlook menu acciones correo electronico no deseado solapa remitentes bloqueados si la direccion esta incluida en esta lista eliminela y volvera a recibir mensajes con normalidad</AnswerIndex>
+                    <Answer>La única razón para no recibir mensajes entre usuarios internos a la comunidad universitaria es que existe algún filtro que esté borrando los mensajes. Revise que no tiene definida esa dirección en la lista de destinatarios bloqueados de Outlook:
+Menú Acciones - Correo electrónico no deseado  Solapa Remitentes bloqueados Si la dirección está incluida en esta lista, elimínela y volverá a recibir mensajes con normalidad.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=72&id=420&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

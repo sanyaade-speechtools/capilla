@@ -1,0 +1,18 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="informacion general">
+               <Question Text="por que no puedo acceder a algunos servicios que estan accesibles a traves de la red cableada riuja">
+                    <AnswerIndex>porque a traves de rimuja o rimuja web no estan disponibles todos los servicios que hay en la red cableada por decision del servicio de informatica consulta la lista de servicios disponibles para tu perfil en rimuja o los servicios disponibles en rimuja web si alguno no se encuentra disponible y deseas solicitarlo envia un correo e a secrimuja ujaen es indicando brevemente el tipo de aplicacion o servicio los motivos para utilizarlo y opcionalmente alguna direccion web para obtener informacion adicional</AnswerIndex>
+                    <Answer>Porque a través de RIMUJA o RIMUJA-WEB  no están disponibles todos los servicios que hay en la red cableada por decisión del Servicio de Informática. Consulta la lista de <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm">servicios disponibles</a>   para tu perfil en RIMUJA ,  o los <a href="http://www.ujaen.es/sci/redes/rimujaweb/servicios.htm">servicios disponibles</a> en RIMUJA-WEB. Si alguno no se encuentra disponible y deseas solicitarlo, envía un correo-e a <a href="mailto:secrimuja@ujaen.es"> secrimuja @ ujaen.es </a> , indicando brevemente el tipo de aplicación o servicio, los motivos para utilizarlo y opcionalmente alguna dirección web para obtener información adicional.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/servicios.htm</Link>
+                    <Link>http://www.ujaen.es/sci/redes/rimujaweb/servicios.htm</Link>
+                    <Link>mailto:secrimuja@ujaen.es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=62&id=247&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

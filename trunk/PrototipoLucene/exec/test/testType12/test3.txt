@@ -1,0 +1,637 @@
+Test3
+Indexado: Question, Category
+
+Pregunta: usar correo electrónico
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+PuntuaciÃ³n: 1.2585868
+	Pregunta: que es el correo electronico
+	Respuesta:  El correo electrónico (e-mail) permite el intercambio de mensajes entre personas. Es como escribir una carta, pero en este caso, es una carta electrónica. Al igual que en el correo postal una dirección identifica a una persona como perteneciente a una organización. Los programas de correo (clientes) facilitan la redacción de los mensajes y permiten contactar con los servidores de correo salientes para que finalmente éstos se encarguen de llevar la información a su buzón destino. Los clientes también pueden recuperar los mensajes del buzón contactando con servidores de correo entrante. Temas relacionados: - <a href="http://www.ujaen.es/sci/redes/email/caracteristicas.html" target="_blank">Características del Servicio de Correo</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=24&id=31&artlang=es
+Detalle resultado: 1.2585866 = (MATCH) sum of:
+  1.038694 = (MATCH) product of:
+    1.558041 = (MATCH) sum of:
+      0.49122658 = (MATCH) weight(question:corre in 40), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.9091415 = (MATCH) fieldWeight(question:corre in 40), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=40)
+      1.0668144 = (MATCH) weight(question:electron in 40), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        2.8134658 = (MATCH) fieldWeight(question:electron in 40), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=40)
+    0.6666667 = coord(2/3)
+  0.0106774485 = (MATCH) product of:
+    0.016016172 = (MATCH) sum of:
+      0.008008086 = (MATCH) weight(categorie:corre in 40), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.086182 = (MATCH) fieldWeight(categorie:corre in 40), product of:
+          1.0 = tf(termFreq(categorie:corre)=1)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=40)
+      0.008008086 = (MATCH) weight(categorie:electron in 40), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.086182 = (MATCH) fieldWeight(categorie:electron in 40), product of:
+          1.0 = tf(termFreq(categorie:electron)=1)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=40)
+    0.6666667 = coord(2/3)
+  0.2092152 = (MATCH) product of:
+    0.31382278 = (MATCH) sum of:
+      0.17836018 = (MATCH) weight(answerIndex:corre in 40), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.8051911 = (MATCH) fieldWeight(answerIndex:corre in 40), product of:
+          2.4494898 = tf(termFreq(answerIndex:corre)=6)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=40)
+      0.1354626 = (MATCH) weight(answerIndex:electron in 40), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.5331868 = (MATCH) fieldWeight(answerIndex:electron in 40), product of:
+          1.4142135 = tf(termFreq(answerIndex:electron)=2)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=40)
+    0.6666667 = coord(2/3)
+
+Resultado: 1:
+PuntuaciÃ³n: 0.98401064
+	Pregunta: puedo utilizar el correo electronico desde casa
+	Respuesta:  Si. Puedes leer el correo electrónico desde casa con cualquier navegador web, conectándote al servicio Webmail. Cualquier otro cliente no te permitirá utilizar este servicio.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=121&artlang=es
+Detalle resultado: 0.9840106 = (MATCH) sum of:
+  0.7270858 = (MATCH) product of:
+    1.0906287 = (MATCH) sum of:
+      0.34385863 = (MATCH) weight(question:corre in 240), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.3363991 = (MATCH) fieldWeight(question:corre in 240), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=240)
+      0.74677014 = (MATCH) weight(question:electron in 240), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.9694262 = (MATCH) fieldWeight(question:electron in 240), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=240)
+    0.6666667 = coord(2/3)
+  0.032122456 = (MATCH) product of:
+    0.04818368 = (MATCH) sum of:
+      0.026292877 = (MATCH) weight(categorie:corre in 240), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2829606 = (MATCH) fieldWeight(categorie:corre in 240), product of:
+          9.380832 = tf(termFreq(categorie:corre)=88)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=240)
+      0.021890802 = (MATCH) weight(categorie:electron in 240), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.23558603 = (MATCH) fieldWeight(categorie:electron in 240), product of:
+          7.81025 = tf(termFreq(categorie:electron)=61)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=240)
+    0.6666667 = coord(2/3)
+  0.22480235 = (MATCH) product of:
+    0.3372035 = (MATCH) sum of:
+      0.14563048 = (MATCH) weight(answerIndex:corre in 240), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.6574358 = (MATCH) fieldWeight(answerIndex:corre in 240), product of:
+          1.0 = tf(termFreq(answerIndex:corre)=1)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=240)
+      0.19157304 = (MATCH) weight(answerIndex:electron in 240), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.75404 = (MATCH) fieldWeight(answerIndex:electron in 240), product of:
+          1.0 = tf(termFreq(answerIndex:electron)=1)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=240)
+    0.6666667 = coord(2/3)
+
+Resultado: 2:
+PuntuaciÃ³n: 0.9348198
+	Pregunta: como puedo acceder a mi correo electronico desde fuera de la uja
+	Respuesta:  Puede acceder a su cuenta de correo electrónico desde cualquier lugar siempre que cuente con una conexión a Internet y un navegador web. A este tipo de acceso se le denomina webmail (correo electrónico a través de web). Para ello, siga los siguientes pasos: Abra su navegador y acceda a la <a href="http://www.ujaen.es/webmail/" target="_blank">Webmail</a> El navegador informará de que está accediendo a una web segura, para lo cual instala un certificado de seguridad. Por lo tanto deberá ir aceptando las sucesivas ventanas que le vayan apareciendo (serán algo diferentes en función del navegador usado).  Finalmente, llegará a una ventana en la que puede introducir su nombre de usuario y su contraseña. Una vez pulsado el botón Entrar podrá acceder a su correo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=95&artlang=es
+Detalle resultado: 0.9348198 = (MATCH) sum of:
+  0.7270858 = (MATCH) product of:
+    1.0906287 = (MATCH) sum of:
+      0.34385863 = (MATCH) weight(question:corre in 229), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.3363991 = (MATCH) fieldWeight(question:corre in 229), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=229)
+      0.74677014 = (MATCH) weight(question:electron in 229), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.9694262 = (MATCH) fieldWeight(question:electron in 229), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=229)
+    0.6666667 = coord(2/3)
+  0.033345826 = (MATCH) product of:
+    0.050018735 = (MATCH) sum of:
+      0.027368445 = (MATCH) weight(categorie:corre in 229), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.29453573 = (MATCH) fieldWeight(categorie:corre in 229), product of:
+          8.5440035 = tf(termFreq(categorie:corre)=73)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=229)
+      0.022650288 = (MATCH) weight(categorie:electron in 229), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.24375951 = (MATCH) fieldWeight(categorie:electron in 229), product of:
+          7.071068 = tf(termFreq(categorie:electron)=50)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=229)
+    0.6666667 = coord(2/3)
+  0.1743882 = (MATCH) product of:
+    0.2615823 = (MATCH) sum of:
+      0.12611969 = (MATCH) weight(answerIndex:corre in 229), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.5693561 = (MATCH) fieldWeight(answerIndex:corre in 229), product of:
+          1.7320508 = tf(termFreq(answerIndex:corre)=3)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=229)
+      0.1354626 = (MATCH) weight(answerIndex:electron in 229), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.5331868 = (MATCH) fieldWeight(answerIndex:electron in 229), product of:
+          1.4142135 = tf(termFreq(answerIndex:electron)=2)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=229)
+    0.6666667 = coord(2/3)
+
+Resultado: 3:
+PuntuaciÃ³n: 0.8794764
+	Pregunta: puedo cambiar mi identificador de usuario y mi direccion de correo electronico
+	Respuesta:  No. La dirección de correo electrónico crea automáticamente a partir del identificador de usuario de Campus Virtual. De esta forma se consigue que no existan coincidencias de identificadores entre todos los estudiantes.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=45&id=117&artlang=es
+Detalle resultado: 0.87947655 = (MATCH) sum of:
+  0.6232165 = (MATCH) product of:
+    0.9348247 = (MATCH) sum of:
+      0.29473597 = (MATCH) weight(question:corre in 237), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.1454849 = (MATCH) fieldWeight(question:corre in 237), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=237)
+      0.64008874 = (MATCH) weight(question:electron in 237), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:electron in 237), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=237)
+    0.6666667 = coord(2/3)
+  0.031457692 = (MATCH) product of:
+    0.04718654 = (MATCH) sum of:
+      0.025840819 = (MATCH) weight(categorie:corre in 237), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2780956 = (MATCH) fieldWeight(categorie:corre in 237), product of:
+          9.219544 = tf(termFreq(categorie:corre)=85)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+      0.021345718 = (MATCH) weight(categorie:electron in 237), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2297199 = (MATCH) fieldWeight(categorie:electron in 237), product of:
+          7.615773 = tf(termFreq(categorie:electron)=58)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=237)
+    0.6666667 = coord(2/3)
+  0.22480235 = (MATCH) product of:
+    0.3372035 = (MATCH) sum of:
+      0.14563048 = (MATCH) weight(answerIndex:corre in 237), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.6574358 = (MATCH) fieldWeight(answerIndex:corre in 237), product of:
+          1.0 = tf(termFreq(answerIndex:corre)=1)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=237)
+      0.19157304 = (MATCH) weight(answerIndex:electron in 237), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.75404 = (MATCH) fieldWeight(answerIndex:electron in 237), product of:
+          1.0 = tf(termFreq(answerIndex:electron)=1)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.25 = fieldNorm(field=answerIndex, doc=237)
+    0.6666667 = coord(2/3)
+
+Resultado: 4:
+PuntuaciÃ³n: 0.81242645
+	Pregunta: accedo bien a campus virtual pero no tengo la opcion de activar mi correo electronico
+	Respuesta:  Si se accede correctamente a Campus Virtual y no existe ningún enlace para activar el correo electrónico, puede que el problema sea debido a que se trata de una nueva cuenta de la Universidad de Jaén, y la opción se activará el día de comienzo del Curso Académico. Este problema sucede con alumnos recién matriculados, alumnos Erasmus o alumnos de otras Universidades.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=431&artlang=es
+Detalle resultado: 0.81242657 = (MATCH) sum of:
+  0.6232165 = (MATCH) product of:
+    0.9348247 = (MATCH) sum of:
+      0.29473597 = (MATCH) weight(question:corre in 194), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.1454849 = (MATCH) fieldWeight(question:corre in 194), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+      0.64008874 = (MATCH) weight(question:electron in 194), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:electron in 194), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=194)
+    0.6666667 = coord(2/3)
+  0.020608332 = (MATCH) product of:
+    0.030912496 = (MATCH) sum of:
+      0.016949922 = (MATCH) weight(categorie:corre in 194), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.18241291 = (MATCH) fieldWeight(categorie:corre in 194), product of:
+          5.2915025 = tf(termFreq(categorie:corre)=28)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+      0.013962575 = (MATCH) weight(categorie:electron in 194), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.15026346 = (MATCH) fieldWeight(categorie:electron in 194), product of:
+          4.358899 = tf(termFreq(categorie:electron)=19)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=194)
+    0.6666667 = coord(2/3)
+  0.16860175 = (MATCH) product of:
+    0.25290263 = (MATCH) sum of:
+      0.10922286 = (MATCH) weight(answerIndex:corre in 194), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.49307683 = (MATCH) fieldWeight(answerIndex:corre in 194), product of:
+          1.0 = tf(termFreq(answerIndex:corre)=1)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=194)
+      0.14367978 = (MATCH) weight(answerIndex:electron in 194), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.56553 = (MATCH) fieldWeight(answerIndex:electron in 194), product of:
+          1.0 = tf(termFreq(answerIndex:electron)=1)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=194)
+    0.6666667 = coord(2/3)
+
+Resultado: 5:
+PuntuaciÃ³n: 0.8052558
+	Pregunta: como puedo crear un formulario que me envie la informacion por correo electronico
+	Respuesta:  Aprenda todo lo necesario para crear páginas web que contengan formularios de petición de datos, que serán enviados a su dirección de correo electrónico cuando los usuarios pulsan el botón enviar. Para más información consulte la dirección <a href="http://www.ujaen.es/sci/redes/web/fwuja.html">http://www.ujaen.es/sci/redes/web/fwuja.html</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=20&id=164&artlang=es
+Detalle resultado: 0.8052559 = (MATCH) sum of:
+  0.6232165 = (MATCH) product of:
+    0.9348247 = (MATCH) sum of:
+      0.29473597 = (MATCH) weight(question:corre in 57), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.1454849 = (MATCH) fieldWeight(question:corre in 57), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=57)
+      0.64008874 = (MATCH) weight(question:electron in 57), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:electron in 57), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=57)
+    0.6666667 = coord(2/3)
+  0.013437629 = (MATCH) product of:
+    0.020156443 = (MATCH) sum of:
+      0.011096329 = (MATCH) weight(categorie:corre in 57), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.11941728 = (MATCH) fieldWeight(categorie:corre in 57), product of:
+          1.7320508 = tf(termFreq(categorie:corre)=3)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0625 = fieldNorm(field=categorie, doc=57)
+      0.009060115 = (MATCH) weight(categorie:electron in 57), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.0975038 = (MATCH) fieldWeight(categorie:electron in 57), product of:
+          1.4142135 = tf(termFreq(categorie:electron)=2)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0625 = fieldNorm(field=categorie, doc=57)
+    0.6666667 = coord(2/3)
+  0.16860175 = (MATCH) product of:
+    0.25290263 = (MATCH) sum of:
+      0.10922286 = (MATCH) weight(answerIndex:corre in 57), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.49307683 = (MATCH) fieldWeight(answerIndex:corre in 57), product of:
+          1.0 = tf(termFreq(answerIndex:corre)=1)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=57)
+      0.14367978 = (MATCH) weight(answerIndex:electron in 57), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.56553 = (MATCH) fieldWeight(answerIndex:electron in 57), product of:
+          1.0 = tf(termFreq(answerIndex:electron)=1)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=57)
+    0.6666667 = coord(2/3)
+
+Resultado: 6:
+PuntuaciÃ³n: 0.8020143
+	Pregunta: mensajes de correo electronico solicitando claves phising
+	Respuesta:  El phising es una forma de ataque en la que un delincuente suplanta la identidad de un tercero de confianza (empresa, institución, responsable del Servicio) para adquirir información confidencial, como por ejemplo claves de correo electrónico o claves bancarias. Los mensajes suelen hacer referencia a la necesidad de confirmar alguna clave, debido a algún problema o por mantenimiento en el servicio. En ocasiones facilitan algún enlace (link) a una página web con el mismo aspecto que la entidad que suplantan. Pero en la mayoría de los casos los mensajes están mal traducidos y a pesar de ello muchos usuarios siguen respondiendo y enviando los datos solicitados al atacante. Una vez conseguida la información, el atacante suele utilizarla para: - suplantar a la víctima en otro ataque - acceder con sus credenciales a opciones privilegiadas. Por ejemplo: en Campus Virtual están disponibles las actas de notas, nóminas, etc... El Servicio de Informática nunca le solicitará que le envíe por correo electrónico ningún tipo de clave. Recuerde que usted ya puede cambiar su clave con la opción disponible en Campus Virtual. Igualmente, ninguna otra institución externa le solicitará que confirme sus claves por correo. Cualquier mensaje en este sentido debe considerarse sospechoso. Más información: - <a href="http://www.osi.es/econf/Protegete/Tramites_en_linea/Reconocer_mensajes_fraudulentos/">Reconocer Mensajes fraudulentos </a> - <a href="http://www.osi.es/econf/Protegete/Correo_electronico/">Protégete en el correo electrónico</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=24&id=433&artlang=es
+Detalle resultado: 0.8020144 = (MATCH) sum of:
+  0.6232165 = (MATCH) product of:
+    0.9348247 = (MATCH) sum of:
+      0.29473597 = (MATCH) weight(question:corre in 83), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        1.1454849 = (MATCH) fieldWeight(question:corre in 83), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=83)
+      0.64008874 = (MATCH) weight(question:electron in 83), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:electron in 83), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=83)
+    0.6666667 = coord(2/3)
+  0.023029089 = (MATCH) product of:
+    0.034543633 = (MATCH) sum of:
+      0.017726654 = (MATCH) weight(categorie:corre in 83), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.190772 = (MATCH) fieldWeight(categorie:corre in 83), product of:
+          3.1622777 = tf(termFreq(categorie:corre)=10)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=83)
+      0.016816981 = (MATCH) weight(categorie:electron in 83), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.1809822 = (MATCH) fieldWeight(categorie:electron in 83), product of:
+          3.0 = tf(termFreq(categorie:electron)=9)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0546875 = fieldNorm(field=categorie, doc=83)
+    0.6666667 = coord(2/3)
+  0.1557688 = (MATCH) product of:
+    0.23365319 = (MATCH) sum of:
+      0.10922286 = (MATCH) weight(answerIndex:corre in 83), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.49307683 = (MATCH) fieldWeight(answerIndex:corre in 83), product of:
+          2.0 = tf(termFreq(answerIndex:corre)=4)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=83)
+      0.124430336 = (MATCH) weight(answerIndex:electron in 83), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.48976332 = (MATCH) fieldWeight(answerIndex:electron in 83), product of:
+          1.7320508 = tf(termFreq(answerIndex:electron)=3)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.09375 = fieldNorm(field=answerIndex, doc=83)
+    0.6666667 = coord(2/3)
+
+Resultado: 7:
+PuntuaciÃ³n: 0.6317948
+	Pregunta: no puedo acceder a ningun servicio de red correo electronico navegacion web etc
+	Respuesta:  Inicialmente, compruebe que realmente no funcione ningún servicio de red para descartar que se trate de un problema puntual de un determinado servicio (correo electrónico, web, etc): Compruebe que no puede navegar por Internet Compruebe que no puede recibir ni enviar correo electrónico Compruebe cualquier otro servicio de red que utilice habitualmente COMPROBACIONES A NIVEL FÍSICO ¿La tarjeta de red hace enlace? Observe la conexión de red de su PC (en la parte trasera de la torre) y compruebe que el indicador verde de enlace (link) esté encendido en su tarjeta de red y probablemente parpadeando: SI: continúe con el siguiente paso. NO: compruebe el cable de red, sustituyéndolo si es necesario por el de un compañero. Compruebe que el cable de red está firmemente conectado tanto a la toma de pared como a la conexión de la tarjeta de red del PC. Observe si la conexión está algo floja o la clavijas del cable de red no hacen click al conectarlas en alguno de los extremos. Si tras comprobar el cable aún no se enciende el indicador de la tarjeta <a href="http://www.ujaen.es/murphy/averiaequipo.html">notifique la incidencia</a>  al Servicio de Informática, desde el equipo de algún compañero, indicando claramente el número de la toma de red de pared en la que se encuentra conectado el PC.  COMPROBACIONES A NIVEL LÓGICO Compruebe que la configuración TCP/IP sea correcta. Para ello, consulte la <a href="http://www.ujaen.es/sci/sau/guias/guias.htm riuja">Guía práctica</a> de configuración de la Pila de Protocolos TCP/IP correspondiente a su sistema Operativo. Como resumen de los campos que se deben de revisar (en Windows XP), se puede consultar la siguiente tabla. Campo Valor Descripción del Equipo PC_xxxx (donde xxxx es el número de inventario). Nombre DNS del PC paaa-bbb ( aaa es la subred dentro del rango de subredes pertenecientes a la Ujaen. y bbb es el equipo). Grupo de trabajo El que corresponda en cada caso. Dirección IP La que se asigne desde la Unidad de redes según toma y subred. Máscara de Subred 255.255.255.0. Puerta de enlace 150.214. aaa .1 donde aaa será el mismo de la IP del Equipo. DNS Primario 150.24.170.15 DNS Secundario 150.214.170.21 DNS Terciario 150.214.170.22 Anexar sufijos DNS Activar. Sufijo DNS ujaen.es Registro en DNS Desactivar. Servidor WINS 150.214.170.106 NetBIOS sobre TCP/IP Activar. ¿Recientemente ha realizado un traslado del equipo sin comunicarlo al Servicio de Informática? En tal caso, debe enviarnos la <a href="http://www.ujaen.es/sci/redes/solic/sol-r200.pdf">siguiente solicitud</a> , para que procedamos a activarle la nueva toma para la conexión del equipo. Siga las indicaciones del " Cambio de dependencia " y NO OLVIDE indicarnos la <a href="http://www.ujaen.es/sci/redes/riuja/guias/mac.htm"> dirección física de la tarjeta de red (MAC). </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=203&artlang=es
+Detalle resultado: 0.63179475 = (MATCH) sum of:
+  0.519347 = (MATCH) product of:
+    0.7790205 = (MATCH) sum of:
+      0.24561329 = (MATCH) weight(question:corre in 256), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        0.9545708 = (MATCH) fieldWeight(question:corre in 256), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=256)
+      0.5334072 = (MATCH) weight(question:electron in 256), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.4067329 = (MATCH) fieldWeight(question:electron in 256), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=256)
+    0.6666667 = coord(2/3)
+  0.032968104 = (MATCH) product of:
+    0.049452156 = (MATCH) sum of:
+      0.027029514 = (MATCH) weight(categorie:corre in 256), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2908882 = (MATCH) fieldWeight(categorie:corre in 256), product of:
+          9.643651 = tf(termFreq(categorie:corre)=93)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=256)
+      0.022422642 = (MATCH) weight(categorie:electron in 256), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.24130961 = (MATCH) fieldWeight(categorie:electron in 256), product of:
+          8.0 = tf(termFreq(categorie:electron)=64)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=256)
+    0.6666667 = coord(2/3)
+  0.079479635 = (MATCH) product of:
+    0.119219445 = (MATCH) sum of:
+      0.051488146 = (MATCH) weight(answerIndex:corre in 256), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.23243864 = (MATCH) fieldWeight(answerIndex:corre in 256), product of:
+          1.4142135 = tf(termFreq(answerIndex:corre)=2)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.0625 = fieldNorm(field=answerIndex, doc=256)
+      0.0677313 = (MATCH) weight(answerIndex:electron in 256), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2665934 = (MATCH) fieldWeight(answerIndex:electron in 256), product of:
+          1.4142135 = tf(termFreq(answerIndex:electron)=2)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.0625 = fieldNorm(field=answerIndex, doc=256)
+    0.6666667 = coord(2/3)
+
+Resultado: 8:
+PuntuaciÃ³n: 0.6194351
+	Pregunta: no puedo acceder a ningun servicio de red correo electronico navegacion web etc
+	Respuesta:  Inicialmente, compruebe que realmente no funcione ningún servicio de red para descartar que se trate de un problema puntual de un determinado servicio (correo electrónico, web, etc): Compruebe que no puede navegar por Internet Compruebe que no puede recibir ni enviar correo electrónico Compruebe cualquier otro servicio de red que utilice habitualmente COMPROBACIONES A NIVEL FÍSICO ¿La tarjeta de red hace enlace? Observe la conexión de red de su PC (en la parte trasera de la torre) y compruebe que el indicador verde de enlace (link) esté encendido en su tarjeta de red y probablemente parpadeando: SI: continúe con el siguiente paso. NO: compruebe el cable de red, sustituyéndolo si es necesario por el de un compañero. Compruebe que el cable de red está firmemente conectado tanto a la toma de pared como a la conexión de la tarjeta de red del PC. Observe si la conexión está algo floja o la clavijas del cable de red no hacen click al conectarlas en alguno de los extremos. Si tras comprobar el cable aún no se enciende el indicador de la tarjeta envíe la siguiente solicitud al Servicio de Informática, desde el equipo de algún compañero, indicando claramente el número de la toma de red de pared en la que se encuentra conectado el PC. <a href="http://www.ujaen.es/murphy/averiaequipo.html">http://www.ujaen.es/murphy/averiaequipo.html</a> COMPROBACIONES A NIVEL LÓGICO Compruebe que la configuración TCP/IP sea correcta. Para ello, consulte la Guía práctica de configuración de la Pila de Protocolos TCP/IP correspondiente a su sistema Operativo en la siguiente dirección: <a href="http://www.ujaen.es/sci/sau/guias/guias.htm riuja"> http://www.ujaen.es/sci/sau/guias/guias.htm riuja </a> Como resumen de los campos que se deben de revisar (en Windows XP), se puede consultar la siguiente tabla. Campo Valor Descripción del Equipo PC_xxxx (donde xxxx es el número de inventario). Nombre DNS del PC paaa-bbb ( aaa es la subred dentro del rango de subredes pertenecientes a la Ujaen. y bbb es el equipo). Grupo de trabajo El que corresponda en cada caso. Dirección IP La que se asigne desde la Unidad de redes según toma y subred. Máscara de Subred 255.255.255.0. Puerta de enlace 150.214. aaa .1 donde aaa será el mismo de la IP del Equipo. DNS Primario 150.24.170.15 DNS Secundario 150.214.170.21 DNS Terciario 150.214.170.22 Anexar sufijos DNS Activar. Sufijo DNS ujaen.es Registro en DNS Desactivar. Servidor WINS 150.214.170.106 NetBIOS sobre TCP/IP Activar. ¿Recientemente ha realizado un traslado del equipo sin comunicarlo al Servicio de Informática? En tal caso, debe enviarnos la siguiente solicitud: <a href="http://www.ujaen.es/sci/redes/solic/sol-r200.pdf">http://www.ujaen.es/sci/redes/solic/sol-r200.pdf</a> para que procedamos a activarle la nueva toma para la conexión del equipo. Siga las siguientes  <a href=" Cambiosinaviso"> instrucciones </a> y NO OLVIDE indicarnos la <a href="http://www.ujaen.es/sci/redes/conex/faq/mac.htm"> dirección física de la tarjeta de red (MAC). </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=3&id=201&artlang=es
+Detalle resultado: 0.61943495 = (MATCH) sum of:
+  0.519347 = (MATCH) product of:
+    0.7790205 = (MATCH) sum of:
+      0.24561329 = (MATCH) weight(question:corre in 186), product of:
+        0.25730234 = queryWeight(question:corre), product of:
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.08423365 = queryNorm
+        0.9545708 = (MATCH) fieldWeight(question:corre in 186), product of:
+          1.0 = tf(termFreq(question:corre)=1)
+          3.0546265 = idf(docFreq=50, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=186)
+      0.5334072 = (MATCH) weight(question:electron in 186), product of:
+        0.3791816 = queryWeight(question:electron), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.08423365 = queryNorm
+        1.4067329 = (MATCH) fieldWeight(question:electron in 186), product of:
+          1.0 = tf(termFreq(question:electron)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=186)
+    0.6666667 = coord(2/3)
+  0.020608332 = (MATCH) product of:
+    0.030912496 = (MATCH) sum of:
+      0.016949922 = (MATCH) weight(categorie:corre in 186), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.18241291 = (MATCH) fieldWeight(categorie:corre in 186), product of:
+          5.2915025 = tf(termFreq(categorie:corre)=28)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=186)
+      0.013962575 = (MATCH) weight(categorie:electron in 186), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.15026346 = (MATCH) fieldWeight(categorie:electron in 186), product of:
+          4.358899 = tf(termFreq(categorie:electron)=19)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=186)
+    0.6666667 = coord(2/3)
+  0.079479635 = (MATCH) product of:
+    0.119219445 = (MATCH) sum of:
+      0.051488146 = (MATCH) weight(answerIndex:corre in 186), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.23243864 = (MATCH) fieldWeight(answerIndex:corre in 186), product of:
+          1.4142135 = tf(termFreq(answerIndex:corre)=2)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.0625 = fieldNorm(field=answerIndex, doc=186)
+      0.0677313 = (MATCH) weight(answerIndex:electron in 186), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.2665934 = (MATCH) fieldWeight(answerIndex:electron in 186), product of:
+          1.4142135 = tf(termFreq(answerIndex:electron)=2)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.0625 = fieldNorm(field=answerIndex, doc=186)
+    0.6666667 = coord(2/3)
+
+Resultado: 9:
+PuntuaciÃ³n: 0.6168251
+	Pregunta: quien puede usar las redes inalambricas malladas de la universidad
+	Respuesta:  Todos los miembros de la comunidad universitaria que posean cuenta de correo electrónico y los visitantes que contacten con los responsables de las unidades funcionales de la universidad que los hayan invitado. Para conseguir tu cuenta de correo, consulta la información de <a href="http://www.ujaen.es/sci/redes/email/"> este servicio. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=208&artlang=es
+Detalle resultado: 0.6168251 = (MATCH) sum of:
+  0.3551606 = (MATCH) product of:
+    1.0654818 = (MATCH) sum of:
+      1.0654818 = (MATCH) weight(question:usar in 325), product of:
+        0.45292553 = queryWeight(question:usar), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.08423365 = queryNorm
+        2.3524437 = (MATCH) fieldWeight(question:usar in 325), product of:
+          1.0 = tf(termFreq(question:usar)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=325)
+    0.33333334 = coord(1/3)
+  0.02977453 = (MATCH) product of:
+    0.044661794 = (MATCH) sum of:
+      0.024850884 = (MATCH) weight(categorie:corre in 325), product of:
+        0.09292063 = queryWeight(categorie:corre), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.26744205 = (MATCH) fieldWeight(categorie:corre in 325), product of:
+          10.34408 = tf(termFreq(categorie:corre)=107)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=325)
+      0.01981091 = (MATCH) weight(categorie:electron in 325), product of:
+        0.09292063 = queryWeight(categorie:electron), product of:
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.08423365 = queryNorm
+        0.21320249 = (MATCH) fieldWeight(categorie:electron in 325), product of:
+          8.246211 = tf(termFreq(categorie:electron)=68)
+          1.1031296 = idf(docFreq=358, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=325)
+    0.6666667 = coord(2/3)
+  0.23188996 = (MATCH) product of:
+    0.34783494 = (MATCH) sum of:
+      0.1802085 = (MATCH) weight(answerIndex:corre in 325), product of:
+        0.22151285 = queryWeight(answerIndex:corre), product of:
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.08423365 = queryNorm
+        0.8135352 = (MATCH) fieldWeight(answerIndex:corre in 325), product of:
+          1.4142135 = tf(termFreq(answerIndex:corre)=2)
+          2.629743 = idf(docFreq=77, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=325)
+      0.16762643 = (MATCH) weight(answerIndex:electron in 325), product of:
+        0.25406218 = queryWeight(answerIndex:electron), product of:
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.08423365 = queryNorm
+        0.65978503 = (MATCH) fieldWeight(answerIndex:electron in 325), product of:
+          1.0 = tf(termFreq(answerIndex:electron)=1)
+          3.01616 = idf(docFreq=52, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=325)
+    0.6666667 = coord(2/3)

@@ -1,0 +1,26 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="general">
+               <Question Text="configuracion correo con autenticacion y conexiones seguras mejoras en el correo">
+                    <AnswerIndex>las nuevas mejoras en el servicio de correo e permiten ademas de otras cuestiones de seguridad e identificacion dar soporte a demandadas de los usuarios tales como la habilitacion de uso de clientes de correo e outlook mozilla etc fuera de riuja esto es tanto desde casa como desde las conexiones inalambricas a rimuja etc estas mejoras requieren la autenticacion en el envio de correo y conllevan una necesaria configuracion por el usuario la autenticacion en el envio se comporta igual que la autenticacion para recepcion actual solicitando el mismo usuario y contraseña para poder identificarse ante el servidor a la hora de enviar cualquier mensaje de correo e solo se pedira una vez el usuario y contraseña para enviar mientras se mantenga abierto el programa de correo e al igual que ocurre en la recepcion de mensajes por lo tanto todo programa de correo electronico ha de ser configurado de acuerdo a las siguientes instrucciones lo antes posible y en cualquier caso antes del proximo 30 de septiembre mozilla suite o thunderbird outlook outlook express cliente mail de mac os cliente kmail de kde en linux</AnswerIndex>
+                    <Answer>Las nuevas mejoras en el servicio de correo-e permiten, además de otras cuestiones de seguridad e identificación, dar soporte a demandadas de los usuarios tales como la habilitación de uso de clientes de correo-e (outlook, mozilla, etc...) fuera de RIUJA , esto es, tanto desde casa, como desde las conexiones inalámbricas a RIMUJA, etc.
+Estas mejoras requieren la autenticación en el envío de correo y conllevan una necesaria configuración por el usuario.
+La autenticación en el envío se comporta igual que la autenticación para recepción actual, solicitando el mismo usuario y contraseña para poder identificarse ante el servidor a la hora de ENVIAR cualquier mensaje de correo-e. Sólo se pedirá una vez el usuario y contraseña para enviar, mientras se mantenga abierto el programa de correo-e, al igual que ocurre en la recepción de mensajes.
+Por lo tanto, TODO PROGRAMA DE CORREO ELECTRÓNICO HA DE SER CONFIGURADO, de acuerdo a las siguientes instrucciones, LO ANTES POSIBLE, y en cualquier caso antes del próximo 30 DE SEPTIEMBRE.
+<a href="http://www.ujaen.es/sci/redes/email/certificados/certificadosfnmtmozilla.html">Mozilla (Suite/Thunderbird)</a> <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html">Outlook</a> <a href="http://www.ujaen.es/sci/redes/email/outlook/outlooke_configuracion.html">Outlook Express</a> <a href="http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html" title="Configuración de Mac OS">Cliente Mail de Mac OS</a> <a href="http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html" title="Configuración de Mac OS"></a><a href="http://www.ujaen.es/sci/redes/email/kmail/kmail_configuracion.html" title="Configuración de Kmail de KDE en Linux">Cliente Kmail de KDE en Linux</a><a href="http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html" title="Configuración de Mac OS"></a></Answer>
+                    <Link>http://www.ujaen.es/sci/redes/email/certificados/certificadosfnmtmozilla.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/outlook/outlooke_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/kmail/kmail_configuracion.html</Link>
+                    <Link>http://www.ujaen.es/sci/redes/email/macosx_mail/macosx_mail_configuracion.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=24&id=299&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

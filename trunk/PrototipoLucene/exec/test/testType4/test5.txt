@@ -1,0 +1,284 @@
+Test 5
+Indexado: Question, Category
+
+Anotaci�n
+
+Pregunta: reservar una sala de videoconferencia
+
+Tiempo de busqueda: 1ms
+Resultado: 0:
+Puntuación: 3.1781847
+	Pregunta: como y cuando reservo la sala de videoconferencia
+	Respuesta:  La reserva de la Sala de Videoconferencia la llevará a cabo el usuario solicitante en el Negociado de Equipamiento y Gestión de Espacios , con al menos 2 semanas de antelación a la fecha prevista de inicio del acto. Esto se hace así para que la sala no sea utilizada para otro evento. Tiene que tener en cuenta que se deben realizar pruebas técnicas y también es necesario reservar la sala el día y hora que se realicen. Si la videoconferencia es por la tarde, también se reservará la mañana para el montaje del equipamiento necesario.El horario de uso será de lunes a viernes, en las siguientes franjas horarias: De 9:00h a 14:00h yDe 16:00h a 21:00hSi necesita apoyo técnico, debe tener lugar dentro del horario laboral de los servicios de la propia Universidad de Jaén (9:00h a 14:00h). Nota: si la conexión de la videconferencia se va a hacer por RDSI deberá reservar obligatoriamente la Sala de Juntas del Edificio D-1 no siendo posible hacerla en el Salón de Grados del mismo edificio.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=265&artlang=es
+Detalle resultado: 3.1781847 = (MATCH) sum of:
+  3.1756122 = (MATCH) sum of:
+    1.1413487 = (MATCH) weight(question:reserv in 248), product of:
+      0.40761307 = queryWeight(question:reserv), product of:
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.072785996 = queryNorm
+      2.8000789 = (MATCH) fieldWeight(question:reserv in 248), product of:
+        1.0 = tf(termFreq(question:reserv)=1)
+        5.6001577 = idf(docFreq=3, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+    0.9820589 = (MATCH) weight(question:sal in 248), product of:
+      0.37810087 = queryWeight(question:sal), product of:
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.072785996 = queryNorm
+      2.5973463 = (MATCH) fieldWeight(question:sal in 248), product of:
+        1.0 = tf(termFreq(question:sal)=1)
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+    1.0522046 = (MATCH) weight(question:videoconferent in 248), product of:
+      0.39137134 = queryWeight(question:videoconferent), product of:
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.072785996 = queryNorm
+      2.688507 = (MATCH) fieldWeight(question:videoconferent in 248), product of:
+        1.0 = tf(termFreq(question:videoconferent)=1)
+        5.377014 = idf(docFreq=4, maxDocs=398)
+        0.5 = fieldNorm(field=question, doc=248)
+  0.0025724801 = (MATCH) product of:
+    0.00771744 = (MATCH) sum of:
+      0.00771744 = (MATCH) weight(categorie:videoconferent in 248), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.05384455 = (MATCH) fieldWeight(categorie:videoconferent in 248), product of:
+          1.0 = tf(termFreq(categorie:videoconferent)=1)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=248)
+    0.33333334 = coord(1/3)
+
+Resultado: 1:
+Puntuación: 0.44417083
+	Pregunta: que alternativas existen para realizar videoconferencias
+	Respuesta:  Aunque la Universidad de Jaén dispone de un <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/guiapractica/guiavideo.html">equipamiento</a> específico para realizar videoconferencias existen alternativas más "caseras" para realizarlas, sobre todo si sólo se quiere realizar la videoconferencia de una única persona a otra única persona.En esta <a href="http://www.ujaen.es/sci/invdoc/sid/videoconferencia/otros_sistemas.html">página</a> se exponen unas sencillas guías en las que se explica paso a paso cómo instalar, configurar y realizar videoconferencias con algunos de los programas más populares.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=372&artlang=es
+Detalle resultado: 0.44417083 = (MATCH) sum of:
+  0.4384186 = (MATCH) product of:
+    1.3152558 = (MATCH) sum of:
+      1.3152558 = (MATCH) weight(question:videoconferent in 252), product of:
+        0.39137134 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072785996 = queryNorm
+        3.3606339 = (MATCH) fieldWeight(question:videoconferent in 252), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.625 = fieldNorm(field=question, doc=252)
+    0.33333334 = coord(1/3)
+  0.0057522412 = (MATCH) product of:
+    0.017256724 = (MATCH) sum of:
+      0.017256724 = (MATCH) weight(categorie:videoconferent in 252), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 252), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=252)
+    0.33333334 = coord(1/3)
+
+Resultado: 2:
+Puntuación: 0.35587984
+	Pregunta: que diferencia hay entre realizar la videoconferencia por ip o por rdsi
+	Respuesta:  Por IP : Se puede realizar tanto en la Sala de Juntas como en el Salón de Grados del edificio D-1Siempre es gratuitaLa llamada se realiza a la IP de la entidad remota. Por RDSI : Sólo se puede realizar en la Sala de Juntas del D-1Sólo es gratuita si es la entidad remota quén inicia la llamada. En caso de ser la UJA quién inicie la llamada se cargará al solicitante el importe de la llamada.En este caso la llamada es a un número de teléfono.El Servicio de Informática recomienda usar la conexión por IP siempre y cuando el equipo de la entidad remota lo soporte.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=348&artlang=es
+Detalle resultado: 0.35587984 = (MATCH) sum of:
+  0.3507349 = (MATCH) product of:
+    1.0522046 = (MATCH) sum of:
+      1.0522046 = (MATCH) weight(question:videoconferent in 251), product of:
+        0.39137134 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072785996 = queryNorm
+        2.688507 = (MATCH) fieldWeight(question:videoconferent in 251), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=251)
+    0.33333334 = coord(1/3)
+  0.0051449602 = (MATCH) product of:
+    0.01543488 = (MATCH) sum of:
+      0.01543488 = (MATCH) weight(categorie:videoconferent in 251), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.1076891 = (MATCH) fieldWeight(categorie:videoconferent in 251), product of:
+          2.0 = tf(termFreq(categorie:videoconferent)=4)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=251)
+    0.33333334 = coord(1/3)
+
+Resultado: 3:
+Puntuación: 0.29108942
+	Pregunta: soy profesor y quiero reservar un aula de informatica que tengo que hacer
+	Respuesta:  Existen distintas aulas de informática,tanto en el Campus de Las Lagunillas como en la E.P.S. de Linares,destinadas exclusivamente a impartir docencia. En este enlace podrá saber cuálesson y dónde se encuentran las<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html" title="Aulas de informática disponibles">aulas de informática disponibles</a>, las de docencia son las de colorrojo. Una vez que haya decidido qué aula va a reservar,debe rellenar esta<a href="http://www3.ujaen.es/aulas/solicitudes/SOL-I300.pdf" title="Solictud de reserva de aula de informática">solicitud</a> (no olvide especificar qué software va a usar) y enviarla al coordinador del aula correspondiente: Aulas de informática del Campus de lasLagunillas: Coordinador: Felipe Martínez Pérez Sección de Organización Docente. Edificio B-1. Teléfono: 953 21 22 81 E-mail: fmperez @ ujaen.es Aulas de informática la E.P.S. de Linares: Coordinador: Raúl Mata Campos Despacho B-208. Edificio B. EPS Linares. Teléfono: 953 648 558 E-mail:raul @ ujaen.es<a href="http://www3.ujaen.es/aulas/servicios_profesores.html top"></a> Como alternativa a esta solicitud, también puedesolicitar la reserva de un aula de informática desde la opción "<a href="http://www.ujaen.es/sci/gestion/cv/guias/reserva_espacios_docentes.html">Reservade espacios docentes</a>" del<a href="https://morena.ujaen.es:7776/campus_virtual/index.jsp">CampusVirtual</a> de la Universidad de Jaén.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=325&artlang=es
+Detalle resultado: 0.29108942 = (MATCH) sum of:
+  0.28533718 = (MATCH) product of:
+    0.8560115 = (MATCH) sum of:
+      0.8560115 = (MATCH) weight(question:reserv in 288), product of:
+        0.40761307 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.072785996 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 288), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=288)
+    0.33333334 = coord(1/3)
+  0.0057522412 = (MATCH) product of:
+    0.017256724 = (MATCH) sum of:
+      0.017256724 = (MATCH) weight(categorie:videoconferent in 288), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 288), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=288)
+    0.33333334 = coord(1/3)
+
+Resultado: 4:
+Puntuación: 0.29026768
+	Pregunta: soy profesor y tengo una reserva hecha como entro al aula
+	Respuesta:  Debe solicitar la llave del aula reservada en la conserjería deledificio donde se encuentre situada. Si tiene pensado usar el videoproyector también deberá pedir en la misma consejería el mando a distancia del aparato.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=326&artlang=es
+Detalle resultado: 0.29026768 = (MATCH) sum of:
+  0.28533718 = (MATCH) product of:
+    0.8560115 = (MATCH) sum of:
+      0.8560115 = (MATCH) weight(question:reserv in 317), product of:
+        0.40761307 = queryWeight(question:reserv), product of:
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.072785996 = queryNorm
+        2.100059 = (MATCH) fieldWeight(question:reserv in 317), product of:
+          1.0 = tf(termFreq(question:reserv)=1)
+          5.6001577 = idf(docFreq=3, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=317)
+    0.33333334 = coord(1/3)
+  0.0049304925 = (MATCH) product of:
+    0.014791477 = (MATCH) sum of:
+      0.014791477 = (MATCH) weight(categorie:videoconferent in 317), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.10320007 = (MATCH) fieldWeight(categorie:videoconferent in 317), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=317)
+    0.33333334 = coord(1/3)
+
+Resultado: 5:
+Puntuación: 0.2675068
+	Pregunta: es obligatorio que el personal del servicio de informatica este presente en la videoconferencia
+	Respuesta:  NO , el personal de apoyo técnico SOLO DEBE ESTAR PRESENTE , el día y hora en la que se realice la Prueba Técnica. En ese instante se le explicará el manejo de la cámara de videoconferencia al usuario y se le recomendará la lectura de la <a href="http://www.ujaen.es/sci/redes/videoconferencia/guiapractica/guiavideo.html"> guía rápida del servicio de videoconferencia </a>. No obstante, si el usuario prefiera que el personal esté presente, deberá indicarlo en la <a href="http://www.ujaen.es/sci/redes/solic/sol-r220.pdf"> solicitud </a>  y concretar fecha y hora de la videoconferencia DENTRO DEL HORARIO DE TRABAJO del personal del Servicio de Informática.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=49&id=267&artlang=es
+Detalle resultado: 0.2675068 = (MATCH) sum of:
+  0.26305115 = (MATCH) product of:
+    0.78915346 = (MATCH) sum of:
+      0.78915346 = (MATCH) weight(question:videoconferent in 250), product of:
+        0.39137134 = queryWeight(question:videoconferent), product of:
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.072785996 = queryNorm
+        2.0163803 = (MATCH) fieldWeight(question:videoconferent in 250), product of:
+          1.0 = tf(termFreq(question:videoconferent)=1)
+          5.377014 = idf(docFreq=4, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=250)
+    0.33333334 = coord(1/3)
+  0.004455666 = (MATCH) product of:
+    0.013366998 = (MATCH) sum of:
+      0.013366998 = (MATCH) weight(categorie:videoconferent in 250), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.093261495 = (MATCH) fieldWeight(categorie:videoconferent in 250), product of:
+          1.7320508 = tf(termFreq(categorie:videoconferent)=3)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=250)
+    0.33333334 = coord(1/3)
+
+Resultado: 6:
+Puntuación: 0.25044522
+	Pregunta: no puedo eliminar mensajes bloqueados en la bandeja de salida de outlook
+	Respuesta:  Intente las siguientes opciones para eliminar mensajes bloqueados en la bandeja de entrada de Outlook: Opción  1:iniciar Outlook sin claveAbra Outlook y cuando le pida el usuario/clave, pulse cancelar. Intente ahora borrar el mensaje de la bandeja de salida. Si se elimina el mensaje correctamente, cierre y abra Outlook. Introduzca ahora su clave con normalidad. Opción  2:desactive temporalmente el firewall y el antivirusIntente ahora eliminar el mensaje. No olvide volver a activar el firewall y al antivirus después de borrar el mensaje.Opción  3:entre en modo a prueba de fallos de OutlookCierre Outlook y ejecute "outlook /safe" desde Inicio- EjecutarBorre el mensaje y luego abrar y cierre OutlookSi con ninguna de estas opciones puede borrar su mensaje, su perfil de correo seguramente estará dañado y deberá crear uno nuevo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=432&artlang=es
+Detalle resultado: 0.25044522 = (MATCH) sum of:
+  0.24551474 = (MATCH) product of:
+    0.7365442 = (MATCH) sum of:
+      0.7365442 = (MATCH) weight(question:sal in 381), product of:
+        0.37810087 = queryWeight(question:sal), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.072785996 = queryNorm
+        1.9480097 = (MATCH) fieldWeight(question:sal in 381), product of:
+          1.0 = tf(termFreq(question:sal)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=381)
+    0.33333334 = coord(1/3)
+  0.0049304925 = (MATCH) product of:
+    0.014791477 = (MATCH) sum of:
+      0.014791477 = (MATCH) weight(categorie:videoconferent in 381), product of:
+        0.14332816 = queryWeight(categorie:videoconferent), product of:
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.072785996 = queryNorm
+        0.10320007 = (MATCH) fieldWeight(categorie:videoconferent in 381), product of:
+          2.236068 = tf(termFreq(categorie:videoconferent)=5)
+          1.9691721 = idf(docFreq=150, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=381)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+Puntuación: 0.0028761204
+	Pregunta: he cambiado de dependencia como conecto mi equipo a la nueva toma de red
+	Respuesta:  Seleccione solicitud Altas, bajas, modif. Rellene todos sus datos personales. Le recomendamos que indique su e-mail, así podremos ponernos en contacto con usted más rápidamente. Es obligatorio rellenar todos los datos que aparecen marcados con (*) del apartado DATOS DE CONTACTO CON EL SOLICITANTE: D.N.I. Nombre y apellidos. Centro/Departamento/Servicio/Entidad. Puesto desempeñado. Edificio. En las opciones que solicita, debe rellenar el apartado DATOS SOLO PARA MODIFICACIÓN. Edificio. Dependencia a la que se traslada. Clave de inventario de la CPU. Número de Toma Propuesta. Así como el resto de datos que puedan aportar información para que se resuelva su solicitud. Piense que mientras mas completa la envíe, menos aclaraciones previas tendremos que realizar y por consiguiente, la solicitud se tramitará con mas brevedad. IMPORTANTE: Las solicitudes deben venir firmadas y selladas por el responsable del Centro, Departamento o Servicio que autoriza la solicitud, así como por el propio solicitante. Tenga en cuenta que el traslado físico del equipo NO lo realiza el Servicio de Informática. 
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=199&artlang=es
+Detalle resultado: 0.0028761206 = (MATCH) product of:
+  0.0057522412 = (MATCH) sum of:
+    0.0057522412 = (MATCH) product of:
+      0.017256724 = (MATCH) sum of:
+        0.017256724 = (MATCH) weight(categorie:videoconferent in 253), product of:
+          0.14332816 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.072785996 = queryNorm
+          0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 253), product of:
+            2.236068 = tf(termFreq(categorie:videoconferent)=5)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=253)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)
+
+Resultado: 8:
+Puntuación: 0.0028761204
+	Pregunta: he cambiado de ordenador como conecto el nuevo equipo a la red riuja
+	Respuesta:  Seleccione solicitud Altas, bajas, modif. Rellene todos sus datos personales. Le recomendamos que indique su e-mail, así podremos ponernos en contacto con usted más rápidamente. Es obligatorio rellenar todos los datos que aparecen marcados con (*) del apartado DATOS DE CONTACTO CON EL SOLICITANTE: D.N.I. Nombre y apellidos. Centro/Departamento/Servicio/Entidad. Puesto desempeñado: Edificio: En las opciones que solicita, debe rellenar el apartado DATOS SOLO PARA ALTA. Edificio: Clave de inventario de la CPU Nueva: Número de Inventario del Equipo sustituido: Así como el resto de datos que puedan aportar información para que se resuelva su solicitud. Piense que mientras mas completa la envíe, menos aclaraciones previas tendremos que realizar y por consiguiente, la solicitud se tramitará con mas brevedad. IMPORTANTE: Las solicitudes deben venir firmadas y selladas por el responsable del Centro, Departamento o Servicio que autoriza la solicitud, así como por el propio solicitante. Tenga en cuenta que el cambio físico del equipo NO lo realiza el Servicio de Informática. No se traspasa información personal desde el equipo sustituido al que sustituye. El usuario es responsable de sus copias de seguridad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=200&artlang=es
+Detalle resultado: 0.0028761206 = (MATCH) product of:
+  0.0057522412 = (MATCH) sum of:
+    0.0057522412 = (MATCH) product of:
+      0.017256724 = (MATCH) sum of:
+        0.017256724 = (MATCH) weight(categorie:videoconferent in 254), product of:
+          0.14332816 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.072785996 = queryNorm
+          0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 254), product of:
+            2.236068 = tf(termFreq(categorie:videoconferent)=5)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=254)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.0028761204
+	Pregunta: como puedo compartir archivos e impresoras desde mi ordenador para que accedan otras personas
+	Respuesta:  Para compartir recursos, lo primero que tiene que tener claro es el Sistema Operativo que tiene y el que tiene el compañero con el que va a compartir recursos. Si alguno de los equipos con recursos compartidos tiene instalado Windows XP , ambos equipos deben estar en el mismo grupo de trabajo, y debe existir un usuario común en ambos equipos con la misma contraseña. <a href="http://www.ujaen.es/sci/redes/riuja/guias/wxp/rmswxp.htm"> Pulse aquí </a> para consultar el procedimiento detallado para compartir recursos en Windows XP.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=202&artlang=es
+Detalle resultado: 0.0028761206 = (MATCH) product of:
+  0.0057522412 = (MATCH) sum of:
+    0.0057522412 = (MATCH) product of:
+      0.017256724 = (MATCH) sum of:
+        0.017256724 = (MATCH) weight(categorie:videoconferent in 255), product of:
+          0.14332816 = queryWeight(categorie:videoconferent), product of:
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.072785996 = queryNorm
+          0.120400086 = (MATCH) fieldWeight(categorie:videoconferent in 255), product of:
+            2.236068 = tf(termFreq(categorie:videoconferent)=5)
+            1.9691721 = idf(docFreq=150, maxDocs=398)
+            0.02734375 = fieldNorm(field=categorie, doc=255)
+      0.33333334 = coord(1/3)
+  0.5 = coord(1/2)

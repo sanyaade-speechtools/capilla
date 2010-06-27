@@ -1,0 +1,20 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="mozilla suite">
+               <Question Text="al enviar correo aparece un mensaje que dice error al guardabar los mensajes de correo compruebe que tiene permiso e escritura y suficiente espacio en disco">
+                    <AnswerIndex>este problema sucede justo cuando mozilla o thunderbird envian un correo electronico y se disponen a guardar una copia del mismo en la bandeja de enviados o incluso en la misma bandeja de entrada cuando intentamos descargar mensajes este mensaje de error puede aparecer en varias situaciones el tamaño de la bandeja de entrada supera los 2gb el archivo donde se almacena la bandeja de entrada esta corrupto el antivirus esta bloqueando la bandeja de entrada solucion siga los siguientes pasos para solucionar el problema cierre el correo de mozilla o thunderbird localice el fichero inbox sin extension y renombrelo por ejemplo como inbox antiguo abra mozilla o thunderbird en la mayoria de las ocasiones mozilla o thunderbird creara un nuevo fichero inbox vacio con el que podra trabajar con normalidad si el problema no se soluciona con estos pasos puede que el antivirus este bloqueando el fichero inbox para determinar si el problema lo esta provocando el antivirus desactivelo e intente acceder al correo es conveniente que desconecte el cable de red para evitar una posible infeccion durante el tiempo que este desactivado el antivirus si el antivirus es el que esta provocando el error le recomendamos que lo desinstale y vuelva instalarlo con su ultima version desde las paginas del servicio de informatica</AnswerIndex>
+                    <Answer>Este problema sucede justo cuando Mozilla o Thunderbird envían un correo electrónico y se disponen a guardar una copia del mismo en la bandeja de "Enviados", o incluso en la misma bandeja de Entrada cuando intentamos descargar mensajes. Este mensaje de error puede aparecer en varias situaciones:
+el tamaño de la bandeja de entrada supera los 2Gb el archivo donde se almacena la bandeja de entrada está corrupto el antivirus está bloqueando la bandeja de entrada. Solución
+Siga los siguientes pasos para solucionar el problema:
+Cierre el correo de Mozilla/Thunderbird Localice el fichero "Inbox" (sin extensión) y renómbrelo. Por ejemplo como Inbox_antiguo Abra Mozilla/Thunderbird En la mayoría de las ocasiones Mozilla/Thunderbird creará un nuevo fichero Inbox vacío con el que podrá trabajar con normalidad.
+Si el problema no se soluciona con estos pasos, puede que el antivirus esté bloqueando el fichero Inbox. Para determinar si el problema lo está provocando el antivirus, desactívelo e intente acceder al correo. Es conveniente que desconecte el cable de red para evitar una posible infección durante el tiempo que esté desactivado el antivirus.
+Si el antivirus es el que está provocando el error, le recomendamos que lo desinstale y vuelva instalarlo con su última versión desde las páginas del Servicio de Informática.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=41&id=193&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

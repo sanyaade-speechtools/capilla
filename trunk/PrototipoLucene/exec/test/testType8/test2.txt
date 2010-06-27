@@ -1,0 +1,453 @@
+Test2
+Indexado: Question, Category, AnswerIndex
+
+Pregunta: configurar rimuja en windows
+
+Tiempo de busqueda: 6ms
+Resultado: 0:
+Puntuación: 0.7408563
+	Pregunta: como debo configurar mi tarjeta inalambrica para poder conectarme a rimuja
+	Respuesta:  Debes <a href="http://www.ujaen.es/sci/redes/rimuja/guias/pasos.htm"> configurar la tarjeta de red </a>  siguiendo la información que se describe en las guías prácticas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=218&artlang=es
+Detalle resultado: 0.7408562 = (MATCH) sum of:
+  0.64784104 = (MATCH) product of:
+    0.9717615 = (MATCH) sum of:
+      0.5441233 = (MATCH) weight(question:configur in 350), product of:
+        0.32233274 = queryWeight(question:configur), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.07160491 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:configur in 350), product of:
+          1.0 = tf(termFreq(question:configur)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=350)
+      0.42763823 = (MATCH) weight(question:rimuj in 350), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.4965199 = (MATCH) fieldWeight(question:rimuj in 350), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=350)
+    0.6666667 = coord(2/3)
+  0.0066420734 = (MATCH) product of:
+    0.01992622 = (MATCH) sum of:
+      0.01992622 = (MATCH) weight(categorie:rimuj in 350), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.12076448 = (MATCH) fieldWeight(categorie:rimuj in 350), product of:
+          2.236068 = tf(termFreq(categorie:rimuj)=5)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=350)
+    0.33333334 = coord(1/3)
+  0.086373076 = (MATCH) product of:
+    0.2591192 = (MATCH) sum of:
+      0.2591192 = (MATCH) weight(answerIndex:configur in 350), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        1.0634166 = (MATCH) fieldWeight(answerIndex:configur in 350), product of:
+          1.0 = tf(termFreq(answerIndex:configur)=1)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.3125 = fieldNorm(field=answerIndex, doc=350)
+    0.33333334 = coord(1/3)
+
+Resultado: 1:
+Puntuación: 0.63114154
+	Pregunta: como debo configurar mi tarjeta inalambrica para poder conectarme a rimuja web
+	Respuesta:  Debes <a href="http://www.ujaen.es/sci/redes/rimujaweb/guias/pasos.htm"> configurar la tarjeta de red </a>  siguiendo la información que se describe en las guías prácticas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=64&id=380&artlang=es
+Detalle resultado: 0.63114154 = (MATCH) sum of:
+  0.5398675 = (MATCH) product of:
+    0.8098012 = (MATCH) sum of:
+      0.45343608 = (MATCH) weight(question:configur in 292), product of:
+        0.32233274 = queryWeight(question:configur), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.07160491 = queryNorm
+        1.4067329 = (MATCH) fieldWeight(question:configur in 292), product of:
+          1.0 = tf(termFreq(question:configur)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=292)
+      0.35636517 = (MATCH) weight(question:rimuj in 292), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.2470999 = (MATCH) fieldWeight(question:rimuj in 292), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=292)
+    0.6666667 = coord(2/3)
+  0.0049009523 = (MATCH) product of:
+    0.014702857 = (MATCH) sum of:
+      0.014702857 = (MATCH) weight(categorie:rimuj in 292), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.089107856 = (MATCH) fieldWeight(categorie:rimuj in 292), product of:
+          1.4142135 = tf(termFreq(categorie:rimuj)=2)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=292)
+    0.33333334 = coord(1/3)
+  0.086373076 = (MATCH) product of:
+    0.2591192 = (MATCH) sum of:
+      0.2591192 = (MATCH) weight(answerIndex:configur in 292), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        1.0634166 = (MATCH) fieldWeight(answerIndex:configur in 292), product of:
+          1.0 = tf(termFreq(answerIndex:configur)=1)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.3125 = fieldNorm(field=answerIndex, doc=292)
+    0.33333334 = coord(1/3)
+
+Resultado: 2:
+Puntuación: 0.57071555
+	Pregunta: mi equipo se desconecta de rimuja o de rimuja web pasado un tiempo que puede estar ocurriendo
+	Respuesta:  RIMUJA está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 15 minutos inactiva. RIMUJA-WEB está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 5 minutos inactiva.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=249&artlang=es
+Detalle resultado: 0.57071555 = (MATCH) sum of:
+  0.2015906 = (MATCH) product of:
+    0.6047718 = (MATCH) sum of:
+      0.6047718 = (MATCH) weight(question:rimuj in 346), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        2.1163988 = (MATCH) fieldWeight(question:rimuj in 346), product of:
+          1.4142135 = tf(termFreq(question:rimuj)=2)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=346)
+    0.33333334 = coord(1/3)
+  0.0042008166 = (MATCH) product of:
+    0.012602449 = (MATCH) sum of:
+      0.012602449 = (MATCH) weight(categorie:rimuj in 346), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.07637817 = (MATCH) fieldWeight(categorie:rimuj in 346), product of:
+          1.4142135 = tf(termFreq(categorie:rimuj)=2)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=346)
+    0.33333334 = coord(1/3)
+  0.36492416 = (MATCH) product of:
+    0.5473862 = (MATCH) sum of:
+      0.21986996 = (MATCH) weight(answerIndex:configur in 346), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        0.9023389 = (MATCH) fieldWeight(answerIndex:configur in 346), product of:
+          1.4142135 = tf(termFreq(answerIndex:configur)=2)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=346)
+      0.3275163 = (MATCH) weight(answerIndex:rimuj in 346), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        1.1012938 = (MATCH) fieldWeight(answerIndex:rimuj in 346), product of:
+          1.4142135 = tf(termFreq(answerIndex:rimuj)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=346)
+    0.6666667 = coord(2/3)
+
+Resultado: 3:
+Puntuación: 0.5511995
+	Pregunta: voy a desplazarme a una institucion adherida a eduroam como tengo que configurar mi equipo
+	Respuesta:  Si tiene previsto desplazarse a una institución que esté adherida a EDUROAM , debe configurar su equipo de la MISMA MANERA que lo hace para poder conectarse con RIMUJA (red segura) instalando en su dispositivo portátil, el programa Securew2 y configurándolo tal y como se describe en el apartado de Guías Prácticas del servicio <a href="http://www.ujaen.es/sci/redes/rimuja/"> RIMUJA </a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=70&id=395&artlang=es
+Detalle resultado: 0.55119956 = (MATCH) sum of:
+  0.18137443 = (MATCH) product of:
+    0.5441233 = (MATCH) sum of:
+      0.5441233 = (MATCH) weight(question:configur in 293), product of:
+        0.32233274 = queryWeight(question:configur), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.07160491 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:configur in 293), product of:
+          1.0 = tf(termFreq(question:configur)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=293)
+    0.33333334 = coord(1/3)
+  0.0049009523 = (MATCH) product of:
+    0.014702857 = (MATCH) sum of:
+      0.014702857 = (MATCH) weight(categorie:rimuj in 293), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.089107856 = (MATCH) fieldWeight(categorie:rimuj in 293), product of:
+          1.4142135 = tf(termFreq(categorie:rimuj)=2)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=293)
+    0.33333334 = coord(1/3)
+  0.36492416 = (MATCH) product of:
+    0.5473862 = (MATCH) sum of:
+      0.21986996 = (MATCH) weight(answerIndex:configur in 293), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        0.9023389 = (MATCH) fieldWeight(answerIndex:configur in 293), product of:
+          1.4142135 = tf(termFreq(answerIndex:configur)=2)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=293)
+      0.3275163 = (MATCH) weight(answerIndex:rimuj in 293), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        1.1012938 = (MATCH) fieldWeight(answerIndex:rimuj in 293), product of:
+          1.4142135 = tf(termFreq(answerIndex:rimuj)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.1875 = fieldNorm(field=answerIndex, doc=293)
+    0.6666667 = coord(2/3)
+
+Resultado: 4:
+Puntuación: 0.44174585
+	Pregunta: desconexion automatica de rimuja
+	Respuesta:  RIMUJA está configurada, por seguridad, para cortar una conexión que permanezca durante mas de 15 minutos inactiva. Si el equipo portátil es usado por una sola persona, se puede configurar el cliente SecureW2 para que guarde la configuración del usuario dentro del equipo y así no es necesario introducir los datos cada vez que se desconecte. El Servicio de Informática NO RECOMIENDA esta práctica ya que con ello se crea la posibilidad de conexión a RIMUJA de cualquier persona que acceda al equipo portátil, usando las credenciales que el sistema tenga archivadas.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=229&artlang=es
+Detalle resultado: 0.44174585 = (MATCH) sum of:
+  0.19006145 = (MATCH) product of:
+    0.57018435 = (MATCH) sum of:
+      0.57018435 = (MATCH) weight(question:rimuj in 353), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:rimuj in 353), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=353)
+    0.33333334 = coord(1/3)
+  0.008401633 = (MATCH) product of:
+    0.025204899 = (MATCH) sum of:
+      0.025204899 = (MATCH) weight(categorie:rimuj in 353), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.15275633 = (MATCH) fieldWeight(categorie:rimuj in 353), product of:
+          2.828427 = tf(termFreq(categorie:rimuj)=8)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=353)
+    0.33333334 = coord(1/3)
+  0.24328277 = (MATCH) product of:
+    0.36492413 = (MATCH) sum of:
+      0.14657997 = (MATCH) weight(answerIndex:configur in 353), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        0.6015593 = (MATCH) fieldWeight(answerIndex:configur in 353), product of:
+          1.4142135 = tf(termFreq(answerIndex:configur)=2)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=353)
+      0.21834417 = (MATCH) weight(answerIndex:rimuj in 353), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        0.7341958 = (MATCH) fieldWeight(answerIndex:rimuj in 353), product of:
+          1.4142135 = tf(termFreq(answerIndex:rimuj)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.125 = fieldNorm(field=answerIndex, doc=353)
+    0.6666667 = coord(2/3)
+
+Resultado: 5:
+Puntuación: 0.41734245
+	Pregunta: desconexion automatica de rimuja web
+	Respuesta:  El Portal cautivo que da acceso a los usuarios a través de la red inalámbrica RIMUJA-WEB , está configurado, por seguridad, para cortar la conexión transcurridos 5 minutos de inactividad. Para poder seguir navegando, simplemente se deben de volver a introducir las credenciales de usuario, en el Portal Cautivo , si transcurre ese tiempo de inactividad. Si por el contrario, no se llegan a superar esos 5 minutos de inactividad, la conexión puede durar un tiempo indefinido.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=64&id=383&artlang=es
+Detalle resultado: 0.41734245 = (MATCH) sum of:
+  0.19006145 = (MATCH) product of:
+    0.57018435 = (MATCH) sum of:
+      0.57018435 = (MATCH) weight(question:rimuj in 362), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.9953599 = (MATCH) fieldWeight(question:rimuj in 362), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.5 = fieldNorm(field=question, doc=362)
+    0.33333334 = coord(1/3)
+  0.012247379 = (MATCH) product of:
+    0.036742136 = (MATCH) sum of:
+      0.036742136 = (MATCH) weight(categorie:rimuj in 362), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.22267869 = (MATCH) fieldWeight(categorie:rimuj in 362), product of:
+          4.1231055 = tf(termFreq(categorie:rimuj)=17)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=362)
+    0.33333334 = coord(1/3)
+  0.21503362 = (MATCH) product of:
+    0.32255042 = (MATCH) sum of:
+      0.1295596 = (MATCH) weight(answerIndex:configur in 362), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        0.5317083 = (MATCH) fieldWeight(answerIndex:configur in 362), product of:
+          1.0 = tf(termFreq(answerIndex:configur)=1)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=362)
+      0.1929908 = (MATCH) weight(answerIndex:rimuj in 362), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        0.64894354 = (MATCH) fieldWeight(answerIndex:rimuj in 362), product of:
+          1.0 = tf(termFreq(answerIndex:rimuj)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.15625 = fieldNorm(field=answerIndex, doc=362)
+    0.6666667 = coord(2/3)
+
+Resultado: 6:
+Puntuación: 0.30010924
+	Pregunta: que servicios estan disponibles utilizando rimuja
+	Respuesta:  La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimuja/servicios.htm"> este enlace. </a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=63&id=213&artlang=es
+Detalle resultado: 0.3001092 = (MATCH) sum of:
+  0.16630377 = (MATCH) product of:
+    0.4989113 = (MATCH) sum of:
+      0.4989113 = (MATCH) weight(question:rimuj in 348), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.74594 = (MATCH) fieldWeight(question:rimuj in 348), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=348)
+    0.33333334 = coord(1/3)
+  0.0051449286 = (MATCH) product of:
+    0.015434785 = (MATCH) sum of:
+      0.015434785 = (MATCH) weight(categorie:rimuj in 348), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.09354377 = (MATCH) fieldWeight(categorie:rimuj in 348), product of:
+          1.7320508 = tf(termFreq(categorie:rimuj)=3)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=348)
+    0.33333334 = coord(1/3)
+  0.12866053 = (MATCH) product of:
+    0.3859816 = (MATCH) sum of:
+      0.3859816 = (MATCH) weight(answerIndex:rimuj in 348), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(answerIndex:rimuj in 348), product of:
+          1.0 = tf(termFreq(answerIndex:rimuj)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=answerIndex, doc=348)
+    0.33333334 = coord(1/3)
+
+Resultado: 7:
+Puntuación: 0.29956043
+	Pregunta: en mi ubicacion actual detecto a rimuja rimuja web y otras redes inalambricas a cual me tengo que conectar
+	Respuesta:  Si detectas más redes inalámbricas debes seleccionar RIMUJA con protección WPA , para tener un acceso SEGURO, o bien, RIMUJA-WEB para tener un acceso NO SEGURO, a las redes inalámbricas de la Universidad.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=62&id=246&artlang=es
+Detalle resultado: 0.29956043 = (MATCH) sum of:
+  0.16799217 = (MATCH) product of:
+    0.5039765 = (MATCH) sum of:
+      0.5039765 = (MATCH) weight(question:rimuj in 344), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.7636657 = (MATCH) fieldWeight(question:rimuj in 344), product of:
+          1.4142135 = tf(termFreq(question:rimuj)=2)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=344)
+    0.33333334 = coord(1/3)
+  0.0042008166 = (MATCH) product of:
+    0.012602449 = (MATCH) sum of:
+      0.012602449 = (MATCH) weight(categorie:rimuj in 344), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.07637817 = (MATCH) fieldWeight(categorie:rimuj in 344), product of:
+          1.4142135 = tf(termFreq(categorie:rimuj)=2)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=344)
+    0.33333334 = coord(1/3)
+  0.12736744 = (MATCH) product of:
+    0.3821023 = (MATCH) sum of:
+      0.3821023 = (MATCH) weight(answerIndex:rimuj in 344), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        1.2848427 = (MATCH) fieldWeight(answerIndex:rimuj in 344), product of:
+          1.4142135 = tf(termFreq(answerIndex:rimuj)=2)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.21875 = fieldNorm(field=answerIndex, doc=344)
+    0.33333334 = coord(1/3)
+
+Resultado: 8:
+Puntuación: 0.28191665
+	Pregunta: que servicios estan disponibles utilizando rimuja web
+	Respuesta:  La lista de servicios disponibles a través de la red inalámbrica RIMUJA están descritos en <a href="http://www.ujaen.es/sci/redes/rimujaweb/servicios.htm">este enlace</a>.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=64&id=377&artlang=es
+Detalle resultado: 0.28191662 = (MATCH) sum of:
+  0.14254609 = (MATCH) product of:
+    0.42763823 = (MATCH) sum of:
+      0.42763823 = (MATCH) weight(question:rimuj in 358), product of:
+        0.28575513 = queryWeight(question:rimuj), product of:
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.07160491 = queryNorm
+        1.4965199 = (MATCH) fieldWeight(question:rimuj in 358), product of:
+          1.0 = tf(termFreq(question:rimuj)=1)
+          3.9907198 = idf(docFreq=19, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=358)
+    0.33333334 = coord(1/3)
+  0.010710022 = (MATCH) product of:
+    0.032130066 = (MATCH) sum of:
+      0.032130066 = (MATCH) weight(categorie:rimuj in 358), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.19472688 = (MATCH) fieldWeight(categorie:rimuj in 358), product of:
+          3.6055512 = tf(termFreq(categorie:rimuj)=13)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=358)
+    0.33333334 = coord(1/3)
+  0.12866053 = (MATCH) product of:
+    0.3859816 = (MATCH) sum of:
+      0.3859816 = (MATCH) weight(answerIndex:rimuj in 358), product of:
+        0.29739228 = queryWeight(answerIndex:rimuj), product of:
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.07160491 = queryNorm
+        1.2978871 = (MATCH) fieldWeight(answerIndex:rimuj in 358), product of:
+          1.0 = tf(termFreq(answerIndex:rimuj)=1)
+          4.153239 = idf(docFreq=16, maxDocs=398)
+          0.3125 = fieldNorm(field=answerIndex, doc=358)
+    0.33333334 = coord(1/3)
+
+Resultado: 9:
+Puntuación: 0.2799949
+	Pregunta: como puedo configurar outlook para leer un buzon de correo de la uja
+	Respuesta:  Hay dos formas para configurar Outlook: - <a href="http://www.ujaen.es/sci/redes/email/outlook/outlook_configuracion.html">Con el Asistente de Outlook</a> - <a href="http://www.ujaen.es/sci/redes/web/profiles_si/">Automáticametne, con el programa Profiles del Servicio de Informática.</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=72&id=411&artlang=es
+Detalle resultado: 0.2799949 = (MATCH) sum of:
+  0.18137443 = (MATCH) product of:
+    0.5441233 = (MATCH) sum of:
+      0.5441233 = (MATCH) weight(question:configur in 372), product of:
+        0.32233274 = queryWeight(question:configur), product of:
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.07160491 = queryNorm
+        1.6880796 = (MATCH) fieldWeight(question:configur in 372), product of:
+          1.0 = tf(termFreq(question:configur)=1)
+          4.5015454 = idf(docFreq=11, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=372)
+    0.33333334 = coord(1/3)
+  0.012247379 = (MATCH) product of:
+    0.036742136 = (MATCH) sum of:
+      0.036742136 = (MATCH) weight(categorie:rimuj in 372), product of:
+        0.16500068 = queryWeight(categorie:rimuj), product of:
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.07160491 = queryNorm
+        0.22267869 = (MATCH) fieldWeight(categorie:rimuj in 372), product of:
+          4.1231055 = tf(termFreq(categorie:rimuj)=17)
+          2.3043208 = idf(docFreq=107, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=372)
+    0.33333334 = coord(1/3)
+  0.086373076 = (MATCH) product of:
+    0.2591192 = (MATCH) sum of:
+      0.2591192 = (MATCH) weight(answerIndex:configur in 372), product of:
+        0.24366671 = queryWeight(answerIndex:configur), product of:
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.07160491 = queryNorm
+        1.0634166 = (MATCH) fieldWeight(answerIndex:configur in 372), product of:
+          1.0 = tf(termFreq(answerIndex:configur)=1)
+          3.4029331 = idf(docFreq=35, maxDocs=398)
+          0.3125 = fieldNorm(field=answerIndex, doc=372)
+    0.33333334 = coord(1/3)

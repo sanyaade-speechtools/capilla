@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="eduroam">
+               <Question Text="que es eduroam">
+                    <AnswerIndex>eduroam es una iniciativa englobada en el proyecto rediris y que se encarga de coordinar a nivel nacional las iniciativas de diversas organizaciones con el fin de conseguir un espacio unico de movilidad a nivel nacional este espacio unico de movilidad consiste en un amplio grupo de organizaciones que en base a una politica de uso y una serie de requerimientos tecnologicos y funcionales permiten que sus usuarios puedan desplazarse entre ellas disponiendo en todo momento de servicios moviles que pudiera necesitar el objetivo ultimo seria que estos usuarios al llegar a otra organizacion dispusieran de la manera mas transparente posible de un entorno de trabajo virtual con conexion a internet acceso a servicios y recursos de su organizacion origen asi como acceso a servicios y recursos de la organizacion que en ese momento les acoge</AnswerIndex>
+                    <Answer><a href="http://www.eduroam.es"> eduroam </a>  es una iniciativa englobada en el proyecto <a href="http://www.rediris.es"> RedIRIS </a> y que se encarga de coordinar a nivel nacional las iniciativas de diversas organizaciones con el fin de conseguir un espacio único de movilidad a nivel nacional. Este espacio único de movilidad consiste en un amplio grupo de organizaciones que en base a una política de uso y una serie de requerimientos tecnológicos y funcionales, permiten que sus usuarios puedan desplazarse entre ellas, disponiendo en todo momento de servicios móviles que pudiera necesitar. El objetivo último sería que estos usuarios al llegar a otra organización dispusieran, de la manera más transparente posible, de un entorno de trabajo virtual con conexión a Internet, acceso a servicios y recursos de su organización origen, así como acceso a servicios y recursos de la organización que en ese momento les acoge.</Answer>
+                    <Link>http://www.eduroam.es</Link>
+                    <Link>http://www.rediris.es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=70&id=393&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

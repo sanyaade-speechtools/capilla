@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja segura">
+               <Question Text="como se si mi tarjeta inalambrica es compatible con rimuja">
+                    <AnswerIndex>debes comprobar que tu tarjeta soporta wpa mira este enlace para revisar los requisitos necesarios y la forma de comprobar la compatibilidad</AnswerIndex>
+                    <Answer>Debes comprobar que tu tarjeta soporta WPA. Mira <a href="http://www.ujaen.es/sci/redes/rimuja/requisitos.htm"> este enlace </a>   para revisar los requisitos necesarios y la forma de comprobar la compatibilidad.</Answer>
+                    <Link>http://www.ujaen.es/sci/redes/rimuja/requisitos.htm</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=63&id=216&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

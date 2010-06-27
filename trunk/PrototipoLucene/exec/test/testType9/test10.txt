@@ -1,0 +1,7 @@
+Test 10
+Indexado: Question, Category, AnswerIndex
+
+Anotación: Debería de haber salido un artículo referente a la rimuja/rimuja-web.
+El buscador de la universidad(google) devuelve un resultado todavía peor.
+
+Pregunta: Como me conecto a la wifi de la universidad

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="caracteristicas del servicio de correo de la uja">
+               <Question Text="que programas de correo recomienda el servicio de informatica">
+                    <AnswerIndex>el servicio de informatica recomienda y da soporte de los siguientes lectores de correo mozilla suite mozilla thunderbird webmail o webmail</AnswerIndex>
+                    <Answer>El Servicio de Informática recomienda, y da soporte, de los siguientes lectores de correo:
+Mozilla Suite Mozilla Thunderbird Webmail: <a href="http://www.ujaen.es/webmail"> http://www.ujaen.es/webmail </a></Answer>
+                    <Link>http://www.ujaen.es/webmail</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=25&id=77&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

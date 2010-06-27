@@ -1,0 +1,9 @@
+Test7
+Indexado: Question
+
+Anotaciones:
+
+Pregunta: se me ha roto el ordenador del despacho. ¿Quién me lo soluciona?
+
+Tiempo de busqueda: 15ms
+NO TIENE SOLUCIÓN

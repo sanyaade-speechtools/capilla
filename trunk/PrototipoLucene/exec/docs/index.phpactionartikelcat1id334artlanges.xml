@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Question Text="donde puedo encontrar informacion sobre las aulas de informatica">
+               <AnswerIndex>en esta pagina web podra encontrar diversa informacion sobre la ubicacion de las aulas caracteristicas tecnicas horarios normativa etc</AnswerIndex>
+               <Answer>En esta página web <a href="http://www3.ujaen.es/aulas/index.html">http://www3.ujaen.es/aulas/index.html</a> podrá encontrar diversa información sobre la ubicación de las aulas, características técnicas, horarios, normativa, etc.
+ </Answer>
+               <Link>http://www3.ujaen.es/aulas/index.html</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=1&id=334&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

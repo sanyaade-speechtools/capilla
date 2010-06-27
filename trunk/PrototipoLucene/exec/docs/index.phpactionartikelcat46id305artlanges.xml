@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="listas de correo">
+          <Categorie Text="general">
+               <Question Text="existe una relacion de listas de correo de la universidad de jaen">
+                    <AnswerIndex>si en la siguiente direccion podra consultar la relacion completa o mailman o listinfo</AnswerIndex>
+                    <Answer>Si. En la siguiente dirección podrá consultar la relación completa:
+<a href="http://listas.ujaen.es/mailman/listinfo">http://listas.ujaen.es/mailman/listinfo</a></Answer>
+                    <Link>http://listas.ujaen.es/mailman/listinfo</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=46&id=305&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="encuentro virus en memoria pero no en el disco duro que ocurre">
+                         <AnswerIndex>es posible que con anterioridad se haya ejecutado otro antivirus y queden trozos de sus identificadores de virus en memoria reseteando la maquina desaparecera el aviso</AnswerIndex>
+                         <Answer>Es posible que con anterioridad se haya ejecutado otro antivirus y queden trozos de sus identificadores de virus en memoria. Reseteando la máquina desaparecerá el aviso.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=189&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

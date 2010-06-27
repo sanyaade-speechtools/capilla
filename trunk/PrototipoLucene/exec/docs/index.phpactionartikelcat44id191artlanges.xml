@@ -1,0 +1,16 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="correo electronico">
+          <Categorie Text="problemas al enviar y recibir mensajes de correo">
+               <Question Text="cuando envio o recibo un mensaje asi como cuando intento leer el contenido de un mensaje ya existente el ordenador parece quedar bloqueado y tarda mucho tiempo en responder">
+                    <AnswerIndex>desinstale el antivirus para ello siga la siguiente secuencia de pasos boton inicio configuracion panel de control agregar y quitar programas seleccione panda antivirus y haga doble clic sobre el tendra que reiniciar el equipo una vez desinstalado panda vuelva a instalarlo</AnswerIndex>
+                    <Answer>Desinstale el antivirus. Para ello siga la siguiente secuencia de pasos: Botón Inicio Configuración Panel de Control Agregar y quitar programas. Seleccione Panda Antivirus y haga doble clic sobre el. Tendrá que reiniciar el equipo. Una vez desinstalado Panda, <a href="/index.phpq.ujaen.es/index.php?action=artikel cat=38 id=153 artlang=es" target="_blank" title="Instalar Panda Antivirus desde la web">vuelva a instalarlo</a>.</Answer>
+                    <Link>/index.phpq.ujaen.es/index.php?action=artikel&amp;cat=38&amp;id=153&amp;artlang=es</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=44&id=191&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="cuales son los sintomas que pueden indicar la presencia de virus mediante la simple observacion">
+                         <AnswerIndex>los sintomas habituales son hacen mas lento el trabajo del ordenador aumentan el tamaño de los ficheros la fecha o la hora del fichero es incorrecta reducen la memoria disponible hacen que algunos programas no puedan ejecutarse navegador lector de correo etc aparecen nuevos ficheros con el mismo nombre reducen el espacio disponible en los discos los directorios de los discos pueden aparecer deteriorados el sistema de arranque aparece cambiado en algunos ficheros aparece informacion de otros el ordenador se bloquea el sistema no reconoce alguna unidad de discos</AnswerIndex>
+                         <Answer>Los síntomas habituales son: Hacen más lento el trabajo del ordenador. Aumentan el tamaño de los ficheros. La fecha o la hora del fichero es incorrecta. Reducen la memoria disponible. Hacen que algunos programas no puedan ejecutarse (navegador, lector de correo, etc,...). Aparecen nuevos ficheros con el mismo nombre. Reducen el espacio disponible en los discos. Los directorios de los discos pueden aparecer deteriorados. El sistema de arranque aparece cambiado. En algunos ficheros aparece información de otros. El ordenador se bloquea. El sistema no reconoce alguna unidad de discos.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=183&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

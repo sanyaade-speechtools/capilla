@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="fatfile">
+          <Question Text="mis contactos de otras universidades organizaciones me pueden enviar ficheros con este sistema">
+               <AnswerIndex>si solo tienen que entrar al sistema mediante el usuario invitado y contraseña invitado este usuario solo le esta permitido enviar el fichero a direcciones internas ujaen es si alguna vez necesita que le envien ficheros desde el exterior proporcione a su contacto la direccion web e indiquele la forma de enviar el fichero mediante la utilizacion del usuario invitado</AnswerIndex>
+               <Answer>Sí, sólo tienen que entrar al sistema mediante el usuario "invitado" y contraseña "invitado". Este usuario sólo le está permitido enviar el fichero a direcciones internas (@ujaen.es).
+Si alguna vez necesita que le envíen ficheros desde el exterior proporcione a su contacto la dirección web <a href="http://fatfile.ujaen.es">http://fatfile.ujaen.es</a>, e indíquele la forma de enviar el fichero mediante la utilización del usuario "invitado".</Answer>
+               <Link>http://fatfile.ujaen.es</Link>
+               <Url>faq.ujaen.es/index.php?action=artikel&cat=9&id=312&artlang=es</Url>
+          </Question>
+     </Categorie>
+</FaqDocument>

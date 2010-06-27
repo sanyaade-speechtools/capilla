@@ -1,0 +1,15 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="conexion inalambrica">
+          <Categorie Text="rimuja web abierta">
+               <Question Text="es segura la comunicacion a traves de rimuja web">
+                    <AnswerIndex>el envio del usuario y contraseña entre tu equipo portatil y los puntos de acceso se realiza usando usando una conexion segura https a traves de un portal cautivo pero el resto de la informacion que circula lo hace en claro por lo que el envio de credenciales contraseñas de acceso a servicios etc queda expuesto a terceros que pudieran rastrear las comunicaciones inalambricas no obstante la informacion que se transmite a internet podra ser o no cifrada dependiendo del servicio y o o protocolo que se utilice</AnswerIndex>
+                    <Answer>El envío del usuario y contraseña entre tu equipo portátil, y los puntos de acceso, se realiza usando USANDO UNA CONEXIÓN SEGURA (HTTPS), a través de un Portal Cautivo , pero el resto de la información que circula, lo hace "en claro", por lo que el envío de credenciales, contraseñas de acceso a servicios, etc. queda expuesto a terceros que pudieran rastrear las comunicaciones inalámbricas. No obstante, la información que se transmite a Internet podrá ser o no cifrada dependiendo del servicio y/o protocolo que se utilice.</Answer>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=64&id=382&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

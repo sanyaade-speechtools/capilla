@@ -1,0 +1,29 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="web">
+          <Categorie Text="mozilla suite">
+               <Question Text="plugins de java animaciones flash y otros">
+                    <AnswerIndex>los plugins que funcionan en netscape internet explorer etc generalmente tambien funcionaran en mozilla algunos plugins instalados en netscape communicator pueden no estar disponibles en mozilla tendra que instalarlos de nuevo puede ver que plugins tiene mozilla en el menu ayuda acerca de plugins si quiere instalar plugins para java o animaciones flash siga estos pasos para instalar soporte para java 1 abra mozilla y obtenga el plugin de java obtener el plugin de java pulse aceptar en la instalacion de software 2 seleccione el navegador netscape 6 y pulse en siguiente hasta finalizar tendra que reiniciar el sistema para que se apliquen los cambios para instalar soporte para animaciones flash 1 obtenga el plugin de flash obtener el plugin flash 2 ejecute el programa y siga los pasos tendra que reiniciar el sistema para que se apliquen los cambios</AnswerIndex>
+                    <Answer>Los plugins que funcionan en Netscape, Internet Explorer, etc...generalmente también funcionarán en Mozilla.
+Algunos plugins instalados en Netscape Communicator pueden no estar disponibles en Mozilla. Tendrá que instalarlos de nuevo.
+Puede ver qué plugins tiene Mozilla en el menú "Ayuda | Acerca de plugins".
+Si quiere instalar plugins para Java o animaciones flash siga estos pasos:
+Para instalar soporte para Java:
+1. Abra Mozilla y obtenga el plugin de Java.
+<a href="ftp://ftp.ujaen.es/pub/software/win95/www/plug-ins/jre131_02i.xpi">Obtener el plugin de  Java </a> Pulse "Aceptar" en la instalación de software
+2. Seleccione el navegador Netscape 6 y pulse en "Siguiente" hasta finalizar.
+Tendrá que reiniciar el sistema para que se apliquen los cambios.
+Para instalar soporte para animaciones Flash:
+1. Obtenga el plugin de Flash
+<a href="ftp://ftp.ujaen.es/pub/software/win95/www/plug-ins/flashplayer7installer.exe">Obtener el plugin flash</a> 2. Ejecute el programa y siga los pasos.
+Tendrá que reiniciar el sistema para que se apliquen los cambios.</Answer>
+                    <Link>ftp://ftp.ujaen.es/pub/software/win95/www/plug-ins/jre131_02i.xpi</Link>
+                    <Link>ftp://ftp.ujaen.es/pub/software/win95/www/plug-ins/flashplayer7installer.exe</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=43&id=92&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

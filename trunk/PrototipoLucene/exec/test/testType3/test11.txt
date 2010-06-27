@@ -1,0 +1,302 @@
+Test 11
+Indexado: Question
+Anotaci�n:
+
+Pregunta: descargas de software
+
+Tiempo de busqueda: 0ms
+Resultado: 0:
+Puntuación: 1.5901694
+	Pregunta: no puedo descargar ningun software de la pagina web a traves de internet explorer
+	Respuesta:  Hay que desactivar el firewall de la protección permanente del Panda Antivirus y detener el de Windows (Panel de Control - Herramientas Administrativas - Servicios - Firewall de Windows).
+	Url: faq.ujaen.es/index.php?action=artikel&cat=4&id=286&artlang=es
+Detalle resultado: 1.5901695 = (MATCH) sum of:
+  1.5888083 = (MATCH) sum of:
+    0.83961445 = (MATCH) weight(question:descarg in 261), product of:
+      0.5172137 = queryWeight(question:descarg), product of:
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.0995658 = queryNorm
+      1.6233414 = (MATCH) fieldWeight(question:descarg in 261), product of:
+        1.0 = tf(termFreq(question:descarg)=1)
+        5.1946926 = idf(docFreq=5, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=261)
+    0.74919385 = (MATCH) weight(question:softwar in 261), product of:
+      0.48857042 = queryWeight(question:softwar), product of:
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.0995658 = queryNorm
+      1.5334408 = (MATCH) fieldWeight(question:softwar in 261), product of:
+        1.0 = tf(termFreq(question:softwar)=1)
+        4.9070106 = idf(docFreq=7, maxDocs=398)
+        0.3125 = fieldNorm(field=question, doc=261)
+  0.0013612511 = (MATCH) product of:
+    0.0027225022 = (MATCH) sum of:
+      0.0027225022 = (MATCH) weight(categorie:softwar in 261), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.02734375 = (MATCH) fieldWeight(categorie:softwar in 261), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.02734375 = fieldNorm(field=categorie, doc=261)
+    0.5 = coord(1/2)
+
+Resultado: 1:
+Puntuación: 0.8741086
+	Pregunta: cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno
+	Respuesta:  Esto puede ocurrir por varios motivos: Algún mensaje de la cola de correo no se puede descargar (mensaje corrupto, tamaño excesivo, infección por un virus...) y está obstruyendo el resto de mensajes en cola. En tal caso, acceda desde <a href="http://www.ujaen.es/webmail/">webmail</a> a su cuenta de correo y elimine los mensajes extraños, no solicitados, o con archivos adjuntos sospechosos, de tal forma que el posible archivo que pueda estar obstruyendo la cola deje paso al resto de mensajes. Una vez hecho esto, y sin cerrar el webmail, vuelva a intentar descargar su correo desde el cliente Netscape Messenger que utiliza habitualmente.  Es posible que durante una descarga de su correo se haya cortado la conexión. En tal caso, los mensajes que ya haya descargado Netscape son marcados como leídos por lo que no los vuelve a descargar aunque estos sigan en la cola de correo. De esta forma, mediante webmail verá más mensajes de los que Netscape descarga. Asimismo, Netscape Messenger informará de que está descargando un determinado número de mensajes y en realidad descargará menos. La solución es similar al caso anterior: desde  <a href="http://www.ujaen.es/webmail/">webmail</a> acceda a su cuenta de correo y elimine todos los mensajes que Netscape ya se haya descargado.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=96&artlang=es
+Detalle resultado: 0.87410873 = (MATCH) sum of:
+  0.872553 = (MATCH) product of:
+    1.745106 = (MATCH) sum of:
+      1.745106 = (MATCH) weight(question:descarg in 230), product of:
+        0.5172137 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.0995658 = queryNorm
+        3.374052 = (MATCH) fieldWeight(question:descarg in 230), product of:
+          1.7320508 = tf(termFreq(question:descarg)=3)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=230)
+    0.5 = coord(1/2)
+  0.0015557156 = (MATCH) product of:
+    0.0031114311 = (MATCH) sum of:
+      0.0031114311 = (MATCH) weight(categorie:softwar in 230), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 230), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=230)
+    0.5 = coord(1/2)
+
+Resultado: 2:
+Puntuación: 0.7286832
+	Pregunta: cuando intento descargar mi correo solo se descarga algunos mensajes o no se descarga ninguno se queda esperando o atascado
+	Respuesta:  Este problema sucede normalmente cuando se tiene una bandeja de entrada con un tamaño superior a 100 MB. Cuando el tamaño de esta bandeja supera un determinado límite Netscape tarda más de la cuenta en procesarla y buscar o posicionarse en los mensajes de la misma. Si a esto le añadimos la acción de inspección que está realizando el antivirus demora el proceso aún más pudiendo ocurrir errores como en este caso. Se recomienda: Desactivar Panda Antivirus para llevar a cabo el segundo paso. Reducir el tamaño de la bandeja de entrada al mínimo, pasando los mensajes a otras carpetas. Actualizar Panda Antivirus a una versión superior.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=40&id=192&artlang=es
+Detalle resultado: 0.7286832 = (MATCH) sum of:
+  0.72712743 = (MATCH) product of:
+    1.4542549 = (MATCH) sum of:
+      1.4542549 = (MATCH) weight(question:descarg in 195), product of:
+        0.5172137 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.0995658 = queryNorm
+        2.81171 = (MATCH) fieldWeight(question:descarg in 195), product of:
+          1.7320508 = tf(termFreq(question:descarg)=3)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=195)
+    0.5 = coord(1/2)
+  0.0015557156 = (MATCH) product of:
+    0.0031114311 = (MATCH) sum of:
+      0.0031114311 = (MATCH) weight(categorie:softwar in 195), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 195), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=195)
+    0.5 = coord(1/2)
+
+Resultado: 3:
+Puntuación: 0.5888969
+	Pregunta: no puedo descargar el fichero que me han enviado con fatfile
+	Respuesta:  El fichero enviado mendiante el sistema FATfile tiene un periodo de permanencia que oscila entre 3 días y una semana. Este tiempo es seleccionado por el remitente del mensaje, por lo que si necesita de nuevo el archivo deberá solicitarlo al remitente.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=9&id=314&artlang=es
+Detalle resultado: 0.5888968 = (MATCH) sum of:
+  0.58773005 = (MATCH) product of:
+    1.1754601 = (MATCH) sum of:
+      1.1754601 = (MATCH) weight(question:descarg in 397), product of:
+        0.5172137 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.0995658 = queryNorm
+        2.272678 = (MATCH) fieldWeight(question:descarg in 397), product of:
+          1.0 = tf(termFreq(question:descarg)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=397)
+    0.5 = coord(1/2)
+  0.0011667866 = (MATCH) product of:
+    0.0023335733 = (MATCH) sum of:
+      0.0023335733 = (MATCH) weight(categorie:softwar in 397), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.0234375 = (MATCH) fieldWeight(categorie:softwar in 397), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=397)
+    0.5 = coord(1/2)
+
+Resultado: 4:
+Puntuación: 0.52754706
+	Pregunta: compatibilidad software de aplicaciones con windows xp
+	Respuesta:  Ejecutar el Upgrade Advisoro Asesor de Actualizaciones de Microsoft, que se encuentra en el CD-ROMde instalación de Windows XP Professional. Para ello, ejecutamos elfichero "Setup.exe" y seleccionamos las siguientes opciones: - Comprobar la compatibilidad del sistema. - Comprobar mi sistema automáticamente. Otra opción es seguir la siguiente secuencia: Inicio Ejecutar y teclear 'winnt32 /checkupgradeonly'.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=33&id=138&artlang=es
+Detalle resultado: 0.5275471 = (MATCH) sum of:
+  0.5244357 = (MATCH) product of:
+    1.0488714 = (MATCH) sum of:
+      1.0488714 = (MATCH) weight(question:softwar in 44), product of:
+        0.48857042 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.0995658 = queryNorm
+        2.1468172 = (MATCH) fieldWeight(question:softwar in 44), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.4375 = fieldNorm(field=question, doc=44)
+    0.5 = coord(1/2)
+  0.0031114311 = (MATCH) product of:
+    0.0062228623 = (MATCH) sum of:
+      0.0062228623 = (MATCH) weight(categorie:softwar in 44), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.0625 = (MATCH) fieldWeight(categorie:softwar in 44), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0625 = fieldNorm(field=categorie, doc=44)
+    0.5 = coord(1/2)
+
+Resultado: 5:
+Puntuación: 0.5053244
+	Pregunta: el lector de correo no me descarga todos los mensajes y se queda bloqueado
+	Respuesta:  Este error aparece cuando existe algún problema durante la conexión entre cliente y servidor. En la mayoría de las ocaciones el problema lo provoca el antivirus que ralentiza tanto la conexión que hace pensar al cliente que el servidor se ha desconectado. Para solucionarlo desinstale el antivirus y vuelva a instalarlo.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=44&id=109&artlang=es
+Detalle resultado: 0.5053244 = (MATCH) sum of:
+  0.5037687 = (MATCH) product of:
+    1.0075374 = (MATCH) sum of:
+      1.0075374 = (MATCH) weight(question:descarg in 222), product of:
+        0.5172137 = queryWeight(question:descarg), product of:
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.0995658 = queryNorm
+        1.9480097 = (MATCH) fieldWeight(question:descarg in 222), product of:
+          1.0 = tf(termFreq(question:descarg)=1)
+          5.1946926 = idf(docFreq=5, maxDocs=398)
+          0.375 = fieldNorm(field=question, doc=222)
+    0.5 = coord(1/2)
+  0.0015557156 = (MATCH) product of:
+    0.0031114311 = (MATCH) sum of:
+      0.0031114311 = (MATCH) weight(categorie:softwar in 222), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.03125 = (MATCH) fieldWeight(categorie:softwar in 222), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.03125 = fieldNorm(field=categorie, doc=222)
+    0.5 = coord(1/2)
+
+Resultado: 6:
+Puntuación: 0.37576368
+	Pregunta: quiero utilizar un determinado software en mis clases como solicito su instalacion en el aula de informatica
+	Respuesta:  En en primer lugar deberá comprobar si el softwareque quiere usar está ya instalado en el aula que tiene reservada, para ello puedeconsultar la lista de software instalado en la<a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web del aula</a> correspondiente. Si observa que el software no está instalado deberá solicitar su instalación al Servicio deInformática, para ello deberá rellenar y enviar la siguiente<a href="http://www3.ujaen.es/aulas/servicios_profesores.html instalacion%20software">solicitud</a>. Recuerde que sólo se instalará software que esté debidamentelicenciado o aquel cuyo tipo de licencia (shareware, demo, gratuito) lopermita de forma legal.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=58&id=329&artlang=es
+Detalle resultado: 0.3757637 = (MATCH) sum of:
+  0.37459692 = (MATCH) product of:
+    0.74919385 = (MATCH) sum of:
+      0.74919385 = (MATCH) weight(question:softwar in 320), product of:
+        0.48857042 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.0995658 = queryNorm
+        1.5334408 = (MATCH) fieldWeight(question:softwar in 320), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.3125 = fieldNorm(field=question, doc=320)
+    0.5 = coord(1/2)
+  0.0011667866 = (MATCH) product of:
+    0.0023335733 = (MATCH) sum of:
+      0.0023335733 = (MATCH) weight(categorie:softwar in 320), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.0234375 = (MATCH) fieldWeight(categorie:softwar in 320), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0234375 = fieldNorm(field=categorie, doc=320)
+    0.5 = coord(1/2)
+
+Resultado: 7:
+Puntuación: 0.3035668
+	Pregunta: cliente vpn uja error en el registro de windows software microsoft driver signing policy
+	Respuesta:  Durante la instalación del cliente VPN-UJA, en determinadoscasos es posible que aparezca un mensaje de error de escritura en elregistro de Windows, en la rama \Software\Microsoft\DriverSigning\Policy. Este error estárelacionado con la instalación de drivers firmados en Windows XP. Generalmente, es suficiente con ignorarel error. En caso de que se esté realizando una instalación automática y elequipo esté bloqueado se debenpulsar simultáneamente las teclas CTRL-ALT-SUPR y acceder al administrador detareas de Windows. En la pestaña Procesos, debemos buscar el proceso Instala-auto-v6.exe.Basta con marcarlo y pulsar el botón Terminar Proceso.A partir de aquí se puede completar el resto de la instalación de formamanual.
+	Url: faq.ujaen.es/index.php?action=artikel&cat=16&id=49&artlang=es
+Detalle resultado: 0.3035668 = (MATCH) sum of:
+  0.29967752 = (MATCH) product of:
+    0.59935504 = (MATCH) sum of:
+      0.59935504 = (MATCH) weight(question:softwar in 33), product of:
+        0.48857042 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.0995658 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 33), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=33)
+    0.5 = coord(1/2)
+  0.003889289 = (MATCH) product of:
+    0.007778578 = (MATCH) sum of:
+      0.007778578 = (MATCH) weight(categorie:softwar in 33), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.078125 = (MATCH) fieldWeight(categorie:softwar in 33), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.078125 = fieldNorm(field=categorie, doc=33)
+    0.5 = coord(1/2)
+
+Resultado: 8:
+Puntuación: 0.30162215
+	Pregunta: no funciona el software de escaneo hp director despues de actualizar a internet explorer 7 0
+	Respuesta:  Solución: instalar el parche de HP enlazado en la siguiente URL <a href="ftp://ftp.hp.com/pub/softlib/software8/COL17377/oj-46104-1/CIT207355-HPCOM-PATCH-v8.exe">ftp://ftp.hp.com/pub/softlib/software8/COL17377/oj-46104-1/CIT207355-HPCOM-PATCH-v8.exe</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=34&id=51&artlang=es
+Detalle resultado: 0.30162215 = (MATCH) sum of:
+  0.29967752 = (MATCH) product of:
+    0.59935504 = (MATCH) sum of:
+      0.59935504 = (MATCH) weight(question:softwar in 139), product of:
+        0.48857042 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.0995658 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 139), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=139)
+    0.5 = coord(1/2)
+  0.0019446445 = (MATCH) product of:
+    0.003889289 = (MATCH) sum of:
+      0.003889289 = (MATCH) weight(categorie:softwar in 139), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.0390625 = (MATCH) fieldWeight(categorie:softwar in 139), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=139)
+    0.5 = coord(1/2)
+
+Resultado: 9:
+Puntuación: 0.30162215
+	Pregunta: no funciona el software de escaneo hp director despues de actualizar a internet explorer 7 0
+	Respuesta:  Solución: instalar el parche de HP enlazado en la siguiente URL <a href="ftp://ftp.hp.com/pub/softlib/software8/COL17377/oj-46104-1/CIT207355-HPCOM-PATCH-v8.exe">ftp://ftp.hp.com/pub/softlib/software8/COL17377/oj-46104-1/CIT207355-HPCOM-PATCH-v8.exe</a>
+	Url: faq.ujaen.es/index.php?action=artikel&cat=35&id=51&artlang=es
+Detalle resultado: 0.30162215 = (MATCH) sum of:
+  0.29967752 = (MATCH) product of:
+    0.59935504 = (MATCH) sum of:
+      0.59935504 = (MATCH) weight(question:softwar in 145), product of:
+        0.48857042 = queryWeight(question:softwar), product of:
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.0995658 = queryNorm
+        1.2267526 = (MATCH) fieldWeight(question:softwar in 145), product of:
+          1.0 = tf(termFreq(question:softwar)=1)
+          4.9070106 = idf(docFreq=7, maxDocs=398)
+          0.25 = fieldNorm(field=question, doc=145)
+    0.5 = coord(1/2)
+  0.0019446445 = (MATCH) product of:
+    0.003889289 = (MATCH) sum of:
+      0.003889289 = (MATCH) weight(categorie:softwar in 145), product of:
+        0.0995658 = queryWeight(categorie:softwar), product of:
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0995658 = queryNorm
+        0.0390625 = (MATCH) fieldWeight(categorie:softwar in 145), product of:
+          1.0 = tf(termFreq(categorie:softwar)=1)
+          1.0 = idf(docFreq=397, maxDocs=398)
+          0.0390625 = fieldNorm(field=categorie, doc=145)
+    0.5 = coord(1/2)

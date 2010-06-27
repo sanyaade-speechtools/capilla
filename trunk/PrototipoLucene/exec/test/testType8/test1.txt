@@ -1,0 +1,10 @@
+Test 1
+
+Pregunta: quiero hacer un blog
+
+Anotaciones: No devuelve ningún resultado de búsqueda porque el analizador no
+extrae la raiz de las palabras blog y blogs.
+
+Tiempo de busqueda: 28ms
+
+Tiempo de busqueda: 46ms

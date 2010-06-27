@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="aulas de informatica">
+          <Categorie Text="aulas de docencia">
+               <Question Text="el videoproyector del aula esta en el techo como se enciende">
+                    <AnswerIndex>para poder utilizar un videproyector instalado en el techo debe disponer de un mando a distancia que podra solicitar en la conserjeria del edificio donde se encuentre el aula en cuestion en la pagina web correspondiente al aula que vaya a usar puede consultar el manual del videoproyector asi como el del mando a distancia</AnswerIndex>
+                    <Answer>Para poder utilizar un videproyector instalado en el techo debe disponer de un mando a distancia que podrá solicitar en la conserjería del edificio donde se encuentre el aula en cuestión.
+En la <a href="http://www3.ujaen.es/aulas/aulas_disponibles.html">página web</a> correspondiente al aula que vaya a usar puede consultar el manual del videoproyector así como el del mando a distancia.</Answer>
+                    <Link>http://www3.ujaen.es/aulas/aulas_disponibles.html</Link>
+                    <Url>faq.ujaen.es/index.php?action=artikel&cat=58&id=327&artlang=es</Url>
+               </Question>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

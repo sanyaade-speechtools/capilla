@@ -1,0 +1,17 @@
+<FaqDocument xmlns="http://www.genAssistant.org"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.genAssistant.org FaqDocument.xsd">"
+
+
+     <Categorie Text="mantenimiento microinformatico">
+          <Categorie Text="antivirus y virus">
+               <Categorie Text="virus">
+                    <Question Text="es conveniente analizar todas las extensiones o solo las ejecutables">
+                         <AnswerIndex>en teoria lo virus solo pueden infectar a ficheros ejecutables y ficheros de word excel pero hay numerosos virus que renombran la extension de los ficheros para ocultarse de los antivirus por lo que conviene analizar todas la extensiones</AnswerIndex>
+                         <Answer>En teoría, lo virus sólo pueden infectar a ficheros ejecutables y ficheros de Word, Excel.. pero hay numerosos virus que renombran la extensión de los ficheros para ocultarse de los antivirus, por lo que conviene analizar todas la extensiones.</Answer>
+                         <Url>faq.ujaen.es/index.php?action=artikel&cat=39&id=188&artlang=es</Url>
+                    </Question>
+               </Categorie>
+          </Categorie>
+     </Categorie>
+</FaqDocument>

@@ -1,0 +1,9 @@
+Test7
+Indexado: Question, Category, AnswerIndex
+
+Anotaciones: No hay resultados de búsqueda porque no hay cagetogorías que contengan
+los terminos de búsqueda.
+
+Pregunta: se me ha roto el ordenador del despacho. ¿Quién me lo soluciona?
+
+Tiempo de busqueda: 1ms
