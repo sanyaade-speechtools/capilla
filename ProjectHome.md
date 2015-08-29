@@ -1,0 +1,1 @@
+This is the end degree project of Eugenio Martínez Cámara. It consists in a Virtual Assistant base on a F.A.Q data base.
